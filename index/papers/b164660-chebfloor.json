@@ -1,0 +1,190 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "122c987d276498783de7d873378a28b27ced8761",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/122c987d276498783de7d873378a28b27ced8761/D5/S3/ArithSums/BrowneA164660ChebyshevFloorProduct.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:b164660-chebfloor:1:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "122c987d276498783de7d873378a28b27ced8761",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/122c987d276498783de7d873378a28b27ced8761/D5/S3/ArithSums/BrowneA164660ChebyshevFloorProduct.lean"
+        },
+        "lineage": "collected:b164660-chebfloor:s1",
+        "macros": {
+          "\\den": "\\operatorname{den}",
+          "\\floor": "\\left\\lfloor #1\\right\\rfloor",
+          "\\num": "\\operatorname{num}",
+          "\\rad": "\\operatorname{rad}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "b164660-chebfloor",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $n\\ge1$,\n\\begin{equation}\n a(n+1)=\\prod_{k=1}^{n}\n \\left(1-2\\left(\\floor{\\frac{k^n}{n}}\n                  -\\floor{\\frac{k^n-1}{n}}\\right)\\right)\n =(-1)^{n/\\rad(n)}\n =\\begin{cases}1,&4\\mid n,\\\\-1,&4\\nmid n.\\end{cases}\n\\end{equation}\nAll division inside a floor is rational division; in particular the\nsubtraction by $1$ precedes the second division.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "OEIS A164660, final FORMULA (29 May 2016): Chebyshev numerators and floor products",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "b164660-chebfloor"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:b164660-chebfloor:1:s2",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "122c987d276498783de7d873378a28b27ced8761",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/122c987d276498783de7d873378a28b27ced8761/D5/S3/ArithSums/BrowneA164660ChebyshevFloorProduct.lean"
+        },
+        "lineage": "collected:b164660-chebfloor:s2",
+        "macros": {
+          "\\den": "\\operatorname{den}",
+          "\\floor": "\\left\\lfloor #1\\right\\rfloor",
+          "\\num": "\\operatorname{num}",
+          "\\rad": "\\operatorname{rad}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "b164660-chebfloor",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "We have $I_0=1$, $I_1=1/2$, and, for $m\\ge2$,\n\\begin{equation}\n I_m=\\begin{cases}\n -1/(m^2-1),&m\\ \\text{even},\\\\\n 1/(m+1),&m\\equiv1\\pmod4,\\\\\n -1/(m-1),&m\\equiv3\\pmod4.\n \\end{cases}\n\\end{equation}\nConsequently $a(0)=1$ and, for $m\\ge1$, $a(m)=1$ exactly when\n$m\\equiv1\\pmod4$, and $a(m)=-1$ otherwise. Also\n\\begin{equation}\n d(0)=1,\\qquad\n d(m)=\\begin{cases}\n m^2-1,&m\\ge2\\ \\text{even},\\\\\n m+1,&m\\equiv1\\pmod4,\\\\\n m-1,&m\\equiv3\\pmod4.\n \\end{cases}\n\\end{equation}\nThe odd branches include $m=1$ in the second case.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "OEIS A164660, final FORMULA (29 May 2016): Chebyshev numerators and floor products",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "b164660-chebfloor"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:b164660-chebfloor:1:s3",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "122c987d276498783de7d873378a28b27ced8761",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/122c987d276498783de7d873378a28b27ced8761/D5/S3/ArithSums/BrowneA164660ChebyshevFloorProduct.lean"
+        },
+        "lineage": "collected:b164660-chebfloor:s3",
+        "macros": {
+          "\\den": "\\operatorname{den}",
+          "\\floor": "\\left\\lfloor #1\\right\\rfloor",
+          "\\num": "\\operatorname{num}",
+          "\\rad": "\\operatorname{rad}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "b164660-chebfloor",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $n,r\\ge1$ be integers, write $n=\\prod_{p\\mid n}p^{e_p}$, and set\n\\[\n D_r(n)=\\prod_{p\\mid n}p^{\\lceil e_p/r\\rceil},\\qquad\n C_r(n)=\\frac{n}{D_r(n)}.\n\\]\nFor every integer $s$,\n\\begin{align}\n \\sum_{k=s+1}^{s+n}\\left(\n \\floor{\\frac{k^r}{n}}-\\floor{\\frac{k^r-1}{n}}\\right)&=C_r(n),\n \\\\\n \\prod_{k=s+1}^{s+n}\\left(1-2\\left(\n \\floor{\\frac{k^r}{n}}-\\floor{\\frac{k^r-1}{n}}\\right)\\right)\n &=(-1)^{C_r(n)}.\n\\end{align}\nFor $n>1$, the equality $C_r(n)=n/\\rad(n)$ holds exactly when\n$r\\ge\\max_{p\\mid n}e_p$; for $n=1$ it holds for every $r\\ge1$.\nFor every $r\\ge2$, the product in~\\eqref{eq:product-general} equals\n$a(n+1)$, independently of $s$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "OEIS A164660, final FORMULA (29 May 2016): Chebyshev numerators and floor products",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "b164660-chebfloor"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "OEIS A164660, final FORMULA (29 May 2016): Chebyshev numerators and floor products",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 1,
+  "work": "b164660-chebfloor"
+}

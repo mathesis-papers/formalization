@@ -1,0 +1,128 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S3/Combinatorics/Graph/Walks/CollisionPrefix.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a396659-edge-collision-ratio:4:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S3/Combinatorics/Graph/Walks/CollisionPrefix.lean"
+        },
+        "lineage": "collected:oeis-a396659-edge-collision-ratio:s1",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a396659-edge-collision-ratio",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $n\\geq2$ and $v\\in V$, the integer $E_n(v)$ is positive and\n\\begin{align}\n T(n,n^2+1)&=nE_n(v),\\\\\n T(n,n^2)&=(2n-1)E_n(v).\n\\end{align}\nConsequently $T(n,n^2+1)>0$ and\n\\[\n \\frac{T(n,n^2)}{T(n,n^2+1)}=\\frac{2n-1}{n}.\n\\]\nMoreover, for every $n\\geq1$,\n\\begin{equation}\n T(n,n+1)=n!,\\qquad T(n,n^2+1)=(n!)^n.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Arkadeep Dutta's edge-collision ratio conjecture (OEIS A396659)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "oeis-a396659-edge-collision-ratio"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a396659-edge-collision-ratio:4:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S3/Combinatorics/Graph/Walks/CollisionPrefix.lean"
+        },
+        "lineage": "collected:oeis-a396659-edge-collision-ratio:s2",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a396659-edge-collision-ratio",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "A length-$(n^2-1)$ trail from $v$ visits every vertex. If its missing edge\nis $(a,b)$ and its endpoint is $t$, exactly one of the following holds:\n\\begin{enumerate}\n\\item $b=v$ and $a=t$;\n\\item $a=b\\ne v$ and $t=v$.\n\\end{enumerate}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Arkadeep Dutta's edge-collision ratio conjecture (OEIS A396659)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "oeis-a396659-edge-collision-ratio"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Proof of Arkadeep Dutta's edge-collision ratio conjecture (OEIS A396659)",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 4,
+  "work": "oeis-a396659-edge-collision-ratio"
+}

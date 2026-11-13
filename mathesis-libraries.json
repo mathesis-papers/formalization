@@ -1,0 +1,10 @@
+{
+  "libraries": [
+    {
+      "package": "trureturing",
+      "roots": [
+        "D5"
+      ]
+    }
+  ]
+}

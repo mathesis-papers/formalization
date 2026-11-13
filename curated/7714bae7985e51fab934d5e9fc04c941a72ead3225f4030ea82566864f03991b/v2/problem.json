@@ -1,0 +1,66 @@
+{
+  "curated": {
+    "background": "Source. Erdős Problem 389 in the Erdős problems database; the page says the question was asked by Erdős and Straus: https://www.erdosproblems.com/389\n\nKnown partial results. According to the problem page, the minimal $k$ has been computed for $1 \\le n \\le 18$ by Bhavik Mehta (OEIS A375071); for example $k = 5$ for $n = 2$ and $k = 4$ for $n = 3$.\n\nStatus record. The status database linked from the problem page is https://raw.githubusercontent.com/teorth/erdosproblems/main/data/problems.yaml , where the problem has the state open.",
+    "directions": [
+      "settling-stated-conjectures"
+    ],
+    "lean_target": {
+      "checked_at": "2026-11-11T13:31:02.082200882Z",
+      "correspondence": "The proposition quantifies over every natural number n with n ≥ 1 and asks for a natural number k with k ≥ 1. The product of the k consecutive integers n, n+1, ..., n+k-1 is written as the product of n + i over i < k, and the product of the next k integers n+k, ..., n+2k-1 as the product of n + k + i over i < k. Divisibility is divisibility of natural numbers.",
+      "digest": "2768c957dbc6dca4a1775de3bfec2b4266b6c99b172d06a57b7703428b6da481",
+      "state": "elaborated",
+      "text": "import Mathlib\n\ndef wishpool_target_prop : Prop :=\n  ∀ n : ℕ, 1 ≤ n → ∃ k : ℕ, 1 ≤ k ∧\n    (∏ i ∈ Finset.range k, (n + i)) ∣ (∏ i ∈ Finset.range k, (n + k + i))\n",
+      "toolchain": "leanprover/lean4:v4.35.0, Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "vocabulary": "mathlib"
+    },
+    "license": "CC-BY-4.0",
+    "msc": [
+      "11A05"
+    ],
+    "name": "The Erdős-Straus question on consecutive products dividing the next consecutive product (Erdős Problem 389, OEIS A375071)",
+    "posers": [
+      {
+        "name": "Erdős"
+      },
+      {
+        "name": "Straus"
+      }
+    ],
+    "published_on": "2026-11-11T13:27:05.711934117Z",
+    "source": {
+      "kind": "url",
+      "locator": "https://www.erdosproblems.com/389"
+    },
+    "source_license": "Licence of the source not determined on 2026-11-11; the statement is restated in the curator's own words.",
+    "statement": "Question. Is it true that for every integer $n \\ge 1$ there is an integer $k \\ge 1$ such that\n\n$$n(n+1) \\cdots (n+k-1) \\quad \\text{divides} \\quad (n+k)(n+k+1) \\cdots (n+2k-1)\\,?$$",
+    "status": "open",
+    "status_as_of": "2026-11-11",
+    "status_evidence": [
+      {
+        "checked_on": "2026-11-11",
+        "observed": "Problem 389 has status state open, last update 2025-08-31. The latest commit touching the file is dated 2026-11-09. The database lists the problem as open.",
+        "url": "https://raw.githubusercontent.com/teorth/erdosproblems/main/data/problems.yaml"
+      },
+      {
+        "checked_on": "2026-11-11",
+        "observed": "The problem page (which shows no date of last edit) describes partial results only and reports no resolution.",
+        "url": "https://www.erdosproblems.com/389"
+      }
+    ],
+    "version": 2
+  },
+  "id": "7714bae7985e51fab934d5e9fc04c941a72ead3225f4030ea82566864f03991b",
+  "summary": {
+    "id": "7714bae7985e51fab934d5e9fc04c941a72ead3225f4030ea82566864f03991b",
+    "notes": 0,
+    "source": {
+      "kind": "url",
+      "locator": "https://www.erdosproblems.com/389"
+    },
+    "source_id": "https://www.erdosproblems.com/389",
+    "status": "curated_open",
+    "status_as_of": "2026-11-11",
+    "title": "The Erdős-Straus question on consecutive products dividing the next consecutive product (Erdős Problem 389, OEIS A375071)",
+    "updated_at": "2026-11-11T13:27:05.711934117Z"
+  }
+}

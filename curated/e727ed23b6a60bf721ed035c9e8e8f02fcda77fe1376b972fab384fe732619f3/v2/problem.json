@@ -1,0 +1,61 @@
+{
+  "curated": {
+    "background": "Source. MathOverflow question 499750, asked by Max Alekseyev on 29 August 2025: https://mathoverflow.net/questions/499750/existence-of-an-odd-prime-p-such-that-the-sum-of-last-two-base-p-digits-is-a\n\nKnown partial results. The poser notes that the remaining cases are those in which $k+1$ is a prime, a power of $2$ or a Giuga number, since otherwise a suitable prime divisor of $k+1$ works, and that the conjecture would imply the completeness of OEIS A094960. The question has no answer. Its comments propose stronger variants and contain one attempt that its author retracted.",
+    "directions": [
+      "settling-stated-conjectures"
+    ],
+    "lean_target": {
+      "checked_at": "2026-11-11T13:44:32.177648101Z",
+      "correspondence": "For every natural number k > 78 the proposition asks for an odd prime p with (k mod p) + (floor(k/p) mod p) ≥ p. In Lean, k % p is the last base-p digit of k and (k / p) % p the digit before it, with division of natural numbers.",
+      "digest": "8e054155e282ba165376a60f544b6aff178b4f599d0507ea41eddc469f281510",
+      "state": "elaborated",
+      "text": "import Mathlib\n\ndef wishpool_target_prop : Prop :=\n  ∀ k : ℕ, 78 < k →\n    ∃ p : ℕ, p.Prime ∧ Odd p ∧ p ≤ k % p + (k / p) % p\n",
+      "toolchain": "leanprover/lean4:v4.35.0, Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "vocabulary": "mathlib"
+    },
+    "license": "CC-BY-SA-4.0",
+    "msc": [
+      "11A63",
+      "11A41"
+    ],
+    "name": "Alekseyev's conjecture on the last two base-p digits (MathOverflow 499750, OEIS A094960)",
+    "posers": [
+      {
+        "name": "Max Alekseyev"
+      }
+    ],
+    "published_on": "2026-11-11T13:27:06.200136275Z",
+    "source": {
+      "kind": "url",
+      "locator": "https://mathoverflow.net/questions/499750/existence-of-an-odd-prime-p-such-that-the-sum-of-last-two-base-p-digits-is-a",
+      "year": 2025
+    },
+    "source_license": "CC BY-SA 4.0 (Stack Exchange user content; content_license field of the API)",
+    "statement": "Conjecture. For every integer $k > 78$ there exists an odd prime $p$ such that the sum of the last two base-$p$ digits of $k$ is at least $p$, that is,\n\n$$(k \\bmod p) + \\bigl( \\lfloor k/p \\rfloor \\bmod p \\bigr) \\ge p.$$",
+    "status": "open",
+    "status_as_of": "2026-11-11",
+    "status_evidence": [
+      {
+        "checked_on": "2026-11-11",
+        "observed": "The question has no answer, is not marked answered, has score 15, and was last active on 2025-08-30. Comments by Peter Mueller, Dave Benson, Peter Taylor and Joshua Stucky give stronger variants and one retracted attempt, and no proof. The comments and answers endpoints of the same question were read as well.",
+        "url": "https://api.stackexchange.com/2.3/questions/499750?site=mathoverflow"
+      }
+    ],
+    "version": 2
+  },
+  "id": "e727ed23b6a60bf721ed035c9e8e8f02fcda77fe1376b972fab384fe732619f3",
+  "summary": {
+    "id": "e727ed23b6a60bf721ed035c9e8e8f02fcda77fe1376b972fab384fe732619f3",
+    "notes": 0,
+    "source": {
+      "kind": "url",
+      "locator": "https://mathoverflow.net/questions/499750/existence-of-an-odd-prime-p-such-that-the-sum-of-last-two-base-p-digits-is-a",
+      "year": 2025
+    },
+    "source_id": "https://mathoverflow.net/questions/499750/existence-of-an-odd-prime-p-such-that-the-sum-of-last-two-base-p-digits-is-a",
+    "status": "curated_open",
+    "status_as_of": "2026-11-11",
+    "title": "Alekseyev's conjecture on the last two base-p digits (MathOverflow 499750, OEIS A094960)",
+    "updated_at": "2026-11-11T13:27:06.200136275Z"
+  }
+}

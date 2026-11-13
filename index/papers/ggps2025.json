@@ -1,0 +1,238 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "31e6846798fc7b0349538fb9792b6d53d3f60566",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/31e6846798fc7b0349538fb9792b6d53d3f60566/D5/S3/Analytic/Asymptotics/MittagLefflerModulusRefutation.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ggps2025:1:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "31e6846798fc7b0349538fb9792b6d53d3f60566",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/31e6846798fc7b0349538fb9792b6d53d3f60566/D5/S3/Analytic/Asymptotics/MittagLefflerModulusRefutation.lean"
+        },
+        "lineage": "collected:ggps2025:s1",
+        "macros": {
+          "\\Ima": "\\operatorname{Im}",
+          "\\ML": "E_{\\alpha,\\beta}",
+          "\\Rea": "\\operatorname{Re}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "ggps2025",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Fix $1<\\alpha<2$ and put\n\\[\n \\eta=\\frac{\\pi(2-\\alpha)}4,\\qquad\n t=\\tan\\eta,\\qquad w=-1+it.\n\\]\nThere is $R>0$ such that for every $r>R$,\n\\[\n |E_{\\alpha,\\alpha-1}(rw)|<E_{\\alpha,\\alpha-1}(-r).\n\\]\nMoreover, there are one such point $z=rw$ and $0<\\varepsilon<1$\nfor which\n\\begin{equation}\n |E_{\\alpha,\\beta}(z)|<E_{\\alpha,\\beta}(\\Rea z)\n \\quad\\text{for every }\\beta\\in[\\alpha-1,\\alpha-1+\\varepsilon].\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Counterexamples to Conjecture 25 and Remark 6 of Garrappa–Gerhold–Popolizio–Simon: Global modulus lower bounds in arXiv:2410.11852v4",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "ggps2025"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ggps2025:1:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "31e6846798fc7b0349538fb9792b6d53d3f60566",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/31e6846798fc7b0349538fb9792b6d53d3f60566/D5/S3/Analytic/Asymptotics/MittagLefflerModulusRefutation.lean"
+        },
+        "lineage": "collected:ggps2025:s2",
+        "macros": {
+          "\\Ima": "\\operatorname{Im}",
+          "\\ML": "E_{\\alpha,\\beta}",
+          "\\Rea": "\\operatorname{Re}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "ggps2025",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $1<\\alpha<2$, there are parameters strictly inside\n$(\\alpha-1,\\alpha)$ for which $1/E_{\\alpha,\\beta}$ is completely\nmonotone on $(0,\\infty)$ but $G(\\alpha,\\beta)$ is false.\nFor the same parameters, the normalized logarithm\n$\\log(\\Gamma(\\beta)E_{\\alpha,\\beta})$ is a Bernstein function\non $(0,\\infty)$, although $G(\\alpha,\\beta)$ is false.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Counterexamples to Conjecture 25 and Remark 6 of Garrappa–Gerhold–Popolizio–Simon: Global modulus lower bounds in arXiv:2410.11852v4",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "ggps2025"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ggps2025:1:s3",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "31e6846798fc7b0349538fb9792b6d53d3f60566",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/31e6846798fc7b0349538fb9792b6d53d3f60566/D5/S3/Analytic/Asymptotics/MittagLefflerModulusRefutation.lean"
+        },
+        "lineage": "collected:ggps2025:s3",
+        "macros": {
+          "\\Ima": "\\operatorname{Im}",
+          "\\ML": "E_{\\alpha,\\beta}",
+          "\\Rea": "\\operatorname{Re}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "ggps2025",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "At $z_*=-115+10i$,\n\\[\n |E_{3/2,1/2}(z_*)|<\\frac{11}{10^6}+\\frac4{10^{13}}\n <\\frac3{10^5}-\\frac4{10^{13}}<E_{3/2,1/2}(-115).\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Counterexamples to Conjecture 25 and Remark 6 of Garrappa–Gerhold–Popolizio–Simon: Global modulus lower bounds in arXiv:2410.11852v4",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "ggps2025"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ggps2025:1:s4",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "31e6846798fc7b0349538fb9792b6d53d3f60566",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/31e6846798fc7b0349538fb9792b6d53d3f60566/D5/S3/Analytic/Asymptotics/MittagLefflerModulusRefutation.lean"
+        },
+        "lineage": "collected:ggps2025:s4",
+        "macros": {
+          "\\Ima": "\\operatorname{Im}",
+          "\\ML": "E_{\\alpha,\\beta}",
+          "\\Rea": "\\operatorname{Re}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "ggps2025",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The universal inequality \\eqref{eq:kummer-question} fails for\n$a=1/2$, $d=2$, and $z_0=1/2+i\\sqrt2/2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Counterexamples to Conjecture 25 and Remark 6 of Garrappa–Gerhold–Popolizio–Simon: Global modulus lower bounds in arXiv:2410.11852v4",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "ggps2025"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Counterexamples to Conjecture 25 and Remark 6 of Garrappa–Gerhold–Popolizio–Simon: Global modulus lower bounds in arXiv:2410.11852v4",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 1,
+  "work": "ggps2025"
+}

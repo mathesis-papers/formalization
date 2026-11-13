@@ -1,0 +1,184 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "a87bdf39e4517497a9773c0c724243bc700c5bb1",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/a87bdf39e4517497a9773c0c724243bc700c5bb1/D5/S3/Combinatorics/Graph/Domination/MinusFourReassembly.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:alikhani-griswold-2026-connected-minus-four-family:1:s1",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "a87bdf39e4517497a9773c0c724243bc700c5bb1",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a87bdf39e4517497a9773c0c724243bc700c5bb1/D5/S3/Combinatorics/Graph/Domination/MinusFourReassembly.lean"
+        },
+        "lineage": "collected:alikhani-griswold-2026-connected-minus-four-family:s1",
+        "macros": {
+          "\\Dom": "\\mathcal D",
+          "\\base": "H"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "alikhani-griswold-2026-connected-minus-four-family",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $H_1,\\ldots,H_r$ be vertex-disjoint finite simple graphs, each with\nspecified vertices $v_i,w_i$ satisfying $N_{H_i}(w_i)=\\{v_i\\}$.\nLet $F$ be any simple graph on $\\{1,\\ldots,r\\}$.\nObtain $J_F$ from their disjoint union by adding $v_iv_j$ for each\n$ij\\in E(F)$. Then\n\\begin{equation}\n \\Dom(J_F)=\\{S_1\\cup\\cdots\\cup S_r:S_i\\in\\Dom(H_i)\\},\\qquad\n D(J_F,x)=\\prod_{i=1}^rD(H_i,x).\n\\end{equation}\nIf every $H_i$ and $F$ are connected, then $J_F$ is connected.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Alikhani–Griswold, Section 4(3): connected graphs with domination root −4",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "alikhani-griswold-2026-connected-minus-four-family"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:alikhani-griswold-2026-connected-minus-four-family:1:s2",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "a87bdf39e4517497a9773c0c724243bc700c5bb1",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a87bdf39e4517497a9773c0c724243bc700c5bb1/D5/S3/Combinatorics/Graph/Domination/MinusFourReassembly.lean"
+        },
+        "lineage": "collected:alikhani-griswold-2026-connected-minus-four-family:s2",
+        "macros": {
+          "\\Dom": "\\mathcal D",
+          "\\base": "H"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "alikhani-griswold-2026-connected-minus-four-family",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $r\\geq1$ there is a connected finite simple graph\n$G_r$ on $33r$ vertices with\n\\[\n D(G_r,x)=D(\\base,x)^r.\n\\]\nThe root $-4$ has multiplicity exactly $r$. The graphs can be chosen\nwith $37r-1$ edges and maximum degree seven.\nConsequently, for every $N\\in\\mathbb N$ there is such a graph of order\nstrictly greater than $N$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Alikhani–Griswold, Section 4(3): connected graphs with domination root −4",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "alikhani-griswold-2026-connected-minus-four-family"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:alikhani-griswold-2026-connected-minus-four-family:1:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "a87bdf39e4517497a9773c0c724243bc700c5bb1",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a87bdf39e4517497a9773c0c724243bc700c5bb1/D5/S3/Combinatorics/Graph/Domination/MinusFourReassembly.lean"
+        },
+        "lineage": "collected:alikhani-griswold-2026-connected-minus-four-family:s3",
+        "macros": {
+          "\\Dom": "\\mathcal D",
+          "\\base": "H"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "alikhani-griswold-2026-connected-minus-four-family",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Every integer $n\\geq35$ is the order of a connected finite simple graph\nwith maximum degree seven, cycle rank four and simple domination root\n$-4$. Its integer domination roots are exactly $0,-2,-4$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Alikhani–Griswold, Section 4(3): connected graphs with domination root −4",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "alikhani-griswold-2026-connected-minus-four-family"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Alikhani–Griswold, Section 4(3): connected graphs with domination root −4",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 1,
+  "work": "alikhani-griswold-2026-connected-minus-four-family"
+}

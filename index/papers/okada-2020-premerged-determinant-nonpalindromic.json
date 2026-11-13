@@ -1,0 +1,434 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        },
+        "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s1",
+        "macros": {
+          "\\coeff": "[q^{#1}]#2",
+          "\\qbin": "\\genfrac{[}{]}{0pt}{}{#1}{#2}_{q}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "okada-2020-premerged-determinant-nonpalindromic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Assume~\\eqref{fitting} and $\\mu\\ge3$. Define\n\\[\n t=b_1-a_\\mu,\\qquad\n c=\\begin{cases}\\mu,&a_1>0,\\\\ \\mu-1,&a_1=0,\\end{cases}\n \\qquad d=\\sum_{i=1}^{\\mu}a_i(b_i-a_i).\n\\]\nThen $\\deg P=d$, $d\\ge t+4$, and\n\\begin{equation}\n \\coeff{j}{P}=0\\ (j<t+1),\\quad\n \\coeff{t+1}{P}=1,\\quad \\coeff{t+2}{P}=c+1,\\quad\n \\coeff{d-1}{P}=c,\\quad \\coeff{d}{P}=1.\n\\end{equation}\nIn particular, $P$ is not almost palindromic, proving Conjecture 9.63.\nThe same conclusions hold at width two if\n$a_2-a_1\\ge2$ and $b_2-b_1\\ge2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "okada-2020-premerged-determinant-nonpalindromic"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s2",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        },
+        "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s2",
+        "macros": {
+          "\\coeff": "[q^{#1}]#2",
+          "\\qbin": "\\genfrac{[}{]}{0pt}{}{#1}{#2}_{q}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "okada-2020-premerged-determinant-nonpalindromic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $0\\le a_1<a_2\\le b_1<b_2$, the polynomial~\\eqref{products} at width\ntwo is almost palindromic if and only if\n\\[\n \\min(a_2-a_1,b_2-b_1)=1.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "okada-2020-premerged-determinant-nonpalindromic"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        },
+        "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s3",
+        "macros": {
+          "\\coeff": "[q^{#1}]#2",
+          "\\qbin": "\\genfrac{[}{]}{0pt}{}{#1}{#2}_{q}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "okada-2020-premerged-determinant-nonpalindromic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $M(\\lambda)$ and $N(\\lambda)$ be the sets in Okada's Conjecture 9.64:\n$M(\\lambda)$ consists of all $0\\le a_1<a_2\\le b_1<b_2=\\lambda$, and\n$N(\\lambda)$ consists of those tuples whose determinant is not almost\npalindromic. For $\\lambda\\ge2$,\n\\[\n |M(\\lambda)|=\\binom{\\lambda+1}{3},\\quad\n |N(\\lambda)|=\\binom{\\lambda-1}{3},\\quad\n |M(\\lambda)\\setminus N(\\lambda)|=(\\lambda-1)^2,\n\\]\nwhere a binomial coefficient with upper index less than three is zero.\nConsequently\n\\begin{equation}\n O(\\lambda)=\\frac{|N(\\lambda)|}{|M(\\lambda)|}\n           =\\frac{(\\lambda-2)(\\lambda-3)}{\\lambda(\\lambda+1)}.\n\\end{equation}\nIn particular, $O(3)=0$, $O(\\lambda+1)>O(\\lambda)$ for $\\lambda\\ge3$,\nand $O(\\lambda)\\longrightarrow1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "okada-2020-premerged-determinant-nonpalindromic"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        },
+        "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s4",
+        "macros": {
+          "\\coeff": "[q^{#1}]#2",
+          "\\qbin": "\\genfrac{[}{]}{0pt}{}{#1}{#2}_{q}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "okada-2020-premerged-determinant-nonpalindromic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "At fixed $b_\\mu=\\lambda$ and width $\\mu\\ge3$, the number of tuples\nin~\\eqref{fitting} is $\\binom{\\lambda+1}{2\\mu-1}$, and every one gives\na determinant that is not almost palindromic. At width two the exceptional\nproportion is $1-O(\\lambda)=6(\\lambda-1)/(\\lambda(\\lambda+1))$,\nasymptotic to $6/\\lambda$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "okada-2020-premerged-determinant-nonpalindromic"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        },
+        "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s5",
+        "macros": {
+          "\\coeff": "[q^{#1}]#2",
+          "\\qbin": "\\genfrac{[}{]}{0pt}{}{#1}{#2}_{q}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "okada-2020-premerged-determinant-nonpalindromic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The non-almost-palindromicity conclusion of Theorem~\\ref{main}, the\nwidth-two classification of Theorem~\\ref{classification}, and all counts\nabove hold for $P_{\\rho,0}$ for every integer $\\rho\\ge1$.\nIn the regimes of Theorem~\\ref{main}, its first two nonzero coefficients\nare $1,c_\\rho+1$ and its last two are $c_\\rho,1$, where\n$c_1=c$ and $c_\\rho=\\mu$ for $\\rho\\ge2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "okada-2020-premerged-determinant-nonpalindromic"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        },
+        "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s6",
+        "macros": {
+          "\\coeff": "[q^{#1}]#2",
+          "\\qbin": "\\genfrac{[}{]}{0pt}{}{#1}{#2}_{q}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "okada-2020-premerged-determinant-nonpalindromic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Assume~\\eqref{fitting} with $\\mu\\ge2$. For every constant base shift $\\rho\\ge1$ and\nevery constant integral weight $w\\ge2$, the degree-shift-zero determinant\n$A_\\rho^w-B_\\rho^w$ is not almost palindromic.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "okada-2020-premerged-determinant-nonpalindromic"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        },
+        "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s7",
+        "macros": {
+          "\\coeff": "[q^{#1}]#2",
+          "\\qbin": "\\genfrac{[}{]}{0pt}{}{#1}{#2}_{q}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "okada-2020-premerged-determinant-nonpalindromic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $n\\ge4$, let $a=(0,1)$, $b=(1,n)$ and $e=1$.\nThen $P_{1,1}$ is almost palindromic, whereas $P_{\\rho,1}$ is not\nalmost palindromic for every $\\rho\\ge2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "okada-2020-premerged-determinant-nonpalindromic"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        },
+        "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s8",
+        "macros": {
+          "\\coeff": "[q^{#1}]#2",
+          "\\qbin": "\\genfrac{[}{]}{0pt}{}{#1}{#2}_{q}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "okada-2020-premerged-determinant-nonpalindromic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Assume~\\eqref{fitting} with $\\mu\\ge2$. For any $\\rho\\ge1$, put\n$G=\\deg A_\\rho-\\deg B_\\rho$.\nThen\n\\[\n q^{d_\\rho}P_{\\rho,G}(q^{-1})=P_{\\rho,0}(q).\n\\]\nHence the zero-shift classification also holds at $e=G$.\nIf $\\mu\\ge3$, the determinants at $e=1$ and $e=G-1$ are not almost\npalindromic for any $\\rho\\ge1$.\nIf $G$ is even, $P_{\\rho,G/2}$ is reciprocal, and therefore almost\npalindromic. Multiplication by $q^s$ or substitution $q\\mapsto q^k$,\nfor integers $s\\ge0$, $k\\ge1$, preserves almost palindromicity.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "okada-2020-premerged-determinant-nonpalindromic"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "okada-2020-premerged-determinant-nonpalindromic"
+}

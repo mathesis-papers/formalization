@@ -1,0 +1,294 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "57b811cedb64c8065c6afac0da57d0fe2c8aa5ab",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/57b811cedb64c8065c6afac0da57d0fe2c8aa5ab/D5/S3/Quantum/Matrix/MalkounJordanElementary.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:malkoun-2026-mo512579-jordan-elementary:1:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "57b811cedb64c8065c6afac0da57d0fe2c8aa5ab",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/57b811cedb64c8065c6afac0da57d0fe2c8aa5ab/D5/S3/Quantum/Matrix/MalkounJordanElementary.lean"
+        },
+        "lineage": "collected:malkoun-2026-mo512579-jordan-elementary:s1",
+        "macros": {
+          "\\CC": "\\mathbb C",
+          "\\Id": "I",
+          "\\ee": "\\mathrm e",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "malkoun-2026-mo512579-jordan-elementary",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $A,B\\in\\CC^{p\\times n}$, where $p,n\\geq1$, and put\n\\[\n H=A^*B+B^*A,\\qquad R=A^*A+B^*B.\n\\]\nFor every $S\\subseteq\\{1,\\ldots,n\\}$,\n\\begin{equation}\n |\\det H[S,S]|\\leq\\det R[S,S].\n\\end{equation}\nConsequently, for $0\\leq k\\leq n$,\n\\begin{equation}\n \\bigl|\\ee_k(\\lambda(H))\\bigr|\n \\leq\\sum_{|S|=k}|\\det H[S,S]|\n \\leq\\ee_k(\\lambda(R)).\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "MathOverflow 512579, revision 1: The elementary symmetric inequality for a Hermitian Jordan product",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "malkoun-2026-mo512579-jordan-elementary"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:malkoun-2026-mo512579-jordan-elementary:1:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "57b811cedb64c8065c6afac0da57d0fe2c8aa5ab",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/57b811cedb64c8065c6afac0da57d0fe2c8aa5ab/D5/S3/Quantum/Matrix/MalkounJordanElementary.lean"
+        },
+        "lineage": "collected:malkoun-2026-mo512579-jordan-elementary:s2",
+        "macros": {
+          "\\CC": "\\mathbb C",
+          "\\Id": "I",
+          "\\ee": "\\mathrm e",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "malkoun-2026-mo512579-jordan-elementary",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $U,V\\in\\CC^{m\\times k}$,\n\\[\n |\\det(U^*V)|^2\\leq\\det(U^*U)\\det(V^*V).\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "MathOverflow 512579, revision 1: The elementary symmetric inequality for a Hermitian Jordan product",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "malkoun-2026-mo512579-jordan-elementary"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:malkoun-2026-mo512579-jordan-elementary:1:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "57b811cedb64c8065c6afac0da57d0fe2c8aa5ab",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/57b811cedb64c8065c6afac0da57d0fe2c8aa5ab/D5/S3/Quantum/Matrix/MalkounJordanElementary.lean"
+        },
+        "lineage": "collected:malkoun-2026-mo512579-jordan-elementary:s3",
+        "macros": {
+          "\\CC": "\\mathbb C",
+          "\\Id": "I",
+          "\\ee": "\\mathrm e",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "malkoun-2026-mo512579-jordan-elementary",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For arbitrary complex Hermitian $X,Y\\in\\CC^{n\\times n}$ and $0\\leq k\\leq n$,\n\\[\n \\bigl|\\ee_k(\\lambda(XY+YX))\\bigr|\\leq\n \\ee_k(\\lambda(X^2+Y^2)).\n\\]\nIn particular, Malkoun's inequality~\\eqref{eq:posed} holds.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "MathOverflow 512579, revision 1: The elementary symmetric inequality for a Hermitian Jordan product",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "malkoun-2026-mo512579-jordan-elementary"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:malkoun-2026-mo512579-jordan-elementary:1:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "57b811cedb64c8065c6afac0da57d0fe2c8aa5ab",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/57b811cedb64c8065c6afac0da57d0fe2c8aa5ab/D5/S3/Quantum/Matrix/MalkounJordanElementary.lean"
+        },
+        "lineage": "collected:malkoun-2026-mo512579-jordan-elementary:s4",
+        "macros": {
+          "\\CC": "\\mathbb C",
+          "\\Id": "I",
+          "\\ee": "\\mathrm e",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "malkoun-2026-mo512579-jordan-elementary",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "With $H,R$ as in Theorem~\\ref{thm:main}, for every $z\\in\\CC$,\n\\[\n |\\det(\\Id+zH)|\\leq\\det(\\Id+|z|R).\n\\]\nMoreover, $|\\det H|\\leq\\det R$ and\n$\\tr R-\\tr H=\\|A-B\\|_F^2$.\nEquality in all the one-sided inequalities\n$\\ee_k(\\lambda(H))\\leq\\ee_k(\\lambda(R))$, $1\\leq k\\leq n$,\nholds if and only if $A=B$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "MathOverflow 512579, revision 1: The elementary symmetric inequality for a Hermitian Jordan product",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "malkoun-2026-mo512579-jordan-elementary"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:malkoun-2026-mo512579-jordan-elementary:1:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "57b811cedb64c8065c6afac0da57d0fe2c8aa5ab",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/57b811cedb64c8065c6afac0da57d0fe2c8aa5ab/D5/S3/Quantum/Matrix/MalkounJordanElementary.lean"
+        },
+        "lineage": "collected:malkoun-2026-mo512579-jordan-elementary:s5",
+        "macros": {
+          "\\CC": "\\mathbb C",
+          "\\Id": "I",
+          "\\ee": "\\mathrm e",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "malkoun-2026-mo512579-jordan-elementary",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $A,B,C$ be pairwise commuting positive semidefinite Hermitian matrices,\nand write $S=A+B+C$, $Q=A^2+B^2+C^2$, $F=6(A^3+B^3+C^3)+S^3$.\nThen $\\det F\\geq5^n\\det S\\det Q$.\nFor every $k$, the elementary symmetric functions of the singular values\nof $F$ dominate those of $5SQ$; also\n$\\ee_k(\\lambda(2F))\\geq\\ee_k(\\lambda(5SQ+5QS))$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "MathOverflow 512579, revision 1: The elementary symmetric inequality for a Hermitian Jordan product",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "malkoun-2026-mo512579-jordan-elementary"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "MathOverflow 512579, revision 1: The elementary symmetric inequality for a Hermitian Jordan product",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 1,
+  "work": "malkoun-2026-mo512579-jordan-elementary"
+}

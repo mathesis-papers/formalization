@@ -1,0 +1,606 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/BajnokBeattyAllRegimes.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bajnok-beatty-original-conjecture-4-1:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/BajnokBeattyAllRegimes.lean"
+        },
+        "lineage": "collected:bajnok-beatty-original-conjecture-4-1:s1",
+        "macros": {
+          "\\Gk": "G_k",
+          "\\Z": "\\mathbb Z",
+          "\\norm": "\\lVert #1\\rVert_1",
+          "\\proofurl": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bajnok-beatty-original-conjecture-4-1",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For positive integers $k,s$, the group $\\Gk$ has an $s$-spanning pair\nif and only if one of the following conditions holds:\n\\begin{align*}\n&s\\text{ is odd}, &&2k\\le s^2-1;\\\\\n&s\\text{ is even}, &&2k\\le s^2-s;\\\\\n&s\\equiv0\\pmod4,\\quad k\\text{ is even},\n&&s^2-s<2k\\le s^2;\\\\\n&s\\equiv2\\pmod4,\\quad k\\equiv2\\pmod4,\n&&s^2-s<2k\\le s^2.\n\\end{align*}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bajnok-beatty-original-conjecture-4-1"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s10",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bajnok-beatty-original-conjecture-4-1:2:s10",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/BajnokBeattyAllRegimes.lean"
+        },
+        "lineage": "collected:bajnok-beatty-original-conjecture-4-1:s10",
+        "macros": {
+          "\\Gk": "G_k",
+          "\\Z": "\\mathbb Z",
+          "\\norm": "\\lVert #1\\rVert_1",
+          "\\proofurl": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bajnok-beatty-original-conjecture-4-1",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $s\\ge3$, the largest order $N(s)$ of a noncyclic finite abelian\ngroup with an $s$-spanning pair is\n\\[\nN(s)=\\begin{cases}\n2s^2,&2s+1\\text{ is prime},\\\\\n2s^2+2s-(p^2-1)/2,&2s+1\\text{ is composite},\n\\end{cases}\n\\]\nwhere $p$ is the smallest prime divisor of $2s+1$ in the second case.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bajnok-beatty-original-conjecture-4-1"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s11",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bajnok-beatty-original-conjecture-4-1:2:s11",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/BajnokBeattyAllRegimes.lean"
+        },
+        "lineage": "collected:bajnok-beatty-original-conjecture-4-1:s11",
+        "macros": {
+          "\\Gk": "G_k",
+          "\\Z": "\\mathbb Z",
+          "\\norm": "\\lVert #1\\rVert_1",
+          "\\proofurl": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bajnok-beatty-original-conjecture-4-1",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $s\\ge3$, every noncyclic finite abelian group with an $s$-spanning\npair has order at most $2s^2+2s-4$.\nEquality holds precisely for the isomorphism type\n$\\Z/3\\Z\\times\\Z/((2s^2+2s-4)/3)\\Z$, with $s\\equiv1\\pmod3$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bajnok-beatty-original-conjecture-4-1"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bajnok-beatty-original-conjecture-4-1:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/BajnokBeattyAllRegimes.lean"
+        },
+        "lineage": "collected:bajnok-beatty-original-conjecture-4-1:s2",
+        "macros": {
+          "\\Gk": "G_k",
+          "\\Z": "\\mathbb Z",
+          "\\norm": "\\lVert #1\\rVert_1",
+          "\\proofurl": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bajnok-beatty-original-conjecture-4-1",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $f$ maps the integer diamond $|x|+|y|\\le s$ onto $\\Gk$, every\ncoset of $M$ has a representative in $\\{0,\\ldots,s-1\\}^2$.\nIn particular, $2k\\le s^2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bajnok-beatty-original-conjecture-4-1"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bajnok-beatty-original-conjecture-4-1:2:s3",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/BajnokBeattyAllRegimes.lean"
+        },
+        "lineage": "collected:bajnok-beatty-original-conjecture-4-1:s3",
+        "macros": {
+          "\\Gk": "G_k",
+          "\\Z": "\\mathbb Z",
+          "\\norm": "\\lVert #1\\rVert_1",
+          "\\proofurl": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bajnok-beatty-original-conjecture-4-1",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $n\\ge2$, $0\\le\\delta<n$, and $[\\Z^2:L]=n^2-\\delta$.\nSuppose every coset of $L$ meets $\\{0,\\ldots,n-1\\}^2$.\nThen for some $0\\le A,B<n$ and $\\epsilon\\in\\{1,-1\\}$,\n\\[\nAB=\\delta,\\qquad\nL=\\Z(n,-\\epsilon B)+\\Z(-A,\\epsilon n).\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bajnok-beatty-original-conjecture-4-1"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bajnok-beatty-original-conjecture-4-1:2:s4",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/BajnokBeattyAllRegimes.lean"
+        },
+        "lineage": "collected:bajnok-beatty-original-conjecture-4-1:s4",
+        "macros": {
+          "\\Gk": "G_k",
+          "\\Z": "\\mathbb Z",
+          "\\norm": "\\lVert #1\\rVert_1",
+          "\\proofurl": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bajnok-beatty-original-conjecture-4-1",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $s=2t$, $k=2t^2-r$, and $0\\le r<t$, any $s$-spanning pair in\n$\\Gk$ satisfies $2\\mid r$; if $t$ is odd, it also satisfies $4\\mid r$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bajnok-beatty-original-conjecture-4-1"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bajnok-beatty-original-conjecture-4-1:2:s5",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/BajnokBeattyAllRegimes.lean"
+        },
+        "lineage": "collected:bajnok-beatty-original-conjecture-4-1:s5",
+        "macros": {
+          "\\Gk": "G_k",
+          "\\Z": "\\mathbb Z",
+          "\\norm": "\\lVert #1\\rVert_1",
+          "\\proofurl": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bajnok-beatty-original-conjecture-4-1",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $t\\ge1$ and $0\\le j<t$. If $t$ is even or $j$ is even, the group\n$\\Z/2\\Z\\times\\Z/(4(t^2-j))\\Z$ has a $2t$-spanning pair.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bajnok-beatty-original-conjecture-4-1"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bajnok-beatty-original-conjecture-4-1:2:s6",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/BajnokBeattyAllRegimes.lean"
+        },
+        "lineage": "collected:bajnok-beatty-original-conjecture-4-1:s6",
+        "macros": {
+          "\\Gk": "G_k",
+          "\\Z": "\\mathbb Z",
+          "\\norm": "\\lVert #1\\rVert_1",
+          "\\proofurl": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bajnok-beatty-original-conjecture-4-1",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $s$ is odd and $2k\\le s^2-1$, or if $s$ is even and\n$2k\\le s^2-s$, the group $\\Gk$ has an $s$-spanning pair.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bajnok-beatty-original-conjecture-4-1"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bajnok-beatty-original-conjecture-4-1:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/BajnokBeattyAllRegimes.lean"
+        },
+        "lineage": "collected:bajnok-beatty-original-conjecture-4-1:s7",
+        "macros": {
+          "\\Gk": "G_k",
+          "\\Z": "\\mathbb Z",
+          "\\norm": "\\lVert #1\\rVert_1",
+          "\\proofurl": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bajnok-beatty-original-conjecture-4-1",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Among groups $\\Gk$ with an $s$-spanning pair, the largest order is\n$2s^2$ for even $s\\ge2$, and $2s^2-2$ for odd $s\\ge3$.\nThere is no such group for $s=1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bajnok-beatty-original-conjecture-4-1"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bajnok-beatty-original-conjecture-4-1:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/BajnokBeattyAllRegimes.lean"
+        },
+        "lineage": "collected:bajnok-beatty-original-conjecture-4-1:s8",
+        "macros": {
+          "\\Gk": "G_k",
+          "\\Z": "\\mathbb Z",
+          "\\norm": "\\lVert #1\\rVert_1",
+          "\\proofurl": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bajnok-beatty-original-conjecture-4-1",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $c\\ge2$ be even and $k,s\\ge1$. If\n$G=\\Z/c\\Z\\times\\Z/(ck)\\Z$ has an $s$-spanning pair, then\n$|G|\\le2s^2$. Equality requires $c\\mid s$.\nIn particular, if $s$ is odd then $|G|\\le2s^2-2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bajnok-beatty-original-conjecture-4-1"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s9",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bajnok-beatty-original-conjecture-4-1:2:s9",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/BajnokBeattyAllRegimes.lean"
+        },
+        "lineage": "collected:bajnok-beatty-original-conjecture-4-1:s9",
+        "macros": {
+          "\\Gk": "G_k",
+          "\\Z": "\\mathbb Z",
+          "\\norm": "\\lVert #1\\rVert_1",
+          "\\proofurl": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bajnok-beatty-original-conjecture-4-1",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $c\\ge3$ be odd, and write $s=ct+r$ with $0\\le r<c$.\nIf $G=\\Z/c\\Z\\times\\Z/(ck)\\Z$ has an $s$-spanning pair, then\n\\[\nk\\le F_c(s):=\n\\begin{cases}\n2t^2,&0\\le r<(c-1)/2,\\\\\n2t(t+1),&(c-1)/2\\le r<c-1,\\\\\n2t(t+1)+1,&r=c-1.\n\\end{cases}\n\\]\nNo regularity hypothesis on the pair is required.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bajnok-beatty-original-conjecture-4-1"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "bajnok-beatty-original-conjecture-4-1"
+}

@@ -1,0 +1,190 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "02c695f8c17e35965f80603427074b1dd434eed9",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/02c695f8c17e35965f80603427074b1dd434eed9/D5/S3/Quantum/Magic/ReflectionDiagonalCNOTLowerBound.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound:4:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "02c695f8c17e35965f80603427074b1dd434eed9",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/02c695f8c17e35965f80603427074b1dd434eed9/D5/S3/Quantum/Magic/ReflectionDiagonalCNOTLowerBound.lean"
+        },
+        "lineage": "collected:huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound:s1",
+        "macros": {
+          "\\CNOT": "\\operatorname{CNOT}",
+          "\\F": "\\mathbb F_2",
+          "\\diag": "\\operatorname{diag}",
+          "\\wt": "\\operatorname{wt}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For each $n\\geq1$, define $\\theta_*:\\F^{2n}\\to\\mathbb R$ by\n\\[\n \\theta_*(x)=\n \\begin{cases}\\pi/2,&x=0\\text{ or }x=\\mathbf1,\\\\0,&\\text{otherwise},\\end{cases}\n \\qquad D_*=\\diag(e^{\\mathrm i\\theta_*(x)}).\n\\]\nThen $\\theta_*(\\bar x)=\\theta_*(x)$. Every allowed circuit with matrix\n$U=cD_*$, for any complex scalar $c$, contains at least\n\\[\n N_m=2^{m-1}+m-2=2^{2n-1}+2n-2\n\\]\nCNOT gates.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Reflection-symmetric diagonal synthesis: resolving a conjecture of Huang, Kosugi, Nishi and Matsushita",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound:4:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "02c695f8c17e35965f80603427074b1dd434eed9",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/02c695f8c17e35965f80603427074b1dd434eed9/D5/S3/Quantum/Magic/ReflectionDiagonalCNOTLowerBound.lean"
+        },
+        "lineage": "collected:huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound:s2",
+        "macros": {
+          "\\CNOT": "\\operatorname{CNOT}",
+          "\\F": "\\mathbb F_2",
+          "\\diag": "\\operatorname{diag}",
+          "\\wt": "\\operatorname{wt}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $v\\ne0$, then $\\mathcal I_v(c)=1$ for each constant $c\\ne0$.\nIf also $w\\ne0$ and $w\\ne v$, then\n$\\mathcal I_v(x\\mapsto g(w\\cdot x))=1$ for every nonzero-valued\n$g:\\F\\to\\mathbb C$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Reflection-symmetric diagonal synthesis: resolving a conjecture of Huang, Kosugi, Nishi and Matsushita",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound:4:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "02c695f8c17e35965f80603427074b1dd434eed9",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/02c695f8c17e35965f80603427074b1dd434eed9/D5/S3/Quantum/Magic/ReflectionDiagonalCNOTLowerBound.lean"
+        },
+        "lineage": "collected:huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound:s3",
+        "macros": {
+          "\\CNOT": "\\operatorname{CNOT}",
+          "\\F": "\\mathbb F_2",
+          "\\diag": "\\operatorname{diag}",
+          "\\wt": "\\operatorname{wt}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "In the stated model, the worst-case optimal CNOT count among all\nreflection-symmetric diagonal unitaries on $2n$ wires is $N_{2n}$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Reflection-symmetric diagonal synthesis: resolving a conjecture of Huang, Kosugi, Nishi and Matsushita",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Reflection-symmetric diagonal synthesis: resolving a conjecture of Huang, Kosugi, Nishi and Matsushita",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 4,
+  "work": "huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound"
+}

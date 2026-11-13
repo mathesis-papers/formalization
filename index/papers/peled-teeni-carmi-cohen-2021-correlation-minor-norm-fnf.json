@@ -1,0 +1,391 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "0f1f822c673c1903dc6b0a209a23dacebca2aa6c",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/0f1f822c673c1903dc6b0a209a23dacebca2aa6c/D5/S3/Quantum/Entanglement/Witness/CorrelationMinorNormFNFRefutation.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "0f1f822c673c1903dc6b0a209a23dacebca2aa6c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0f1f822c673c1903dc6b0a209a23dacebca2aa6c/D5/S3/Quantum/Entanglement/Witness/CorrelationMinorNormFNFRefutation.lean"
+        },
+        "lineage": "collected:peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf:s1",
+        "macros": {
+          "\\CM": "\\mathcal M",
+          "\\Id": "\\mathbb I",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $0\\le t\\le1/200$, the state $\\rho_t$ is separable and satisfies\n\\[\n \\CM_{3,\\infty}(\\rho_t)>\\frac3{64\\sqrt2}.\n\\]\nFor $t>0$ it is positive definite. None of these states is in FNF.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Peled et al.'s Section IV conjectures after Theorems 1 and 3, Eqs. (10) and (12): sharp fourth-order bounds without filter normal form",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf:2:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0f1f822c673c1903dc6b0a209a23dacebca2aa6c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0f1f822c673c1903dc6b0a209a23dacebca2aa6c/D5/S3/Quantum/Entanglement/Witness/CorrelationMinorNormFNFRefutation.lean"
+        },
+        "lineage": "collected:peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf:s2",
+        "macros": {
+          "\\CM": "\\mathcal M",
+          "\\Id": "\\mathbb I",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $0\\le t\\le1/200$, all Schatten correlation-minor norms\n$\\CM_{3,p}(\\rho_t)$, $1\\le p\\le\\infty$, equal $\\CM_{3,\\infty}(\\rho_t)$\nand exceed $3/(64\\sqrt2)$. The fourth-order correlation-minor norms vanish.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Peled et al.'s Section IV conjectures after Theorems 1 and 3, Eqs. (10) and (12): sharp fourth-order bounds without filter normal form",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf:2:s3",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "0f1f822c673c1903dc6b0a209a23dacebca2aa6c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0f1f822c673c1903dc6b0a209a23dacebca2aa6c/D5/S3/Quantum/Entanglement/Witness/CorrelationMinorNormFNFRefutation.lean"
+        },
+        "lineage": "collected:peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf:s3",
+        "macros": {
+          "\\CM": "\\mathcal M",
+          "\\Id": "\\mathbb I",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $5\\le D\\le8$ and $0\\le t\\le1/1000$, the separable\nstate $\\omega_{D,t}$ violates the FNF-free extensions of both Theorem 1\nand Theorem 3 of \\cite{peled} at $h=4$.\nIt is positive definite for $t>0$. The violations hold for every\n$1\\le p\\le\\infty$ at the common fourth-order threshold.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Peled et al.'s Section IV conjectures after Theorems 1 and 3, Eqs. (10) and (12): sharp fourth-order bounds without filter normal form",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf:2:s4",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "0f1f822c673c1903dc6b0a209a23dacebca2aa6c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0f1f822c673c1903dc6b0a209a23dacebca2aa6c/D5/S3/Quantum/Entanglement/Witness/CorrelationMinorNormFNFRefutation.lean"
+        },
+        "lineage": "collected:peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf:s4",
+        "macros": {
+          "\\CM": "\\mathcal M",
+          "\\Id": "\\mathbb I",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every separable state on $\\mathbb C^2\\otimes\\mathbb C^D$, $D\\ge2$,\nand every $1\\le p\\le\\infty$,\n\\[\n \\CM_{4,p}(\\rho)\\le\\frac1{192\\sqrt3}.\n\\]\nFor each $D\\ge4$, equality holds at $\\omega_{D,0}$, so this is the\nsharp bound in those dimensions without an FNF assumption.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Peled et al.'s Section IV conjectures after Theorems 1 and 3, Eqs. (10) and (12): sharp fourth-order bounds without filter normal form",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0f1f822c673c1903dc6b0a209a23dacebca2aa6c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0f1f822c673c1903dc6b0a209a23dacebca2aa6c/D5/S3/Quantum/Entanglement/Witness/CorrelationMinorNormFNFRefutation.lean"
+        },
+        "lineage": "collected:peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf:s5",
+        "macros": {
+          "\\CM": "\\mathcal M",
+          "\\Id": "\\mathbb I",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $D\\ge5$, no common-size pair of regular, coherent, degree-1 pure\ndesigns in dimensions $2$ and $D$ exists, with the terminology of\n\\cite[Section IV]{peled}. Nevertheless $\\omega_{D,0}$ attains the\nunrestricted fourth-order separable maximum for every $p$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Peled et al.'s Section IV conjectures after Theorems 1 and 3, Eqs. (10) and (12): sharp fourth-order bounds without filter normal form",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0f1f822c673c1903dc6b0a209a23dacebca2aa6c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0f1f822c673c1903dc6b0a209a23dacebca2aa6c/D5/S3/Quantum/Entanglement/Witness/CorrelationMinorNormFNFRefutation.lean"
+        },
+        "lineage": "collected:peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf:s6",
+        "macros": {
+          "\\CM": "\\mathcal M",
+          "\\Id": "\\mathbb I",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For any separable state on $\\mathbb C^{d_A}\\otimes\\mathbb C^{d_B}$,\nwith $d=\\min(d_A,d_B)$ and $D=\\max(d_A,d_B)$, its correlation singular\nvalues $s_1\\ge\\cdots\\ge s_{d^2}$ satisfy\n\\[\n \\sum_{i=2}^{d^2}s_i\n \\le\\sqrt{(1-\\tr\\rho_A^2)(1-\\tr\\rho_B^2)}\n \\le\\sqrt{\\frac{d-1}{d}\\frac{D-1}{D}}.\n\\]\nEquation (D31) in \\cite{peled}, arXiv v2, omits the square root on\nits last expression and is false as written, even in FNF.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Peled et al.'s Section IV conjectures after Theorems 1 and 3, Eqs. (10) and (12): sharp fourth-order bounds without filter normal form",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0f1f822c673c1903dc6b0a209a23dacebca2aa6c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0f1f822c673c1903dc6b0a209a23dacebca2aa6c/D5/S3/Quantum/Entanglement/Witness/CorrelationMinorNormFNFRefutation.lean"
+        },
+        "lineage": "collected:peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf:s7",
+        "macros": {
+          "\\CM": "\\mathcal M",
+          "\\Id": "\\mathbb I",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $d_A=d_B=d\\ge2$ and $d\\le h\\le d^2$, the operator bound\n\\eqref{eq:bound} holds for every density matrix satisfying the CCNR\ninequality $\\sum_i s_i\\le1$, without an FNF hypothesis. Thus in this\nrange the operator bound cannot detect entanglement beyond CCNR.\nAt $h=d^2$ this conclusion holds for every Schatten parameter.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Peled et al.'s Section IV conjectures after Theorems 1 and 3, Eqs. (10) and (12): sharp fourth-order bounds without filter normal form",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Refuting Peled et al.'s Section IV conjectures after Theorems 1 and 3, Eqs. (10) and (12): sharp fourth-order bounds without filter normal form",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf"
+}

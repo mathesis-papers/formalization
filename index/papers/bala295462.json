@@ -1,0 +1,334 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Arith/FactorialRatio/BalaA295462Parity.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala295462:4:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Arith/FactorialRatio/BalaA295462Parity.lean"
+        },
+        "lineage": "collected:bala295462:s1",
+        "macros": {
+          "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+          "\\leanurl": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Arith/FactorialRatio/BalaA295462Parity.lean"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala295462",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $n\\geq0$, $a(n)$ is a positive integer, and\n\\[\n a(n)\\equiv1\\pmod2\n \\quad\\Longleftrightarrow\\quad S(n)\\text{ is four-separated}.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Parity and product extensions of Bala's divisibilities (2026): OEIS A295462, References (record #19; contribution dated 23 August 2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "bala295462"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala295462:4:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Arith/FactorialRatio/BalaA295462Parity.lean"
+        },
+        "lineage": "collected:bala295462:s2",
+        "macros": {
+          "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+          "\\leanurl": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Arith/FactorialRatio/BalaA295462Parity.lean"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala295462",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The number\n\\[\n b(n)=\\frac{a(n)}{(6n+1)(10n+1)}\n\\]\nis a positive integer for all $n\\geq0$. It is odd exactly when $S(n)$\nis four-separated.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Parity and product extensions of Bala's divisibilities (2026): OEIS A295462, References (record #19; contribution dated 23 August 2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "bala295462"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala295462:4:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Arith/FactorialRatio/BalaA295462Parity.lean"
+        },
+        "lineage": "collected:bala295462:s3",
+        "macros": {
+          "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+          "\\leanurl": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Arith/FactorialRatio/BalaA295462Parity.lean"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala295462",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $c_m$ count the odd values $a(n)$ with $0\\leq n<2^m$. Then\n\\[\n c_0=1,\\quad c_1=2,\\quad c_2=3,\\quad c_3=4,\\qquad\n c_m=c_{m-1}+c_{m-4}\\quad(m\\geq4).\n\\]\nLet $u_0,u_1,\\ldots$ be their indices in increasing order. For $j>0$, let\n$e$ be the unique integer with $c_e\\leq j<c_{e+1}$. Then\n$u_j=2^e+u_{j-c_e}$, with $u_0=0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Parity and product extensions of Bala's divisibilities (2026): OEIS A295462, References (record #19; contribution dated 23 August 2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "bala295462"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala295462:4:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Arith/FactorialRatio/BalaA295462Parity.lean"
+        },
+        "lineage": "collected:bala295462:s4",
+        "macros": {
+          "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+          "\\leanurl": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Arith/FactorialRatio/BalaA295462Parity.lean"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala295462",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $a(n)$ is odd, then\n\\[\n (un)\\oplus(vn)=(u\\oplus v)n\\quad(0\\leq u,v<16).\n\\]\nThe same formula holds with XOR replaced throughout by AND or OR.\nIn particular, $(un)\\oplus(vn)=wn$ for each of the eleven triples\n\\[\n\\begin{gathered}\n(1,14,15),\\ (3,9,10),\\ (3,13,14),\\ (5,9,12),\\ (5,11,14),\\\\\n(6,11,13),\\ (7,9,14),\\ (7,10,13),\\ (7,11,12),\\\\\n(12,21,25),\\ (12,37,41).\n\\end{gathered}\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Parity and product extensions of Bala's divisibilities (2026): OEIS A295462, References (record #19; contribution dated 23 August 2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "bala295462"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala295462:4:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Arith/FactorialRatio/BalaA295462Parity.lean"
+        },
+        "lineage": "collected:bala295462:s5",
+        "macros": {
+          "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+          "\\leanurl": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Arith/FactorialRatio/BalaA295462Parity.lean"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala295462",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $n\\geq0$, each of\n\\[\n \\frac{385T(n)}{n+1},\\quad \\frac{5T(n)}{2n+1},\\quad\n \\frac{T(n)}{3n+1},\\quad\n \\frac{770T(n)}{(n+1)(2n+1)(3n+1)},\\quad\n \\frac{T(n)}{12n-1}\n\\]\nis an integer. More generally the choices\n\\[\n C(k,R)=36(R-1)!L_{12R}\\quad(k=1,2,3),\\qquad\n D(R)=(R-1)!L_R\n\\]\nmake both expressions\n\\[\n \\frac{C(k,R)T(n)}{\\prod_{i=1}^R(kn+i)},\\qquad\n \\frac{D(R)T(n)}{\\prod_{1\\leq i\\leq R,\\ \\gcd(i,12)=1}(12n-i)}\n\\]\nintegers for every $n\\geq0$ and $R\\geq1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Parity and product extensions of Bala's divisibilities (2026): OEIS A295462, References (record #19; contribution dated 23 August 2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "bala295462"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala295462:4:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Arith/FactorialRatio/BalaA295462Parity.lean"
+        },
+        "lineage": "collected:bala295462:s6",
+        "macros": {
+          "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+          "\\leanurl": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Arith/FactorialRatio/BalaA295462Parity.lean"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala295462",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The binomial identities, hypergeometric series and asymptotic formulas\nin A295462 and A295431 hold, as does Mathar's recurrence for A295431.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Parity and product extensions of Bala's divisibilities (2026): OEIS A295462, References (record #19; contribution dated 23 August 2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "bala295462"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Parity and product extensions of Bala's divisibilities (2026): OEIS A295462, References (record #19; contribution dated 23 August 2026)",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 4,
+  "work": "bala295462"
+}

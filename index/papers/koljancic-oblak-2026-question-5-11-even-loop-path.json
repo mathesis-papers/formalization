@@ -1,0 +1,352 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "b260643d3d496ad9cd04bfc3557fc9b7499de976",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/b260643d3d496ad9cd04bfc3557fc9b7499de976/D5/S3/Combinatorics/SpectralGraph/KoljancicOblakEvenPathNSSP.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:koljancic-oblak-2026-question-5-11-even-loop-path:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "b260643d3d496ad9cd04bfc3557fc9b7499de976",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b260643d3d496ad9cd04bfc3557fc9b7499de976/D5/S3/Combinatorics/SpectralGraph/KoljancicOblakEvenPathNSSP.lean"
+        },
+        "lineage": "collected:koljancic-oblak-2026-question-5-11-even-loop-path:s1",
+        "macros": {
+          "\\N": "\\mathbb N",
+          "\\R": "\\mathbb R",
+          "\\diag": "\\operatorname{diag}",
+          "\\supp": "\\operatorname{supp}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "koljancic-oblak-2026-question-5-11-even-loop-path",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The double path $P_{n,L}$ allows nSSP if and only if\n\\[\n \\begin{cases}\n L\\ne\\varnothing,&n\\text{ even},\\\\\n L\\cap\\{1,3,\\ldots,n\\}\\ne\\varnothing,&n\\text{ odd}.\n \\end{cases}\n\\]\nWhenever it allows nSSP, it has a symmetric nSSP witness whose nonzero\nentries are positive integers.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "koljancic-oblak-2026-question-5-11-even-loop-path"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:koljancic-oblak-2026-question-5-11-even-loop-path:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "b260643d3d496ad9cd04bfc3557fc9b7499de976",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b260643d3d496ad9cd04bfc3557fc9b7499de976/D5/S3/Combinatorics/SpectralGraph/KoljancicOblakEvenPathNSSP.lean"
+        },
+        "lineage": "collected:koljancic-oblak-2026-question-5-11-even-loop-path:s2",
+        "macros": {
+          "\\N": "\\mathbb N",
+          "\\R": "\\mathbb R",
+          "\\diag": "\\operatorname{diag}",
+          "\\supp": "\\operatorname{supp}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "koljancic-oblak-2026-question-5-11-even-loop-path",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $q_0,\\ldots,q_{m-1}\\ne0$ and\n$\\dot P_m=\\dot P_{m+1}=0$, then every\n$\\dot q_0,\\ldots,\\dot q_{m-1}$ vanishes.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "koljancic-oblak-2026-question-5-11-even-loop-path"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:koljancic-oblak-2026-question-5-11-even-loop-path:2:s3",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "b260643d3d496ad9cd04bfc3557fc9b7499de976",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b260643d3d496ad9cd04bfc3557fc9b7499de976/D5/S3/Combinatorics/SpectralGraph/KoljancicOblakEvenPathNSSP.lean"
+        },
+        "lineage": "collected:koljancic-oblak-2026-question-5-11-even-loop-path:s3",
+        "macros": {
+          "\\N": "\\mathbb N",
+          "\\R": "\\mathbb R",
+          "\\diag": "\\operatorname{diag}",
+          "\\supp": "\\operatorname{supp}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "koljancic-oblak-2026-question-5-11-even-loop-path",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $a\\ne0$, $U,V$ are coprime and all the edge parameters are nonzero, then\n$\\dot H=0$ forces $\\dot a=0$ and every edge-parameter variation to vanish.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "koljancic-oblak-2026-question-5-11-even-loop-path"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:koljancic-oblak-2026-question-5-11-even-loop-path:2:s4",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "b260643d3d496ad9cd04bfc3557fc9b7499de976",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b260643d3d496ad9cd04bfc3557fc9b7499de976/D5/S3/Combinatorics/SpectralGraph/KoljancicOblakEvenPathNSSP.lean"
+        },
+        "lineage": "collected:koljancic-oblak-2026-question-5-11-even-loop-path:s4",
+        "macros": {
+          "\\N": "\\mathbb N",
+          "\\R": "\\mathbb R",
+          "\\diag": "\\operatorname{diag}",
+          "\\supp": "\\operatorname{supp}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "koljancic-oblak-2026-question-5-11-even-loop-path",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If at least one of $r,s$ is even, the branches can be chosen with\npositive integer edge weights and coprime characteristic polynomials.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "koljancic-oblak-2026-question-5-11-even-loop-path"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:koljancic-oblak-2026-question-5-11-even-loop-path:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b260643d3d496ad9cd04bfc3557fc9b7499de976",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b260643d3d496ad9cd04bfc3557fc9b7499de976/D5/S3/Combinatorics/SpectralGraph/KoljancicOblakEvenPathNSSP.lean"
+        },
+        "lineage": "collected:koljancic-oblak-2026-question-5-11-even-loop-path:s5",
+        "macros": {
+          "\\N": "\\mathbb N",
+          "\\R": "\\mathbb R",
+          "\\diag": "\\operatorname{diag}",
+          "\\supp": "\\operatorname{supp}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "koljancic-oblak-2026-question-5-11-even-loop-path",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For a real symmetric irreducible tridiagonal matrix with exactly one\nnonzero diagonal entry, at $\\ell$, nSSP holds if and only if the\ntwo branches obtained by deleting $\\ell$ have disjoint spectra.\nIn particular, if every edge has weight $1$ and the loop has any\nnonzero value, then nSSP holds exactly when $\\gcd(\\ell,n+1)=1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "koljancic-oblak-2026-question-5-11-even-loop-path"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:koljancic-oblak-2026-question-5-11-even-loop-path:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b260643d3d496ad9cd04bfc3557fc9b7499de976",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b260643d3d496ad9cd04bfc3557fc9b7499de976/D5/S3/Combinatorics/SpectralGraph/KoljancicOblakEvenPathNSSP.lean"
+        },
+        "lineage": "collected:koljancic-oblak-2026-question-5-11-even-loop-path:s6",
+        "macros": {
+          "\\N": "\\mathbb N",
+          "\\R": "\\mathbb R",
+          "\\diag": "\\operatorname{diag}",
+          "\\supp": "\\operatorname{supp}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "koljancic-oblak-2026-question-5-11-even-loop-path",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For odd $n\\geq3$, a double path with its sole loop at the central\nvertex allows but does not require nSSP when $n\\equiv1\\pmod4$,\nand does not allow nSSP when $n\\equiv3\\pmod4$.\nFor every $n\\geq4$, the path with loops at all interior vertices\nallows but does not require nSSP; for $1\\leq n\\leq3$ it does not allow nSSP.\nThe pattern with $n=1$ and its one loop requires nSSP.\nEvery directed superpattern of an allowing path also allows nSSP,\nwith a positive-integer witness.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "koljancic-oblak-2026-question-5-11-even-loop-path"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "koljancic-oblak-2026-question-5-11-even-loop-path"
+}

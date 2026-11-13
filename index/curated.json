@@ -1,0 +1,67 @@
+{
+  "targets": [
+    {
+      "digest": "651d75677ba5d30b36e53294047467cc0a91df5c3bc9127162579ffd73133ac4",
+      "id": "6951e8a3deca261a1c4f055d25fc2a1a1593e950af3d30f30398c9783add8b34",
+      "open_for_submission": false,
+      "path": "curated/6951e8a3deca261a1c4f055d25fc2a1a1593e950af3d30f30398c9783add8b34/v2/Target.lean",
+      "state": "elaborated",
+      "toolchain": "leanprover/lean4:v4.35.0, Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "version": 2
+    },
+    {
+      "digest": "2768c957dbc6dca4a1775de3bfec2b4266b6c99b172d06a57b7703428b6da481",
+      "id": "7714bae7985e51fab934d5e9fc04c941a72ead3225f4030ea82566864f03991b",
+      "open_for_submission": false,
+      "path": "curated/7714bae7985e51fab934d5e9fc04c941a72ead3225f4030ea82566864f03991b/v2/Target.lean",
+      "state": "elaborated",
+      "toolchain": "leanprover/lean4:v4.35.0, Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "version": 2
+    },
+    {
+      "digest": "39a5f0c0d3c02845c15a9540946af49a03f86a947dee42fd1ac002c57b99615d",
+      "id": "98982ce5037595c69161040551b58f8ba12c86f74c631be69e24a9ff3804ff34",
+      "open_for_submission": false,
+      "path": "curated/98982ce5037595c69161040551b58f8ba12c86f74c631be69e24a9ff3804ff34/v2/Target.lean",
+      "state": "elaborated",
+      "toolchain": "leanprover/lean4:v4.35.0, Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "version": 2
+    },
+    {
+      "digest": "8121de78f8965f1c509cebfdb960670be62801618f6657cce9980d757dd392d1",
+      "id": "a8984c207134e6c2387def4871e1f8545a3a91801aee7f8cf2a69e2d1c27d642",
+      "open_for_submission": false,
+      "path": "curated/a8984c207134e6c2387def4871e1f8545a3a91801aee7f8cf2a69e2d1c27d642/v2/Target.lean",
+      "state": "elaborated",
+      "toolchain": "leanprover/lean4:v4.35.0, Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "version": 2
+    },
+    {
+      "digest": "5406bbd5cf8dc52039a01992585fcf29b4a1aa3d7db8568ad18e5433a566ad46",
+      "id": "b45d0b6f88cd461cb71e07e70c3ce771db9ce3ad2422b3f719d33272c9fdb71a",
+      "open_for_submission": false,
+      "path": "curated/b45d0b6f88cd461cb71e07e70c3ce771db9ce3ad2422b3f719d33272c9fdb71a/v2/Target.lean",
+      "state": "elaborated",
+      "toolchain": "leanprover/lean4:v4.35.0, Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "version": 2
+    },
+    {
+      "digest": "9770dd6aa745789273e17633697c1a8a13a0b9e6c2d885b9e12da90a6b27f768",
+      "id": "c6d8c3a91b5e2a438bf5530a6a3016f8f7434d80fea4ca2951bf543805c42548",
+      "open_for_submission": false,
+      "path": "curated/c6d8c3a91b5e2a438bf5530a6a3016f8f7434d80fea4ca2951bf543805c42548/v2/Target.lean",
+      "state": "elaborated",
+      "toolchain": "leanprover/lean4:v4.35.0, Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "version": 2
+    },
+    {
+      "digest": "8e054155e282ba165376a60f544b6aff178b4f599d0507ea41eddc469f281510",
+      "id": "e727ed23b6a60bf721ed035c9e8e8f02fcda77fe1376b972fab384fe732619f3",
+      "open_for_submission": false,
+      "path": "curated/e727ed23b6a60bf721ed035c9e8e8f02fcda77fe1376b972fab384fe732619f3/v2/Target.lean",
+      "state": "elaborated",
+      "toolchain": "leanprover/lean4:v4.35.0, Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "version": 2
+    }
+  ]
+}

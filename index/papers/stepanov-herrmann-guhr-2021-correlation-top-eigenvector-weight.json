@@ -1,0 +1,534 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "8c3421e2977f07cb0b5d9b30b7ede138d9951cb5",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/8c3421e2977f07cb0b5d9b30b7ede138d9951cb5/D5/S3/Estimation/CorrelationTopEigenvectorWeight.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "8c3421e2977f07cb0b5d9b30b7ede138d9951cb5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8c3421e2977f07cb0b5d9b30b7ede138d9951cb5/D5/S3/Estimation/CorrelationTopEigenvectorWeight.lean"
+        },
+        "lineage": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:s1",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\R": "\\mathbb R"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For each $(c,\\sigma)\\in D$, the following are equivalent:\n\\begin{enumerate}\n\\item There is an $N$ such that every integer $n\\ge N$ admits an\n$n\\times n$ correlation matrix $C$ with\n$c(C)=c$, $\\sigma(C)=\\sigma$, and $\\G(C)$.\n\\item $\\sigma>c$.\n\\end{enumerate}\nIf $\\sigma=c$, no such matrix exists in any dimension $n\\ge2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s10",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:2:s10",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8c3421e2977f07cb0b5d9b30b7ede138d9951cb5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8c3421e2977f07cb0b5d9b30b7ede138d9951cb5/D5/S3/Estimation/CorrelationTopEigenvectorWeight.lean"
+        },
+        "lineage": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:s10",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\R": "\\mathbb R"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $H$ be real symmetric of size $n\\ge3$, let $u$ be a unit vector,\n$\\tau=\\operatorname{tr}H/n$, and $r=u^THu-\\tau>0$.\nIf a top eigenvector has weight at most $1/2$ relative to $u$, then\n\\[\n \\operatorname{tr}\\bigl((H-\\tau I)^2\\bigr)\\ge\\frac{2n}{n-2}r^2.\n\\]\nIf also $H$ is positive semidefinite, then\n$u^THu\\le\\operatorname{tr}H/2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:2:s2",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "8c3421e2977f07cb0b5d9b30b7ede138d9951cb5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8c3421e2977f07cb0b5d9b30b7ede138d9951cb5/D5/S3/Estimation/CorrelationTopEigenvectorWeight.lean"
+        },
+        "lineage": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:s2",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\R": "\\mathbb R"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $C$ have size $n\\ge3$ and $c=c(C)>0$, $\\sigma=\\sigma(C)$.\nIf a top eigenvector in an orthonormal eigenbasis has weight at most\n$1/2$, then\n\\begin{equation}\n \\sigma^2\\ge\\frac{n}{n-2}c^2,\\qquad\n c\\le\\frac{n-2}{2(n-1)}.\n\\end{equation}\nConsequently $\\G(C)$ is impossible if $\\sigma\\le c$ or $c\\ge1/2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8c3421e2977f07cb0b5d9b30b7ede138d9951cb5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8c3421e2977f07cb0b5d9b30b7ede138d9951cb5/D5/S3/Estimation/CorrelationTopEigenvectorWeight.lean"
+        },
+        "lineage": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:s3",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\R": "\\mathbb R"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $c>0$ and $\\sigma\\le c$, the largest eigenvalue is simple and its\nweight is greater than $1/2$ in every dimension. Its acute angle\n$\\theta_1=\\arccos\\sqrt{w_1}$ with $\\delta_n$ satisfies\n$\\theta_1\\le\\arctan(\\sigma/c)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:2:s4",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "8c3421e2977f07cb0b5d9b30b7ede138d9951cb5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8c3421e2977f07cb0b5d9b30b7ede138d9951cb5/D5/S3/Estimation/CorrelationTopEigenvectorWeight.lean"
+        },
+        "lineage": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:s4",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\R": "\\mathbb R"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $0<c<1/2$, $\\sigma>c$, and $c^2+\\sigma^2<1$, then in every\nsufficiently large dimension there is a positive definite correlation\nmatrix with characteristic $(c,\\sigma)$ satisfying $\\G$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8c3421e2977f07cb0b5d9b30b7ede138d9951cb5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8c3421e2977f07cb0b5d9b30b7ede138d9951cb5/D5/S3/Estimation/CorrelationTopEigenvectorWeight.lean"
+        },
+        "lineage": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:s5",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\R": "\\mathbb R"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For any $(c,\\sigma)\\in A$, eventual existence with $\\G$ holds\nexactly when $c<1/2$ and $\\sigma>c$.\nFor every compact subset of this open region, one common dimension\nthreshold works for all its points.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:2:s6",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "8c3421e2977f07cb0b5d9b30b7ede138d9951cb5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8c3421e2977f07cb0b5d9b30b7ede138d9951cb5/D5/S3/Estimation/CorrelationTopEigenvectorWeight.lean"
+        },
+        "lineage": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:s6",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\R": "\\mathbb R"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $E_0$ be the top eigenspace, and let $E_1,\\ldots,E_r$ be the\neigenspaces for the distinct smaller eigenvalues. Put\n$q_j=\\|P_{E_j}u\\|^2$ and $m_j=\\dim E_j$.\nThe universal weight gap holds if and only if\n\\begin{equation}\n q_0<\\max_{1\\le j\\le r}\\frac{q_j}{m_j},\n\\end{equation}\nwhere the maximum of an empty family is zero.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8c3421e2977f07cb0b5d9b30b7ede138d9951cb5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8c3421e2977f07cb0b5d9b30b7ede138d9951cb5/D5/S3/Estimation/CorrelationTopEigenvectorWeight.lean"
+        },
+        "lineage": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:s7",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\R": "\\mathbb R"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $n\\ge2$, a correlation matrix with $c^2+\\sigma^2=1$ satisfies\n$\\G$ if and only if $c<0$. In particular, none on this boundary\nwith $c\\ge0$ satisfies the universal gap.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8c3421e2977f07cb0b5d9b30b7ede138d9951cb5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8c3421e2977f07cb0b5d9b30b7ede138d9951cb5/D5/S3/Estimation/CorrelationTopEigenvectorWeight.lean"
+        },
+        "lineage": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:s8",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\R": "\\mathbb R"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every fixed $0<\\sigma<1$, positive definite correlation matrices\nwith $c=0$, standard deviation $\\sigma$, and $\\G$ exist in every\nsufficiently large dimension.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s9",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:2:s9",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8c3421e2977f07cb0b5d9b30b7ede138d9951cb5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8c3421e2977f07cb0b5d9b30b7ede138d9951cb5/D5/S3/Estimation/CorrelationTopEigenvectorWeight.lean"
+        },
+        "lineage": "collected:stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight:s9",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\R": "\\mathbb R"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Fix $(c,\\sigma)$ in the legal half-disc\n$\\{(c,\\sigma):\\sigma\\ge0,\\ c^2+\\sigma^2\\le1\\}$.\nEventual existence with $\\G$ holds exactly when\n\\[\n 0\\le c<1/2,\\qquad \\sigma>c,\\qquad c^2+\\sigma^2<1.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
+}

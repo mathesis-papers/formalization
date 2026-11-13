@@ -1,0 +1,66 @@
+{
+  "curated": {
+    "background": "Source. MathOverflow question 479729, asked by Zhi-Wei Sun on 28 September 2024, inequality (1): https://mathoverflow.net/questions/479729/an-inequality-involving-integer-partitions\n\nKnown partial results. The poser verified the inequality for $n \\le 100$. As the edit in the post explains, in the range $n/2 + 1 \\le k \\le n - 26$ the inequality reduces to $p(m)^2 > p(m-1)\\, p(m+1)$ for the partition function $p$ and $m \\ge 26$, which was proved by DeSalvo and Pak (Ramanujan Journal 38 (2015), as cited in the post). Comments by Fedor Petrov, Ilya Bogdanov and Richard Stanley give this reduction and point to asymptotic formulae of Szekeres. The question has no answer.\n\nA paper of January 2026 by Heim and Neuhauser, Polynomization of Sun's Conjecture, concerns a different conjecture of Sun, on the $n$-th root of $p(n)$: https://arxiv.org/abs/2601.11226 . A web search on 2026-11-11 found no proof of the inequality above; one result reports a 2026 proof of unimodality in $k$, which is a weaker property, and the curator did not open it.",
+    "directions": [
+      "settling-stated-conjectures"
+    ],
+    "lean_target": {
+      "checked_at": "2026-11-11T13:47:46.541745635Z",
+      "correspondence": "n.Partition is Mathlib's type of partitions of n: multisets of positive integers with sum n. p(n, k) is the number of those partitions whose multiset of parts has exactly k elements. The proposition states p(n, k-1) * p(n, k+1) < p(n, k)^2 for all natural numbers n and k with 1 ≤ k and k + 26 ≤ n, which is the range 1 ≤ k ≤ n - 26. It covers the whole range of the conjecture, including the part that the post attributes to the theorem of DeSalvo and Pak.",
+      "digest": "8121de78f8965f1c509cebfdb960670be62801618f6657cce9980d757dd392d1",
+      "state": "elaborated",
+      "text": "import Mathlib\n\ndef wishpool_target_prop : Prop :=\n  ∀ n k : ℕ, 1 ≤ k → k + 26 ≤ n →\n    (Finset.univ.filter fun π : n.Partition => Multiset.card π.parts = k - 1).card *\n        (Finset.univ.filter fun π : n.Partition => Multiset.card π.parts = k + 1).card <\n      (Finset.univ.filter fun π : n.Partition => Multiset.card π.parts = k).card ^ 2\n",
+      "toolchain": "leanprover/lean4:v4.35.0, Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "vocabulary": "mathlib"
+    },
+    "license": "CC-BY-SA-4.0",
+    "msc": [
+      "05A17",
+      "05A20"
+    ],
+    "name": "Zhi-Wei Sun's conjecture on log-concavity in k of the number of partitions of n into k parts (MathOverflow 479729)",
+    "posers": [
+      {
+        "name": "Zhi-Wei Sun"
+      }
+    ],
+    "published_on": "2026-11-11T13:27:06.375917736Z",
+    "source": {
+      "kind": "url",
+      "locator": "https://mathoverflow.net/questions/479729/an-inequality-involving-integer-partitions",
+      "year": 2024
+    },
+    "source_license": "CC BY-SA 4.0 (Stack Exchange user content; content_license field of the API)",
+    "statement": "Let $p(n, k)$ be the number of partitions of $n$ into exactly $k$ positive parts.\n\nConjecture. For all integers $n$ and $k$ with $1 \\le k \\le n - 26$,\n\n$$p(n, k)^2 > p(n, k-1)\\, p(n, k+1).$$\n\nBy the edit in the post, the range $n/2 + 1 \\le k \\le n - 26$ follows from the theorem of DeSalvo and Pak, so the open range is $1 \\le k \\le \\min\\{(n+1)/2,\\ n - 26\\}$.",
+    "status": "partially_resolved",
+    "status_as_of": "2026-11-11",
+    "status_evidence": [
+      {
+        "checked_on": "2026-11-11",
+        "observed": "The question has no answer, is not marked answered, and was last active on 2024-09-28. Comments by Fedor Petrov, Ilya Bogdanov and Richard Stanley give the reduction to the partition function and point to asymptotics of Szekeres, without a proof. The comments and answers endpoints of the same question were read as well.",
+        "url": "https://api.stackexchange.com/2.3/questions/479729?site=mathoverflow"
+      },
+      {
+        "checked_on": "2026-11-11",
+        "observed": "Heim and Neuhauser, Polynomization of Sun's Conjecture (January 2026), concerns a different conjecture of Sun, on the monotonicity of the n-th root of the partition function. It does not treat partitions into exactly k parts.",
+        "url": "https://arxiv.org/abs/2601.11226"
+      }
+    ],
+    "version": 2
+  },
+  "id": "a8984c207134e6c2387def4871e1f8545a3a91801aee7f8cf2a69e2d1c27d642",
+  "summary": {
+    "id": "a8984c207134e6c2387def4871e1f8545a3a91801aee7f8cf2a69e2d1c27d642",
+    "notes": 0,
+    "source": {
+      "kind": "url",
+      "locator": "https://mathoverflow.net/questions/479729/an-inequality-involving-integer-partitions",
+      "year": 2024
+    },
+    "source_id": "https://mathoverflow.net/questions/479729/an-inequality-involving-integer-partitions",
+    "status": "curated_partially_resolved",
+    "status_as_of": "2026-11-11",
+    "title": "Zhi-Wei Sun's conjecture on log-concavity in k of the number of partitions of n into k parts (MathOverflow 479729)",
+    "updated_at": "2026-11-11T13:27:06.375917736Z"
+  }
+}

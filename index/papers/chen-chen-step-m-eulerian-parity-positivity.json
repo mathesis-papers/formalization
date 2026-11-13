@@ -1,0 +1,410 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "66a0495cbdf1bb9b42d715c1b3cd3365862896fa",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/66a0495cbdf1bb9b42d715c1b3cd3365862896fa/D5/S1/Recurrence/Algebraic/ChenChenParityPositivity.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:chen-chen-step-m-eulerian-parity-positivity:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "66a0495cbdf1bb9b42d715c1b3cd3365862896fa",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/66a0495cbdf1bb9b42d715c1b3cd3365862896fa/D5/S1/Recurrence/Algebraic/ChenChenParityPositivity.lean"
+        },
+        "lineage": "collected:chen-chen-step-m-eulerian-parity-positivity:s1",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "chen-chen-step-m-eulerian-parity-positivity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every real $r\\geq3$, the triangle of step $m=-r$ satisfies\n\\begin{enumerate}\n\\item $T_{-r}(n,k)>0$ for every positive even $n$ and $1\\leq k\\leq n$;\n\\item $T_{-r}(n,k)<0$ for every odd $n\\geq3$ and $1<k<n$.\n\\end{enumerate}\nIn particular, the three OEIS conjectures and Conjecture~2 of\n\\cite{chen} hold for their stated integer parameters.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "chen-chen-step-m-eulerian-parity-positivity"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:chen-chen-step-m-eulerian-parity-positivity:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "66a0495cbdf1bb9b42d715c1b3cd3365862896fa",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/66a0495cbdf1bb9b42d715c1b3cd3365862896fa/D5/S1/Recurrence/Algebraic/ChenChenParityPositivity.lean"
+        },
+        "lineage": "collected:chen-chen-step-m-eulerian-parity-positivity:s2",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "chen-chen-step-m-eulerian-parity-positivity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $r\\geq3$, $T_{-r}(n,2)>0$ whenever $n\\geq2$ is even.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "chen-chen-step-m-eulerian-parity-positivity"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:chen-chen-step-m-eulerian-parity-positivity:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "66a0495cbdf1bb9b42d715c1b3cd3365862896fa",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/66a0495cbdf1bb9b42d715c1b3cd3365862896fa/D5/S1/Recurrence/Algebraic/ChenChenParityPositivity.lean"
+        },
+        "lineage": "collected:chen-chen-step-m-eulerian-parity-positivity:s3",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "chen-chen-step-m-eulerian-parity-positivity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For integer $m$, every positive even row is entrywise nonnegative\nif and only if $m\\leq-3$ or $m\\geq0$. For exactly these parameters,\nevery positive even row is in fact strictly positive.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "chen-chen-step-m-eulerian-parity-positivity"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:chen-chen-step-m-eulerian-parity-positivity:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "66a0495cbdf1bb9b42d715c1b3cd3365862896fa",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/66a0495cbdf1bb9b42d715c1b3cd3365862896fa/D5/S1/Recurrence/Algebraic/ChenChenParityPositivity.lean"
+        },
+        "lineage": "collected:chen-chen-step-m-eulerian-parity-positivity:s4",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "chen-chen-step-m-eulerian-parity-positivity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every real $m$,\n\\[\n S_n(m):=\\sum_{k=1}^n T_m(n,k)\n =\\prod_{j=0}^{n-2}(mj+2),\\qquad S_1(m)=1.\n\\]\nFor even $n$,\n\\[\n R_{m,n}(-1)=0,\\qquad\n \\sum_{\\substack{1\\leq k\\leq n\\\\ k\\text{ odd}}}T_m(n,k)\n =\\sum_{\\substack{1\\leq k\\leq n\\\\ k\\text{ even}}}T_m(n,k)\n =\\tfrac12 S_n(m).\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "chen-chen-step-m-eulerian-parity-positivity"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:chen-chen-step-m-eulerian-parity-positivity:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "66a0495cbdf1bb9b42d715c1b3cd3365862896fa",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/66a0495cbdf1bb9b42d715c1b3cd3365862896fa/D5/S1/Recurrence/Algebraic/ChenChenParityPositivity.lean"
+        },
+        "lineage": "collected:chen-chen-step-m-eulerian-parity-positivity:s5",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "chen-chen-step-m-eulerian-parity-positivity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For real $m\\leq-3$ and even $n\\geq2$, every root $z$ of\n$R_{m,n}$ satisfies\n\\[\n L_n\\leq |z|\\leq U_n,\\qquad\n L_n=\\min_{1\\leq k<n}\\frac{T_m(n,k)}{T_m(n,k+1)},\\quad\n U_n=\\max_{1\\leq k<n}\\frac{T_m(n,k)}{T_m(n,k+1)}.\n\\]\nAll these ratios are positive; symmetry also gives $L_nU_n=1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "chen-chen-step-m-eulerian-parity-positivity"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:chen-chen-step-m-eulerian-parity-positivity:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "66a0495cbdf1bb9b42d715c1b3cd3365862896fa",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/66a0495cbdf1bb9b42d715c1b3cd3365862896fa/D5/S1/Recurrence/Algebraic/ChenChenParityPositivity.lean"
+        },
+        "lineage": "collected:chen-chen-step-m-eulerian-parity-positivity:s6",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "chen-chen-step-m-eulerian-parity-positivity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $q\\geq1$,\n\\[\n A_q(-4)/8^q\\ \\hbox{is an odd integer},\\qquad\n A_q(-5)\\equiv1\\pmod3.\n\\]\nMore generally, the first conclusion holds with $-4,8$ replaced by\n$-r,2r$ for every positive integer $r$ divisible by $4$; the second\nholds for every integer $m\\equiv1\\pmod3$. In particular, both\nsource nonvanishing assertions hold for all odd rows.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "chen-chen-step-m-eulerian-parity-positivity"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:chen-chen-step-m-eulerian-parity-positivity:2:s7",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "66a0495cbdf1bb9b42d715c1b3cd3365862896fa",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/66a0495cbdf1bb9b42d715c1b3cd3365862896fa/D5/S1/Recurrence/Algebraic/ChenChenParityPositivity.lean"
+        },
+        "lineage": "collected:chen-chen-step-m-eulerian-parity-positivity:s7",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "chen-chen-step-m-eulerian-parity-positivity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every real $m>0$ and every real $r\\geq4$,\n\\[\n \\frac{M_n(m)}{(m+1)^n}\\longrightarrow\\frac{2}{m(m+1)},\\qquad\n \\frac{M_n(-r)}{(r-1)^n}\\longrightarrow\\frac{2}{r(r-1)}.\n\\]\nAt step $-3$, instead,\n\\[\n \\frac{M_n(-3)}{5^{n/2}}\\longrightarrow\\frac1{\\sqrt{45}},\\qquad\n \\lim_{n\\to\\infty}\\frac{\\log M_n(-3)}n=\\tfrac12\\log5.\n\\]\nIn particular, $M_n(-4)/3^n\\to1/6$ and\n$M_n(-5)/4^n\\to1/10$, whereas $M_n(-3)/2^n\\to\\infty$.\nThe proposed growth invariance between steps $1$ and $-3$ fails.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "chen-chen-step-m-eulerian-parity-positivity"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:chen-chen-step-m-eulerian-parity-positivity:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "66a0495cbdf1bb9b42d715c1b3cd3365862896fa",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/66a0495cbdf1bb9b42d715c1b3cd3365862896fa/D5/S1/Recurrence/Algebraic/ChenChenParityPositivity.lean"
+        },
+        "lineage": "collected:chen-chen-step-m-eulerian-parity-positivity:s8",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "chen-chen-step-m-eulerian-parity-positivity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $q\\geq1$, the two excluded integer steps satisfy\n\\[\n R_{-1,2q}(y)=R_{-2,2q}(y)=(1-y)^{2q-2}(1+y),\n\\]\nand\n\\[\n R_{-1,2q+1}(y)=(1-y)^{2q-2}(1+y^2),\\qquad\n R_{-2,2q+1}(y)=(1-y)^{2q}.\n\\]\nThus $M_n(-1)=M_n(-2)=1$ for $n\\geq2$; both growth exponents\nare zero. Also $R_{0,n}=(1+y)^{n-1}$. For $m>0$ and $n\\geq2$,\nevery root of $R_{m,n}$ is simple and negative. At $m=-3$,\nnonreal roots occur already in row 6.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "chen-chen-step-m-eulerian-parity-positivity"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "chen-chen-step-m-eulerian-parity-positivity"
+}

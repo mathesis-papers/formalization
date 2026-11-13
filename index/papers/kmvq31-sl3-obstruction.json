@@ -1,0 +1,705 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "da4f665789a4b88cdf9eda07a8454fc517979ba5",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/AlgebraicGroupRealizationRefutation.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kmvq31-sl3-obstruction:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "da4f665789a4b88cdf9eda07a8454fc517979ba5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/AlgebraicGroupRealizationRefutation.lean"
+        },
+        "lineage": "collected:kmvq31-sl3-obstruction:s1",
+        "macros": {
+          "\\Ann": "\\operatorname{Ann}",
+          "\\Aut": "\\operatorname{Aut}",
+          "\\AutS": "\\mathbf{Aut}",
+          "\\C": "\\mathbb C",
+          "\\Der": "\\operatorname{Der}",
+          "\\GL": "\\operatorname{GL}",
+          "\\Lie": "\\operatorname{Lie}",
+          "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/#1.lean}{\\texttt{#2}}",
+          "\\rad": "\\operatorname{rad}",
+          "\\rank": "\\operatorname{rank}",
+          "\\slie": "\\mathfrak{sl}",
+          "\\so": "\\mathfrak{so}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "kmvq31-sl3-obstruction",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every finite-dimensional complex evolution algebra $A$,\n$\\Der(A)\\not\\cong\\slie_3(\\C)$ as Lie algebras. Consequently\n$\\AutS(A)\\not\\cong\\mathrm{SL}_3$ as complex group schemes, and the full\nautomorphism algebraic group of $A$ is not $\\mathrm{SL}_3$.\nNo condition on $A^2$ or $\\Ann(A)$ is required.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "kmvq31-sl3-obstruction"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s10",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kmvq31-sl3-obstruction:2:s10",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "da4f665789a4b88cdf9eda07a8454fc517979ba5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/AlgebraicGroupRealizationRefutation.lean"
+        },
+        "lineage": "collected:kmvq31-sl3-obstruction:s10",
+        "macros": {
+          "\\Ann": "\\operatorname{Ann}",
+          "\\Aut": "\\operatorname{Aut}",
+          "\\AutS": "\\mathbf{Aut}",
+          "\\C": "\\mathbb C",
+          "\\Der": "\\operatorname{Der}",
+          "\\GL": "\\operatorname{GL}",
+          "\\Lie": "\\operatorname{Lie}",
+          "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/#1.lean}{\\texttt{#2}}",
+          "\\rad": "\\operatorname{rad}",
+          "\\rank": "\\operatorname{rank}",
+          "\\slie": "\\mathfrak{sl}",
+          "\\so": "\\mathfrak{so}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "kmvq31-sl3-obstruction",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The zero-annihilator hypothesis in Corollary~\\ref{cor:quotient} is\nessential. Moreover the absence of a simple ideal $\\slie_3$ does not\nexclude a faithful $\\slie_3$ action by derivations, even when\n$\\Ann(A)=0$ and $\\dim A^2>1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "kmvq31-sl3-obstruction"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s11",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kmvq31-sl3-obstruction:2:s11",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "da4f665789a4b88cdf9eda07a8454fc517979ba5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/AlgebraicGroupRealizationRefutation.lean"
+        },
+        "lineage": "collected:kmvq31-sl3-obstruction:s11",
+        "macros": {
+          "\\Ann": "\\operatorname{Ann}",
+          "\\Aut": "\\operatorname{Aut}",
+          "\\AutS": "\\mathbf{Aut}",
+          "\\C": "\\mathbb C",
+          "\\Der": "\\operatorname{Der}",
+          "\\GL": "\\operatorname{GL}",
+          "\\Lie": "\\operatorname{Lie}",
+          "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/#1.lean}{\\texttt{#2}}",
+          "\\rad": "\\operatorname{rad}",
+          "\\rank": "\\operatorname{rank}",
+          "\\slie": "\\mathfrak{sl}",
+          "\\so": "\\mathfrak{so}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "kmvq31-sl3-obstruction",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The full automorphism group scheme of every finite-dimensional algebra\nover a characteristic-zero field is smooth. In particular, smoothness\nin Question~37 has an affirmative answer in characteristic zero.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "kmvq31-sl3-obstruction"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kmvq31-sl3-obstruction:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "da4f665789a4b88cdf9eda07a8454fc517979ba5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/AlgebraicGroupRealizationRefutation.lean"
+        },
+        "lineage": "collected:kmvq31-sl3-obstruction:s2",
+        "macros": {
+          "\\Ann": "\\operatorname{Ann}",
+          "\\Aut": "\\operatorname{Aut}",
+          "\\AutS": "\\mathbf{Aut}",
+          "\\C": "\\mathbb C",
+          "\\Der": "\\operatorname{Der}",
+          "\\GL": "\\operatorname{GL}",
+          "\\Lie": "\\operatorname{Lie}",
+          "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/#1.lean}{\\texttt{#2}}",
+          "\\rad": "\\operatorname{rad}",
+          "\\rank": "\\operatorname{rank}",
+          "\\slie": "\\mathfrak{sl}",
+          "\\so": "\\mathfrak{so}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "kmvq31-sl3-obstruction",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $\\Der(A)$ is semisimple, then $\\Ann(A)=0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "kmvq31-sl3-obstruction"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kmvq31-sl3-obstruction:2:s3",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "da4f665789a4b88cdf9eda07a8454fc517979ba5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/AlgebraicGroupRealizationRefutation.lean"
+        },
+        "lineage": "collected:kmvq31-sl3-obstruction:s3",
+        "macros": {
+          "\\Ann": "\\operatorname{Ann}",
+          "\\Aut": "\\operatorname{Aut}",
+          "\\AutS": "\\mathbf{Aut}",
+          "\\C": "\\mathbb C",
+          "\\Der": "\\operatorname{Der}",
+          "\\GL": "\\operatorname{GL}",
+          "\\Lie": "\\operatorname{Lie}",
+          "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/#1.lean}{\\texttt{#2}}",
+          "\\rad": "\\operatorname{rad}",
+          "\\rank": "\\operatorname{rank}",
+          "\\slie": "\\mathfrak{sl}",
+          "\\so": "\\mathfrak{so}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "kmvq31-sl3-obstruction",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $L=\\Der(A)$ is semisimple, there are nondegenerate symmetric spaces\n$(V_a,b_a)$ and subspaces $W_a\\subseteq V_a$ such that\n\\[\n L\\cong\\bigoplus_a\\{X\\in\\so(V_a,b_a):XW_a=0\\}.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "kmvq31-sl3-obstruction"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kmvq31-sl3-obstruction:2:s4",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "da4f665789a4b88cdf9eda07a8454fc517979ba5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/AlgebraicGroupRealizationRefutation.lean"
+        },
+        "lineage": "collected:kmvq31-sl3-obstruction:s4",
+        "macros": {
+          "\\Ann": "\\operatorname{Ann}",
+          "\\Aut": "\\operatorname{Aut}",
+          "\\AutS": "\\mathbf{Aut}",
+          "\\C": "\\mathbb C",
+          "\\Der": "\\operatorname{Der}",
+          "\\GL": "\\operatorname{GL}",
+          "\\Lie": "\\operatorname{Lie}",
+          "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/#1.lean}{\\texttt{#2}}",
+          "\\rad": "\\operatorname{rad}",
+          "\\rank": "\\operatorname{rank}",
+          "\\slie": "\\mathfrak{sl}",
+          "\\so": "\\mathfrak{so}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "kmvq31-sl3-obstruction",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $(V,b)$ be a nondegenerate symmetric space. If its pointwise stabilizer\n$\\mathfrak h=\\{X\\in\\so(V,b):XW=0\\}$ is semisimple, then\n$\\mathfrak h\\cong\\so_m(k)$ for some $m\\ge0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "kmvq31-sl3-obstruction"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kmvq31-sl3-obstruction:2:s5",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "da4f665789a4b88cdf9eda07a8454fc517979ba5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/AlgebraicGroupRealizationRefutation.lean"
+        },
+        "lineage": "collected:kmvq31-sl3-obstruction:s5",
+        "macros": {
+          "\\Ann": "\\operatorname{Ann}",
+          "\\Aut": "\\operatorname{Aut}",
+          "\\AutS": "\\mathbf{Aut}",
+          "\\C": "\\mathbb C",
+          "\\Der": "\\operatorname{Der}",
+          "\\GL": "\\operatorname{GL}",
+          "\\Lie": "\\operatorname{Lie}",
+          "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/#1.lean}{\\texttt{#2}}",
+          "\\rad": "\\operatorname{rad}",
+          "\\rank": "\\operatorname{rank}",
+          "\\slie": "\\mathfrak{sl}",
+          "\\so": "\\mathfrak{so}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "kmvq31-sl3-obstruction",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $\\Der(A)$ is semisimple, then\n\\[\n \\Der(A)\\cong\\bigoplus_{a=1}^s\\so_{m_a}(k),\\qquad m_a\\ge3.\n\\]\nThe empty direct sum is allowed.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "kmvq31-sl3-obstruction"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kmvq31-sl3-obstruction:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "da4f665789a4b88cdf9eda07a8454fc517979ba5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/AlgebraicGroupRealizationRefutation.lean"
+        },
+        "lineage": "collected:kmvq31-sl3-obstruction:s6",
+        "macros": {
+          "\\Ann": "\\operatorname{Ann}",
+          "\\Aut": "\\operatorname{Aut}",
+          "\\AutS": "\\mathbf{Aut}",
+          "\\C": "\\mathbb C",
+          "\\Der": "\\operatorname{Der}",
+          "\\GL": "\\operatorname{GL}",
+          "\\Lie": "\\operatorname{Lie}",
+          "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/#1.lean}{\\texttt{#2}}",
+          "\\rad": "\\operatorname{rad}",
+          "\\rank": "\\operatorname{rank}",
+          "\\slie": "\\mathfrak{sl}",
+          "\\so": "\\mathfrak{so}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "kmvq31-sl3-obstruction",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Every finite direct sum $\\bigoplus_a\\so_{m_a}(k)$ with $m_a\\ge3$ is the\nderivation algebra of an evolution algebra. Thus Theorem~\\ref{thm:classification}\nanswers exactly the semisimple clause of Question~36 in \\cite[\\S2.2.5, p.~25]{survey}.\nMore generally, over any field of characteristic different from two, every\nnondegenerate symmetric space $(V,b)$ has an evolution algebra $E(b)$ with\n$\\mathbf{Aut}(E(b))\\cong O(b)$ and $\\Der(E(b))\\cong\\so(V,b)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "kmvq31-sl3-obstruction"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kmvq31-sl3-obstruction:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "da4f665789a4b88cdf9eda07a8454fc517979ba5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/AlgebraicGroupRealizationRefutation.lean"
+        },
+        "lineage": "collected:kmvq31-sl3-obstruction:s7",
+        "macros": {
+          "\\Ann": "\\operatorname{Ann}",
+          "\\Aut": "\\operatorname{Aut}",
+          "\\AutS": "\\mathbf{Aut}",
+          "\\C": "\\mathbb C",
+          "\\Der": "\\operatorname{Der}",
+          "\\GL": "\\operatorname{GL}",
+          "\\Lie": "\\operatorname{Lie}",
+          "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/#1.lean}{\\texttt{#2}}",
+          "\\rad": "\\operatorname{rad}",
+          "\\rank": "\\operatorname{rank}",
+          "\\slie": "\\mathfrak{sl}",
+          "\\so": "\\mathfrak{so}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "kmvq31-sl3-obstruction",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "There is a two-dimensional nondegenerate complex evolution algebra with\nexactly two automorphisms and infinitely many natural bases modulo\npermutations and independent nonzero scalings. Dimension two is minimal.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "kmvq31-sl3-obstruction"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kmvq31-sl3-obstruction:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "da4f665789a4b88cdf9eda07a8454fc517979ba5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/AlgebraicGroupRealizationRefutation.lean"
+        },
+        "lineage": "collected:kmvq31-sl3-obstruction:s8",
+        "macros": {
+          "\\Ann": "\\operatorname{Ann}",
+          "\\Aut": "\\operatorname{Aut}",
+          "\\AutS": "\\mathbf{Aut}",
+          "\\C": "\\mathbb C",
+          "\\Der": "\\operatorname{Der}",
+          "\\GL": "\\operatorname{GL}",
+          "\\Lie": "\\operatorname{Lie}",
+          "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/#1.lean}{\\texttt{#2}}",
+          "\\rad": "\\operatorname{rad}",
+          "\\rank": "\\operatorname{rank}",
+          "\\slie": "\\mathfrak{sl}",
+          "\\so": "\\mathfrak{so}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "kmvq31-sl3-obstruction",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Suppose $\\Ann(A)=0$ over an algebraically closed field of characteristic\nzero. For $L=\\Der(A)$, its semisimple quotient has the form\n\\[\n L/\\rad L\\cong\\bigoplus_a\\so_{m_a}(k),\\qquad m_a\\ge3.\n\\]\nIn particular, every simple ideal of $L$ is an orthogonal simple Lie\nalgebra. Neither $\\slie_3$ nor $\\mathfrak g_2$ can be such an ideal,\nregardless of $\\dim A^2$ or whether $L$ is semisimple.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "kmvq31-sl3-obstruction"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s9",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kmvq31-sl3-obstruction:2:s9",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "da4f665789a4b88cdf9eda07a8454fc517979ba5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/AlgebraicGroupRealizationRefutation.lean"
+        },
+        "lineage": "collected:kmvq31-sl3-obstruction:s9",
+        "macros": {
+          "\\Ann": "\\operatorname{Ann}",
+          "\\Aut": "\\operatorname{Aut}",
+          "\\AutS": "\\mathbf{Aut}",
+          "\\C": "\\mathbb C",
+          "\\Der": "\\operatorname{Der}",
+          "\\GL": "\\operatorname{GL}",
+          "\\Lie": "\\operatorname{Lie}",
+          "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/#1.lean}{\\texttt{#2}}",
+          "\\rad": "\\operatorname{rad}",
+          "\\rank": "\\operatorname{rank}",
+          "\\slie": "\\mathfrak{sl}",
+          "\\so": "\\mathfrak{so}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "kmvq31-sl3-obstruction",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Over an algebraically closed field of characteristic zero,\n$\\Der(A)\\cong\\slie_n$ with $n\\ge2$ is possible exactly for $n=2,4$.\nOver $\\C$, the full automorphism group scheme or algebraic group of an\nevolution algebra cannot be $\\mathrm{SL}_n$ when $n=3$ or $n\\ge5$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "kmvq31-sl3-obstruction"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "kmvq31-sl3-obstruction"
+}

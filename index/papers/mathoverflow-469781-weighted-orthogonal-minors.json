@@ -1,0 +1,398 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:mathoverflow-469781-weighted-orthogonal-minors:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean"
+        },
+        "lineage": "collected:mathoverflow-469781-weighted-orthogonal-minors:s1",
+        "macros": {
+          "\\C": "\\mathbb{C}",
+          "\\R": "\\mathbb{R}",
+          "\\ii": "\\iota_z",
+          "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean}{\\texttt{WeightedProjectionMinors.lean}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "mathoverflow-469781-weighted-orthogonal-minors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $n\\ge3$, $\\|z\\|=1$, and $\\langle z,x\\rangle=\\langle z,y\\rangle=0$.\nFor arbitrary real symmetric off-diagonal weights $a_{ij}$,\n\\begin{equation}\n \\sum_{i<j}a_{ij}p_{ij}^{\\,2}\n \\ \\le\\ \\sum_{i<j<k}\\max\\{a_{ij},a_{ik},a_{jk}\\}\\,q_{ijk}^{\\,2}.\n\\end{equation}\nIn particular, this proves the inequality for every real orthonormal triple\nand every positive-entry symmetric matrix.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of the weighted-minor inequality in MathOverflow 469781",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "mathoverflow-469781-weighted-orthogonal-minors"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:mathoverflow-469781-weighted-orthogonal-minors:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean"
+        },
+        "lineage": "collected:mathoverflow-469781-weighted-orthogonal-minors:s2",
+        "macros": {
+          "\\C": "\\mathbb{C}",
+          "\\R": "\\mathbb{R}",
+          "\\ii": "\\iota_z",
+          "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean}{\\texttt{WeightedProjectionMinors.lean}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "mathoverflow-469781-weighted-orthogonal-minors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Under the vector hypotheses of Theorem~\\ref{thm:main}, every pair family satisfies\n\\begin{equation}\n \\sum_{\\{i,j\\}\\in F,\\ i<j}p_{ij}^2\n \\ \\le\\ \\sum_{\\{i,j,k\\}\\in N(F),\\ i<j<k}q_{ijk}^2.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of the weighted-minor inequality in MathOverflow 469781",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "mathoverflow-469781-weighted-orthogonal-minors"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:mathoverflow-469781-weighted-orthogonal-minors:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean"
+        },
+        "lineage": "collected:mathoverflow-469781-weighted-orthogonal-minors:s3",
+        "macros": {
+          "\\C": "\\mathbb{C}",
+          "\\R": "\\mathbb{R}",
+          "\\ii": "\\iota_z",
+          "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean}{\\texttt{WeightedProjectionMinors.lean}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "mathoverflow-469781-weighted-orthogonal-minors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Theorem~\\ref{thm:main} holds for $x,y,z\\in\\C^n$, with Hermitian\northogonality and squared absolute values of the minors.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of the weighted-minor inequality in MathOverflow 469781",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "mathoverflow-469781-weighted-orthogonal-minors"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:mathoverflow-469781-weighted-orthogonal-minors:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean"
+        },
+        "lineage": "collected:mathoverflow-469781-weighted-orthogonal-minors:s4",
+        "macros": {
+          "\\C": "\\mathbb{C}",
+          "\\R": "\\mathbb{R}",
+          "\\ii": "\\iota_z",
+          "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean}{\\texttt{WeightedProjectionMinors.lean}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "mathoverflow-469781-weighted-orthogonal-minors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Under the hypotheses of Theorem~\\ref{thm:main}, or its complex version,\n\\[\n \\sum_{i<j<k}\\min\\{a_{ij},a_{ik},a_{jk}\\}|q_{ijk}|^2\n \\ \\le\\ \\sum_{i<j}a_{ij}|p_{ij}|^2\n \\ \\le\\ \\sum_{i<j<k}\\max\\{a_{ij},a_{ik},a_{jk}\\}|q_{ijk}|^2.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of the weighted-minor inequality in MathOverflow 469781",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "mathoverflow-469781-weighted-orthogonal-minors"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:mathoverflow-469781-weighted-orthogonal-minors:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean"
+        },
+        "lineage": "collected:mathoverflow-469781-weighted-orthogonal-minors:s5",
+        "macros": {
+          "\\C": "\\mathbb{C}",
+          "\\R": "\\mathbb{R}",
+          "\\ii": "\\iota_z",
+          "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean}{\\texttt{WeightedProjectionMinors.lean}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "mathoverflow-469781-weighted-orthogonal-minors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $\\mathbb K=\\R$ or $\\C$, let $1\\le k$, $1\\le r$, and $k+r\\le n$.\nLet $z_1,\\ldots,z_r$ be orthonormal, set\n$V=\\operatorname{span}(z_1,\\ldots,z_r)^\\perp$, and take any\n$u\\in\\Lambda^k V$, not necessarily decomposable. Put\n$b=z_r\\wedge\\cdots\\wedge z_1\\wedge u$.\nFor every real array $(a_S)_{S\\in\\binom{[n]}k}$,\n\\begin{equation}\n \\sum_{T\\in\\binom{[n]}{k+r}}\\left(\\min_{\\substack{S\\subset T\\\\|S|=k}}a_S\\right)|b_T|^2\n \\ \\le\\ \\sum_{S\\in\\binom{[n]}k}a_S|u_S|^2\n \\ \\le\\ \\sum_{T\\in\\binom{[n]}{k+r}}\\left(\\max_{\\substack{S\\subset T\\\\|S|=k}}a_S\\right)|b_T|^2.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of the weighted-minor inequality in MathOverflow 469781",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "mathoverflow-469781-weighted-orthogonal-minors"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:mathoverflow-469781-weighted-orthogonal-minors:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean"
+        },
+        "lineage": "collected:mathoverflow-469781-weighted-orthogonal-minors:s6",
+        "macros": {
+          "\\C": "\\mathbb{C}",
+          "\\R": "\\mathbb{R}",
+          "\\ii": "\\iota_z",
+          "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean}{\\texttt{WeightedProjectionMinors.lean}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "mathoverflow-469781-weighted-orthogonal-minors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Constant weights give equality in \\eqref{eq:degrees}.\nThe coefficient one in its nonnegative-weight upper bound is sharp.\nFor an orthonormal triple in dimension three, the original inequality\nis the elementary bound in the posing questions.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of the weighted-minor inequality in MathOverflow 469781",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "mathoverflow-469781-weighted-orthogonal-minors"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:mathoverflow-469781-weighted-orthogonal-minors:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean"
+        },
+        "lineage": "collected:mathoverflow-469781-weighted-orthogonal-minors:s7",
+        "macros": {
+          "\\C": "\\mathbb{C}",
+          "\\R": "\\mathbb{R}",
+          "\\ii": "\\iota_z",
+          "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean}{\\texttt{WeightedProjectionMinors.lean}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "mathoverflow-469781-weighted-orthogonal-minors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $n\\ge2$ and every distance matrix, $D_p$ fails the triangle\ninequality when $0<p<2$. For constant off-diagonal distances,\n$D_p$ is a distance for every $p\\ge2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of the weighted-minor inequality in MathOverflow 469781",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "mathoverflow-469781-weighted-orthogonal-minors"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Proof of the weighted-minor inequality in MathOverflow 469781",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "mathoverflow-469781-weighted-orthogonal-minors"
+}

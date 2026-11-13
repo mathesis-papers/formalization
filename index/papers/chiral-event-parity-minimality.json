@@ -1,0 +1,405 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Geometry/Lorentz/ChiralEventParityMinimality.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:chiral-event-parity-minimality:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Geometry/Lorentz/ChiralEventParityMinimality.lean"
+        },
+        "lineage": "collected:chiral-event-parity-minimality:s1",
+        "macros": {
+          "\\PP": "\\mathcal P",
+          "\\RR": "\\mathbb R",
+          "\\SO": "\\mathrm{SO}^{+}(1,3)",
+          "\\all": "\\Omega_{\\mathrm{all}}",
+          "\\coll": "\\Omega_{\\mathrm{coll}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "chiral-event-parity-minimality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $\\Omega=\\all$ or $\\Omega=\\coll$, and any two admissible variables\n$f_1,f_2$, there is a chiral event $e\\in\\Omega$ with\n$f_1(e)=f_2(e)=0$. Consequently a sufficient admissible set on either\ndomain has at least three variables. The sets $S$ and $\\hat S$ of\n\\cite[\\S5.1]{LHG} are therefore minimal on their respective domains.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "chiral-event-parity-minimality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:chiral-event-parity-minimality:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Geometry/Lorentz/ChiralEventParityMinimality.lean"
+        },
+        "lineage": "collected:chiral-event-parity-minimality:s2",
+        "macros": {
+          "\\PP": "\\mathcal P",
+          "\\RR": "\\mathbb R",
+          "\\SO": "\\mathrm{SO}^{+}(1,3)",
+          "\\all": "\\Omega_{\\mathrm{all}}",
+          "\\coll": "\\Omega_{\\mathrm{coll}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "chiral-event-parity-minimality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Every event $e_v$ in \\eqref{eq:family} is chiral.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "chiral-event-parity-minimality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:chiral-event-parity-minimality:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Geometry/Lorentz/ChiralEventParityMinimality.lean"
+        },
+        "lineage": "collected:chiral-event-parity-minimality:s3",
+        "macros": {
+          "\\PP": "\\mathcal P",
+          "\\RR": "\\mathbb R",
+          "\\SO": "\\mathrm{SO}^{+}(1,3)",
+          "\\all": "\\Omega_{\\mathrm{all}}",
+          "\\coll": "\\Omega_{\\mathrm{coll}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "chiral-event-parity-minimality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The two-variable obstruction remains valid on the subdomain of\nstrictly future-timelike collision events. It also remains valid when\nan additional future-timelike unobserved momentum is required to\ncomplete momentum conservation.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "chiral-event-parity-minimality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:chiral-event-parity-minimality:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Geometry/Lorentz/ChiralEventParityMinimality.lean"
+        },
+        "lineage": "collected:chiral-event-parity-minimality:s4",
+        "macros": {
+          "\\PP": "\\mathcal P",
+          "\\RR": "\\mathbb R",
+          "\\SO": "\\mathrm{SO}^{+}(1,3)",
+          "\\all": "\\Omega_{\\mathrm{all}}",
+          "\\coll": "\\Omega_{\\mathrm{coll}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "chiral-event-parity-minimality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $n\\geq2$, on the full forward-cone domain of an\ninterchangeable pair and $n$ further interchangeable momenta, any\ntwo continuous $\\SO\\times S_2\\times S_n$-invariant parity-odd real\nvariables vanish together on a chiral event. The same holds on the\ncollision subclass defined by the first pair.\nThe conclusion also holds for strictly timelike collisions admitting\na future-timelike unobserved momentum that completes conservation.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "chiral-event-parity-minimality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:chiral-event-parity-minimality:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Geometry/Lorentz/ChiralEventParityMinimality.lean"
+        },
+        "lineage": "collected:chiral-event-parity-minimality:s5",
+        "macros": {
+          "\\PP": "\\mathcal P",
+          "\\RR": "\\mathbb R",
+          "\\SO": "\\mathrm{SO}^{+}(1,3)",
+          "\\all": "\\Omega_{\\mathrm{all}}",
+          "\\coll": "\\Omega_{\\mathrm{coll}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "chiral-event-parity-minimality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $N\\geq4$ and let $H\\leq S_N$ contain the transposition of the\nthird and fourth slots. On $V_+^N$, any two continuous\n$\\SO\\times H$-invariant parity-odd real variables have a common zero\nat an $H$-chiral event. This holds even when all momenta are required\nto be strictly future timelike. In particular it holds for $H=S_N$,\nand for $S_m\\times S_n$ with $m,n\\geq2$ after relabeling the slots.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "chiral-event-parity-minimality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:chiral-event-parity-minimality:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Geometry/Lorentz/ChiralEventParityMinimality.lean"
+        },
+        "lineage": "collected:chiral-event-parity-minimality:s6",
+        "macros": {
+          "\\PP": "\\mathcal P",
+          "\\RR": "\\mathbb R",
+          "\\SO": "\\mathrm{SO}^{+}(1,3)",
+          "\\all": "\\Omega_{\\mathrm{all}}",
+          "\\coll": "\\Omega_{\\mathrm{coll}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "chiral-event-parity-minimality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "On either four-momentum domain, a continuous invariant parity-odd\ncomplex-valued scalar also vanishes on some chiral event. In particular,\nneither a real nor a complex continuous scalar can be sufficient.\nIf continuity is dropped, one real variable is sufficient.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "chiral-event-parity-minimality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:chiral-event-parity-minimality:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Geometry/Lorentz/ChiralEventParityMinimality.lean"
+        },
+        "lineage": "collected:chiral-event-parity-minimality:s7",
+        "macros": {
+          "\\PP": "\\mathcal P",
+          "\\RR": "\\mathbb R",
+          "\\SO": "\\mathrm{SO}^{+}(1,3)",
+          "\\all": "\\Omega_{\\mathrm{all}}",
+          "\\coll": "\\Omega_{\\mathrm{coll}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "chiral-event-parity-minimality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For four labeled forward-causal momenta, with no permutation symmetry,\nthe single continuous variable $D(e)=\\det[p\\ q\\ a\\ b]$ is sufficient.\nFor at most three forward-causal momenta every event is achiral.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "chiral-event-parity-minimality"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "chiral-event-parity-minimality"
+}

@@ -1,0 +1,193 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "cc684e6326490f9173bfefcadb0294ee6ccbb0b5",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/cc684e6326490f9173bfefcadb0294ee6ccbb0b5/D5/S3/Quantum/Entanglement/Witness/NoisyGhzWitnessBoundGap.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:xu-et-al-2023-noisy-ghz-witness-bound-gap:1:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "cc684e6326490f9173bfefcadb0294ee6ccbb0b5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/cc684e6326490f9173bfefcadb0294ee6ccbb0b5/D5/S3/Quantum/Entanglement/Witness/NoisyGhzWitnessBoundGap.lean"
+        },
+        "lineage": "collected:xu-et-al-2023-noisy-ghz-witness-bound-gap:s1",
+        "macros": {
+          "\\EG": "E_{\\mathrm G}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\eps": "\\epsilon_{\\mathrm o}",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\tr": "\\operatorname{Tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "xu-et-al-2023-noisy-ghz-witness-bound-gap",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $n,d\\geq3$, define\n\\[\n T=d^2-3d+3,\\quad\n w_*=-\\frac{2d-3}{dT},\\quad\n p_* =\\frac{(d-2)^2}{Tk},\\quad\n e_* =\\frac1{(d-1)^3+1},\\quad\n h=\\frac1{d^2(d-2)},\n\\]\nwith $k$ as in \\eqref{eq:rank}. Then $0<p_*<1$, $w(p_*)=w_*$, and\n\\begin{equation}\n \\eps^{n,d}(p_*)=e_* < e_*+h p_*\\left(1-\\frac RM\\right)\n                  \\leq \\EG(\\rho(p_*)).\n\\end{equation}\nIn particular, for $n=d=3$ one has $p_*=3/8$ and\n\\begin{equation}\n \\eps^{3,3}(3/8)=\\frac19=\\frac{12}{108}\n       <\\frac{13}{108}\\leq\\EG(\\rho_{3,3}(3/8)).\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A strict gap in the noisy-GHZ equality question of Xu et al., Section 4.2, page 12 of arXiv:2211.05563v1",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:xu-et-al-2023-noisy-ghz-witness-bound-gap:1:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "cc684e6326490f9173bfefcadb0294ee6ccbb0b5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/cc684e6326490f9173bfefcadb0294ee6ccbb0b5/D5/S3/Quantum/Entanglement/Witness/NoisyGhzWitnessBoundGap.lean"
+        },
+        "lineage": "collected:xu-et-al-2023-noisy-ghz-witness-bound-gap:s2",
+        "macros": {
+          "\\EG": "E_{\\mathrm G}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\eps": "\\epsilon_{\\mathrm o}",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\tr": "\\operatorname{Tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "xu-et-al-2023-noisy-ghz-witness-bound-gap",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every biseparable unit vector $\\phi$,\n$d\\langle\\phi,G\\phi\\rangle\\leq\\langle\\phi,P\\phi\\rangle$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A strict gap in the noisy-GHZ equality question of Xu et al., Section 4.2, page 12 of arXiv:2211.05563v1",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:xu-et-al-2023-noisy-ghz-witness-bound-gap:1:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "cc684e6326490f9173bfefcadb0294ee6ccbb0b5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/cc684e6326490f9173bfefcadb0294ee6ccbb0b5/D5/S3/Quantum/Entanglement/Witness/NoisyGhzWitnessBoundGap.lean"
+        },
+        "lineage": "collected:xu-et-al-2023-noisy-ghz-witness-bound-gap:s3",
+        "macros": {
+          "\\EG": "E_{\\mathrm G}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\eps": "\\epsilon_{\\mathrm o}",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\tr": "\\operatorname{Tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "xu-et-al-2023-noisy-ghz-witness-bound-gap",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For three qutrits, the inequality\n$\\eps^{3,3}(p)<\\EG(\\rho_{3,3}(p))$ holds throughout\n$27/74<p<9/22$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A strict gap in the noisy-GHZ equality question of Xu et al., Section 4.2, page 12 of arXiv:2211.05563v1",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "A strict gap in the noisy-GHZ equality question of Xu et al., Section 4.2, page 12 of arXiv:2211.05563v1",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 1,
+  "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
+}

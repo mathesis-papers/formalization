@@ -1,0 +1,484 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Combinatorics/Latin/ClassicalPerfectTensorFactorization.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:pozsgay-wanless-nonlinear-classical-factors:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Combinatorics/Latin/ClassicalPerfectTensorFactorization.lean"
+        },
+        "lineage": "collected:pozsgay-wanless-nonlinear-classical-factors:s1",
+        "macros": {
+          "\\OA": "\\operatorname{OA}",
+          "\\ind": "\\mathbf{1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "pozsgay-wanless-nonlinear-classical-factors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $X$ be finite and let $A,B,C:X^2\\to X^2$ be arbitrary maps. If the\ngraph of \\eqref{circuit} has strength three and index one, then the graphs\nof $A,B,C$ have strength two and index one.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "pozsgay-wanless-nonlinear-classical-factors"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:pozsgay-wanless-nonlinear-classical-factors:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Combinatorics/Latin/ClassicalPerfectTensorFactorization.lean"
+        },
+        "lineage": "collected:pozsgay-wanless-nonlinear-classical-factors:s2",
+        "macros": {
+          "\\OA": "\\operatorname{OA}",
+          "\\ind": "\\mathbf{1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "pozsgay-wanless-nonlinear-classical-factors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If square matrices $M_1,\\ldots,M_m$ of the same size have nonnegative\ninteger entries and $M_m\\cdots M_1$ is a permutation matrix, then every\n$M_j$ is a permutation matrix.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "pozsgay-wanless-nonlinear-classical-factors"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:pozsgay-wanless-nonlinear-classical-factors:2:s3",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Combinatorics/Latin/ClassicalPerfectTensorFactorization.lean"
+        },
+        "lineage": "collected:pozsgay-wanless-nonlinear-classical-factors:s3",
+        "macros": {
+          "\\OA": "\\operatorname{OA}",
+          "\\ind": "\\mathbf{1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "pozsgay-wanless-nonlinear-classical-factors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $D\\ge1$, the following conditions are equivalent:\n\\begin{enumerate}\n\\item The three gates $A,B,C$ are perfect.\n\\item The six flattenings of $T$ whose column triples are\n\\[\n xyz,\\quad xyp,\\quad xzp,\\quad yzp,\\quad xyq,\\quad xyr\n\\]\nand whose row triples are the respective complementary triples are\npermutation matrices.\n\\end{enumerate}\nEquivalently, the twelve three-column projections containing one of the\npairs $xy$, $zp$, $qr$ are bijective.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "pozsgay-wanless-nonlinear-classical-factors"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:pozsgay-wanless-nonlinear-classical-factors:2:s4",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Combinatorics/Latin/ClassicalPerfectTensorFactorization.lean"
+        },
+        "lineage": "collected:pozsgay-wanless-nonlinear-classical-factors:s4",
+        "macros": {
+          "\\OA": "\\operatorname{OA}",
+          "\\ind": "\\mathbf{1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "pozsgay-wanless-nonlinear-classical-factors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $M_1,\\ldots,M_m$ be complex $n\\times n$ matrices with\n$\\|M_j\\|_F^2=n$. If $M_m\\cdots M_1$ is unitary, every $M_j$ is unitary.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "pozsgay-wanless-nonlinear-classical-factors"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:pozsgay-wanless-nonlinear-classical-factors:2:s5",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Combinatorics/Latin/ClassicalPerfectTensorFactorization.lean"
+        },
+        "lineage": "collected:pozsgay-wanless-nonlinear-classical-factors:s5",
+        "macros": {
+          "\\OA": "\\operatorname{OA}",
+          "\\ind": "\\mathbf{1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "pozsgay-wanless-nonlinear-classical-factors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $A,B,C$ are ordinary unitary two-site gates, then their three\nfour-leg tensors are perfect if and only if the six exterior flattenings\nin Table~\\ref{cuts} are unitary.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "pozsgay-wanless-nonlinear-classical-factors"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:pozsgay-wanless-nonlinear-classical-factors:2:s6",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Combinatorics/Latin/ClassicalPerfectTensorFactorization.lean"
+        },
+        "lineage": "collected:pozsgay-wanless-nonlinear-classical-factors:s6",
+        "macros": {
+          "\\OA": "\\operatorname{OA}",
+          "\\ind": "\\mathbf{1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "pozsgay-wanless-nonlinear-classical-factors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Suppose a complex six-leg tensor has the triangular contraction\n\\eqref{contract}, with every exterior and interior index of dimension\n$D$. If its six flattenings in Table~\\ref{cuts} are unitary, the same\ntensor has a contraction of this form with three perfect four-leg\ntensors and the same bond dimension $D$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "pozsgay-wanless-nonlinear-classical-factors"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:pozsgay-wanless-nonlinear-classical-factors:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Combinatorics/Latin/ClassicalPerfectTensorFactorization.lean"
+        },
+        "lineage": "collected:pozsgay-wanless-nonlinear-classical-factors:s7",
+        "macros": {
+          "\\OA": "\\operatorname{OA}",
+          "\\ind": "\\mathbf{1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "pozsgay-wanless-nonlinear-classical-factors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "No six-qubit absolutely maximally entangled state admits the triangular\nthree-vertex contraction \\eqref{contract} with interior bond dimension\ntwo, even with arbitrary complex starting tensors.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "pozsgay-wanless-nonlinear-classical-factors"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:pozsgay-wanless-nonlinear-classical-factors:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Combinatorics/Latin/ClassicalPerfectTensorFactorization.lean"
+        },
+        "lineage": "collected:pozsgay-wanless-nonlinear-classical-factors:s8",
+        "macros": {
+          "\\OA": "\\operatorname{OA}",
+          "\\ind": "\\mathbf{1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "pozsgay-wanless-nonlinear-classical-factors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Theorem~\\ref{main} holds for every chronological order of the three\ndistinct pair interactions $12,13,23$, including the opposite order\n$U=A^{(12)}B^{(13)}C^{(23)}$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "pozsgay-wanless-nonlinear-classical-factors"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s9",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:pozsgay-wanless-nonlinear-classical-factors:2:s9",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Combinatorics/Latin/ClassicalPerfectTensorFactorization.lean"
+        },
+        "lineage": "collected:pozsgay-wanless-nonlinear-classical-factors:s9",
+        "macros": {
+          "\\OA": "\\operatorname{OA}",
+          "\\ind": "\\mathbf{1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "pozsgay-wanless-nonlinear-classical-factors",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For classical gates, the three flattenings\n$xyz\\mid pqr$, $yzp\\mid xqr$ and $xyr\\mid zpq$ are permutation\nmatrices if and only if the following two flattenings of each gate are\npermutation matrices:\n\\[\n\\begin{array}{c|cc}\nA&xy\\mid uv&xv\\mid yu\\\\\nB&uz\\mid pw&uw\\mid zp\\\\\nC&vw\\mid qr&vr\\mid wq.\n\\end{array}\n\\]\nFor ordinary unitary quantum gates, the same equivalence holds with\n``unitary'' in place of ``permutation''.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "pozsgay-wanless-nonlinear-classical-factors"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "pozsgay-wanless-nonlinear-classical-factors"
+}

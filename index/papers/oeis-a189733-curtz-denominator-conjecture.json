@@ -1,0 +1,551 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "20b69217fd7c02cbb8668d939dfa29ecc12a9716",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/20b69217fd7c02cbb8668d939dfa29ecc12a9716/D5/S1/Recurrence/Residue/OEISA189733DenominatorConjecture.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a189733-curtz-denominator-conjecture:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "20b69217fd7c02cbb8668d939dfa29ecc12a9716",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/20b69217fd7c02cbb8668d939dfa29ecc12a9716/D5/S1/Recurrence/Residue/OEISA189733DenominatorConjecture.lean"
+        },
+        "lineage": "collected:oeis-a189733-curtz-denominator-conjecture:s1",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a189733-curtz-denominator-conjecture",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $k\\ge0$,\n\\begin{align}\n (b_{6k},b_{6k+1},b_{6k+2},b_{6k+3},b_{6k+4},b_{6k+5})\n &=\\left(0,\\frac1{3k+1},\\frac1{2k+1},\\frac1{3k+2},0,-\\frac1{6k+6}\\right),\\\\\n\n (a_{6k},a_{6k+1},a_{6k+2},a_{6k+3},a_{6k+4},a_{6k+5})\n &=(1,3k+1,2k+1,3k+2,1,6k+6).\n\\end{align}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a189733-curtz-denominator-conjecture"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s10",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a189733-curtz-denominator-conjecture:2:s10",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "20b69217fd7c02cbb8668d939dfa29ecc12a9716",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/20b69217fd7c02cbb8668d939dfa29ecc12a9716/D5/S1/Recurrence/Residue/OEISA189733DenominatorConjecture.lean"
+        },
+        "lineage": "collected:oeis-a189733-curtz-denominator-conjecture:s10",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a189733-curtz-denominator-conjecture",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The assertion in A242926, COMMENTS, that the positive integer entries\nof the unsigned first row occur at prime ranks is false.\nAt the zero-based row index $704$ the entry $u_{704}$ is a positive integer,\nalthough its one-based rank $705=3\\cdot5\\cdot47$ is composite.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a189733-curtz-denominator-conjecture"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s11",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a189733-curtz-denominator-conjecture:2:s11",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "20b69217fd7c02cbb8668d939dfa29ecc12a9716",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/20b69217fd7c02cbb8668d939dfa29ecc12a9716/D5/S1/Recurrence/Residue/OEISA189733DenominatorConjecture.lean"
+        },
+        "lineage": "collected:oeis-a189733-curtz-denominator-conjecture:s11",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a189733-curtz-denominator-conjecture",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For either zero-diagonal array $V=B$ or $V=U$, the least common multiple\nof the reduced denominators on the strict upper antidiagonal $m+n=s$ is\n\\[\n \\operatorname{lcm}_{0\\le m<s-m}\\operatorname{den}(V(m,s-m))\n =\\operatorname{lcm}(1,\\ldots,\\lfloor(s+1)/2\\rfloor)\n =\\mathrm{A139550}(s+1),\\qquad s\\ge0,\n\\]\nwith the lcm of an empty family defined as one. This proves the\nantidiagonal-lcm assertion in A242926, with its antidiagonals counted from one.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a189733-curtz-denominator-conjecture"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a189733-curtz-denominator-conjecture:2:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "20b69217fd7c02cbb8668d939dfa29ecc12a9716",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/20b69217fd7c02cbb8668d939dfa29ecc12a9716/D5/S1/Recurrence/Residue/OEISA189733DenominatorConjecture.lean"
+        },
+        "lineage": "collected:oeis-a189733-curtz-denominator-conjecture:s2",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a189733-curtz-denominator-conjecture",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The reduced numerators of $b_n$ repeat the block $(0,1,1,1,0,-1)$, with\nleast period six. For $n\\ge12$,\n\\begin{equation}\n a_n=2a_{n-6}-a_{n-12}.\n\\end{equation}\nMoreover, the ordinary generating function of the denominator sequence is\n\\begin{equation}\n \\sum_{n\\ge0}a_nz^n=\n \\frac{1+z+z^2+2z^3+z^4+6z^5-z^6+2z^7+z^8+z^9-z^{10}}\n {(1-z^6)^2}.\n\\end{equation}\nThis is the generating function recorded as empirical by Colin Barker on\nNovember 11, 2016, in A189733's FORMULA field.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a189733-curtz-denominator-conjecture"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a189733-curtz-denominator-conjecture:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "20b69217fd7c02cbb8668d939dfa29ecc12a9716",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/20b69217fd7c02cbb8668d939dfa29ecc12a9716/D5/S1/Recurrence/Residue/OEISA189733DenominatorConjecture.lean"
+        },
+        "lineage": "collected:oeis-a189733-curtz-denominator-conjecture:s3",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a189733-curtz-denominator-conjecture",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $n\\ge0$,\n\\begin{equation}\n B(n,0)=\\sum_{j=0}^n(-1)^{n-j}\\binom nj b_j=(-1)^{n+1}b_n.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a189733-curtz-denominator-conjecture"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a189733-curtz-denominator-conjecture:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "20b69217fd7c02cbb8668d939dfa29ecc12a9716",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/20b69217fd7c02cbb8668d939dfa29ecc12a9716/D5/S1/Recurrence/Residue/OEISA189733DenominatorConjecture.lean"
+        },
+        "lineage": "collected:oeis-a189733-curtz-denominator-conjecture:s4",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a189733-curtz-denominator-conjecture",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $m\\ge0$ and $d\\ge1$,\n\\begin{equation}\n B(m,m+d)=(-1)^m\\sum_{j=0}^{\\lfloor(d-1)/2\\rfloor}\n \\frac{(-1)^j\\binom{d-1-j}{j}}{m+j+1}.\n\\end{equation}\nTogether with $B(m,m)=0$ and\n$B(m,n)=(-1)^{m+n+1}B(n,m)$, this determines the whole square array.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a189733-curtz-denominator-conjecture"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a189733-curtz-denominator-conjecture:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "20b69217fd7c02cbb8668d939dfa29ecc12a9716",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/20b69217fd7c02cbb8668d939dfa29ecc12a9716/D5/S1/Recurrence/Residue/OEISA189733DenominatorConjecture.lean"
+        },
+        "lineage": "collected:oeis-a189733-curtz-denominator-conjecture:s5",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a189733-curtz-denominator-conjecture",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For all $n\\ge0$,\n\\begin{align}\n \\sum_{n\\ge0}p_nz^n\n &=\\frac{z+z^2+z^3-z^5}{1-z^6}\n =\\frac{z(1+z^2-z^3)}{(1-z)(1-z+z^2)(1+z+z^2)},\\\\\n\n p_n&=\\frac{1+(-1)^{\\lfloor(n-1)/3\\rfloor}}2\n       -\\left\\lfloor\\frac{n+1}{6}\\right\\rfloor\n       +\\left\\lfloor\\frac n6\\right\\rfloor.\n\\end{align}\nFor $n\\ge5$,\n\\begin{equation}\n p_n=p_{n-1}-p_{n-2}+p_{n-3}-p_{n-4}+p_{n-5}.\n\\end{equation}\nThese are A278718's generating function and Hurt's formulas dated\nOctober 3, 2017.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a189733-curtz-denominator-conjecture"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a189733-curtz-denominator-conjecture:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "20b69217fd7c02cbb8668d939dfa29ecc12a9716",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/20b69217fd7c02cbb8668d939dfa29ecc12a9716/D5/S1/Recurrence/Residue/OEISA189733DenominatorConjecture.lean"
+        },
+        "lineage": "collected:oeis-a189733-curtz-denominator-conjecture:s6",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a189733-curtz-denominator-conjecture",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $k\\ge0$,\n\\begin{equation}\n (c_{6k},\\ldots,c_{6k+5})=(6k+1,2,3,2,6k+5,1).\n\\end{equation}\nIn particular, $c_n=2c_{n-6}-c_{n-12}$ for $n\\ge12$, and\n\\begin{equation}\n \\sum_{n\\ge0}c_nz^n=\n \\frac{\\begin{gathered}1+2z+3z^2+2z^3+5z^4+z^5\\\\\n       {}+5z^6-2z^7-3z^8-2z^9+z^{10}-z^{11}\\end{gathered}}\n      {(1-z^6)^2}.\n\\end{equation}\nThus both conjectures attributed to Barker on January 10, 2016, in\nA267068 are true. Its other three FORMULA assertions hold, with the\nOEIS offsets of the cited sequences~\\cite{auxiliary}:\n\\begin{align}\n c_{2n+1}&=\\mathrm{A130196}(n+1),\\notag\\\\\n c_{\\mathrm{A047245}(n+1)}&=\\mathrm{A052901}(n+2),\\\\\n c_{3n}+c_{3n+1}+c_{3n+2}&=\\mathrm{A047238}(n+3)\\qquad(n\\ge0).\\notag\n\\end{align}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a189733-curtz-denominator-conjecture"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a189733-curtz-denominator-conjecture:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "20b69217fd7c02cbb8668d939dfa29ecc12a9716",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/20b69217fd7c02cbb8668d939dfa29ecc12a9716/D5/S1/Recurrence/Residue/OEISA189733DenominatorConjecture.lean"
+        },
+        "lineage": "collected:oeis-a189733-curtz-denominator-conjecture:s7",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a189733-curtz-denominator-conjecture",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $d_m=\\operatorname{den}(C(m,m+3))$ and $g_m=\\gcd(3,m+2)$.\nFor every $m\\ge0$,\n\\begin{equation}\n C(m,m+3)=\\frac{(-1)^{m+1}(2m+1)}{(m+1)(m+2)},\\qquad\n d_m=\\frac{(m+1)(m+2)}{g_m}.\n\\end{equation}\nConsequently, for $k\\ge0$,\n\\begin{align}\n (d_{3k},d_{3k+1},d_{3k+2})\n &=\\bigl((3k+1)(3k+2),(k+1)(3k+2),3(k+1)(3k+4)\\bigr),\\\\\n\n \\sum_{m\\ge0}d_mz^m\n &=\\frac{2(1+z+6z^2+7z^3+2z^4+3z^5+z^6)}{(1-z^3)^3}.\n\\end{align}\nThe two shifted-sequence formulas in A194767 also hold:\n\\[\n d_m=(m+1)\\mathrm{A051176}(m+2),\\qquad\n d_{m+2}=2\\mathrm{A306368}(m)\\quad(m\\ge0).\n\\]\nIts fourth-diagonal numerator formula requires a shift:\n\\begin{equation}\n C(m,m+3)=\\frac{(-1)^{m+1}\\mathrm{A146535}(m+1)}{d_m},\n \\quad\\text{not }\\frac{(-1)^{m+1}\\mathrm{A146535}(m)}{d_m}.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a189733-curtz-denominator-conjecture"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a189733-curtz-denominator-conjecture:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "20b69217fd7c02cbb8668d939dfa29ecc12a9716",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/20b69217fd7c02cbb8668d939dfa29ecc12a9716/D5/S1/Recurrence/Residue/OEISA189733DenominatorConjecture.lean"
+        },
+        "lineage": "collected:oeis-a189733-curtz-denominator-conjecture:s8",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a189733-curtz-denominator-conjecture",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The reciprocal sum stated in A194767 is\n\\[\n \\sum_{m\\ge0}\\frac1{d_m}=1+\\log3-\\frac{\\pi}{3\\sqrt3}.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a189733-curtz-denominator-conjecture"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s9",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a189733-curtz-denominator-conjecture:2:s9",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "20b69217fd7c02cbb8668d939dfa29ecc12a9716",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/20b69217fd7c02cbb8668d939dfa29ecc12a9716/D5/S1/Recurrence/Residue/OEISA189733DenominatorConjecture.lean"
+        },
+        "lineage": "collected:oeis-a189733-curtz-denominator-conjecture:s9",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a189733-curtz-denominator-conjecture",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $n\\ge0$,\n\\begin{equation}\n u_n=\\frac{L_{n+1}-1}{n+1}.\n\\end{equation}\nFor $r\\ge0$, the odd-index reduced numerator is $\\mathrm{A175385}(r+1)$\nand the reduced denominator is $\\mathrm{A175386}(r+1)$~\\cite{unsignedbisections}.\nIn particular, A242926's formula with A175386$(r)$ requires this shift.\nThe inverse-binomial identity is\n\\[\n \\sum_{j=0}^n(-1)^{n-j}\\binom nj u_j=(-1)^{n+1}u_n.\n\\]\nThe upper antidiagonal assertion in A242926 is\n\\[\n \\sum_{m=0}^r U(m,2r+1-m)=u_{2r+2}\\qquad(r\\ge0).\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a189733-curtz-denominator-conjecture"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "oeis-a189733-curtz-denominator-conjecture"
+}

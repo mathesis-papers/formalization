@@ -1,0 +1,61 @@
+{
+  "curated": {
+    "background": "Source. MathOverflow question 476077, asked by Nathaniel Johnston on 30 July 2024: https://mathoverflow.net/questions/476077/bounding-elementary-symmetric-polynomials-away-from-zero\n\nKnown partial results. In the post the poser states that the conjecture holds when all entries of $x$ are nonnegative, hence when $m = n$; that the case $k = 1$ is trivial; and that the bound is attained at the vector with $m-1$ entries equal to $1/(m-1)$ and all other entries equal to $0$. The question has no answer. Its comments discuss the inequalities of Newton and Maclaurin without reaching a proof.\n\nA web search on 2026-11-11 found no paper stating or resolving this inequality.",
+    "directions": [
+      "settling-stated-conjectures"
+    ],
+    "lean_target": {
+      "checked_at": "2026-11-11T13:51:29.762314979Z",
+      "correspondence": "x is a real vector indexed by Fin n. e_k(x) is Multiset.esymm k of the multiset of its entries: the sum, over all k-element sub-multisets, of the product of their entries. The hypotheses are 2 ≤ m ≤ n, every entry at most 1/(m-1), e_1(x) = 1, and e_k(x) ≥ 0 for 1 ≤ k ≤ m. The conclusion is e_k(x) ≥ C(m-1, k) / (m-1)^k for every k with 1 ≤ k < m.",
+      "digest": "9770dd6aa745789273e17633697c1a8a13a0b9e6c2d885b9e12da90a6b27f768",
+      "state": "elaborated",
+      "text": "import Mathlib\n\ndef wishpool_target_prop : Prop :=\n  ∀ (m n : ℕ) (x : Fin n → ℝ), 2 ≤ m → m ≤ n →\n    (∀ j, x j ≤ 1 / ((m : ℝ) - 1)) →\n    (Finset.univ.val.map x).esymm 1 = 1 →\n    (∀ k, 1 ≤ k → k ≤ m → 0 ≤ (Finset.univ.val.map x).esymm k) →\n    ∀ k, 1 ≤ k → k < m →\n      ((m - 1).choose k : ℝ) / ((m : ℝ) - 1) ^ k ≤ (Finset.univ.val.map x).esymm k\n",
+      "toolchain": "leanprover/lean4:v4.35.0, Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "vocabulary": "mathlib"
+    },
+    "license": "CC-BY-SA-4.0",
+    "msc": [
+      "05E05",
+      "26D15"
+    ],
+    "name": "Johnston's conjectured lower bound for elementary symmetric polynomials of real vectors (MathOverflow 476077)",
+    "posers": [
+      {
+        "name": "Nathaniel Johnston"
+      }
+    ],
+    "published_on": "2026-11-11T13:27:06.505715353Z",
+    "source": {
+      "kind": "url",
+      "locator": "https://mathoverflow.net/questions/476077/bounding-elementary-symmetric-polynomials-away-from-zero",
+      "year": 2024
+    },
+    "source_license": "CC BY-SA 4.0 (Stack Exchange user content; content_license field of the API)",
+    "statement": "Let $2 \\le m \\le n$ be integers and let $x = (x_1, \\dots, x_n)$ be a real vector whose entries may be negative. Write $e_k(x)$ for the $k$-th elementary symmetric polynomial of $x$. Assume that\n\n$$\\max_j x_j \\le \\frac{1}{m-1}, \\qquad e_1(x) = 1, \\qquad e_k(x) \\ge 0 \\ \\text{ for } 1 \\le k \\le m.$$\n\nConjecture. Then\n\n$$e_k(x) \\ge \\binom{m-1}{k} \\frac{1}{(m-1)^k} \\qquad \\text{for all } 1 \\le k < m.$$",
+    "status": "open",
+    "status_as_of": "2026-11-11",
+    "status_evidence": [
+      {
+        "checked_on": "2026-11-11",
+        "observed": "The question has no answer, is not marked answered, and was last active on 2024-07-30. Four comments, by richrow, Brendan McKay and the poser, discuss Newton and Maclaurin inequalities without a proof. The comments and answers endpoints of the same question were read as well.",
+        "url": "https://api.stackexchange.com/2.3/questions/476077?site=mathoverflow"
+      }
+    ],
+    "version": 2
+  },
+  "id": "c6d8c3a91b5e2a438bf5530a6a3016f8f7434d80fea4ca2951bf543805c42548",
+  "summary": {
+    "id": "c6d8c3a91b5e2a438bf5530a6a3016f8f7434d80fea4ca2951bf543805c42548",
+    "notes": 0,
+    "source": {
+      "kind": "url",
+      "locator": "https://mathoverflow.net/questions/476077/bounding-elementary-symmetric-polynomials-away-from-zero",
+      "year": 2024
+    },
+    "source_id": "https://mathoverflow.net/questions/476077/bounding-elementary-symmetric-polynomials-away-from-zero",
+    "status": "curated_open",
+    "status_as_of": "2026-11-11",
+    "title": "Johnston's conjectured lower bound for elementary symmetric polynomials of real vectors (MathOverflow 476077)",
+    "updated_at": "2026-11-11T13:27:06.505715353Z"
+  }
+}

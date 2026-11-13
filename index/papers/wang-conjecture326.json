@@ -1,0 +1,284 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S0/Certificates/Algebra/WangConjecture326Refutation.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:wang-conjecture326:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S0/Certificates/Algebra/WangConjecture326Refutation.lean"
+        },
+        "lineage": "collected:wang-conjecture326:s1",
+        "macros": {
+          "\\HH": "\\mathcal H",
+          "\\Pf": "\\mathcal P_{\\mathrm{fin}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "wang-conjecture326",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every set $U$ and every nonzero commutative unitary ring $R$,\n$S_U$ is a commutative periodic monoid and\n\\begin{equation}\n d(S_U,R)=1,\\qquad \\HH=\\Delta_{S_U},\\qquad\n D_{(A,k)}(S_U)=|A|+k\\quad(0\\leq k\\leq2).\n\\end{equation}\nThe positive cyclic semigroup of $(A,k)$ is not a group exactly when\n$k=1$. Every Sch\\\"utzenberger group of $S_U$ is trivial.\nConsequently $S_{\\mathbb N}$ refutes Conjecture~3.26.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Counterexamples to Wang's Conjectures 3.26 and 5.3 on semigroup algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "wang-conjecture326"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:wang-conjecture326:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S0/Certificates/Algebra/WangConjecture326Refutation.lean"
+        },
+        "lineage": "collected:wang-conjecture326:s2",
+        "macros": {
+          "\\HH": "\\mathcal H",
+          "\\Pf": "\\mathcal P_{\\mathrm{fin}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "wang-conjecture326",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $A,B\\in\\Pf(U)$,\n\\[\n (X^{(A,1)}-X^{(A,2)})(X^{(B,1)}-X^{(B,2)})=0.\n\\]\nMoreover $d(S_U,R)=1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Counterexamples to Wang's Conjectures 3.26 and 5.3 on semigroup algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "wang-conjecture326"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:wang-conjecture326:2:s3",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S0/Certificates/Algebra/WangConjecture326Refutation.lean"
+        },
+        "lineage": "collected:wang-conjecture326:s3",
+        "macros": {
+          "\\HH": "\\mathcal H",
+          "\\Pf": "\\mathcal P_{\\mathrm{fin}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "wang-conjecture326",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $a=(A,k)\\in S_U$,\n\\[\n (a)=\\{(B,j): A\\subseteq B\\in\\Pf(U),\\ k\\leq j\\leq2\\}.\n\\]\nConsequently $\\HH$ is equality and every Sch\\\"utzenberger group is trivial.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Counterexamples to Wang's Conjectures 3.26 and 5.3 on semigroup algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "wang-conjecture326"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:wang-conjecture326:2:s4",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S0/Certificates/Algebra/WangConjecture326Refutation.lean"
+        },
+        "lineage": "collected:wang-conjecture326:s4",
+        "macros": {
+          "\\HH": "\\mathcal H",
+          "\\Pf": "\\mathcal P_{\\mathrm{fin}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "wang-conjecture326",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $A\\in\\Pf(U)$ and $k\\in\\{0,1,2\\}$,\n$D_{(A,k)}(S_U)=|A|+k$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Counterexamples to Wang's Conjectures 3.26 and 5.3 on semigroup algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "wang-conjecture326"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:wang-conjecture326:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S0/Certificates/Algebra/WangConjecture326Refutation.lean"
+        },
+        "lineage": "collected:wang-conjecture326:s5",
+        "macros": {
+          "\\HH": "\\mathcal H",
+          "\\Pf": "\\mathcal P_{\\mathrm{fin}}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "wang-conjecture326",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $m\\geq1$ and $S_m=S_{\\{1,\\ldots,m\\}}$. For every field $K$,\n\\[\n |S_m|=3\\cdot2^m,\\qquad \\exp(S_m)=1,\\qquad d(S_m,K)=1,\n\\]\nwhereas the right side of \\eqref{eq:conjectured} is $m+1$.\nThus Conjecture~5.3 is false, already for a six-element monoid.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Counterexamples to Wang's Conjectures 3.26 and 5.3 on semigroup algebras",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "wang-conjecture326"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Counterexamples to Wang's Conjectures 3.26 and 5.3 on semigroup algebras",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "wang-conjecture326"
+}

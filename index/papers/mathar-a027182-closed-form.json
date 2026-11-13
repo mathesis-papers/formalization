@@ -1,0 +1,240 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma",
+      "orcid": "0009-0008-4944-977X"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang",
+      "orcid": "0009-0005-2414-7968"
+    }
+  ],
+  "lean_source": {
+    "revision": "494f471b70d9470db92b4dbc07a309d78ca59ec7",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/494f471b70d9470db92b4dbc07a309d78ca59ec7/D5/S1/Recurrence/MatharA027182SelfConvolution.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma",
+            "orcid": "0009-0008-4944-977X"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang",
+            "orcid": "0009-0005-2414-7968"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:mathar-a027182-closed-form:4:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "494f471b70d9470db92b4dbc07a309d78ca59ec7",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/494f471b70d9470db92b4dbc07a309d78ca59ec7/D5/S1/Recurrence/MatharA027182SelfConvolution.lean"
+        },
+        "lineage": "collected:mathar-a027182-closed-form:s1",
+        "macros": {
+          "\\bin": "\\binom{#1}{#2}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "mathar-a027182-closed-form",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $n\\geq0$,\n\\begin{equation}\na_n=4\\bin{2n+4}{n+2}+4\\bin{2n+2}{n+1}+\\bin{2n}{n}\n       -72\\cdot2^n+16n+40.\n\\end{equation}\nConsequently, for every integer $n\\geq6$,\n\\begin{equation}\n\\begin{aligned}\n0={}&2(n+2)a_n-(17n+23)a_{n-1}+(47n+36)a_{n-2}\\\\\n &-2(22n+17)a_{n-3}+4(20-n)a_{n-4}\\\\\n &+8(2n-9)a_{n-5}+24(12n-47).\n\\end{aligned}\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Mathar's conjecture on OEIS A027182: a closed form and the six-term recurrence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "mathar-a027182-closed-form"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma",
+            "orcid": "0009-0008-4944-977X"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang",
+            "orcid": "0009-0005-2414-7968"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:mathar-a027182-closed-form:4:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "494f471b70d9470db92b4dbc07a309d78ca59ec7",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/494f471b70d9470db92b4dbc07a309d78ca59ec7/D5/S1/Recurrence/MatharA027182SelfConvolution.lean"
+        },
+        "lineage": "collected:mathar-a027182-closed-form:s2",
+        "macros": {
+          "\\bin": "\\binom{#1}{#2}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "mathar-a027182-closed-form",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $u_n=T(2n,n)$ for $n\\geq0$ (A027171), and\n$v_n=T(2n-1,n-1)$ for $n\\geq1$ (A027175). Then\n\\begin{equation}\n2(n+1)f_n-(7n+5)f_{n-1}+2(3-2n)f_{n-2}+12(1-3n)=0\n\\end{equation}\nholds for $f=u$, $n\\geq2$, and for $f=v$, $n\\geq3$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Mathar's conjecture on OEIS A027182: a closed form and the six-term recurrence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "mathar-a027182-closed-form"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma",
+            "orcid": "0009-0008-4944-977X"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang",
+            "orcid": "0009-0005-2414-7968"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:mathar-a027182-closed-form:4:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "494f471b70d9470db92b4dbc07a309d78ca59ec7",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/494f471b70d9470db92b4dbc07a309d78ca59ec7/D5/S1/Recurrence/MatharA027182SelfConvolution.lean"
+        },
+        "lineage": "collected:mathar-a027182-closed-form:s3",
+        "macros": {
+          "\\bin": "\\binom{#1}{#2}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "mathar-a027182-closed-form",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $z_n=T(2n,n-2)$, $n\\geq2$ (A027174), and every $n\\geq4$,\n\\begin{equation}\n\\begin{aligned}\n0={}&-2(n+3)(139n-175)z_n\n +(1279n^2+1334n-1089)z_{n-1}\\\\\n &-2(167n+121)(2n-3)z_{n-2}+12(111n^2+456n+229).\n\\end{aligned}\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Mathar's conjecture on OEIS A027182: a closed form and the six-term recurrence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "mathar-a027182-closed-form"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma",
+            "orcid": "0009-0008-4944-977X"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang",
+            "orcid": "0009-0005-2414-7968"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:mathar-a027182-closed-form:4:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "494f471b70d9470db92b4dbc07a309d78ca59ec7",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/494f471b70d9470db92b4dbc07a309d78ca59ec7/D5/S1/Recurrence/MatharA027182SelfConvolution.lean"
+        },
+        "lineage": "collected:mathar-a027182-closed-form:s4",
+        "macros": {
+          "\\bin": "\\binom{#1}{#2}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "mathar-a027182-closed-form",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $b_n=\\sum_{k=0}^{\\lfloor n/2\\rfloor}T(n,k)$, $n\\geq0$ (A027179),\nput\n\\begin{align*}\np_0(n)&=-(n+2)(3n-20),&p_1(n)&=-(n+1)(3n-11),\\\\\np_2(n)&=33n^2-180n-100,&p_3(n)&=15n^2-56n+1,\\\\\np_4(n)&=2(-51n^2+313n-208),&p_5(n)&=-12(n-1)(n-4),\\\\\np_6(n)&=8(9n-11)(n-5).\n\\end{align*}\nThen Mathar's seven-term recurrence holds for every $n\\geq6$:\n\\begin{equation}\n\\sum_{j=0}^6p_j(n)b_{n-j}+4(-24n^2+196n-365)=0.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Mathar's conjecture on OEIS A027182: a closed form and the six-term recurrence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "mathar-a027182-closed-form"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Proof of Mathar's conjecture on OEIS A027182: a closed form and the six-term recurrence",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 4,
+  "work": "mathar-a027182-closed-form"
+}

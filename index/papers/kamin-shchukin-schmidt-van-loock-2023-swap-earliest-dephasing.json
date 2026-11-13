@@ -1,0 +1,187 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "83b70a1d0d6a58bb32521c741805d845d401c5f8",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/83b70a1d0d6a58bb32521c741805d845d401c5f8/D5/S3/Quantum/Optimization/SwapEarliestDephasingOptimality.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing:1:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "83b70a1d0d6a58bb32521c741805d845d401c5f8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/83b70a1d0d6a58bb32521c741805d845d401c5f8/D5/S3/Quantum/Optimization/SwapEarliestDephasingOptimality.lean"
+        },
+        "lineage": "collected:kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing:s1",
+        "macros": {
+          "\\Dstar": "D^{\\star}",
+          "\\E": "\\mathbb E",
+          "\\R": "\\mathbb R"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $n\\geq1$ and $x\\in\\R_{\\geq0}^n$,\n\\[\n \\Dstar(x)=P(x).\n\\]\nEvery complete greedy history attains this value, independently of all\ntie choices. More generally, if $x^{(0)}=x$ and\n$x^{(s+1)}=T_{i_s}x^{(s)}$ describe any complete history, then\n\\begin{equation}\n C_H(x)-P(x)=\\sum_{s=0}^{n-2}\\delta_{i_s}(x^{(s)}),\n \\qquad \\delta_i(x)\\geq0,\n\\end{equation}\nwhere, writing $a=x_i$, $b=x_{i+1}$ and $m=\\max(a,b)$,\n\\begin{align}\n\\delta_i(x)={}&\n\\begin{cases}\n \\max(x_{i-1},m)-\\max(x_{i-1},a),& i>1,\\\\\n 0,&i=1\n\\end{cases}\\notag\\\\\n&+\\begin{cases}\n \\max(m,x_{i+2})-\\max(b,x_{i+2}),&i+1<n,\\\\\n 0,&i+1=n.\n\\end{cases}\n\\end{align}\nConsequently, a history is optimal if and only if every one of its\nmerge slacks vanishes.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Earliest swapping for every chain length: Kamin et al. (2023), Section IV D 1, Eq. (41)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing:1:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "83b70a1d0d6a58bb32521c741805d845d401c5f8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/83b70a1d0d6a58bb32521c741805d845d401c5f8/D5/S3/Quantum/Optimization/SwapEarliestDephasingOptimality.lean"
+        },
+        "lineage": "collected:kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing:s2",
+        "macros": {
+          "\\Dstar": "D^{\\star}",
+          "\\E": "\\mathbb E",
+          "\\R": "\\mathbb R"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $X$ have any joint distribution on $\\R_{\\geq0}^n$. Compare histories\nusing the same realized readiness vector, and allow a competing policy\nto use additional randomness. For every $\\alpha\\geq0$,\n\\[\n C_{\\mathrm{greedy}}(X)=P(X)\\leq C_H(X),\\qquad\n \\E e^{-\\alpha C_{\\mathrm{greedy}}(X)}\n \\geq\\E e^{-\\alpha C_H(X)}.\n\\]\nWhenever the costs are integrable, greedy histories also minimize\ntheir expectation.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Earliest swapping for every chain length: Kamin et al. (2023), Section IV D 1, Eq. (41)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing:1:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "83b70a1d0d6a58bb32521c741805d845d401c5f8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/83b70a1d0d6a58bb32521c741805d845d401c5f8/D5/S3/Quantum/Optimization/SwapEarliestDephasingOptimality.lean"
+        },
+        "lineage": "collected:kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing:s3",
+        "macros": {
+          "\\Dstar": "D^{\\star}",
+          "\\E": "\\mathbb E",
+          "\\R": "\\mathbb R"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $X_1,\\ldots,X_n$ are independent geometric random variables on\n$\\{1,2,\\ldots\\}$ with success probability $p\\in(0,1]$ and $q=1-p$, then\n\\begin{equation}\n \\E\\Dstar(X)=\n \\sum_{j=1}^{n}\\frac{(-1)^{j+1}\\binom nj}{1-q^j}\n +\\frac{n-2}{p}-\\frac{n-1}{p(2-p)}.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Earliest swapping for every chain length: Kamin et al. (2023), Section IV D 1, Eq. (41)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 1,
+        "work": "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Earliest swapping for every chain length: Kamin et al. (2023), Section IV D 1, Eq. (41)",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 1,
+  "work": "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing"
+}

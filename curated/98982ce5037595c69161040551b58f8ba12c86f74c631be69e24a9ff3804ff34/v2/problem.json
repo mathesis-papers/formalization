@@ -1,0 +1,69 @@
+{
+  "curated": {
+    "background": "Source. Florian Luca and Vandita Patel, On perfect powers that are sums of two Fibonacci numbers, arXiv:1706.10294, Section 5, the unnumbered conjecture after the list of solutions: https://arxiv.org/abs/1706.10294\n\nKnown partial results. Theorem 1 of the source settles the case $n \\equiv m \\pmod{2}$. Vukusic and Ziegler bound $y^a$ explicitly in terms of the number of terms in the Zeckendorf representation of $y$; their abstract of February 2023 calls the conjecture still open and cites an earlier bound of Kebli, Kihel, Larone and Luca in terms of the size of $y$: https://arxiv.org/abs/2302.08303\n\nA web search on 2026-11-11 for a later proof or counterexample returned none.",
+    "directions": [
+      "golden-mean-fibonacci-zeckendorf"
+    ],
+    "lean_target": {
+      "checked_at": "2026-11-11T13:41:13.897024819Z",
+      "correspondence": "Nat.fib is the Fibonacci sequence with fib 0 = 0 and fib 1 = 1. The proposition says: for all natural numbers n ≥ m, y ≥ 2 and a ≥ 2 with F_n + F_m = y^a, the perfect power y^a is at most 3864^2. It states the bound on the perfect power, as the curated statement does, and does not list the individual solutions.",
+      "digest": "39a5f0c0d3c02845c15a9540946af49a03f86a947dee42fd1ac002c57b99615d",
+      "state": "elaborated",
+      "text": "import Mathlib\n\ndef wishpool_target_prop : Prop :=\n  ∀ n m y a : ℕ, m ≤ n → 2 ≤ y → 2 ≤ a →\n    Nat.fib n + Nat.fib m = y ^ a → y ^ a ≤ 3864 ^ 2\n",
+      "toolchain": "leanprover/lean4:v4.35.0, Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "vocabulary": "mathlib"
+    },
+    "license": "CC-BY-4.0",
+    "msc": [
+      "11B39",
+      "11D61"
+    ],
+    "name": "The Luca-Patel conjecture on perfect powers that are sums of two Fibonacci numbers (arXiv:1706.10294)",
+    "posers": [
+      {
+        "name": "Florian Luca"
+      },
+      {
+        "name": "Vandita Patel"
+      }
+    ],
+    "published_on": "2026-11-11T13:27:06.075362268Z",
+    "source": {
+      "kind": "arxiv",
+      "locator": "1706.10294",
+      "year": 2017
+    },
+    "source_license": "Licence of the source not determined on 2026-11-11; the statement is restated in the curator's own words.",
+    "statement": "Let $F_n$ be the Fibonacci numbers, with $F_0 = 0$ and $F_1 = 1$.\n\nConjecture. If $F_n + F_m = y^a$ with integers $n \\ge m \\ge 0$, $y \\ge 2$ and $a \\ge 2$, then\n\n$$y^a \\le 3864^2 = F_{36} + F_{12}.$$\n\nThe source lists all solutions found for $0 \\le m \\le n \\le 1000$ and conjectures that the list is complete; the largest index in the list is $n = 36$.",
+    "status": "partially_resolved",
+    "status_as_of": "2026-11-11",
+    "status_evidence": [
+      {
+        "checked_on": "2026-11-11",
+        "observed": "Theorem 1 settles the case in which the two indices have the same parity. The case of opposite parity is left as a conjecture that the computed list of solutions is complete.",
+        "url": "https://ar5iv.labs.arxiv.org/html/1706.10294"
+      },
+      {
+        "checked_on": "2026-11-11",
+        "observed": "The abstract of Vukusic and Ziegler (February 2023) restates the conjecture, says it is still an open problem, and cites only partial results.",
+        "url": "https://export.arxiv.org/api/query?id_list=2302.08303"
+      }
+    ],
+    "version": 2
+  },
+  "id": "98982ce5037595c69161040551b58f8ba12c86f74c631be69e24a9ff3804ff34",
+  "summary": {
+    "id": "98982ce5037595c69161040551b58f8ba12c86f74c631be69e24a9ff3804ff34",
+    "notes": 0,
+    "source": {
+      "kind": "arxiv",
+      "locator": "1706.10294",
+      "year": 2017
+    },
+    "source_id": "1706.10294",
+    "status": "curated_partially_resolved",
+    "status_as_of": "2026-11-11",
+    "title": "The Luca-Patel conjecture on perfect powers that are sums of two Fibonacci numbers (arXiv:1706.10294)",
+    "updated_at": "2026-11-11T13:27:06.075362268Z"
+  }
+}

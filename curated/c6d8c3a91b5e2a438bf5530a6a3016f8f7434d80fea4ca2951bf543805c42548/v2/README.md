@@ -1,0 +1,1 @@
+This is the curator's formalization, not confirmed by the original poser. Elaboration establishes a well-formed proposition, not faithfulness or a proof. It is not open for proof submission and earns no credit.

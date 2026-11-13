@@ -1,0 +1,64 @@
+{
+  "curated": {
+    "background": "Source. Erdős Problem 307 in the Erdős problems database; the page says the question was asked by Barbeau: https://www.erdosproblems.com/307\n\nKnown partial results. According to the problem page, $P$ and $Q$ must be disjoint and the reciprocals of the primes in $P \\cup Q$ must sum to at least $2$, so $P \\cup Q$ has at least $60$ elements. If the elements are only required to be pairwise coprime and $1$ is allowed as an element, examples exist, such as $(1 + \\tfrac{1}{5})(\\tfrac{1}{2} + \\tfrac{1}{3}) = 1$.\n\nStatus record. The status database linked from the problem page is https://raw.githubusercontent.com/teorth/erdosproblems/main/data/problems.yaml . There the state verifiable means open and resolvable by a finite example.",
+    "directions": [
+      "settling-stated-conjectures"
+    ],
+    "lean_target": {
+      "checked_at": "2026-11-11T13:37:40.604722523Z",
+      "correspondence": "P and Q are finite sets of natural numbers all of whose elements are prime. The reciprocals are taken in the rational numbers, and the proposition asks that the product of the two sums of reciprocals equals 1. As in the statement, the two sets are not required to be disjoint or different.",
+      "digest": "651d75677ba5d30b36e53294047467cc0a91df5c3bc9127162579ffd73133ac4",
+      "state": "elaborated",
+      "text": "import Mathlib\n\ndef wishpool_target_prop : Prop :=\n  ∃ P Q : Finset ℕ, (∀ p ∈ P, p.Prime) ∧ (∀ q ∈ Q, q.Prime) ∧\n    (∑ p ∈ P, (1 : ℚ) / (p : ℚ)) * (∑ q ∈ Q, (1 : ℚ) / (q : ℚ)) = 1\n",
+      "toolchain": "leanprover/lean4:v4.35.0, Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "vocabulary": "mathlib"
+    },
+    "license": "CC-BY-4.0",
+    "msc": [
+      "11D68",
+      "11A41"
+    ],
+    "name": "Barbeau's question on two finite sets of primes with reciprocal sums multiplying to 1 (Erdős Problem 307)",
+    "posers": [
+      {
+        "name": "Barbeau"
+      }
+    ],
+    "published_on": "2026-11-11T13:27:05.979458505Z",
+    "source": {
+      "kind": "url",
+      "locator": "https://www.erdosproblems.com/307"
+    },
+    "source_license": "Licence of the source not determined on 2026-11-11; the statement is restated in the curator's own words.",
+    "statement": "Question. Do there exist two finite sets of primes $P$ and $Q$ such that\n\n$$\\Bigl( \\sum_{p \\in P} \\frac{1}{p} \\Bigr) \\Bigl( \\sum_{q \\in Q} \\frac{1}{q} \\Bigr) = 1\\,?$$",
+    "status": "open",
+    "status_as_of": "2026-11-11",
+    "status_evidence": [
+      {
+        "checked_on": "2026-11-11",
+        "observed": "Problem 307 has status state verifiable, last update 2025-09-09. The latest commit touching the file is dated 2026-11-09. In this database the state verifiable means open and resolvable by a finite example.",
+        "url": "https://raw.githubusercontent.com/teorth/erdosproblems/main/data/problems.yaml"
+      },
+      {
+        "checked_on": "2026-11-11",
+        "observed": "The problem page (which shows no date of last edit) describes partial results only and reports no resolution.",
+        "url": "https://www.erdosproblems.com/307"
+      }
+    ],
+    "version": 2
+  },
+  "id": "6951e8a3deca261a1c4f055d25fc2a1a1593e950af3d30f30398c9783add8b34",
+  "summary": {
+    "id": "6951e8a3deca261a1c4f055d25fc2a1a1593e950af3d30f30398c9783add8b34",
+    "notes": 0,
+    "source": {
+      "kind": "url",
+      "locator": "https://www.erdosproblems.com/307"
+    },
+    "source_id": "https://www.erdosproblems.com/307",
+    "status": "curated_open",
+    "status_as_of": "2026-11-11",
+    "title": "Barbeau's question on two finite sets of primes with reciprocal sums multiplying to 1 (Erdős Problem 307)",
+    "updated_at": "2026-11-11T13:27:05.979458505Z"
+  }
+}

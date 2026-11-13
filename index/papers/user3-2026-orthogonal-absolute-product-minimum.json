@@ -1,0 +1,242 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "fd1633144086085a16f35c8171e2f4b6186a6fbb",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/fd1633144086085a16f35c8171e2f4b6186a6fbb/D5/S1/Eigenstructure/OrthogonalAbsoluteProductMinimum.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:user3-2026-orthogonal-absolute-product-minimum:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "fd1633144086085a16f35c8171e2f4b6186a6fbb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/fd1633144086085a16f35c8171e2f4b6186a6fbb/D5/S1/Eigenstructure/OrthogonalAbsoluteProductMinimum.lean"
+        },
+        "lineage": "collected:user3-2026-orthogonal-absolute-product-minimum:s1",
+        "macros": {
+          "\\RR": "\\mathbb R",
+          "\\argmin": "\\operatorname*{arg\\,min}",
+          "\\diag": "\\operatorname{diag}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "user3-2026-orthogonal-absolute-product-minimum",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $K\\geq1$ and $P\\in GL_K(\\RR)$,\n\\[\n \\min_{Q\\in O(K)}\\rho(M_P(Q))\n =\\inf_{Q\\in O(K)}\\rho(M_P(Q))=1.\n\\]\nAn attaining matrix $Q$ is obtained by applying ordered Gram--Schmidt to\nthe rows of $P$ and placing the resulting unit vectors in its columns.\nThe same attained minimum holds over $SO(K)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving User3's orthogonal absolute-product question: minimum and minimizers",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "user3-2026-orthogonal-absolute-product-minimum"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:user3-2026-orthogonal-absolute-product-minimum:2:s2",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "fd1633144086085a16f35c8171e2f4b6186a6fbb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/fd1633144086085a16f35c8171e2f4b6186a6fbb/D5/S1/Eigenstructure/OrthogonalAbsoluteProductMinimum.lean"
+        },
+        "lineage": "collected:user3-2026-orthogonal-absolute-product-minimum:s2",
+        "macros": {
+          "\\RR": "\\mathbb R",
+          "\\argmin": "\\operatorname*{arg\\,min}",
+          "\\diag": "\\operatorname{diag}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "user3-2026-orthogonal-absolute-product-minimum",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $A\\in GL_K(\\RR)$, $K\\geq1$,\n\\[\n \\rho(|A|\\,|A^{-1}|)=1\n \\quad\\Longleftrightarrow\\quad\n SAC\\text{ is lower triangular for some permutation matrices }S,C.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving User3's orthogonal absolute-product question: minimum and minimizers",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "user3-2026-orthogonal-absolute-product-minimum"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:user3-2026-orthogonal-absolute-product-minimum:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "fd1633144086085a16f35c8171e2f4b6186a6fbb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/fd1633144086085a16f35c8171e2f4b6186a6fbb/D5/S1/Eigenstructure/OrthogonalAbsoluteProductMinimum.lean"
+        },
+        "lineage": "collected:user3-2026-orthogonal-absolute-product-minimum:s3",
+        "macros": {
+          "\\RR": "\\mathbb R",
+          "\\argmin": "\\operatorname*{arg\\,min}",
+          "\\diag": "\\operatorname{diag}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "user3-2026-orthogonal-absolute-product-minimum",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For each row permutation $S$, fix the factorization\n$SPU_S=L_S$ with $U_S$ orthogonal and $L_S$ lower triangular with\npositive diagonal. Then\n\\[\n \\argmin_{Q\\in O(K)}\\rho(M_P(Q))\n =\\{U_SW:S\\text{ a permutation matrix},\\ W\\text{ a signed permutation matrix}\\}.\n\\]\nIn particular, there are at most $2^K(K!)^2$ minimizing matrices.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving User3's orthogonal absolute-product question: minimum and minimizers",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "user3-2026-orthogonal-absolute-product-minimum"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:user3-2026-orthogonal-absolute-product-minimum:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "fd1633144086085a16f35c8171e2f4b6186a6fbb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/fd1633144086085a16f35c8171e2f4b6186a6fbb/D5/S1/Eigenstructure/OrthogonalAbsoluteProductMinimum.lean"
+        },
+        "lineage": "collected:user3-2026-orthogonal-absolute-product-minimum:s4",
+        "macros": {
+          "\\RR": "\\mathbb R",
+          "\\argmin": "\\operatorname*{arg\\,min}",
+          "\\diag": "\\operatorname{diag}",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "user3-2026-orthogonal-absolute-product-minimum",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $K\\geq1$ and $L\\in GL_K(\\RR)$, there exist $Q\\in SO(K)$ and\n$c>0$ satisfying $|Q^\\top L^{-1}|e=ce$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving User3's orthogonal absolute-product question: minimum and minimizers",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "user3-2026-orthogonal-absolute-product-minimum"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Resolving User3's orthogonal absolute-product question: minimum and minimizers",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "user3-2026-orthogonal-absolute-product-minimum"
+}

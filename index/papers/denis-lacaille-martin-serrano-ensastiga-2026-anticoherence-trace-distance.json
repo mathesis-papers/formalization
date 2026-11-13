@@ -1,0 +1,190 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S3/Quantum/Measurement/AnticoherenceTraceDistanceRefutation.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance:4:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S3/Quantum/Measurement/AnticoherenceTraceDistanceRefutation.lean"
+        },
+        "lineage": "collected:denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance:s1",
+        "macros": {
+          "\\A": "\\mathcal{A}",
+          "\\Tr": "\\operatorname{Tr}",
+          "\\id": "\\mathbf{1}",
+          "\\normone": "\\left\\lVert #1\\right\\rVert_1"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The map $\\Phi$ in~\\eqref{eq:channel} is completely positive, trace preserving\nand SU(2)-covariant. The state $\\rho$ is a mixed density operator, and\n\\[\n \\A_7^{T,d_1}(\\Phi(\\rho))-\\A_7^{T,d_1}(\\rho)\n =-\\frac{95}{90552}<0.\n\\]\nThus this candidate fails (T4) on the full mixed-state domain.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting the trace-distance case of axiom (T4) of Denis, Lacaille, Martin and Serrano-Ensástiga",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance:4:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S3/Quantum/Measurement/AnticoherenceTraceDistanceRefutation.lean"
+        },
+        "lineage": "collected:denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance:s2",
+        "macros": {
+          "\\A": "\\mathcal{A}",
+          "\\Tr": "\\operatorname{Tr}",
+          "\\id": "\\mathbf{1}",
+          "\\normone": "\\left\\lVert #1\\right\\rVert_1"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For spin Casimir $C$, set $S_{ab}=(J_aJ_b+J_bJ_a)/2$ and\n$Q_{ab}=S_{ab}-(C/3)\\delta_{ab}\\id$. Then\n$\\sum_{a,b}Q_{ab}^2=C(4C-3)\\id/6$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting the trace-distance case of axiom (T4) of Denis, Lacaille, Martin and Serrano-Ensástiga",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance:4:s3",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S3/Quantum/Measurement/AnticoherenceTraceDistanceRefutation.lean"
+        },
+        "lineage": "collected:denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance:s3",
+        "macros": {
+          "\\A": "\\mathcal{A}",
+          "\\Tr": "\\operatorname{Tr}",
+          "\\id": "\\mathbf{1}",
+          "\\normone": "\\left\\lVert #1\\right\\rVert_1"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For the state and channel in~\\eqref{eq:channel}, the fidelity candidate\nstrictly increases at every $t=1,\\ldots,8$. The trace-distance candidate\nstrictly increases for $t=1,\\ldots,6,8$ and decreases for $t=7$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting the trace-distance case of axiom (T4) of Denis, Lacaille, Martin and Serrano-Ensástiga",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 4,
+        "work": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Refuting the trace-distance case of axiom (T4) of Denis, Lacaille, Martin and Serrano-Ensástiga",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 4,
+  "work": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance"
+}

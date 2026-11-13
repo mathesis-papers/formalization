@@ -1,0 +1,66 @@
+{
+  "curated": {
+    "background": "Source. Erdős Problem 699 in the Erdős problems database, described on the page as a problem of Erdős and Szekeres: https://www.erdosproblems.com/699\n\nKnown partial results. According to the problem page, the statement is true when $j \\le \\tfrac{3}{2} i$ or $n = 2j$ (credited on the page to GPT 5.6, prompted by Price), and for fixed $i < j$ only finitely many $n$ can be counterexamples. The stronger form with $p > i$ has known exceptions, for example\n\n$$\\gcd\\Bigl( \\binom{28}{5}, \\binom{28}{14} \\Bigr) = 2^3 \\cdot 3^3 \\cdot 5.$$\n\nStatus record. The status database linked from the problem page is https://raw.githubusercontent.com/teorth/erdosproblems/main/data/problems.yaml . There the state falsifiable means open and resolvable by a finite counterexample.",
+    "directions": [
+      "settling-stated-conjectures"
+    ],
+    "lean_target": {
+      "checked_at": "2026-11-11T13:34:19.972166563Z",
+      "correspondence": "The proposition quantifies over all natural numbers n, i and j with 1 ≤ i < j and 2j ≤ n; for integers, 2j ≤ n is the condition j ≤ n/2. It asks for a prime p with p ≥ i that divides the greatest common divisor of the binomial coefficients C(n, i) and C(n, j).",
+      "digest": "5406bbd5cf8dc52039a01992585fcf29b4a1aa3d7db8568ad18e5433a566ad46",
+      "state": "elaborated",
+      "text": "import Mathlib\n\ndef wishpool_target_prop : Prop :=\n  ∀ n i j : ℕ, 1 ≤ i → i < j → 2 * j ≤ n →\n    ∃ p : ℕ, p.Prime ∧ i ≤ p ∧ p ∣ Nat.gcd (n.choose i) (n.choose j)\n",
+      "toolchain": "leanprover/lean4:v4.35.0, Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "vocabulary": "mathlib"
+    },
+    "license": "CC-BY-4.0",
+    "msc": [
+      "11B65"
+    ],
+    "name": "The Erdős-Szekeres problem on a common prime factor at least i of two binomial coefficients (Erdős Problem 699)",
+    "posers": [
+      {
+        "name": "Erdős"
+      },
+      {
+        "name": "Szekeres"
+      }
+    ],
+    "published_on": "2026-11-11T13:27:05.804010188Z",
+    "source": {
+      "kind": "url",
+      "locator": "https://www.erdosproblems.com/699"
+    },
+    "source_license": "Licence of the source not determined on 2026-11-11; the statement is restated in the curator's own words.",
+    "statement": "Question. Is it true that for all integers $1 \\le i < j \\le n/2$ there exists a prime $p \\ge i$ dividing\n\n$$\\gcd\\Bigl( \\binom{n}{i}, \\binom{n}{j} \\Bigr)\\,?$$",
+    "status": "partially_resolved",
+    "status_as_of": "2026-11-11",
+    "status_evidence": [
+      {
+        "checked_on": "2026-11-11",
+        "observed": "Problem 699 has status state falsifiable, last update 2025-08-31. The latest commit touching the file is dated 2026-11-09. In this database the state falsifiable means open and resolvable by a finite counterexample.",
+        "url": "https://raw.githubusercontent.com/teorth/erdosproblems/main/data/problems.yaml"
+      },
+      {
+        "checked_on": "2026-11-11",
+        "observed": "The problem page (last edited 19 July 2026) describes partial results only and reports no resolution.",
+        "url": "https://www.erdosproblems.com/699"
+      }
+    ],
+    "version": 2
+  },
+  "id": "b45d0b6f88cd461cb71e07e70c3ce771db9ce3ad2422b3f719d33272c9fdb71a",
+  "summary": {
+    "id": "b45d0b6f88cd461cb71e07e70c3ce771db9ce3ad2422b3f719d33272c9fdb71a",
+    "notes": 0,
+    "source": {
+      "kind": "url",
+      "locator": "https://www.erdosproblems.com/699"
+    },
+    "source_id": "https://www.erdosproblems.com/699",
+    "status": "curated_partially_resolved",
+    "status_as_of": "2026-11-11",
+    "title": "The Erdős-Szekeres problem on a common prime factor at least i of two binomial coefficients (Erdős Problem 699)",
+    "updated_at": "2026-11-11T13:27:05.804010188Z"
+  }
+}
