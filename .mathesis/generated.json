@@ -3,8 +3,8 @@
   "sha256": {
     ".github/workflows/check.yml": "1326c2e90b8a65dffdea934098e5e12da39d4dd84bb8aebcabf0fda1eeea7b91",
     ".gitignore": "d781522b5e8568bddad4a73a41e8839fc34b848b1e916e41f959212ae19bcb32",
-    "LEADERBOARD.md": "8d2afd2ee1fefe5eecc90e9cc043882d39cd60e17de17c4c3e4dbbc6d8ea62a3",
-    "README.md": "4dd533a50c4f2637a0217c67bc23eb3b51461f9f3f4995ce188d279f89433c03",
+    "LEADERBOARD.md": "82cafdb9ba50bccbefe3fbde9fa598462e142a0454ac13784efc1345b3933257",
+    "README.md": "7edb8b59d9fa44507c59eba84118d055170a78d8b848a35d88a64070048ff26c",
     "ci/mathlib/lake-manifest.json": "1bb9bfa56d042f2064d7a53a80f643e9cb1c9104bc1447a26153c267179922ed",
     "ci/mathlib/lakefile.toml": "955328a13ab3502ad02eae34a5944807286d2cf003a6ae4b4930823759a7f39b",
     "ci/mathlib/lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
@@ -39,7 +39,7 @@
     "environment/verifier/mathesis-libraries.json": "2e548199f33747004a68343b460c9addba8db6cbdb6fff9ca8def09ef9032302",
     "index/curated.json": "2858f5cd9c0a30bed45c133684d90bdfece535ebc2106c54d4696c2ad072cb30",
     "index/modules.json": "4b2fb7201a1bbfd3d204a2946235543f579e97badeadc7347cf2b53a68b58a7a",
-    "index/nodes.json": "017490de388b52d9aadce950a5bafb74f430f96e2876de989ecc8848b6c45707",
+    "index/nodes.json": "88160108a14b7a3dcc11aa2d132b61d2f33a264825483f9176bc0444a491bdfb",
     "index/papers/a320043-square-values-refutation.json": "42a89a0ca63f92e43388ad123430b5fe24589539fc8a2468634b643b188e03d5",
     "index/papers/aks2610-twin-free-theta-separation.json": "4b9006eeca65f87258e63d003b805a86df13a08c9aed8584bc62bc8dcaf67971",
     "index/papers/alikhani-griswold-2026-connected-minus-four-family.json": "a5719d153bb82cf6246d280a1967452903456b031ae2214da00206afc589a97e",
@@ -82,6 +82,7 @@
     "index/papers/radsarar-anando-2026-apollonian-second-eigenvalue.json": "40030712224c5eeb5e5caffe0d3504ce5da70f6fcffac7b4c8612836d5ff5e62",
     "index/papers/schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation.json": "21e2abdef8855ec580b7b00324e69f6daf4d4a1b445dd38b3269285dc0e06dbc",
     "index/papers/stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight.json": "c0413cc6001aec4507a5d47c29c717653b944598f07d09920131ef780c7537b3",
+    "index/papers/ta-2025-problem-11-7-good-involution-bound-refutation.json": "a8aeeeb518ab5272b11ddeb6389764fd6d390d0ecf6f009168737612742c9d4c",
     "index/papers/tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound.json": "0fb3c2f7f8e538ada3a0297d5c73fdf7eeec606969cb68aae69bbba53c476376",
     "index/papers/user3-2026-orthogonal-absolute-product-minimum.json": "b8267b0646e673066aa2f34518d70bd1f1859ae881c9808d5c7e0c19faa90701",
     "index/papers/wang-conjecture326.json": "9d0612204c4d5220b070191e82359f9c8fb9c58b9157e6f66666211c3ae79284",
@@ -89,13 +90,13 @@
     "index/papers/xu-et-al-2023-noisy-ghz-witness-bound-gap.json": "d8837cd67a0f798372b6614b6b90393e014bfdfffa3e28c55df5c5046b351fcf",
     "lake-manifest.json": "31d9fe1308b6e99c7308078206dd497edc0cfa29f34bc504e13d0c973f24099e",
     "lakefile.toml": "dd119185c57ba8f2725a22fc24881014327d24730dc5e3c53530730eba353757",
-    "leaderboard.json": "c3bac71247535a86a7ef86250382018454772661b97570101d8cff50c839f4d3",
+    "leaderboard.json": "abb586fc111fcbbfd09d2750bbba61b2df6f643ae90e56e491fd68f52d0e3a08",
     "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
     "mathesis-libraries.json": "9b0ec746e25886a5861077cdf26644602d23fc6ead66f2a09bdd586ee1b53ba2",
     "proofs/README.md": "78ae39ce8ff7ba91e1cfa22980567bff4f17e3be8420400b6cdce4cf62661316",
     "scripts/build.py": "6fd5a960d6e78717e87c0bc36569f97d047d19b5252453bd295d21d2a54f126b",
     "scripts/check.py": "b0d37e3123131a988ac21a302b5683ae1f98324c2c49328701564293c3e04cbc",
-    "snapshot.json": "4747d26870251cfab7483501da47692c18c7efed58c0a06abb06adccba9cbe4a",
+    "snapshot.json": "90969920c4854da5be812072c1ae2e23aebc0799436ace6bb3c79ec0d4a3ccf3",
     "targets/README.md": "4e06f3c0858a586ee7e3056b6575652df9eea0ddb53dcb0ad5035ea9f03bdf77"
   }
 }
