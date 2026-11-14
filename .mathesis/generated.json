@@ -3,8 +3,8 @@
   "sha256": {
     ".github/workflows/check.yml": "1326c2e90b8a65dffdea934098e5e12da39d4dd84bb8aebcabf0fda1eeea7b91",
     ".gitignore": "d781522b5e8568bddad4a73a41e8839fc34b848b1e916e41f959212ae19bcb32",
-    "LEADERBOARD.md": "894d01f52ce16d0fc09d5986cc0da580a6df925b84aeaebef53f765c41e9d8de",
-    "README.md": "4d125d609aaa977de26ded12e287385039f2b818ab8829455b75d3984dcbaff2",
+    "LEADERBOARD.md": "78dd64432236959d9c1eaeffb5a71aa0e0deb5297395649aff36347cacd4065b",
+    "README.md": "3a0153700ed53c27bf91ea81c17600f151c2019765469a4949d69510f0032e8c",
     "ci/mathlib/lake-manifest.json": "1bb9bfa56d042f2064d7a53a80f643e9cb1c9104bc1447a26153c267179922ed",
     "ci/mathlib/lakefile.toml": "955328a13ab3502ad02eae34a5944807286d2cf003a6ae4b4930823759a7f39b",
     "ci/mathlib/lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
@@ -39,8 +39,9 @@
     "environment/verifier/mathesis-libraries.json": "2e548199f33747004a68343b460c9addba8db6cbdb6fff9ca8def09ef9032302",
     "index/curated.json": "2858f5cd9c0a30bed45c133684d90bdfece535ebc2106c54d4696c2ad072cb30",
     "index/modules.json": "4b2fb7201a1bbfd3d204a2946235543f579e97badeadc7347cf2b53a68b58a7a",
-    "index/nodes.json": "88160108a14b7a3dcc11aa2d132b61d2f33a264825483f9176bc0444a491bdfb",
+    "index/nodes.json": "5b72075596cab61373ec57c116b67406de608a02fd013f1fee4dc8dc3de388d8",
     "index/papers/a320043-square-values-refutation.json": "42a89a0ca63f92e43388ad123430b5fe24589539fc8a2468634b643b188e03d5",
+    "index/papers/abbott-2019-sequential-weak-pointer-bound.json": "64ccbf13d9c60406d5efb11ce93241eff9a8be1d1d84e225abf01e93a76846e7",
     "index/papers/aks2610-twin-free-theta-separation.json": "4b9006eeca65f87258e63d003b805a86df13a08c9aed8584bc62bc8dcaf67971",
     "index/papers/alikhani-griswold-2026-connected-minus-four-family.json": "a5719d153bb82cf6246d280a1967452903456b031ae2214da00206afc589a97e",
     "index/papers/b164660-chebfloor.json": "1a9001d4360cb5d39f4c0135b4d060f8adcaa2882dda59eddf2ff0e76aa1579e",
@@ -90,13 +91,13 @@
     "index/papers/xu-et-al-2023-noisy-ghz-witness-bound-gap.json": "d8837cd67a0f798372b6614b6b90393e014bfdfffa3e28c55df5c5046b351fcf",
     "lake-manifest.json": "31d9fe1308b6e99c7308078206dd497edc0cfa29f34bc504e13d0c973f24099e",
     "lakefile.toml": "dd119185c57ba8f2725a22fc24881014327d24730dc5e3c53530730eba353757",
-    "leaderboard.json": "d08ec016588ea432be6b5925f89df932205a17accf753cbdd7cd15650f26290f",
+    "leaderboard.json": "2d1d47072a5d0fc834ab5ef83248db57b7cc8786b5007b226ff3e53ac5ea8037",
     "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
     "mathesis-libraries.json": "9b0ec746e25886a5861077cdf26644602d23fc6ead66f2a09bdd586ee1b53ba2",
     "proofs/README.md": "78ae39ce8ff7ba91e1cfa22980567bff4f17e3be8420400b6cdce4cf62661316",
     "scripts/build.py": "6fd5a960d6e78717e87c0bc36569f97d047d19b5252453bd295d21d2a54f126b",
     "scripts/check.py": "b0d37e3123131a988ac21a302b5683ae1f98324c2c49328701564293c3e04cbc",
-    "snapshot.json": "d349e34fc2477f0fe3f090dadb507c1844ec347c9cd68063b60c49ddfcd4df64",
+    "snapshot.json": "d33d6bb4ec6ef944a77eb70405950d909a4310fcbc74a08a694735993f2fc9d2",
     "targets/README.md": "4e06f3c0858a586ee7e3056b6575652df9eea0ddb53dcb0ad5035ea9f03bdf77"
   }
 }
