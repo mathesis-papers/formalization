@@ -1,0 +1,384 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:aks2610-twin-free-theta-separation:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+        },
+        "lineage": "collected:aks2610-twin-free-theta-separation:s1",
+        "macros": {
+          "\\Th": "\\Theta",
+          "\\mm": "\\operatorname{mm}"
+        },
+        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "proof_basis": null,
+        "proof_state": "needs_attention",
+        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "receipt": null,
+        "record": "aks2610-twin-free-theta-separation",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $k\\geq1$, $r=6k+4$, and $G=\\Th_{3,3,r}$. Then $G$ is connected and\ntwin-free, $|V(G)|=r+5$, and\n\\[\n \\dim(G)=\\mm_L(G)=2,\\qquad \\mm_Q(G)=1.\n\\]\nMore precisely, the eigenvalues $1$ and $3$ of $L$ each have multiplicity\ntwo and all other eigenvalues of $L$ are simple; every eigenvalue of $Q$\nis simple. Consequently these graphs answer Problem 30 in the\nLaplacian-equality direction.",
+        "status": "needs_attention",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "aks2610-twin-free-theta-separation"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:aks2610-twin-free-theta-separation:2:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+        },
+        "lineage": "collected:aks2610-twin-free-theta-separation:s2",
+        "macros": {
+          "\\Th": "\\Theta",
+          "\\mm": "\\operatorname{mm}"
+        },
+        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "proof_basis": null,
+        "proof_state": "needs_attention",
+        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "receipt": null,
+        "record": "aks2610-twin-free-theta-separation",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The graphs $G_k$, $k\\geq1$, are pairwise nonisomorphic connected twin-free\ngraphs satisfying exactly one of $\\mm_L=\\dim$ and $\\mm_Q=\\dim$.",
+        "status": "needs_attention",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "aks2610-twin-free-theta-separation"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:aks2610-twin-free-theta-separation:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+        },
+        "lineage": "collected:aks2610-twin-free-theta-separation:s3",
+        "macros": {
+          "\\Th": "\\Theta",
+          "\\mm": "\\operatorname{mm}"
+        },
+        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "proof_basis": null,
+        "proof_state": "needs_attention",
+        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "receipt": null,
+        "record": "aks2610-twin-free-theta-separation",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $r\\geq6$, $\\Th_{3,3,r}$ is connected and twin-free with\nmetric dimension two. Its repeated eigenvalues are exactly those in the\nfollowing table; each listed eigenvalue has multiplicity two, and every\nother eigenvalue is simple.\n\\[\n\\begin{array}{c|cc|cc}\n r\\bmod6&\\text{repeated in }L&\\text{repeated in }Q&\\mm_L&\\mm_Q\\\\\\hline\n 0&3&1&2&2\\\\\n 1&3&3&2&2\\\\\n 2&\\varnothing&\\varnothing&1&1\\\\\n 3&1,3&1,3&2&2\\\\\n 4&1,3&\\varnothing&2&1\\\\\n 5&\\varnothing&\\varnothing&1&1\n\\end{array}\n\\]\nThus within this subfamily, both equalities hold in residues $0,1,3$;\nneither holds in residues $2,5$; and only the Laplacian equality holds\nin residue $4$.",
+        "status": "needs_attention",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "aks2610-twin-free-theta-separation"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:aks2610-twin-free-theta-separation:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+        },
+        "lineage": "collected:aks2610-twin-free-theta-separation:s4",
+        "macros": {
+          "\\Th": "\\Theta",
+          "\\mm": "\\operatorname{mm}"
+        },
+        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "proof_basis": null,
+        "proof_state": "needs_attention",
+        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "receipt": null,
+        "record": "aks2610-twin-free-theta-separation",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The graphs $\\Th_{3,3,r}$ are connected and twin-free for every $r\\geq2$.\nTheir metric dimension is three for $r=3,5$, and two otherwise.\nThe spectral table in Corollary~\\ref{cor:all-lengths} holds for every\n$r\\geq3$. For $r=2$, the only repeated Laplacian eigenvalues are\n$3-\\sqrt2,3+\\sqrt2$, both double, and the signless spectrum is simple.\nConsequently exactly one equality holds precisely when\n\\[\n r=2\\quad\\hbox{or}\\quad r\\equiv4\\pmod6,\n\\]\nand in every such case it is the Laplacian equality.\nBoth equalities hold precisely for $r\\geq6$ with $r\\equiv0,1,3\\pmod6$.\nNeither holds in the other cases. In particular, no graph of this\nentire subfamily separates in the signless-equality direction.",
+        "status": "needs_attention",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "aks2610-twin-free-theta-separation"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:aks2610-twin-free-theta-separation:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+        },
+        "lineage": "collected:aks2610-twin-free-theta-separation:s5",
+        "macros": {
+          "\\Th": "\\Theta",
+          "\\mm": "\\operatorname{mm}"
+        },
+        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "proof_basis": null,
+        "proof_state": "needs_attention",
+        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "receipt": null,
+        "record": "aks2610-twin-free-theta-separation",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $r\\geq2$,\n\\[\n \\operatorname{mult}_{Q(\\Th_{3,3,r})}(2)\n =\\begin{cases}1,&r\\equiv1\\pmod4,\\\\0,&\\text{otherwise}.\\end{cases}\n\\]\nThis is the $(3,3,r)$ instance of \\cite[Corollary~8.1]{PP}.",
+        "status": "needs_attention",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "aks2610-twin-free-theta-separation"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:aks2610-twin-free-theta-separation:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+        },
+        "lineage": "collected:aks2610-twin-free-theta-separation:s6",
+        "macros": {
+          "\\Th": "\\Theta",
+          "\\mm": "\\operatorname{mm}"
+        },
+        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "proof_basis": null,
+        "proof_state": "needs_attention",
+        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "receipt": null,
+        "record": "aks2610-twin-free-theta-separation",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $t\\geq1$, form $H_t$ by attaching one path of $t$ edges to every\nvertex of $H$, identifying that vertex with one endpoint of its path.\nIf $H=K_{1,3,3}$ then\n$(\\dim H_t,\\mm_L(H_t),\\mm_Q(H_t))=(4,4,5)$.\nIf $H=K_2\\vee(2K_2)$ then the triple is $(3,2,3)$.\nBoth constructions give infinite pairwise nonisomorphic families of\nconnected twin-free graphs. Thus Problem~30 has examples in both directions.",
+        "status": "needs_attention",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "aks2610-twin-free-theta-separation"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:aks2610-twin-free-theta-separation:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+        },
+        "lineage": "collected:aks2610-twin-free-theta-separation:s7",
+        "macros": {
+          "\\Th": "\\Theta",
+          "\\mm": "\\operatorname{mm}"
+        },
+        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "proof_basis": null,
+        "proof_state": "needs_attention",
+        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "receipt": null,
+        "record": "aks2610-twin-free-theta-separation",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $M_1,\\ldots,M_s$ are pairwise disjoint proper modules in a connected\ngraph, then $\\dim G\\geq\\sum_i\\rho(M_i)$.",
+        "status": "needs_attention",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "aks2610-twin-free-theta-separation"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "aks2610-twin-free-theta-separation"
+}
