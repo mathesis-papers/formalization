@@ -1,6 +1,6 @@
 {
   "api_base": "https://mathesis-omega-research.apps.chrono-ai.fun",
-  "captured_at": "2026-11-15T15:28:34.937729677Z",
+  "captured_at": "2026-11-15T16:28:35.1200089Z",
   "counts": {
     "covered_by_existing_base": 0,
     "curated_targets": 7,
@@ -18,5 +18,5 @@
   "nodes": 306,
   "papers": 49,
   "schema": "mathesis.formalization-repository.v1",
-  "snapshot_sha256": "3ab55edf7260b40d9d7f0be4cbdde7b4cf8940ed1b227dce77afb248b8d54c9b"
+  "snapshot_sha256": "b190153806e890447c4cf4e45fd2ea0ff68a2a3513a8ee15bd5ab5e6a6a877ae"
 }
