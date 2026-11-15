@@ -16,4 +16,4 @@ No rows in this public snapshot.
 
 No rows in this public snapshot.
 
-Snapshot: `2026-11-15T14:28:50.825903593Z`. See [machine-readable data](leaderboard.json).
+Snapshot: `2026-11-15T15:28:34.937729677Z`. See [machine-readable data](leaderboard.json).
