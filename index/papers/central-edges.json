@@ -1,0 +1,606 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:central-edges:3:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+        },
+        "lineage": "collected:central-edges:s1",
+        "macros": {
+          "\\CG": "\\operatorname{CG}",
+          "\\E": "\\operatorname{E}",
+          "\\ceil": "\\left\\lceil #1\\right\\rceil",
+          "\\diam": "\\operatorname{diam}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "central-edges",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Conjecture 4.2 is false. Its implication $\\mathrm{(i)}\\Rightarrow\n\\mathrm{(ii)}$ fails for a four-point space.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "central-edges"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s10",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:central-edges:3:s10",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+        },
+        "lineage": "collected:central-edges:s10",
+        "macros": {
+          "\\CG": "\\operatorname{CG}",
+          "\\E": "\\operatorname{E}",
+          "\\ceil": "\\left\\lceil #1\\right\\rceil",
+          "\\diam": "\\operatorname{diam}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "central-edges",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For a finite homogeneous ultrametric space $X$,\n$|\\operatorname{Is}(X)|\\ge2^{|X|-1}$, with equality exactly when\n$X$ is MCD. A finite rooted tree is the representing tree of some\nhomogeneous ultrametric space exactly when it has no vertex of\nout-degree one and all vertices at the same level have the same\nout-degree.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "central-edges"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s11",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:central-edges:3:s11",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+        },
+        "lineage": "collected:central-edges:s11",
+        "macros": {
+          "\\CG": "\\operatorname{CG}",
+          "\\E": "\\operatorname{E}",
+          "\\ceil": "\\left\\lceil #1\\right\\rceil",
+          "\\diam": "\\operatorname{diam}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "central-edges",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For a finite ultrametric with center $\\{0=c_0<\\cdots<c_h\\}$,\nthe sphere counts $1,1,2,\\ldots,2^{h-1}$ at every point hold\nexactly when $X$ is MCD with $|X|=2^h$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "central-edges"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:central-edges:3:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+        },
+        "lineage": "collected:central-edges:s2",
+        "macros": {
+          "\\CG": "\\operatorname{CG}",
+          "\\E": "\\operatorname{E}",
+          "\\ceil": "\\left\\lceil #1\\right\\rceil",
+          "\\diam": "\\operatorname{diam}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "central-edges",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If a finite metric space has $n$ points and $|C(X)|=k$, then\n\\[\n |\\E(\\CG_X)|\\ge (k-1)\\ceil{n/2}.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "central-edges"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:central-edges:3:s3",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+        },
+        "lineage": "collected:central-edges:s3",
+        "macros": {
+          "\\CG": "\\operatorname{CG}",
+          "\\E": "\\operatorname{E}",
+          "\\ceil": "\\left\\lceil #1\\right\\rceil",
+          "\\diam": "\\operatorname{diam}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "central-edges",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $n\\ge4$, the minimum number of central edges among\nthree-central $n$-point metric spaces is $2\\ceil{n/2}$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "central-edges"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:central-edges:3:s4",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+        },
+        "lineage": "collected:central-edges:s4",
+        "macros": {
+          "\\CG": "\\operatorname{CG}",
+          "\\E": "\\operatorname{E}",
+          "\\ceil": "\\left\\lceil #1\\right\\rceil",
+          "\\diam": "\\operatorname{diam}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "central-edges",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $n\\ge4$, the minimum number of central edges among\nthree-central $n$-point ultrametric spaces is\n\\[\n 2n-4+\\ceil{n/2}.\n\\]\nEquality holds exactly when the diametrical graph is complete\nbipartite with part sizes $2,n-2$, and the other positive central\ndistance has exactly $\\ceil{n/2}$ edges.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "central-edges"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:central-edges:3:s5",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+        },
+        "lineage": "collected:central-edges:s5",
+        "macros": {
+          "\\CG": "\\operatorname{CG}",
+          "\\E": "\\operatorname{E}",
+          "\\ceil": "\\left\\lceil #1\\right\\rceil",
+          "\\diam": "\\operatorname{diam}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "central-edges",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $n\\ge1$, a metric space of order $n$ with a complete,\n$n$-central graph exists if and only if $n=1$ or $n$ is even.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "central-edges"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:central-edges:3:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+        },
+        "lineage": "collected:central-edges:s6",
+        "macros": {
+          "\\CG": "\\operatorname{CG}",
+          "\\E": "\\operatorname{E}",
+          "\\ceil": "\\left\\lceil #1\\right\\rceil",
+          "\\diam": "\\operatorname{diam}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "central-edges",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $k\\ge1$. The smallest order $v(k)$ of a metric space with\n$|C(X)|=k$, as asked in Problem 4.3, is\n\\[\n v(k)=\\begin{cases}\n 1,&k=1,\\\\\n k,&k\\text{ even},\\\\\n k+1,&k\\ge3\\text{ odd}.\n \\end{cases}\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "central-edges"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:central-edges:3:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+        },
+        "lineage": "collected:central-edges:s7",
+        "macros": {
+          "\\CG": "\\operatorname{CG}",
+          "\\E": "\\operatorname{E}",
+          "\\ceil": "\\left\\lceil #1\\right\\rceil",
+          "\\diam": "\\operatorname{diam}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "central-edges",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $n\\ge3$, the feasible center sizes are $1\\le k\\le n$ when $n$\nis even, and $1\\le k\\le n-1$ when $n$ is odd. For each feasible pair,\nthe minimum central-edge count is\n\\[\n (k-1)\\ceil{n/2}.\n\\]\nAt $n=1$ only $k=1$ occurs; at $n=2$ only $k=2$ occurs.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "central-edges"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:central-edges:3:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+        },
+        "lineage": "collected:central-edges:s8",
+        "macros": {
+          "\\CG": "\\operatorname{CG}",
+          "\\E": "\\operatorname{E}",
+          "\\ceil": "\\left\\lceil #1\\right\\rceil",
+          "\\diam": "\\operatorname{diam}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "central-edges",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Among nonempty central graphs of order $n\\ge2$, the minimum is\n$\\ceil{n/2}$. Equality graphs are $(n/2)P_2$ for even $n$ and\n$P_3\\cup((n-3)/2)P_2$ for odd $n$. They are bicentral.\nAmong all central graphs of order $n\\ge3$, the minimum is zero.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "central-edges"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s9",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:central-edges:3:s9",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+        },
+        "lineage": "collected:central-edges:s9",
+        "macros": {
+          "\\CG": "\\operatorname{CG}",
+          "\\E": "\\operatorname{E}",
+          "\\ceil": "\\left\\lceil #1\\right\\rceil",
+          "\\diam": "\\operatorname{diam}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "central-edges",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $X$ be MCD, $|X|=2^h$, and write\n$C(X)=\\{0=c_0<c_1<\\cdots<c_h\\}$. Then $X$ is homogeneous,\nmeaning that its isometry group is transitive on points, and\n\\[\n \\operatorname{Is}(X)\\cong G_h,\\qquad\n G_0=\\{1\\},\\qquad\n G_h=(G_{h-1}\\times G_{h-1})\\rtimes C_2,\n \\qquad |G_h|=2^{2^h-1},\n\\]\nwhere $C_2$ swaps the two factors. Moreover, for every $p\\in X$,\n\\[\n |\\{x:d(p,x)=c_i\\}|=2^{i-1}\\quad(1\\le i\\le h).\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "central-edges"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 3,
+  "work": "central-edges"
+}
