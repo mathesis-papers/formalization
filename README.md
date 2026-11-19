@@ -2,16 +2,16 @@
 
 This repository is a projection of public Mathesis routes. Mathesis, its MongoDB records and independent verifier receipts remain the authority. A clone can read and compile the projected sources independently of trureturing publication. Repository pull requests and CI confer no verification or credit.
 
-Snapshot: `2026-11-19T21:28:58.529236079Z`. API: https://mathesis-omega-research.apps.chrono-ai.fun.
+Snapshot: `2026-11-19T22:28:36.550326239Z`. API: https://mathesis-omega-research.apps.chrono-ai.fun.
 
 | Category | Count | Scope |
 |---|---:|---|
-| Papers | 53 | Current eligible public CC-BY-4.0 archive works |
-| Statements | 345 | Current in-scope versioned nodes |
+| Papers | 54 | Current eligible public CC-BY-4.0 archive works |
+| Statements | 352 | Current in-scope versioned nodes |
 | Covered by existing base | 0 | Matching proved receipt with library_declarations; declarations and library pins retained |
 | Newly formalized | 0 | Matching proved receipt with new_lean; this describes sources, not novelty |
 | Open targets | 0 | Confirmed exact targets without a verified result |
-| No target yet | 345 | Public statements; reason copied from the API |
+| No target yet | 352 | Public statements; reason copied from the API |
 | Disproved statements | 0 | Kept separate from proved results |
 | Curated targets | 7 | Curator's elaborated propositions; not open for submission |
 | Proof bundles | 0 | All public verified proof attempts, including also verified |

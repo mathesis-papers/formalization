@@ -3,8 +3,8 @@
   "sha256": {
     ".github/workflows/check.yml": "1326c2e90b8a65dffdea934098e5e12da39d4dd84bb8aebcabf0fda1eeea7b91",
     ".gitignore": "d781522b5e8568bddad4a73a41e8839fc34b848b1e916e41f959212ae19bcb32",
-    "LEADERBOARD.md": "ef1c9d09184747d5f1ec817f01af49ee276e5e674366e67d12acacf926478ef8",
-    "README.md": "5e01fd9f0b87a95aafb3621107471c54988c1cac5bd019563123e4533d531e05",
+    "LEADERBOARD.md": "c753821aebc82e304fd6a1f2155a801a5772b0106235427600dedc7d7706f42e",
+    "README.md": "2127155b7b91137813939435c2b27690cc9ee5bc6b96066c2613d24b9c186f27",
     "ci/mathlib/lake-manifest.json": "1bb9bfa56d042f2064d7a53a80f643e9cb1c9104bc1447a26153c267179922ed",
     "ci/mathlib/lakefile.toml": "955328a13ab3502ad02eae34a5944807286d2cf003a6ae4b4930823759a7f39b",
     "ci/mathlib/lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
@@ -39,7 +39,7 @@
     "environment/verifier/mathesis-libraries.json": "2e548199f33747004a68343b460c9addba8db6cbdb6fff9ca8def09ef9032302",
     "index/curated.json": "2858f5cd9c0a30bed45c133684d90bdfece535ebc2106c54d4696c2ad072cb30",
     "index/modules.json": "4b2fb7201a1bbfd3d204a2946235543f579e97badeadc7347cf2b53a68b58a7a",
-    "index/nodes.json": "4b4be4551e6a88360d6a9014dc5d338439064dde0414e73110ace55c9ce78cc8",
+    "index/nodes.json": "19654dfe1d7a38a3a3768a2597d8d491d56858c10dd4112daed3f09e17e54f36",
     "index/papers/a320043-square-values-refutation.json": "42a89a0ca63f92e43388ad123430b5fe24589539fc8a2468634b643b188e03d5",
     "index/papers/abbott-2019-sequential-weak-pointer-bound.json": "64ccbf13d9c60406d5efb11ce93241eff9a8be1d1d84e225abf01e93a76846e7",
     "index/papers/aks2610-twin-free-theta-separation.json": "4b9006eeca65f87258e63d003b805a86df13a08c9aed8584bc62bc8dcaf67971",
@@ -84,6 +84,7 @@
     "index/papers/peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf.json": "d54a8991740de6ae94c7dfaf1e7cabb5e52fa2b7003f7c37bfe0a36ea1e294ca",
     "index/papers/pozsgay-wanless-nonlinear-classical-factors.json": "c67a0d1319eb672ec92e5373541672fe07864191dd700068dc99b5641b6e0478",
     "index/papers/radsarar-anando-2026-apollonian-second-eigenvalue.json": "40030712224c5eeb5e5caffe0d3504ce5da70f6fcffac7b4c8612836d5ff5e62",
+    "index/papers/rowland-sistos-barron-2025-rank-sequences.json": "dcc37ea1b1b47947fe78a96c55781a1ad2eb3e3b1f1f2279817879129ea54c4e",
     "index/papers/schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation.json": "21e2abdef8855ec580b7b00324e69f6daf4d4a1b445dd38b3269285dc0e06dbc",
     "index/papers/spin-one-rotation-boxes.json": "5b5e0ef51875c6690c7454e1fc511b7bf703f42f680f999cd32774a80d8b52a6",
     "index/papers/stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight.json": "c0413cc6001aec4507a5d47c29c717653b944598f07d09920131ef780c7537b3",
@@ -95,13 +96,13 @@
     "index/papers/xu-et-al-2023-noisy-ghz-witness-bound-gap.json": "d8837cd67a0f798372b6614b6b90393e014bfdfffa3e28c55df5c5046b351fcf",
     "lake-manifest.json": "31d9fe1308b6e99c7308078206dd497edc0cfa29f34bc504e13d0c973f24099e",
     "lakefile.toml": "dd119185c57ba8f2725a22fc24881014327d24730dc5e3c53530730eba353757",
-    "leaderboard.json": "f2f8e771a04595498124865eac33fb83afac6cc4609de022425c693664f30ced",
+    "leaderboard.json": "0df6e419e2456f62fca5c807c4197f8bcb37f7e27abb740c78aa28ac28be0305",
     "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
     "mathesis-libraries.json": "9b0ec746e25886a5861077cdf26644602d23fc6ead66f2a09bdd586ee1b53ba2",
     "proofs/README.md": "78ae39ce8ff7ba91e1cfa22980567bff4f17e3be8420400b6cdce4cf62661316",
     "scripts/build.py": "6fd5a960d6e78717e87c0bc36569f97d047d19b5252453bd295d21d2a54f126b",
     "scripts/check.py": "b0d37e3123131a988ac21a302b5683ae1f98324c2c49328701564293c3e04cbc",
-    "snapshot.json": "29d68b89dfe0dfb6cba18340d01d5119d45ada2bb8bd7e11b6f8f0e024072348",
+    "snapshot.json": "2b196d5e5256326b348b573d47b4eae96041cd55d731df94db90d2b35e9b33e6",
     "targets/README.md": "4e06f3c0858a586ee7e3056b6575652df9eea0ddb53dcb0ad5035ea9f03bdf77"
   }
 }
