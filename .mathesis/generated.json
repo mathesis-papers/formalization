@@ -3,8 +3,8 @@
   "sha256": {
     ".github/workflows/check.yml": "1326c2e90b8a65dffdea934098e5e12da39d4dd84bb8aebcabf0fda1eeea7b91",
     ".gitignore": "d781522b5e8568bddad4a73a41e8839fc34b848b1e916e41f959212ae19bcb32",
-    "LEADERBOARD.md": "7e6fbe868e082d83db6ff48323ef7599349544796ee9b4a060af3d572fb4f40e",
-    "README.md": "8521e256c2d14aae68da2e9a0e53b9120b1d64cc073cc91d46ba2f752953c0ef",
+    "LEADERBOARD.md": "d1c5346abb83741c509a1c21bbd00100aef26973be24e1599bd4c9883b78d208",
+    "README.md": "b9afbdc18175601c5fd85c58ce8ad4e64b89b0f960f7d1f27213b206b7f407ab",
     "ci/mathlib/lake-manifest.json": "1bb9bfa56d042f2064d7a53a80f643e9cb1c9104bc1447a26153c267179922ed",
     "ci/mathlib/lakefile.toml": "955328a13ab3502ad02eae34a5944807286d2cf003a6ae4b4930823759a7f39b",
     "ci/mathlib/lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
@@ -98,13 +98,13 @@
     "index/papers/xu-et-al-2023-noisy-ghz-witness-bound-gap.json": "d8837cd67a0f798372b6614b6b90393e014bfdfffa3e28c55df5c5046b351fcf",
     "lake-manifest.json": "31d9fe1308b6e99c7308078206dd497edc0cfa29f34bc504e13d0c973f24099e",
     "lakefile.toml": "dd119185c57ba8f2725a22fc24881014327d24730dc5e3c53530730eba353757",
-    "leaderboard.json": "4bcf80f6e796223690b3b623149e08ec282b9b6d1ec6d4e291b41d96daf82c03",
+    "leaderboard.json": "323ff367863df489a750a1a061ac6906fbe94d967f4eb0e4699b29475647af4c",
     "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
     "mathesis-libraries.json": "9b0ec746e25886a5861077cdf26644602d23fc6ead66f2a09bdd586ee1b53ba2",
     "proofs/README.md": "78ae39ce8ff7ba91e1cfa22980567bff4f17e3be8420400b6cdce4cf62661316",
     "scripts/build.py": "6fd5a960d6e78717e87c0bc36569f97d047d19b5252453bd295d21d2a54f126b",
     "scripts/check.py": "b0d37e3123131a988ac21a302b5683ae1f98324c2c49328701564293c3e04cbc",
-    "snapshot.json": "c236618ed805800858b1e4a82398f033075553f9cacc7ae65cfdbfe2eab619f3",
+    "snapshot.json": "7e7cb37bd8354376027e5a6ab9eeb54b273fd9a133e66c2f334b6c908aaa247c",
     "targets/README.md": "4e06f3c0858a586ee7e3056b6575652df9eea0ddb53dcb0ad5035ea9f03bdf77"
   }
 }
