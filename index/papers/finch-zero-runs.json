@@ -1,0 +1,181 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "0d064f0d28d301cd8a1d1b09173035a9f2fd6c02",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/0d064f0d28d301cd8a1d1b09173035a9f2fd6c02/D5/S1/Recurrence/FinchZeroRunsModThree.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:finch-zero-runs:3:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "0d064f0d28d301cd8a1d1b09173035a9f2fd6c02",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0d064f0d28d301cd8a1d1b09173035a9f2fd6c02/D5/S1/Recurrence/FinchZeroRunsModThree.lean"
+        },
+        "lineage": "collected:finch-zero-runs:s1",
+        "macros": {
+          "\\F": "\\mathbb F_3"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "finch-zero-runs",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For the sequence \\eqref{eq:recurrence} with $k=61$, the maximum number\nof gaps in a run \\eqref{eq:run} is exactly ten. In particular, the\nbound $\\lfloor(61-1)/4\\rfloor=15$ is not attained. The least eventual\nperiod is $8946$, and the least $\\mu\\ge0$ such that\n$x_{n+8946}=x_n$ for all $n>\\mu$ is $739$.\nThe ten-gap runs start exactly at $2780+8946m$, for integers $m\\ge0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Finch's zero-run analysis: nonattainment and a corrected capture theorem",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "finch-zero-runs"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:finch-zero-runs:3:s2",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "0d064f0d28d301cd8a1d1b09173035a9f2fd6c02",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0d064f0d28d301cd8a1d1b09173035a9f2fd6c02/D5/S1/Recurrence/FinchZeroRunsModThree.lean"
+        },
+        "lineage": "collected:finch-zero-runs:s2",
+        "macros": {
+          "\\F": "\\mathbb F_3"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "finch-zero-runs",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Suppose $k\\ge2$ and the least eventual period of\n\\eqref{eq:recurrence} is four. Then\n\\[\nz(k)-\\mu_A(k)=\n\\begin{cases}9,&k=2,\\\\6,&k\\ge3.\\end{cases}\n\\]\nIn particular, the restriction of Conjecture~23 to $k\\ge3$ is true.\nFor $k\\ge3$, necessarily $k\\equiv2,3\\pmod4$, and the first\ncapturing run starts at\n\\[\ns=\\begin{cases}\n\\mu_A(k)-k+4,&k\\equiv2\\pmod4,\\\\\n\\mu_A(k)-k+5,&k\\equiv3\\pmod4.\n\\end{cases}\n\\]\nThe triple $(x_{\\mu_A(k)},x_{\\mu_A(k)+1},x_{\\mu_A(k)+2})$\nis respectively $(2,2,0)$ or $(1,2,0)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Finch's zero-run analysis: nonattainment and a corrected capture theorem",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "finch-zero-runs"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:finch-zero-runs:3:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0d064f0d28d301cd8a1d1b09173035a9f2fd6c02",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0d064f0d28d301cd8a1d1b09173035a9f2fd6c02/D5/S1/Recurrence/FinchZeroRunsModThree.lean"
+        },
+        "lineage": "collected:finch-zero-runs:s3",
+        "macros": {
+          "\\F": "\\mathbb F_3"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "finch-zero-runs",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Under the hypotheses of Theorem~\\ref{thm:capture}, put $s=z-4G$.\nFor $k\\ge3$ the neighborhood conditions in Finch's Remark~24 hold:\n$b_{s-4}=1$ when $k\\equiv2\\pmod4$, and\n$b_{s-5}=0$, $b_{s-1}=1$ when $k\\equiv3\\pmod4$.\nAt $k=2$ the proposed condition fails: $s=5$ and $b_{s-4}=b_1=0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Finch's zero-run analysis: nonattainment and a corrected capture theorem",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "finch-zero-runs"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Extending Finch's zero-run analysis: nonattainment and a corrected capture theorem",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 3,
+  "work": "finch-zero-runs"
+}
