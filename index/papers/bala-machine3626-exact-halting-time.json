@@ -1,0 +1,573 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-machine3626-exact-halting-time:3:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+        },
+        "lineage": "collected:bala-machine3626-exact-halting-time:s1",
+        "macros": {
+          "\\val": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala-machine3626-exact-halting-time",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every positive integer $n$, machine 3626 terminates, leaves every tape\nsymbol unchanged, and satisfies\n\\[\n H(n)=C(n)=4\\cdot2^{\\val(n)}-3.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "bala-machine3626-exact-halting-time"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s10",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-machine3626-exact-halting-time:3:s10",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+        },
+        "lineage": "collected:bala-machine3626-exact-halting-time:s10",
+        "macros": {
+          "\\val": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala-machine3626-exact-halting-time",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The divisor-power ratio in Conjecture~1 is an integer for every\nnonnegative integer exponent. The value set, palindromic prefixes and\nprefix sums in Conjectures~2--4 have the stated forms below.\nThe divisor factorization also holds at every prime and real exponent\n$s\\geq0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "bala-machine3626-exact-halting-time"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s11",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-machine3626-exact-halting-time:3:s11",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+        },
+        "lineage": "collected:bala-machine3626-exact-halting-time:s11",
+        "macros": {
+          "\\val": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala-machine3626-exact-halting-time",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $p=2$, $s=3$, \\eqref{eq:ratio} is\n\\[\n Q(n)=\\frac{\\sum_{d\\mid n}d^3}{\\sum_{e\\mid n,\\ e\\text{ odd}}e^3}\n     =\\frac{8^{v+1}-1}{7}.\n\\]\nThis is A318935, introduced by N. J. A. Sloane on 14 September 2018\nas the sum of cubes of the powers of two dividing $n$; Chai Wah Wu gave\nits valuation formula that day. Amiram Eldar recorded the equivalent\ncubic divisor ratio on 29 October 2026 \\cite{cubic}.\nThe underlying cubic power sum already occurs as $T$ on page~102 of\nLamont's 1982 paper on Cayley integers \\cite{lamont}.\nIt is also a direct weighted consequence:\n\\[\n Q(n)=1+4\\sum_{\\substack{d\\mid n\\\\d>1}}m(d)\\varphi(d)^3.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "bala-machine3626-exact-halting-time"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-machine3626-exact-halting-time:3:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+        },
+        "lineage": "collected:bala-machine3626-exact-halting-time:s2",
+        "macros": {
+          "\\val": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala-machine3626-exact-halting-time",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Starting in $(A,u_k\\mid r)$, the machine first moves right past the starting\ncell after exactly $T_k$ transitions, reaches $E(u_k,r)$, and restores every\ntape symbol. The time is independent of $w$ and $r$, with\n\\[\n T_0=1,\\qquad T_{k+1}=2T_k+3,\\qquad T_k=4\\cdot2^k-3.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "bala-machine3626-exact-halting-time"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-machine3626-exact-halting-time:3:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+        },
+        "lineage": "collected:bala-machine3626-exact-halting-time:s3",
+        "macros": {
+          "\\val": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala-machine3626-exact-halting-time",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Under the same initialization and boundary convention, the two other\nidentity-computing machines in Bala's A393210 comment have exact times\n\\[\n H_{3589}(n)=2\\val(n)+1,\\qquad\n H_{3197}(n)=2-(-1)^n\\quad(n\\geq1).\n\\]\nBoth restore the tape. These are A037227 and A010684, respectively\n\\cite{comparisons}.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "bala-machine3626-exact-halting-time"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-machine3626-exact-halting-time:3:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+        },
+        "lineage": "collected:bala-machine3626-exact-halting-time:s4",
+        "macros": {
+          "\\val": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala-machine3626-exact-halting-time",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $N\\geq1$, the number of inputs $n\\leq N$ with\n$H(n)=4\\cdot2^k-3$ is\n\\[\n \\left\\lfloor\\frac{N}{2^k}\\right\\rfloor-\n \\left\\lfloor\\frac{N}{2^{k+1}}\\right\\rfloor\\quad(k\\geq0).\n\\]\nFurthermore,\n\\begin{equation}\n \\sum_{n=1}^N H(n)=N+4\\sum_{j\\geq1}2^{j-1}\n                    \\left\\lfloor\\frac{N}{2^j}\\right\\rfloor .\n\\end{equation}\nAmong the $2^{\\ell-1}$ inputs of binary length $\\ell\\geq1$, the mean\ntime is $2\\ell-1$ and the maximum is $2^{\\ell+1}-3$.\nThe maximum reproduces Wolfram's earlier closed form \\cite{wolfram}; the\ndistribution and mean follow from the individual-input formula above.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "bala-machine3626-exact-halting-time"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-machine3626-exact-halting-time:3:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+        },
+        "lineage": "collected:bala-machine3626-exact-halting-time:s5",
+        "macros": {
+          "\\val": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala-machine3626-exact-halting-time",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $n\\geq1$, $v=\\val(n)$, every integer $r\\geq1$, and every function\n$w$ on the positive integers with complex values,\n\\begin{equation}\n \\sum_{d\\mid n}m(d)^r w(d)=w(1)+2^r\\sum_{j=1}^v w(2^j).\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "bala-machine3626-exact-halting-time"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-machine3626-exact-halting-time:3:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+        },
+        "lineage": "collected:bala-machine3626-exact-halting-time:s6",
+        "macros": {
+          "\\val": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala-machine3626-exact-halting-time",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For integers $r\\geq1$, $s\\geq0$ and $n\\geq1$, with $v=\\val(n)$,\n\\[\n\\sum_{d\\mid n}m(d)^r\\varphi(d)^s=\n\\begin{cases}\n1+2^rv,&s=0,\\\\[2pt]\n1+2^r\\dfrac{2^{sv}-1}{2^s-1},&s>0.\n\\end{cases}\n\\]\nFor every integer $k\\geq1$,\n$\\sum_{d\\mid n}(2m(d)^k-m(d)^{k+1})=1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "bala-machine3626-exact-halting-time"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-machine3626-exact-halting-time:3:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+        },
+        "lineage": "collected:bala-machine3626-exact-halting-time:s7",
+        "macros": {
+          "\\val": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala-machine3626-exact-halting-time",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $r\\geq1$,\n\\begin{equation}\n \\sum_{d\\mid n}m(d)^r\\mu(d)=1-2^r\\mathbf{1}_{2\\mid n}.\n\\end{equation}\nUsing $w(d)=(-1)^{d+1}\\mu(d)$ instead gives\n\\[\n \\sum_{d\\mid n}(-1)^{d+1}m(d)^r\\mu(d)\n =1+2^r\\mathbf{1}_{2\\mid n}.\n\\]\nThis is the general formula in Bala's A010684 block of 22 September 2026.\nIts case $r=1$, and also the expression\n\\[\n (-1)^{n+1}\\sum_{d\\mid n}m(d)^2\\mu(d),\n\\]\nequal $1$ for odd $n$ and $3$ for even $n$.\nThat block explicitly uses offset 1: in the entry's usual offset-0\nnotation these expressions are A010684$(n-1)$, whereas\n$H_{3197}(n)$ is A010684$(n)$ \\cite{comparisons}.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "bala-machine3626-exact-halting-time"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-machine3626-exact-halting-time:3:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+        },
+        "lineage": "collected:bala-machine3626-exact-halting-time:s8",
+        "macros": {
+          "\\val": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala-machine3626-exact-halting-time",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Write $B(n)=(2\\cdot4^v+1)/3$ and $D(n)=2^{v+1}-1$.\nThen $B(2n)=4B(n)-1$,\n$B(2n-1)=1$, $D(2n)=2D(n)+1$, and $D(2n-1)=1$.\nTheir generating functions, binary digit sums and summatory identities\nare given by the formulas below.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "bala-machine3626-exact-halting-time"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s9",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-machine3626-exact-halting-time:3:s9",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+        },
+        "lineage": "collected:bala-machine3626-exact-halting-time:s9",
+        "macros": {
+          "\\val": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "bala-machine3626-exact-halting-time",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For real $a\\geq0$, set $F_a(n)=\\sum_{j=0}^{\\val(n)}2^{aj}$.\nThen\n\\begin{align*}\n \\sum_{n\\geq1}F_a(n)x^n\n &=\\sum_{j\\geq0}\\frac{2^{aj}x^{2^j}}{1-x^{2^j}}\n &&(|x|<1),\\\\\n \\sum_{n\\geq1}\\frac{F_a(n)}{n^s}\n &=\\frac{\\zeta(s)}{1-2^{a-s}}\n &&(\\Re s>\\max\\{1,a\\}).\n\\end{align*}\nThe cases $a=1,2,3$ are A038712, A296306, A318935, respectively.\nAlso $F_0(n)=\\val(n)+1$\nand $\\sum_{d\\mid n}m(d)=2F_0(n)-1=H_{3589}(n)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "bala-machine3626-exact-halting-time"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 3,
+  "work": "bala-machine3626-exact-halting-time"
+}
