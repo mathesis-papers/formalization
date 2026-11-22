@@ -3,8 +3,8 @@
   "sha256": {
     ".github/workflows/check.yml": "1326c2e90b8a65dffdea934098e5e12da39d4dd84bb8aebcabf0fda1eeea7b91",
     ".gitignore": "d781522b5e8568bddad4a73a41e8839fc34b848b1e916e41f959212ae19bcb32",
-    "LEADERBOARD.md": "ce4bc59dba78bad6214f8cbe4df3695b79701f8a19087cf27295cabea09bf836",
-    "README.md": "306856fe7983d9c43ee7f3f930e94be57d83997f72711096e05e69f1627b8147",
+    "LEADERBOARD.md": "1d669f39758a3406d191065e034ef76379f422b7b8069713dffa625713585ac1",
+    "README.md": "18c94dfce46aa452b291ddfaab6a65cfc02538315a4bf4554d8c8eabf077388e",
     "ci/mathlib/lake-manifest.json": "1bb9bfa56d042f2064d7a53a80f643e9cb1c9104bc1447a26153c267179922ed",
     "ci/mathlib/lakefile.toml": "955328a13ab3502ad02eae34a5944807286d2cf003a6ae4b4930823759a7f39b",
     "ci/mathlib/lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
@@ -114,13 +114,13 @@
     "index/papers/zhan-gupta-hillery-detector-sensor-flat-averaging.json": "5be0f9748e6cce8b3ad3eda033a3f004e1b66c3f209d96e4b4b04bb70a333390",
     "lake-manifest.json": "31d9fe1308b6e99c7308078206dd497edc0cfa29f34bc504e13d0c973f24099e",
     "lakefile.toml": "dd119185c57ba8f2725a22fc24881014327d24730dc5e3c53530730eba353757",
-    "leaderboard.json": "a3391d533d5503a43fbf6f4588581e8f0ab73a7c67a0820fde1453007989c276",
+    "leaderboard.json": "92fabd31865497a7e28173cf1a13f5867283d96a742e2a14dc13fa81a58d89a8",
     "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
     "mathesis-libraries.json": "9b0ec746e25886a5861077cdf26644602d23fc6ead66f2a09bdd586ee1b53ba2",
     "proofs/README.md": "78ae39ce8ff7ba91e1cfa22980567bff4f17e3be8420400b6cdce4cf62661316",
     "scripts/build.py": "6fd5a960d6e78717e87c0bc36569f97d047d19b5252453bd295d21d2a54f126b",
     "scripts/check.py": "b0d37e3123131a988ac21a302b5683ae1f98324c2c49328701564293c3e04cbc",
-    "snapshot.json": "8c67ddf91589130bce2a6962a3e7aa16142e0a195d839a123cfe8ae9b15dff18",
+    "snapshot.json": "37c5256758a916fcdfe8e996d87d01a6a2af14d1c60a8e2e001eb539e1571459",
     "targets/README.md": "4e06f3c0858a586ee7e3056b6575652df9eea0ddb53dcb0ad5035ea9f03bdf77"
   }
 }
