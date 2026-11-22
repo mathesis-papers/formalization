@@ -1,0 +1,340 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "5a155fd74fe22ae43db3ccfb267df468c8c45377",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/5a155fd74fe22ae43db3ccfb267df468c8c45377/D5/S3/QuantumStates/FourQubitCorrelationMonogamy.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "5a155fd74fe22ae43db3ccfb267df468c8c45377",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/5a155fd74fe22ae43db3ccfb267df468c8c45377/D5/S3/QuantumStates/FourQubitCorrelationMonogamy.lean"
+        },
+        "lineage": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:s1",
+        "macros": {
+          "\\Tr": "\\operatorname{Tr}",
+          "\\id": "\\mathbb{1}",
+          "\\norm": "\\left\\lVert#1\\right\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Every four-qubit density matrix satisfies\n\\begin{equation}\n \\norm{T_{AB}}_F^2+\\norm{T_{AC}}_F^2+\\norm{T_{AD}}_F^2\\leq3.\n\\end{equation}\nThe constant is attained by both $|0000\\rangle$ and\n$(|0000\\rangle+|1111\\rangle)/\\sqrt2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "5a155fd74fe22ae43db3ccfb267df468c8c45377",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/5a155fd74fe22ae43db3ccfb267df468c8c45377/D5/S3/QuantumStates/FourQubitCorrelationMonogamy.lean"
+        },
+        "lineage": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:s2",
+        "macros": {
+          "\\Tr": "\\operatorname{Tr}",
+          "\\id": "\\mathbb{1}",
+          "\\norm": "\\left\\lVert#1\\right\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If Hermitian operators $Q_1,\\ldots,Q_r$ satisfy $Q_\\ell^2=\\id$ and\n$Q_\\ell Q_m=-Q_mQ_\\ell$ for $\\ell\\ne m$, then every density matrix\n$\\rho$ satisfies $\\sum_\\ell\\Tr(\\rho Q_\\ell)^2\\leq1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "5a155fd74fe22ae43db3ccfb267df468c8c45377",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/5a155fd74fe22ae43db3ccfb267df468c8c45377/D5/S3/QuantumStates/FourQubitCorrelationMonogamy.lean"
+        },
+        "lineage": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:s3",
+        "macros": {
+          "\\Tr": "\\operatorname{Tr}",
+          "\\id": "\\mathbb{1}",
+          "\\norm": "\\left\\lVert#1\\right\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every four-qubit state, pure or mixed,\n\\begin{equation}\n v_{B|A}^{2/3}+v_{C|A}^{2/3}+v_{D|A}^{2/3}\\leq1.\n\\end{equation}\nEquality holds for a Bell state on $AB$ tensored with any state on $CD$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "5a155fd74fe22ae43db3ccfb267df468c8c45377",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/5a155fd74fe22ae43db3ccfb267df468c8c45377/D5/S3/QuantumStates/FourQubitCorrelationMonogamy.lean"
+        },
+        "lineage": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:s4",
+        "macros": {
+          "\\Tr": "\\operatorname{Tr}",
+          "\\id": "\\mathbb{1}",
+          "\\norm": "\\left\\lVert#1\\right\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Every pure four-qubit state satisfies $L_{BCD}\\geq a^2$, and the\nanalogous inequality holds for each choice of the omitted qubit.\nEquality is attained by every normalized state\n$\\alpha|0000\\rangle+\\beta|1111\\rangle$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "5a155fd74fe22ae43db3ccfb267df468c8c45377",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/5a155fd74fe22ae43db3ccfb267df468c8c45377/D5/S3/QuantumStates/FourQubitCorrelationMonogamy.lean"
+        },
+        "lineage": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:s5",
+        "macros": {
+          "\\Tr": "\\operatorname{Tr}",
+          "\\id": "\\mathbb{1}",
+          "\\norm": "\\left\\lVert#1\\right\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $\\rho$ be any $(m+1)$-qubit state on $A,X_1,\\ldots,X_m$, where\n$m\\geq3$. Then\n\\begin{equation}\n \\sum_{t=1}^m\\norm{T_{AX_t}}_F^2\\leq m,\\qquad\n \\sum_{t=1}^m v_{X_t|A}^{2/3}\\leq\\frac m3,\\qquad\n \\frac1m\\sum_{t=1}^m v_{X_t|A}\\leq\\frac13.\n\\end{equation}\nThe correlation bound is sharp for every $m\\geq3$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "5a155fd74fe22ae43db3ccfb267df468c8c45377",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/5a155fd74fe22ae43db3ccfb267df468c8c45377/D5/S3/QuantumStates/FourQubitCorrelationMonogamy.lean"
+        },
+        "lineage": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:s6",
+        "macros": {
+          "\\Tr": "\\operatorname{Tr}",
+          "\\id": "\\mathbb{1}",
+          "\\norm": "\\left\\lVert#1\\right\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The volume inequalities above remain valid after arbitrary local\ntrace-preserving quantum channels on the qubits. More precisely,\n$v'_{X|A}\\leq v_{X|A}$ for each receiver $X$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
+}
