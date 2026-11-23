@@ -1,0 +1,279 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Words/Patterns/BarkerCyclicRepetitionCounting.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin-barker-cyclic-repetitions:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Words/Patterns/BarkerCyclicRepetitionCounting.lean"
+        },
+        "lineage": "collected:hardin-barker-cyclic-repetitions:s1",
+        "macros": {
+          "\\aq": "a_q"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin-barker-cyclic-repetitions",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $q\\geq2$,\n\\begin{equation}\n S_q(x)=\\frac{qx\\bigl(1-(q-3)x-(q-1)x^2\\bigr)}\n {(1-(q-1)x)(1-(q-2)x-qx^2)}.\n\\end{equation}\nThe initial values are $\\aq(0)=1$, $\\aq(1)=q$, $\\aq(2)=q^2$, and\n\\begin{equation}\n \\aq(n+3)=(2q-3)\\aq(n+2)+(-q^2+4q-2)\\aq(n+1)\n                -q(q-1)\\aq(n)\\qquad(n\\geq0).\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Barker and Hardin's cyclic-repetition formulas and an extension of Fried's enumeration",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin-barker-cyclic-repetitions"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin-barker-cyclic-repetitions:2:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Words/Patterns/BarkerCyclicRepetitionCounting.lean"
+        },
+        "lineage": "collected:hardin-barker-cyclic-repetitions:s2",
+        "macros": {
+          "\\aq": "a_q"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin-barker-cyclic-repetitions",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $n\\geq1$, the count $a_8(n)$ in A268943 has generating function\n\\[\n S_8(x)=\\frac{8x(1-5x-7x^2)}{(1-7x)(1-6x-8x^2)}\n\\]\nand satisfies\n\\begin{equation}\n a_8(n)=\\frac{-272\\,7^n+(153-37\\sqrt{17})(3-\\sqrt{17})^n\n                    +(153+37\\sqrt{17})(3+\\sqrt{17})^n}{34}.\n\\end{equation}\nIn particular, $a_8(n+3)=13a_8(n+2)-34a_8(n+1)-56a_8(n)$ for $n\\geq0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Barker and Hardin's cyclic-repetition formulas and an extension of Fried's enumeration",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin-barker-cyclic-repetitions"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin-barker-cyclic-repetitions:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Words/Patterns/BarkerCyclicRepetitionCounting.lean"
+        },
+        "lineage": "collected:hardin-barker-cyclic-repetitions:s3",
+        "macros": {
+          "\\aq": "a_q"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin-barker-cyclic-repetitions",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For the binary column $q=2$,\n\\[\n S_2(x)=\\frac{4x+6x^2}{1-2x^2}-\\frac{2x}{1-x}.\n\\]\nConsequently, $a_2(2m)=3\\cdot2^m-2$ and\n$a_2(2m+1)=2^{m+2}-2$ for $m\\geq0$. For $n\\geq0$,\n\\begin{align*}\n a_2(n)&=\\sum_{j=0}^n 2^{\\min(j,n-j)},\\\\\n a_2(n+2)&=2a_2(n)+2,\\qquad\n a_2(n)-a_2(n-1)=2^{\\lfloor n/2\\rfloor}\\quad(n\\geq1).\n\\end{align*}\nThese are the corresponding formulas of A027383~\\cite{binary}.\nThe binary words counted here are precisely those for which every substring\nhas the difference between its numbers of ones and zeros between $-2$ and $2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Barker and Hardin's cyclic-repetition formulas and an extension of Fried's enumeration",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin-barker-cyclic-repetitions"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin-barker-cyclic-repetitions:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Words/Patterns/BarkerCyclicRepetitionCounting.lean"
+        },
+        "lineage": "collected:hardin-barker-cyclic-repetitions:s4",
+        "macros": {
+          "\\aq": "a_q"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin-barker-cyclic-repetitions",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every such relation,\n\\begin{equation}\n S_R(x)=\\frac{qx\\bigl(1-(q-3)x-(q+d-2)x^2\\bigr)}\n {(1-(q-1)x)(1-(q-2)x-(q+d-1)x^2)}.\n\\end{equation}\nIn particular, no other features of $R$ affect these counts. At $d=q-1$\nthis reproves Fried's Theorem~4~\\cite{fried}: if $F_q(x)$ denotes its\ndisplayed rational function, then\n\\[\n 1+S_R(x)=F_q(x)=\n \\frac{1-(q-3)x-2(q-2)x^2-(q-2)x^3}\n {1-(2q-3)x+(q-1)(q-4)x^2+2(q-1)^2x^3}.\n\\]\nHere the constant term includes the empty word. The positive-index counts\nagree with Fried's enumeration. Writing $b_q(n)=a_R(n)$ in this case gives\n\\begin{equation}\n b_q(n+3)=(2q-3)b_q(n+2)+(-q^2+5q-4)b_q(n+1)\n             -2(q-1)^2b_q(n)\\quad(n\\geq1),\n\\end{equation}\nwith $b_q(1)=q$, $b_q(2)=q^2$, $b_q(3)=q^3-q$.\nThis proves the seven empirical column recurrences of A269467~\\cite{unequal}.\nFor $q=k+1$, its rows $n=1,2,3$ are the same as those of A268944;\nthe next four are\n\\begin{align*}\n b_{k+1}(4)&=k^4+4k^3+4k^2+k,\\\\\n b_{k+1}(5)&=k^5+5k^4+7k^3+2k^2-k,\\\\\n b_{k+1}(6)&=k^6+6k^5+11k^4+4k^3-k^2+k,\\\\\n b_{k+1}(7)&=k^7+7k^6+16k^5+8k^4-k^3-k.\n\\end{align*}\nThus all seven displayed row formulas in A269467 follow as well.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Barker and Hardin's cyclic-repetition formulas and an extension of Fried's enumeration",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin-barker-cyclic-repetitions"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin-barker-cyclic-repetitions:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Words/Patterns/BarkerCyclicRepetitionCounting.lean"
+        },
+        "lineage": "collected:hardin-barker-cyclic-repetitions:s5",
+        "macros": {
+          "\\aq": "a_q"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin-barker-cyclic-repetitions",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $c_R(n,r)$ count these words of length $n$ with exactly $r$ equality\nevents. For $r\\geq1$,\n\\begin{equation}\n \\sum_{n\\geq1}c_R(n,r)x^n=\n \\frac{q\\,d^{r-1}x^{2r}}\n {(1+x)^{r-1}(1-(q-1)x)^{r+1}},\n\\end{equation}\nwhere $d^0=1$, including when $d=0$. In particular there are no words\nwith $n<2r$, and $c_R(2r,r)=q\\,d^{r-1}$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Barker and Hardin's cyclic-repetition formulas and an extension of Fried's enumeration",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin-barker-cyclic-repetitions"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Barker and Hardin's cyclic-repetition formulas and an extension of Fried's enumeration",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "hardin-barker-cyclic-repetitions"
+}

@@ -1,0 +1,134 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/ArithSums/GrouxA120069Denominator.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:groux-catalan-denominators:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/ArithSums/GrouxA120069Denominator.lean"
+        },
+        "lineage": "collected:groux-catalan-denominators:s1",
+        "macros": {
+          "\\den": "\\operatorname{den}",
+          "\\num": "\\operatorname{num}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "groux-catalan-denominators",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $n\\geq1$, $a_n=\\den(q_n)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Catalan formula corrections and short proofs of Groux's and Staunton's conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "groux-catalan-denominators"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:groux-catalan-denominators:2:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/ArithSums/GrouxA120069Denominator.lean"
+        },
+        "lineage": "collected:groux-catalan-denominators:s2",
+        "macros": {
+          "\\den": "\\operatorname{den}",
+          "\\num": "\\operatorname{num}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "groux-catalan-denominators",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Staunton's conjecture is true: for every $n\\geq1$,\n\\[\n a_n=2^{b_n-2}.\n\\]\nMore explicitly, if $s_2(m)$ denotes the number of ones in the binary\nexpansion of $m$, then\n\\begin{equation}\n a_n=2^{\\,2n-1-s_2(n+1)},\\qquad\n b_n=2n+1-s_2(n+1).\n\\end{equation}\nThe displayed formula for $b_n$ also holds at $n=0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Catalan formula corrections and short proofs of Groux's and Staunton's conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "groux-catalan-denominators"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Catalan formula corrections and short proofs of Groux's and Staunton's conjectures",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "groux-catalan-denominators"
+}

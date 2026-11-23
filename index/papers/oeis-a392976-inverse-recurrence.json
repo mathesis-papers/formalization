@@ -1,0 +1,340 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "2b5b552e72596710282b713f6587c7020544535d",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S1/Recurrence/Algebraic/A392976InverseRecurrence.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a392976-inverse-recurrence:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "2b5b552e72596710282b713f6587c7020544535d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S1/Recurrence/Algebraic/A392976InverseRecurrence.lean"
+        },
+        "lineage": "collected:oeis-a392976-inverse-recurrence:s1",
+        "macros": {
+          "\\Q": "\\mathbb{Q}",
+          "\\Z": "\\mathbb{Z}",
+          "\\coeff": "[#1^{#2}]"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a392976-inverse-recurrence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $n\\geq5$,\n\\begin{equation}\n \\sum_{k=0}^{5}c_k(n)a_{n-k}=0.\n\\end{equation}\nThe series $A$ is D-finite: it satisfies a homogeneous linear differential\nequation with polynomial coefficients, not all zero, of order five.\nTogether with $a_0,\\ldots,a_4=1,1,4,15,67$, equation~\\eqref{eq:rec}\nuniquely determines the sequence.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Mathar's inverse-quintic recurrence conjecture and extensions of Barry's cubic formulas",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a392976-inverse-recurrence"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a392976-inverse-recurrence:2:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "2b5b552e72596710282b713f6587c7020544535d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S1/Recurrence/Algebraic/A392976InverseRecurrence.lean"
+        },
+        "lineage": "collected:oeis-a392976-inverse-recurrence:s2",
+        "macros": {
+          "\\Q": "\\mathbb{Q}",
+          "\\Z": "\\mathbb{Z}",
+          "\\coeff": "[#1^{#2}]"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a392976-inverse-recurrence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The series $A$ also satisfies a nonzero homogeneous linear differential\nequation over $\\Q[x]$ of order at most four.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Mathar's inverse-quintic recurrence conjecture and extensions of Barry's cubic formulas",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a392976-inverse-recurrence"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a392976-inverse-recurrence:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "2b5b552e72596710282b713f6587c7020544535d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S1/Recurrence/Algebraic/A392976InverseRecurrence.lean"
+        },
+        "lineage": "collected:oeis-a392976-inverse-recurrence:s3",
+        "macros": {
+          "\\Q": "\\mathbb{Q}",
+          "\\Z": "\\mathbb{Z}",
+          "\\coeff": "[#1^{#2}]"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a392976-inverse-recurrence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $r$ be any integer, let $U_r$ be the zero-constant inverse of\n$f_r(t)=t((1-t^2)^r-t)$, and write $U_r(x)/x=\\sum_{n\\geq0}a_n^{(r)}x^n$.\nFor integers $n\\geq0$ and $s\\geq1$,\n\\begin{equation}\n [x^n](U_r(x)/x)^s=\\frac{s}{n+s}\n \\sum_{k=0}^{\\lfloor n/2\\rfloor}\n \\binom{2n+s-2k-1}{n-2k}\n (-1)^k\\binom{-r(2n+s-2k)}{k}.\n\\end{equation}\nHere $\\binom{b}{k}=b(b-1)\\cdots(b-k+1)/k!$ for any integer $b$,\nand $\\binom{b}{0}=1$. In particular, for $r\\geq1$,\n\\begin{equation}\n a_n^{(r)}=\\frac{1}{n+1}\\sum_{k=0}^{\\lfloor n/2\\rfloor}\n \\binom{2n-2k}{n}\\binom{r(2n-2k+1)+k-1}{k}.\n\\end{equation}\nAll $a_n^{(r)}$ are integers, and they are strictly positive when $r\\geq0$.\nEvery $U_r/x$ is algebraic and D-finite. The cases $r=1,2,3,-1$ give,\nrespectively, A001002, A392976, A392977 and A370839.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Mathar's inverse-quintic recurrence conjecture and extensions of Barry's cubic formulas",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a392976-inverse-recurrence"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a392976-inverse-recurrence:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "2b5b552e72596710282b713f6587c7020544535d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S1/Recurrence/Algebraic/A392976InverseRecurrence.lean"
+        },
+        "lineage": "collected:oeis-a392976-inverse-recurrence:s4",
+        "macros": {
+          "\\Q": "\\mathbb{Q}",
+          "\\Z": "\\mathbb{Z}",
+          "\\coeff": "[#1^{#2}]"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a392976-inverse-recurrence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For A370839 the coefficient formula is\n\\[\n a_n^{(-1)}=\\frac{1}{n+1}\n \\sum_{k=0}^{\\lfloor n/2\\rfloor}(-1)^k\n \\binom{2n-2k}{n-2k}\\binom{2n-2k+1}{k}.\n\\]\nThe generating functions of A392977 and A370839 satisfy\n$A_r=1/((1-(xA_r)^2)^r-xA_r)$ with $r=3,-1$, respectively.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Mathar's inverse-quintic recurrence conjecture and extensions of Barry's cubic formulas",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a392976-inverse-recurrence"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a392976-inverse-recurrence:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "2b5b552e72596710282b713f6587c7020544535d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S1/Recurrence/Algebraic/A392976InverseRecurrence.lean"
+        },
+        "lineage": "collected:oeis-a392976-inverse-recurrence:s5",
+        "macros": {
+          "\\Q": "\\mathbb{Q}",
+          "\\Z": "\\mathbb{Z}",
+          "\\coeff": "[#1^{#2}]"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a392976-inverse-recurrence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $B=U_1/x=\\sum_{n\\geq0}b_nx^n$, the generating function of A001002.\nThen\n\\begin{align}\n B&=1+xB^2+x^2B^3,\\\\\n b_n&=\\frac1{n+1}\\sum_{j=\\lceil n/2\\rceil}^n\n       \\binom{n+j}{j}\\binom{j}{n-j},\\\\\n 5n(n+1)b_n&=11n(2n-1)b_{n-1}\n       +3(3n-2)(3n-4)b_{n-2}\\quad(n\\geq2).\n\\end{align}\nFor $g(x)=x^2+x^3$ and $D=d/dx$ its two derivative representations are\n\\begin{align}\n B&=1+\\frac1x\\sum_{m\\geq1}\\frac{D^{m-1}g(x)^m}{m!},\\\\\n B&=\\exp\\left(\\sum_{m\\geq1}\\frac{D^{m-1}(g(x)^m/x)}{m!}\\right).\n\\end{align}\nThese are identities in $\\Q[[x]]$; each coefficient receives finitely many terms.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Mathar's inverse-quintic recurrence conjecture and extensions of Barry's cubic formulas",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a392976-inverse-recurrence"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a392976-inverse-recurrence:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "2b5b552e72596710282b713f6587c7020544535d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S1/Recurrence/Algebraic/A392976InverseRecurrence.lean"
+        },
+        "lineage": "collected:oeis-a392976-inverse-recurrence:s6",
+        "macros": {
+          "\\Q": "\\mathbb{Q}",
+          "\\Z": "\\mathbb{Z}",
+          "\\coeff": "[#1^{#2}]"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a392976-inverse-recurrence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Put $C=1/B=\\sum_{n\\geq0}d_nx^n$ and\n$\\ell_n=[x^n]xB'/B$ for $n\\geq1$. Then\n\\begin{align}\n b_n&=-\\sum_{i=1}^n d_i b_{n-i} &&(n\\geq1),\\\\\n b_n&=-\\sum_{i=1}^{n+2}d_i d_{n+2-i} &&(n\\geq0),\\\\\n \\ell_n&=[t^n](1-t-t^2)^{-n} &&(n\\geq1),\\\\\n b_n&=\\frac1{n+1}\\binom{2n}{n}\n {}_2F_1\\!\\left(-\\frac n2,\\frac{1-n}2;-2n;-4\\right) &&(n\\geq1).\n\\end{align}\nThe hypergeometric expression means the finite sum through\n$k=\\lfloor n/2\\rfloor$ with summand\n$(-n/2)_k((1-n)/2)_k(-4)^k/((-2n)_k k!)$;\n$(a)_k=a(a+1)\\cdots(a+k-1)$ and $(a)_0=1$.\nThe coefficients $d_n$ form A217596, and the $\\ell_n$ form A213684.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Mathar's inverse-quintic recurrence conjecture and extensions of Barry's cubic formulas",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "oeis-a392976-inverse-recurrence"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Mathar's inverse-quintic recurrence conjecture and extensions of Barry's cubic formulas",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "oeis-a392976-inverse-recurrence"
+}

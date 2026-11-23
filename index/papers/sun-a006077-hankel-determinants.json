@@ -1,0 +1,458 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:sun-a006077-hankel-determinants:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+        },
+        "lineage": "collected:sun-a006077-hankel-determinants:s1",
+        "macros": {
+          "\\FF": "\\mathbb F_2",
+          "\\RR": "\\mathbb R",
+          "\\ZZ": "\\mathbb Z",
+          "\\ep": "\\varepsilon",
+          "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "sun-a006077-hankel-determinants",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $n\\geq0$,\n\\[\n W_n=0\\quad\\Longleftrightarrow\\quad n\\equiv1\\pmod3.\n\\]\nIf $n\\not\\equiv1\\pmod3$, then\n\\[\n \\frac{(-1)^{\\lfloor(n+1)/3\\rfloor}W_n}{6^n}\n \\quad\\hbox{is a positive odd integer.}\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "sun-a006077-hankel-determinants"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:sun-a006077-hankel-determinants:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+        },
+        "lineage": "collected:sun-a006077-hankel-determinants:s2",
+        "macros": {
+          "\\FF": "\\mathbb F_2",
+          "\\RR": "\\mathbb R",
+          "\\ZZ": "\\mathbb Z",
+          "\\ep": "\\varepsilon",
+          "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "sun-a006077-hankel-determinants",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $m\\geq0$,\n\\begin{align}\n W_{3m}&=(-1)^mD_{m+1}E_m^2,\\\\\n W_{3m+1}&=0,\\\\\n W_{3m+2}&=(-1)^{m+1}D_{m+1}E_{m+1}^2.\n\\end{align}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "sun-a006077-hankel-determinants"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:sun-a006077-hankel-determinants:2:s3",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+        },
+        "lineage": "collected:sun-a006077-hankel-determinants:s3",
+        "macros": {
+          "\\FF": "\\mathbb F_2",
+          "\\RR": "\\mathbb R",
+          "\\ZZ": "\\mathbb Z",
+          "\\ep": "\\varepsilon",
+          "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "sun-a006077-hankel-determinants",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Both $d_m$ and $e_m$ are odd for every $m\\geq0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "sun-a006077-hankel-determinants"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:sun-a006077-hankel-determinants:2:s4",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+        },
+        "lineage": "collected:sun-a006077-hankel-determinants:s4",
+        "macros": {
+          "\\FF": "\\mathbb F_2",
+          "\\RR": "\\mathbb R",
+          "\\ZZ": "\\mathbb Z",
+          "\\ep": "\\varepsilon",
+          "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "sun-a006077-hankel-determinants",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For all $k\\geq0$, $D_k>0$ and $E_k>0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "sun-a006077-hankel-determinants"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:sun-a006077-hankel-determinants:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+        },
+        "lineage": "collected:sun-a006077-hankel-determinants:s5",
+        "macros": {
+          "\\FF": "\\mathbb F_2",
+          "\\RR": "\\mathbb R",
+          "\\ZZ": "\\mathbb Z",
+          "\\ep": "\\varepsilon",
+          "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "sun-a006077-hankel-determinants",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $n\\not\\equiv1\\pmod3$, $\\nu_2(W_n)=n$.\nThe positive normalized determinants at $n=3m$ and $n=3m+2$ represent the\nsame square class in $\\mathbb Q_{>0}^{\\times}/(\\mathbb Q_{>0}^{\\times})^2$,\nnamely the class of $d_m$.\nMoreover, replacing $3^{n-3r}$ in the definition of $w_n$ by\n$a^{n-3r}$ for any $a\\in\\RR$ leaves every $W_n$ unchanged.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "sun-a006077-hankel-determinants"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:sun-a006077-hankel-determinants:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+        },
+        "lineage": "collected:sun-a006077-hankel-determinants:s6",
+        "macros": {
+          "\\FF": "\\mathbb F_2",
+          "\\RR": "\\mathbb R",
+          "\\ZZ": "\\mathbb Z",
+          "\\ep": "\\varepsilon",
+          "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "sun-a006077-hankel-determinants",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For real $a,t$ define\n\\[\n w_j(a,t)=\\sum_{r=0}^{\\lfloor j/3\\rfloor}\n  \\binom j{3r}a^{j-3r}t^r c_r,\\qquad\n H_n(a,t)=(w_{i+j}(a,t))_{0\\leq i,j\\leq n}.\n\\]\nFor $t\\ne0$, the inertia of $H_n(a,t)$, listed as the numbers of positive,\nnegative and zero eigenvalues, is\n\\[\n\\begin{array}{c|c}\nn&\\operatorname{inertia} H_n(a,t)\\\\\\hline\n3m&(2m+1,m,0)\\\\\n3m+1&(2m+1,m,1)\\\\\n3m+2&(2m+2,m+1,0).\n\\end{array}\n\\]\nIn particular, every zero in the original determinant family has nullity\nexactly one. For $n\\not\\equiv1\\pmod3$,\n\\[\n \\det H_n(a,t)=t^{n(n+1)/3}W_n.\n\\]\nFor $t=0$, the inertia is $(1,0,n)$ and the determinant is $1$ at $n=0$\nand $0$ otherwise. For nonzero integers $t$ and $n\\not\\equiv1\\pmod3$,\n\\[\n \\nu_2(\\det H_n(a,t))=n+\\frac{n(n+1)}3\\nu_2(t)\n \\quad\\text{when }a\\in\\ZZ.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "sun-a006077-hankel-determinants"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:sun-a006077-hankel-determinants:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+        },
+        "lineage": "collected:sun-a006077-hankel-determinants:s7",
+        "macros": {
+          "\\FF": "\\mathbb F_2",
+          "\\RR": "\\mathbb R",
+          "\\ZZ": "\\mathbb Z",
+          "\\ep": "\\varepsilon",
+          "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "sun-a006077-hankel-determinants",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every real $\\alpha>0$ and integer $n\\geq1$, with\n$h_j=\\sum_{k=1}^j k^{-\\alpha}$ and $h_0=0$,\n\\[\n (-1)^n\\det(h_{i+j})_{0\\leq i,j\\leq n}>0.\n\\]\nThus Sun's v5 Conjecture 3.9(i), p.~15, holds for every positive integer\norder, and also for every positive real order. For order one, a prior\nexact evaluation follows from Petrov's answer of February 16, 2017,\nCigler's completion of February 17, and Amdeberhan's independent identity\nproof of February 18; see also Cigler, Theorem 4.1, equation (4.2)\\cite{harmonic}.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "sun-a006077-hankel-determinants"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:sun-a006077-hankel-determinants:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+        },
+        "lineage": "collected:sun-a006077-hankel-determinants:s8",
+        "macros": {
+          "\\FF": "\\mathbb F_2",
+          "\\RR": "\\mathbb R",
+          "\\ZZ": "\\mathbb Z",
+          "\\ep": "\\varepsilon",
+          "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "sun-a006077-hankel-determinants",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $B_j$ and $E_j$ denote the Bernoulli and Euler numbers in the\nconventions\n\\[\n \\frac{z}{e^z-1}=\\sum_{j\\geq0}B_j\\frac{z^j}{j!},\\qquad\n \\frac1{\\cosh z}=\\sum_{j\\geq0}E_j\\frac{z^j}{j!}.\n\\]\nFor every integer $n\\geq1$,\n\\[\n \\det(B_{i+j}^2)_{0\\leq i,j\\leq n}<0,\n \\qquad \\det(E_{i+j}^2)_{0\\leq i,j\\leq n}>0.\n\\]\nThese are the two assertions of Sun's v5 Conjecture 3.17, p.~18.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "sun-a006077-hankel-determinants"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "sun-a006077-hankel-determinants"
+}

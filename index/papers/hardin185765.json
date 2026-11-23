@@ -1,0 +1,363 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin185765:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+        },
+        "lineage": "collected:hardin185765:s1",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin185765",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $n\\geq13$,\n\\begin{align}\n a_n={}&a_{n-1}+30a_{n-2}+24a_{n-3}-95a_{n-4}-15a_{n-5}\\notag\\\\\n       &+64a_{n-6}-116a_{n-7}+16a_{n-8}+16a_{n-9}.\n\\end{align}\nThe difference between the left and right sides at $n=12$ is $-4160$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin185765"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin185765:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+        },
+        "lineage": "collected:hardin185765:s2",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin185765",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $n\\geq1$, $a_n=\\mathbf1^{\\mathsf T}T^{n-1}\\mathbf1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin185765"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin185765:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+        },
+        "lineage": "collected:hardin185765:s3",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin185765",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $F_6(z)=\\sum_{n\\geq1}a_nz^n$ and\n$D_6(z)=1-z-30z^2-24z^3+95z^4+15z^5-64z^6+116z^7-16z^8-16z^9$.\nThen\n\\begin{equation}\n F_6(z)=\\frac{8zN_6(z)}{D_6(z)},\n\\end{equation}\nwhere\n\\begin{align*}\nN_6(z)={}&85+347z-483z^2-2718z^3-1375z^4+2104z^5\\\\\n &+6276z^6+4796z^7-7734z^8-2893z^9+3400z^{10}-520z^{11}.\n\\end{align*}\nNo homogeneous constant-coefficient recurrence over $\\mathbb Q$ of\norder less than nine holds for all sufficiently large $n$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin185765"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin185765:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+        },
+        "lineage": "collected:hardin185765:s4",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin185765",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For each row of Table~\\ref{tab:siblings},\n\\[\n a^{(m)}_n=\\sum_{j=1}^{d_m}c_j a^{(m)}_{n-j}\\quad(n\\geq s_m),\n \\qquad\n \\sum_{n\\geq1}a^{(m)}_nz^n=\\frac{8zN_m(z)}{1-\\sum_{j=1}^{d_m}c_jz^j}.\n\\]\nThe numerators are\n\\begin{align*}\n N_2&=2+3z, &N_3&=5+10z+z^2,\\\\\n N_4&=13+33z-16z^3+7z^4-z^5,\\\\\n N_5&=33+108z-43z^2-249z^3-69z^4+5z^5+43z^6+81z^7+18z^8.\n\\end{align*}\nThese are Barker's formulas in A185761--A185764~\\cite{hardin761,hardin762,hardin763,hardin764}.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin185765"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin185765:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+        },
+        "lineage": "collected:hardin185765:s5",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin185765",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $n\\geq1$, with $r_\\pm=(1\\pm\\sqrt{17})/2$,\n\\[\n a^{(2)}_n=\n \\frac{(-13+3\\sqrt{17})r_-^n+(13+3\\sqrt{17})r_+^n}{\\sqrt{17}}.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin185765"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin185765:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+        },
+        "lineage": "collected:hardin185765:s6",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin185765",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For all $n,k\\geq1$, $b_{n,k}=b_{k,n}$. In particular,\n$b_{n,5}=b_{5,n}=a_n$, so both the fifth column and fifth row of\nA185769 satisfy~\\eqref{eq:rec}, with the varying index at least $13$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin185765"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin185765:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+        },
+        "lineage": "collected:hardin185765:s7",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin185765",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For all $n,k\\geq1$, $8\\mid b_{n,k}$. For each fixed $k\\geq1$,\nthe generating function of $b_{n,k}$ in $n$ is rational:\n\\[\n \\sum_{n\\geq1}b_{n,k}z^n\n =z\\mathbf1^{\\mathsf T}(I-zT_{k+1})^{-1}\\mathbf1.\n\\]\nConsequently every fixed column, and by transposition every fixed row,\nsatisfies some eventual homogeneous constant-coefficient recurrence.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin185765"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "hardin185765"
+}
