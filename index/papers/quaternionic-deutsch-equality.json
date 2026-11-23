@@ -1,0 +1,670 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:quaternionic-deutsch-equality:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+        },
+        "lineage": "collected:quaternionic-deutsch-equality:s1",
+        "macros": {
+          "\\HH": "\\mathbb H",
+          "\\abs": "\\lvert #1\\rvert",
+          "\\almosteverywhere": "\\text{a.e.}",
+          "\\ip": "\\langle #1,#2\\rangle",
+          "\\norm": "\\lVert #1\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "quaternionic-deutsch-equality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For the frames and state above, the following are equivalent:\n\\begin{enumerate}\n\\item $S_\\tau(x)+S_\\omega(x)=D(c)$;\n\\item $\\dim_\\HH\\mathcal Q=1$, $\\norm{\\tau_\\alpha}=1$ for $\\mu$-almost\nevery $\\alpha$, and $\\norm{\\omega_\\beta}=1$ for $\\nu$-almost every $\\beta$.\n\\end{enumerate}\nUnder either condition, $m=n=c=1$ and $S_\\tau(x)=S_\\omega(x)=0$.\nConsequently every link in \\eqref{eq:chain} is an equality.\nFor a fixed frame pair, such a state exists if and only if condition 2\nholds and every $\\tau_\\alpha$ and every $\\omega_\\beta$ is nonzero,\nincluding at null indices.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "quaternionic-deutsch-equality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s10",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:quaternionic-deutsch-equality:2:s10",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+        },
+        "lineage": "collected:quaternionic-deutsch-equality:s10",
+        "macros": {
+          "\\HH": "\\mathbb H",
+          "\\abs": "\\lvert #1\\rvert",
+          "\\almosteverywhere": "\\text{a.e.}",
+          "\\ip": "\\langle #1,#2\\rangle",
+          "\\norm": "\\lVert #1\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "quaternionic-deutsch-equality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The frame pairs in Theorem~\\ref{thm:main} attain equality in\n\\cite[Conjecture 2.14]{K26}. Over $\\mathbb R$ or $\\mathbb C$, the\nsame pairs attain equality in \\cite[Conjecture 2.5]{K23}.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "quaternionic-deutsch-equality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s11",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:quaternionic-deutsch-equality:2:s11",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+        },
+        "lineage": "collected:quaternionic-deutsch-equality:s11",
+        "macros": {
+          "\\HH": "\\mathbb H",
+          "\\abs": "\\lvert #1\\rvert",
+          "\\almosteverywhere": "\\text{a.e.}",
+          "\\ip": "\\langle #1,#2\\rangle",
+          "\\norm": "\\lVert #1\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "quaternionic-deutsch-equality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For finite counting frames in a nonzero real or complex Banach space,\nthe mass and central lower entropy equalities in\n\\cite[Questions 1--2, Theorems 4--5, (5) and (7)]{K24}\noccur exactly in dimension one, with all first-family functional\nnorms $m^{-1/r}$ and all second-family norms $n^{-1/r}$.\nHere $m,n$ denote the respective numbers of frame elements.\nThe strict positivity of the lower endpoint printed in those\ntheorems must be replaced by nonnegativity.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "quaternionic-deutsch-equality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s12",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:quaternionic-deutsch-equality:2:s12",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+        },
+        "lineage": "collected:quaternionic-deutsch-equality:s12",
+        "macros": {
+          "\\HH": "\\mathbb H",
+          "\\abs": "\\lvert #1\\rvert",
+          "\\almosteverywhere": "\\text{a.e.}",
+          "\\ip": "\\langle #1,#2\\rangle",
+          "\\norm": "\\lVert #1\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "quaternionic-deutsch-equality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $N\\ge1$, let $R_N:\\HH^N\\to\\HH^N$ be the right shift\n$R_N(z_1,\\ldots,z_N)=(0,z_1,\\ldots,z_{N-1})$.\nWith $w_\\HH(R_N)=\\sup_{\\norm{z}=1}\\abs{\\ip{z}{R_Nz}}$, one has\n\\[\n w_\\HH(R_N)=\\cos\\frac{\\pi}{N+1}.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "quaternionic-deutsch-equality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:quaternionic-deutsch-equality:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+        },
+        "lineage": "collected:quaternionic-deutsch-equality:s2",
+        "macros": {
+          "\\HH": "\\mathbb H",
+          "\\abs": "\\lvert #1\\rvert",
+          "\\almosteverywhere": "\\text{a.e.}",
+          "\\ip": "\\langle #1,#2\\rangle",
+          "\\norm": "\\lVert #1\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "quaternionic-deutsch-equality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Suppose $p:\\Omega\\to(0,1]$ and $q:\\Delta\\to(0,1]$ are measurable,\nhave integral one, and satisfy $p(\\alpha)q(\\beta)\\le M$ at every pair\nof indices, where $0<M\\le1$. Then\n\\[\n \\int-p\\log p\\,d\\mu+\\int-q\\log q\\,d\\nu\\ge-\\log M.\n\\]\nEquality holds precisely when there are $A,B\\in(0,1]$ with $AB=M$\nsuch that $p=A$ $\\mu$-almost everywhere and $q=B$ $\\nu$-almost everywhere.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "quaternionic-deutsch-equality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:quaternionic-deutsch-equality:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+        },
+        "lineage": "collected:quaternionic-deutsch-equality:s3",
+        "macros": {
+          "\\HH": "\\mathbb H",
+          "\\abs": "\\lvert #1\\rvert",
+          "\\almosteverywhere": "\\text{a.e.}",
+          "\\ip": "\\langle #1,#2\\rangle",
+          "\\norm": "\\lVert #1\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "quaternionic-deutsch-equality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Suppose the two frame families have pointwise norm bounds\n$0<a\\le1$ and $0<b\\le1$, respectively. On the common coefficient\ndomain,\n\\[\n S_\\tau(x)+S_\\omega(x)\\ge-2\\log\\frac{ab+c}{2}.\n\\]\nEquality holds exactly when $\\dim_\\HH\\mathcal Q=1$,\n$\\norm{\\tau_\\alpha}=a$ almost everywhere, and\n$\\norm{\\omega_\\beta}=b$ almost everywhere.\nThen $m=a^{-2}$, $n=b^{-2}$ and $c=ab$.\nFor $ab<1$ this strengthens the source's central lower bound strictly.\nThe same statement holds over $\\mathbb R$ and $\\mathbb C$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "quaternionic-deutsch-equality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:quaternionic-deutsch-equality:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+        },
+        "lineage": "collected:quaternionic-deutsch-equality:s4",
+        "macros": {
+          "\\HH": "\\mathbb H",
+          "\\abs": "\\lvert #1\\rvert",
+          "\\almosteverywhere": "\\text{a.e.}",
+          "\\ip": "\\langle #1,#2\\rangle",
+          "\\norm": "\\lVert #1\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "quaternionic-deutsch-equality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $m,n<\\infty$, upper equality\n$S_\\tau(x)+S_\\omega(x)=\\log(mn)$ holds if and only if\n\\[\n p=1/m\\quad\\mu\\text{-}\\almosteverywhere,\\qquad\n q=1/n\\quad\\nu\\text{-}\\almosteverywhere.\n\\]\nEquality in the last link $D(c)\\ge0$ holds if and only if $c=1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "quaternionic-deutsch-equality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:quaternionic-deutsch-equality:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+        },
+        "lineage": "collected:quaternionic-deutsch-equality:s5",
+        "macros": {
+          "\\HH": "\\mathbb H",
+          "\\abs": "\\lvert #1\\rvert",
+          "\\almosteverywhere": "\\text{a.e.}",
+          "\\ip": "\\langle #1,#2\\rangle",
+          "\\norm": "\\lVert #1\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "quaternionic-deutsch-equality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For finite Parseval frames with counting measure, central lower equality\non the common nonzero-coefficient domain occurs exactly when both frames\nconsist of a single unit vector in a one-dimensional space.\nFor two orthonormal bases in dimension greater than one, that lower\ninequality is strict on the common domain.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "quaternionic-deutsch-equality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:quaternionic-deutsch-equality:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+        },
+        "lineage": "collected:quaternionic-deutsch-equality:s6",
+        "macros": {
+          "\\HH": "\\mathbb H",
+          "\\abs": "\\lvert #1\\rvert",
+          "\\almosteverywhere": "\\text{a.e.}",
+          "\\ip": "\\langle #1,#2\\rangle",
+          "\\norm": "\\lVert #1\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "quaternionic-deutsch-equality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Replace the quaternionic space and its scalar field by a real or complex\nHilbert space, with the same frame, measure and pointwise-domain hypotheses.\nTheorem~\\ref{thm:main} and Corollaries~\\ref{cor:upper}--\\ref{cor:counting}\nremain true, with dimension over the corresponding scalar field.\nThis gives the central lower and simultaneous equality cases in\n\\cite[Question 2.4, (3)]{K23}, as well as the finite-mass upper cases.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "quaternionic-deutsch-equality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:quaternionic-deutsch-equality:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+        },
+        "lineage": "collected:quaternionic-deutsch-equality:s7",
+        "macros": {
+          "\\HH": "\\mathbb H",
+          "\\abs": "\\lvert #1\\rvert",
+          "\\almosteverywhere": "\\text{a.e.}",
+          "\\ip": "\\langle #1,#2\\rangle",
+          "\\norm": "\\lVert #1\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "quaternionic-deutsch-equality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $1\\le r<\\infty$ and let $\\{f_\\alpha\\}$, $\\{g_\\beta\\}$ be 1-bounded\ncontinuous Parseval $r$-frames of linear functionals on a real or complex\nBanach space $X$. Thus their norms are at most one, their coefficient\nmaps are measurable, and $\\int\\abs{f_\\alpha(y)}^r\\,d\\mu=\\norm{y}^r$,\nwith the analogous identity for $g$.\nFor a unit vector $u$ with all these coefficients nonzero, define\n\\[\n P(\\alpha)=\\abs{f_\\alpha(u)}^r,\\qquad\n Q(\\beta)=\\abs{g_\\beta(u)}^r,\\qquad\n C=\\sup_{\\norm{y}=1,\\,\\alpha,\\beta}\\abs{f_\\alpha(y)g_\\beta(y)}.\n\\]\nEquality in the lower entropy bound\n$\\int-P\\log P+\\int-Q\\log Q\\ge-r\\log C$\nholds exactly when $P=A$ almost everywhere, $Q=B$ almost everywhere,\nand $AB=C^r$ for constants $A,B>0$.\nIn particular both total masses are finite at equality.\nThe same criterion holds for the dual-space frames of\n\\cite[Theorem 2.12]{K23}, with coefficients\n$f_\\alpha(h)=h(\\tau_\\alpha)$ and $g_\\beta(h)=h(\\omega_\\beta)$ on $X^*$.\nFor finite $m,n$, upper entropy equality with $\\log(mn)$ holds\nexactly when $P=1/m$ and $Q=1/n$ almost everywhere.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "quaternionic-deutsch-equality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:quaternionic-deutsch-equality:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+        },
+        "lineage": "collected:quaternionic-deutsch-equality:s8",
+        "macros": {
+          "\\HH": "\\mathbb H",
+          "\\abs": "\\lvert #1\\rvert",
+          "\\almosteverywhere": "\\text{a.e.}",
+          "\\ip": "\\langle #1,#2\\rangle",
+          "\\norm": "\\lVert #1\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "quaternionic-deutsch-equality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "In the functional setting of Corollary~\\ref{cor:functional}, assume\n$X\\ne\\{0\\}$ and $m,n<\\infty$. Equality in the other inequality of\n\\cite[Theorems 2.8 and 2.12, (4)--(5)]{K23}, namely\n\\[\n (mn)^{-1/r}\\le C,\n\\]\nholds if and only if $\\dim X=1$ and\n\\[\n \\norm{f_\\alpha}\\le m^{-1/r},\\quad\n \\norm{g_\\beta}\\le n^{-1/r}\\quad\\hbox{at every index},\n\\]\nwith equality in each norm bound almost everywhere.\nFor the dual formulation, replace $X$ by $X^*$ and the functionals\nby the corresponding evaluation maps. Every admissible state\nthen attains the functional lower entropy bound as well.\nFor arbitrary total masses and an admissible state, lower entropy\nequality holds if and only if $m,n$ are finite and the same\ndimension and norm conditions hold. For a fixed pair an admissible\nequality state exists precisely when these conditions hold and\nevery functional is nonzero, including at null indices.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "quaternionic-deutsch-equality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s9",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:quaternionic-deutsch-equality:2:s9",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+        },
+        "lineage": "collected:quaternionic-deutsch-equality:s9",
+        "macros": {
+          "\\HH": "\\mathbb H",
+          "\\abs": "\\lvert #1\\rvert",
+          "\\almosteverywhere": "\\text{a.e.}",
+          "\\ip": "\\langle #1,#2\\rangle",
+          "\\norm": "\\lVert #1\\rVert"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "quaternionic-deutsch-equality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Continuous Parseval frames on arbitrary measure spaces need not be\n1-bounded.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "quaternionic-deutsch-equality"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "quaternionic-deutsch-equality"
+}

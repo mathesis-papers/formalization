@@ -1,0 +1,340 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "92de86888730265f84e24d28bdb67546c543a966",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281184-phi2period:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281184-phi2period:s1",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281184-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The sequence $u(n)$ has least eventual period $18$ modulo $27$,\nwith exact origin $n=2$. Moreover\n\\[\n u(n)\\equiv0\\pmod{385}\\quad(n\\geq6),\\qquad u(5)\\equiv105\\pmod{385}.\n\\]\nIts exact zero-tail origins modulo $5,7,11$ are $3,4,6$, respectively.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281184-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281184-phi2period:2:s2",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281184-phi2period:s2",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281184-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $P\\geq1$, $r\\in\\Z/m\\Z$, and $t\\geq0$, if\n$\\ell M^j(M^P-rI)f_0=0$ for $t\\leq j<t+h$, then\n$A_b(j+P,e)=rA_b(j,e)$ modulo $m$ for every $j\\geq t$.\nLikewise $h$ consecutive zero values beginning at $t$ imply a zero tail.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281184-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281184-phi2period:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281184-phi2period:s3",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281184-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The table gives least periods $P$ and exact origins $n_0$ in source\nindices. In each row $h$ scalar period differences from $n_0$ are zero.\n\\[\n\\begin{array}{@{}lrrrr@{}}\\toprule\n \\text{sequence}&m&P&n_0&h\\\\\\midrule\n \\mathrm{A281180}&7&18&1&4\\\\\n \\mathrm{A281181}&10&8&0&5\\\\\n \\mathrm{A281181}&9&3&1&5\\\\\n \\mathrm{A281181}&13&72&0&7\\\\\n \\mathrm{A281183}&11&25&1&6\\\\\n \\mathrm{A281184}&11&25&1&6\\\\\n \\mathrm{A281440}&13&72&0&7\\\\\\bottomrule\n\\end{array}\n\\]\nAlso $\\mathrm{A281181}(n)\\equiv1\\pmod{12}$ for every $n\\geq0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281184-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281184-phi2period:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281184-phi2period:s4",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281184-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The following identities hold for all $n\\geq n_0$:\n$a(n+r)\\equiv\\lambda a(n)\\pmod m$.\n\\[\n\\begin{array}{@{}lrrrr@{}}\\toprule\n \\text{sequence}&m&r&\\lambda&n_0\\\\\\midrule\n \\mathrm{A281180}&7&6&2&1\\\\\n \\mathrm{A281181}&13&6&7&0\\\\\n \\mathrm{A281183}&11&5&5&1\\\\\n \\mathrm{A281184}&11&5&5&1\\\\\n \\mathrm{A281440}&13&6&6&0\\\\\\bottomrule\n\\end{array}\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281184-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281184-phi2period:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281184-phi2period:s5",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281184-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For A281182 set $t(j)=j![x^j](C_4+S_4)$. Then\n$t(2n)=A_4(n,1)$ and $t(2n+1)=A_4(n,4)$.\nConsequently $\\varphi(m)^2$ is a full-index tail period for $m\\geq3$\nfrom index $2N_4(m)$, and $2\\varphi(m)^2$ is a tail period for all $m\\geq1$.\nThe full-index shift $1$ fails modulo $2$; it is not asserted in this source.\n\nFor A281183, let $v(y)=1+y^2$ and\n$T(f)=v\\,d(vf)/dy$. Then $(T^{2n}1)(0)=A_4(n,2)$.\nFor A281181, $(S_4/C_4)'=C_4$, and the $x^5$ coefficient of $S_4/C_4$\nis $13/5!$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281184-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281184-phi2period:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281184-phi2period:s6",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281184-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "In A281428's January 22, 2026 formula, let\n$f_k(0,\\theta)=\\sec^{k-3}\\theta$ and\n$f_k(j,\\theta)=\\partial_\\theta(\\sec^3\\theta f_k(j-1,\\theta))$.\nFor integer $k\\geq0$ and $j\\geq0$, the correctly normalized identity is\n$f_k(j,0)=j![x^j]C_5(x)^k$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281184-phi2period"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "balaper-a281184-phi2period"
+}

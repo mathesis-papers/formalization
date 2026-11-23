@@ -1,0 +1,238 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "a5ab754b3968a7da271b36fb2b1d878697d70892",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/a5ab754b3968a7da271b36fb2b1d878697d70892/D5/S3/FiniteGroups/Heisenberg/CommutingGraphQ4.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:arvind-commuting-graph-prime-sixth-order:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "a5ab754b3968a7da271b36fb2b1d878697d70892",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a5ab754b3968a7da271b36fb2b1d878697d70892/D5/S3/FiniteGroups/Heisenberg/CommutingGraphQ4.lean"
+        },
+        "lineage": "collected:arvind-commuting-graph-prime-sixth-order:s1",
+        "macros": {
+          "\\Fp": "\\mathbb F_p",
+          "\\HH": "\\mathcal H",
+          "\\ZZ": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "arvind-commuting-graph-prime-sixth-order",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $p$ and $f$ as above, the groups $G=\\HH(R)$ and $H=\\HH(S)$ have order\n$q^6=p^{6f}$, nilpotency class two and isomorphic full commuting graphs, but are\nnot isoclinic. Their centres and derived subgroups coincide, with\n\\[\n G'=Z(G)\\cong (C_{p^2})^f,\\qquad H'=Z(H)\\cong (C_p)^{2f},\n\\]\nwhere $C_m$ denotes the cyclic group of order $m$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Residue-field extensions of O'Brien's examples for Arvind–Cameron–Ma–Maslova's commuting-graph question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "arvind-commuting-graph-prime-sixth-order"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:arvind-commuting-graph-prime-sixth-order:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "a5ab754b3968a7da271b36fb2b1d878697d70892",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a5ab754b3968a7da271b36fb2b1d878697d70892/D5/S3/FiniteGroups/Heisenberg/CommutingGraphQ4.lean"
+        },
+        "lineage": "collected:arvind-commuting-graph-prime-sixth-order:s2",
+        "macros": {
+          "\\Fp": "\\mathbb F_p",
+          "\\HH": "\\mathcal H",
+          "\\ZZ": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "arvind-commuting-graph-prime-sixth-order",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "There is a bijection $\\phi:R^2\\to S^2$, with $\\phi(0,0)=(0,0)$, such that\n\\[\n xy'-x'y=0\\quad\\Longleftrightarrow\\quad\n \\phi(x,y)_1\\phi(x',y')_2-\\phi(x',y')_1\\phi(x,y)_2=0.\n\\]\nHere subscripts denote the two coordinates in $S^2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Residue-field extensions of O'Brien's examples for Arvind–Cameron–Ma–Maslova's commuting-graph question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "arvind-commuting-graph-prime-sixth-order"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:arvind-commuting-graph-prime-sixth-order:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "a5ab754b3968a7da271b36fb2b1d878697d70892",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a5ab754b3968a7da271b36fb2b1d878697d70892/D5/S3/FiniteGroups/Heisenberg/CommutingGraphQ4.lean"
+        },
+        "lineage": "collected:arvind-commuting-graph-prime-sixth-order:s3",
+        "macros": {
+          "\\Fp": "\\mathbb F_p",
+          "\\HH": "\\mathcal H",
+          "\\ZZ": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "arvind-commuting-graph-prime-sixth-order",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every prime $p$ and integer $n\\geq6$, there are non-isoclinic\ngroups of order $p^n$ with isomorphic full commuting graphs. The two\ngroups in Theorem~\\ref{thm:main}, and their products with any common finite\nabelian group, also have isomorphic commuting graphs on their noncentral elements.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Residue-field extensions of O'Brien's examples for Arvind–Cameron–Ma–Maslova's commuting-graph question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "arvind-commuting-graph-prime-sixth-order"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:arvind-commuting-graph-prime-sixth-order:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "a5ab754b3968a7da271b36fb2b1d878697d70892",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a5ab754b3968a7da271b36fb2b1d878697d70892/D5/S3/FiniteGroups/Heisenberg/CommutingGraphQ4.lean"
+        },
+        "lineage": "collected:arvind-commuting-graph-prime-sixth-order:s4",
+        "macros": {
+          "\\Fp": "\\mathbb F_p",
+          "\\HH": "\\mathcal H",
+          "\\ZZ": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "arvind-commuting-graph-prime-sixth-order",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The common full graph of Theorem~\\ref{thm:main} is chordal and perfect,\nbut neither a cograph, a split graph nor a threshold graph.\nIts degree distribution is\n\\[\n\\begin{array}{c|ccc}\n\\text{degree} &q^6-1&q^5-1&q^4-1\\\\\n\\text{multiplicity}&q^2&q^4-q^2&q^6-q^4.\n\\end{array}\n\\]\nIts clique and chromatic numbers are both $q^4$. The commuting\nprobability is $q^{-2}+q^{-3}-q^{-5}$ and the number of conjugacy classes\nis $q^4+q^3-q$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Residue-field extensions of O'Brien's examples for Arvind–Cameron–Ma–Maslova's commuting-graph question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "arvind-commuting-graph-prime-sixth-order"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Residue-field extensions of O'Brien's examples for Arvind–Cameron–Ma–Maslova's commuting-graph question",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "arvind-commuting-graph-prime-sixth-order"
+}

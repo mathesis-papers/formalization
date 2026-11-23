@@ -1,0 +1,617 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "92de86888730265f84e24d28bdb67546c543a966",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-phi2period:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-phi2period:s1",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z",
+          "\\ev": "\\operatorname{ev}_0",
+          "\\ph": "\\varphi"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The integers $a(n)$ in \\eqref{eq:source} satisfy, for every $m\\ge3$,\n\\[\n a\\bigl(n+\\ph(m)^2/2\\bigr)\\equiv a(n)\\pmod m\n \\qquad(n\\ge N(m)).\n\\]\nModulo $2$ they are zero for $n\\ge2$; modulo $1$ the assertion is\nimmediate. Consequently the shift $\\ph(m)^2$ is valid eventually\nfor every positive integer $m$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s10",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-phi2period:2:s10",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-phi2period:s10",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z",
+          "\\ev": "\\operatorname{ev}_0",
+          "\\ph": "\\varphi"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $u=1+s^2$ and $D=u^2\\partial_s$, write\n\\[\n D^{2n-1}s=u^{2n}Q_n(s^2)\\qquad(n\\ge1).\n\\]\nThen $Q_n(z)=\\sum_k T(n,k)z^k$ is the triangle A394012.\nIts first column is A281180 and its second column is A391180, with\n\\[\n T(n,1)=\\tfrac12 a(n+1)-2n a(n).\n\\]\nConsequently, for $m\\ge2$, A391180 has the eventual period\n$\\operatorname{lcm}(m,\\ph(2m)^2/2)$, with sufficient onset $N(2m)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s11",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-phi2period:2:s11",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-phi2period:s11",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z",
+          "\\ev": "\\operatorname{ev}_0",
+          "\\ph": "\\varphi"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The source examples have the following exact least periods.\n\\begin{center}\n\\begin{tabular}{@{}lrrrr@{}}\\toprule\nEntry & $m$ & least period & first index & $h$\\\\\\midrule\nA281180 & 7 & 18 & 1 & 4\\\\\nA281181 & 10 & 8 & 0 & 5\\\\\nA281181 & 9 & 3 & 1 & 5\\\\\nA281181 & 13 & 72 & 0 & 7\\\\\nA281183 & 11 & 25 & 1 & 6\\\\\nA281184 & 11 & 25 & 1 & 6\\\\\nA281440 & 13 & 72 & 0 & 7\\\\\\bottomrule\n\\end{tabular}\n\\end{center}\nAlso A281181$(n)=1\\pmod{12}$ for all $n\\ge0$, and\nA281184$(n)=3\\pmod9$ for all $n\\ge1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-phi2period:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-phi2period:s2",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z",
+          "\\ev": "\\operatorname{ev}_0",
+          "\\ph": "\\varphi"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every prime $p$, $r\\ge1$ and $j\\ge p^{2r-1}$,\n\\begin{equation}\n u_{j+\\ph(p^r)^2}\\equiv u_j\\pmod{p^r}.\n\\end{equation}\nThe same conclusion modulo $m>1$ holds for $j\\ge M(m)$\nwith shift $\\ph(m)^2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-phi2period:2:s3",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-phi2period:s3",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z",
+          "\\ev": "\\operatorname{ev}_0",
+          "\\ph": "\\varphi"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $a\\ge1$, $F\\in R$ and $m\\ge3$,\n\\[\n \\beta_{a,F}\\bigl(n+\\ph(m)^2/2\\bigr)\n \\equiv\\beta_{a,F}(n)\\pmod m\\qquad(n\\ge J(m)).\n\\]\nModulo $2$, a period of one holds for $n\\ge1$.\nThe even-exponent specialization for $F=c^k$ is Su's\nTheorem 3.2; the argument here also includes every odd exponent\nand every integral polynomial observable.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-phi2period:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-phi2period:s4",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z",
+          "\\ev": "\\operatorname{ev}_0",
+          "\\ph": "\\varphi"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "All five conjectured totient-square periods hold, and for $m\\ge3$\nthe half-square shift holds for the following exact source sequences:\n\\[\n\\begin{array}{c|ccccc}\n \\text{entry}&\\mathrm{A281180}&\\mathrm{A281181}&\\mathrm{A281183}&\\mathrm{A281184}&\\mathrm{A281440}\\\\\n \\text{value}&\\beta_{4,4}(n-1)&\\beta_{4,1}(n)&\\beta_{4,2}(n)&\\beta_{4,3}(n)&\\beta_{8,1}(n).\n\\end{array}\n\\]\nAn onset $J(m)+1$ suffices for the first sequence, and $J(m)$\nfor the other four. For A281180, Theorem~\\ref{thm:main} supplies the\nadditional bound $N(m)$. Modulo $1$ or $2$ a period of one is eventual.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-phi2period:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-phi2period:s5",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z",
+          "\\ev": "\\operatorname{ev}_0",
+          "\\ph": "\\varphi"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The sequence A281182 has an eventual period dividing $\\ph(m)^2$\nfor $m\\ge3$, with onset $2J(m)$, and dividing $2$ modulo $2$.\nThe sequences A281427, A281428, A281432, A281435, A281436,\nA281439, A281443 and A281444 have an eventual half-square shift\nfor $m\\ge3$. Their corresponding exponents $a$ are, respectively,\n$5,5,6,7,7,8,9,9$. These period statements for the additional\nentries are consequences, not conjectures posed there;\nthe stronger A281428 assertions are stated below.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-phi2period:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-phi2period:s6",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z",
+          "\\ev": "\\operatorname{ev}_0",
+          "\\ph": "\\varphi"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Bala's tentative derivative formula in A281183, Formula, revision 60,\nsigned 22 December 2025, holds: for $g_0=1$ and\n$g_{j+1}=(1+z^2)\\,d((1+z^2)g_j)/dz$,\n$g_{2n}(0)=\\mathrm{A281183}(n)$ for every $n\\ge0$.\nThis is Su's Proposition 3.5.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-phi2period:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-phi2period:s7",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z",
+          "\\ev": "\\operatorname{ev}_0",
+          "\\ph": "\\varphi"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Fix $m\\ge2$ and write $r_* = \\max_{p^r\\parallel m}r$.\nFor each odd $p^r\\parallel m$ put\n\\[\n h_{p^r}=\\frac{(p-1)p^{r-1}}2,\\qquad\n \\alpha_{a,p}=[s^{p-1}](1+s^2)^{-a/2}\\pmod p.\n\\]\nSet $h_2=h_4=1$ and $h_{2^r}=2^{r-2}$ for $r\\ge3$.\nLet $H=\\operatorname{lcm}_{p^r\\parallel m}h_{p^r}$, and choose\n$\\Gamma\\in\\Z/m\\Z$ reducing to\n$\\widetilde\\alpha_{a,p}^{\\,H/h_{p^r}}$ modulo each odd $p^r$,\nwhere $\\widetilde\\alpha_{a,p}$ is any integral lift of $\\alpha_{a,p}$,\nand to one modulo the $2$-primary factor.\nFor every $F\\in R$ and $n\\ge r_*$,\n\\[\n \\sum_{t=0}^{r_*}(-1)^{r_*-t}\\binom{r_*}{t}\n \\Gamma^{r_*-t}\\beta_{a,F}(n+tH)\\equiv0\\pmod m.\n\\]\nIn particular, for squarefree $m$ the rows satisfy\n$\\beta_{a,F}(n+H)=\\Gamma\\beta_{a,F}(n)\\pmod m$ for $n\\ge1$.\nThe scalar $\\Gamma$ may be zero at some primes.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-phi2period:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-phi2period:s8",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z",
+          "\\ev": "\\operatorname{ev}_0",
+          "\\ph": "\\varphi"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The question in A281436, Formula, revision 10, signed\n23 December 2025, has answer yes: if\n$f_0(\\theta)=\\sec\\theta$ and\n$f_{j+1}=\\sec^5\\theta\\,f_j'$, then\n$f_{2n}(0)=\\mathrm{A281436}(n)$.\nIn A281428, Formula, revision 54, signed 22 January 2026,\nthe formula for ordinary coefficients requires the normalization\n\\[\n f_k(j,0)=j![x^j]C_5(x)^k,\n\\]\nwhere $f_k(0,\\theta)=\\sec^{k-3}\\theta$ and\n$f_k(j+1,\\theta)=\\partial_\\theta(\\sec^3\\theta f_k(j,\\theta))$.\nSu's Section 4, Source-formula normalization, already gives this correction.\nFor A281427 and A281435, Formula, signed 22 December 2025,\nthe displayed nested-derivative rule with $f_0=1$ instead has\n$a(n)=f_{2n-2}(0)$, not $f_{2n}(0)$, with the source offset $n\\ge1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s9",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-phi2period:2:s9",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-phi2period:s9",
+        "macros": {
+          "\\F": "\\mathbb F",
+          "\\Q": "\\mathbb Q",
+          "\\Z": "\\mathbb Z",
+          "\\ev": "\\operatorname{ev}_0",
+          "\\ph": "\\varphi"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For the same quadratic flow, put $T_a=S_a/C_a$ and\n$\\theta_a=\\arctan S_a$. The common inverse-function formulas in\nthe source entries follow from\n\\[\n \\begin{aligned}\n x&=\\int_0^{S_a}(1+t^2)^{-a/2}\\,dt\n   =\\int_0^{\\theta_a}\\cos^{a-2}t\\,dt,\\\\\n x&=\\int_0^{H_a}\\operatorname{sech}^{a-1}t\\,dt\n   =\\int_0^{T_a}(1-t^2)^{(a-3)/2}\\,dt.\n \\end{aligned}\n\\]\nIn particular $T_a'=C_a^{a-3}$ and $T_a^2+C_a^{-2}=1$.\nFor $a=5$, $T_5^3-3T_5+3x=0$ and\n$(4-9x^2)C_5^6-3C_5^2-1=0$.\nFor $a=7$, $3T_7^5-10T_7^3+15T_7-15x=0$ and\n$(225x^2-64)C_7^{10}+40C_7^4+15C_7^2+9=0$.\nThese are the algebraic identities recorded in A281427, A281428,\nA281435 and A281436. Their $S_a$ identities follow by\n$C_a^2=1+S_a^2$.\nFor $a=4$, the coefficient expansion is\n$T_4=x+x^3/3!+13x^5/5!+493x^7/7!+\\cdots$;\nthe denominator $6!$ on the $x^5$ term in A281181, Formula,\n14 December 2025, must be $5!$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-phi2period"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "balaper-phi2period"
+}
