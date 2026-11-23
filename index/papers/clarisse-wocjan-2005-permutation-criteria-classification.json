@@ -1,0 +1,574 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+        },
+        "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s1",
+        "macros": {
+          "\\R": "\\mathcal R",
+          "\\bits": "\\{0,1\\}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\tr": "\\operatorname{Tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $r\\geq1$ and $d\\geq2$, permutations $\\sigma,\\mu\\in S_{2r}$ are\nnorm dependent if and only if\n\\begin{equation}\n S_\\mu\\in\\{S_\\sigma,C(S_\\sigma),J(S_\\sigma),CJ(S_\\sigma)\\}.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s10",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s10",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+        },
+        "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s10",
+        "macros": {
+          "\\R": "\\mathcal R",
+          "\\bits": "\\{0,1\\}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\tr": "\\operatorname{Tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $r\\geq1$ and $d\\geq2$ there are $2^{r-1}-1$ nontrivial\npartial-transpose criteria, up to global transpose. Their\nentanglement-detection sets are pairwise incomparable.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+        },
+        "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s2",
+        "macros": {
+          "\\R": "\\mathcal R",
+          "\\bits": "\\{0,1\\}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\tr": "\\operatorname{Tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The nonzero singular values of their rearrangements are as follows:\n\\begin{center}\n\\begin{tabular}{lll}\n\\toprule\nState & Label condition & Nonzero singular values\\\\\n\\midrule\n$M_k$ & $a_k=b_k$ & $1/\\sqrt2$\\\\\n$M_k$ & $a_k\\ne b_k$ & $1/2,\\ 1/2$\\\\\n$B_{kl}$ & $D(x_k,x_l)=0$ & $1$\\\\\n$B_{kl}$ & $D(x_k,x_l)=1$ & $1/\\sqrt2,\\ 1/\\sqrt2$\\\\\n$B_{kl}$ & $D(x_k,x_l)=2$ & $1/2,\\ 1/2,\\ 1/2,\\ 1/2$\\\\\n\\bottomrule\n\\end{tabular}\n\\end{center}\nIn particular, the mixed-state trace norms distinguish equal-side from\nopposite-side labels, and the Bell-state trace norm is $2^{D(x_k,x_l)/2}$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s3",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+        },
+        "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s3",
+        "macros": {
+          "\\R": "\\mathcal R",
+          "\\bits": "\\{0,1\\}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\tr": "\\operatorname{Tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Two families $x_k,y_k\\in\\bits^2$ with the same equal-side parties and\nthe same distances $D(x_k,x_l)=D(y_k,y_l)$ for all $k,l$ differ by one\nglobal coordinate exchange and one global simultaneous bit complement.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+        },
+        "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s4",
+        "macros": {
+          "\\R": "\\mathcal R",
+          "\\bits": "\\{0,1\\}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\tr": "\\operatorname{Tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For fixed $r\\geq1$, $d\\geq2$, equality of two permutation norm functions\non the $r+\\binom r2$ states $M_k,B_{kl}$ is equivalent to equality on\nevery density matrix. The same four symmetries also characterize\nequality of the full singular-value lists on every density matrix.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+        },
+        "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s5",
+        "macros": {
+          "\\R": "\\mathcal R",
+          "\\bits": "\\{0,1\\}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\tr": "\\operatorname{Tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For two given permutations it suffices to compare $r$ mixed-state\nvalues and at most $r-1$ Bell-state values. If both equal-side sectors\nare nonempty, at most $2r-2$ values in total suffice.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+        },
+        "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s6",
+        "macros": {
+          "\\R": "\\mathcal R",
+          "\\bits": "\\{0,1\\}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\tr": "\\operatorname{Tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The exact number of norm-dependence classes, including the identity\ncriterion, is\n\\begin{equation}\n N_r=\\frac14\\left(\\binom{2r}{r}+2^r+\n       \\mathbf1_{2\\mid r}\\binom r{r/2}\\right),\\qquad r\\geq1.\n\\end{equation}\nThere are $N_r-1$ nontrivial classes. For $r=1,2,3,4$ these numbers\nare respectively $0,2,6,22$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+        },
+        "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s7",
+        "macros": {
+          "\\R": "\\mathcal R",
+          "\\bits": "\\{0,1\\}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\tr": "\\operatorname{Tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Theorem~\\ref{thm:main} and Corollary~\\ref{cor:finite} hold with the\ntrace norm replaced by any Schatten functional, $0<p\\leq\\infty$,\n$p\\ne2$. Corollary~\\ref{cor:adaptive} holds in the same range.\nFor $p=2$ all tensor-index permutations have the same norm\non every operator.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+        },
+        "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s8",
+        "macros": {
+          "\\R": "\\mathcal R",
+          "\\bits": "\\{0,1\\}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\tr": "\\operatorname{Tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Two permutations have equal ranks on every density matrix if and only\nif \\eqref{eq:orbit} holds. For every fixed $0<p\\leq\\infty$, $p\\ne2$,\nequality of Schatten functionals on positive-definite density matrices\nalready implies equality on all density matrices.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s9",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s9",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+        },
+        "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s9",
+        "macros": {
+          "\\R": "\\mathcal R",
+          "\\bits": "\\{0,1\\}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\tr": "\\operatorname{Tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If an additional party in density matrix $\\tau$ is left unchanged,\nthen for every $0<p\\leq\\infty$,\n\\[\n \\norm{(\\Lambda_\\sigma\\rho)\\otimes\\tau}_p\n   =\\norm{\\Lambda_\\sigma\\rho}_p\\norm{\\tau}_p.\n\\]\nThus the trace norm is unchanged for every density matrix $\\tau$;\nevery Schatten functional is unchanged when $\\tau$ is pure.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+}
