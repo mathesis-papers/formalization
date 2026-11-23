@@ -1,0 +1,190 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "92de86888730265f84e24d28bdb67546c543a966",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281181TotientSquarePeriod.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281181-phi2period:3:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281181TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281181-phi2period:s1",
+        "macros": {
+          "\\FF": "\\mathbb F",
+          "\\QQ": "\\mathbb Q",
+          "\\ZZ": "\\mathbb Z",
+          "\\ev": "\\operatorname{ev}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281181-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every positive integer $q$ and integer $e\\geq0$, the numbers\n\\[\n A_{q,e}(n)=(2n)![t^{2n}]C_q(t)^e\\qquad(n\\geq0)\n\\]\nare integers. For all $k\\geq1$ and $n\\geq k^2$,\n\\begin{equation}\n A_{q,e}\\bigl(n+\\varphi(k)^2\\bigr)\\equiv A_{q,e}(n)\\pmod{k}.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A jet-space proof and extension of Su's theorem on Bala's totient-square period conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "balaper-a281181-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281181-phi2period:3:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281181TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281181-phi2period:s2",
+        "macros": {
+          "\\FF": "\\mathbb F",
+          "\\QQ": "\\mathbb Q",
+          "\\ZZ": "\\mathbb Z",
+          "\\ev": "\\operatorname{ev}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281181-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $B$ be an integer $L\\times L$ matrix whose reduction modulo $p$ is\nthe operator $P(x)\\,d/dx$ on $\\FF_p[x]/(x^L)$, where $P(0)=1$.\nPut $U=p^{2r-1}$ and $T=p^{2r-2}(p-1)^2$. Then\n\\begin{equation}\n B^U(B^T-I)\\equiv0\\pmod{p^r}.\n\\end{equation}\nConsequently $B^{j+T}\\equiv B^j\\pmod{p^r}$ for every $j\\geq U$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A jet-space proof and extension of Su's theorem on Bala's totient-square period conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "balaper-a281181-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281181-phi2period:3:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281181TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281181-phi2period:s3",
+        "macros": {
+          "\\FF": "\\mathbb F",
+          "\\QQ": "\\mathbb Q",
+          "\\ZZ": "\\mathbb Z",
+          "\\ev": "\\operatorname{ev}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281181-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The even-exponent companions in the following table satisfy the\nsquare-totient congruence of Theorem \\ref{main}, with sufficient\nsource-index bound $k^2$ for an even column and $k^2+1$ for an odd column.\nThe same holds for A281431. The full-index sequence A281182 satisfies\n$a(j+2\\varphi(k)^2)\\equiv a(j)\\pmod{k}$ for $j\\geq2k^2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A jet-space proof and extension of Su's theorem on Bala's totient-square period conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "balaper-a281181-phi2period"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "A jet-space proof and extension of Su's theorem on Bala's totient-square period conjectures",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 3,
+  "work": "balaper-a281181-phi2period"
+}

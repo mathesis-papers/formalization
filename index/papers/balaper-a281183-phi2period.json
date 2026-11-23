@@ -1,0 +1,328 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "92de86888730265f84e24d28bdb67546c543a966",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281183-phi2period:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281183-phi2period:s1",
+        "macros": {
+          "\\ev": "\\operatorname{ev}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281183-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $f\\in\\mathbb Z[s]$, every $m\\ge1$, and every $n\\ge N(m)$,\n\\[\n b_f(n+L(m))\\equiv b_f(n)\\pmod m.\n\\]\nMoreover $2^n\\mid b_f(n)$ for every $n\\ge0$.\nConsequently Bala's prescribed shift $\\varphi(m)^2$ is an eventual\nperiod for $a_n$ at every positive modulus.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Explicit onsets and residue certificates for Bala's totient-square period problem after Su",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281183-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281183-phi2period:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281183-phi2period:s2",
+        "macros": {
+          "\\ev": "\\operatorname{ev}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281183-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $A$ be an endomorphism of a finite free\n$\\mathbb Z/p^r\\mathbb Z$-module, where $p$ is prime and $r\\ge1$.\nIf $A(A^T-I)$ is divisible by $p$ for a positive integer $T$, then\n\\[\n A^r\\bigl(A^{Tp^{r-1}}-I\\bigr)=0.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Explicit onsets and residue certificates for Bala's totient-square period problem after Su",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281183-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281183-phi2period:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281183-phi2period:s3",
+        "macros": {
+          "\\ev": "\\operatorname{ev}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281183-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Theorem~\\ref{main} holds for every $f\\in\\mathbb Z[[s]]$.\nIn particular it holds for the factorial-scaled even coefficients\nof $C^{2k}$ for every integer $k$, including negative $k$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Explicit onsets and residue certificates for Bala's totient-square period problem after Su",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281183-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281183-phi2period:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281183-phi2period:s4",
+        "macros": {
+          "\\ev": "\\operatorname{ev}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281183-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The A281183 formulas attributed to Bala on 22 December 2025 and\n9 January 2026 also hold at every index: if\n$f_0=1$, $f_{j+1}=(\\sec^2(z)f_j)'$, and\n$h_0=(1-z^2)^{-1/2}$,\n$h_{j+1}=((1-z^2)^{-1/2}h_j)'$, then\n$f_{2n}(0)=h_{2n}(0)=a_n$ for all $n\\ge0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Explicit onsets and residue certificates for Bala's totient-square period problem after Su",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281183-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281183-phi2period:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281183-phi2period:s5",
+        "macros": {
+          "\\ev": "\\operatorname{ev}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281183-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For A281180, whose offset is $1$, write its terms as $s_n$.\nSince $S'=C^4=u(S)^2$, one has\n$s_n=b_{u^2}(n-1)$ for $n\\ge1$.\nTheorem~\\ref{main} proves the same periods for $s_n$ with onset\n$N(m)+1$. Su's Corollary 3.3 already includes this conclusion.\n\nLet $t_j=j![x^j](C+S)$, the sequence A281182, and let\n$R(m)=\\max_{p\\mid m}v_p(m)$ for $m>1$, with $R(1)=0$.\nFor $m\\ge3$, $t_{j+\\varphi(m)^2}\\equiv t_j\\pmod m$\nfor $j\\ge2R(m)$. Modulo $2$, its least eventual period is $2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Explicit onsets and residue certificates for Bala's totient-square period problem after Su",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281183-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281183-phi2period:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281183-phi2period:s6",
+        "macros": {
+          "\\ev": "\\operatorname{ev}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281183-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The following are the least eventual periods; the stated periods\nalready hold from the indicated OEIS index $n_0$.\n\\begin{center}\n\\begin{tabular}{lrrrr}\n\\toprule\nSequence & Modulus $m$ & Period $P$ & $n_0$ & Dimension $h$\\\\\n\\midrule\nA281180 & 7 & 18 & 1 & 4\\\\\nA281181 & 10 & 8 & 0 & 5\\\\\nA281181 & 9 & 3 & 1 & 5\\\\\nA281181 & 13 & 72 & 0 & 7\\\\\nA281183 & 11 & 25 & 1 & 6\\\\\nA281184 & 11 & 25 & 1 & 6\\\\\nA281440 & 13 & 72 & 0 & 7\\\\\n\\bottomrule\n\\end{tabular}\n\\end{center}\nMoreover A281181$(n)\\equiv1\\pmod{12}$ for every $n\\ge0$.\nThese results, including Curtz's mod-$9$, mod-$10$ and mod-$12$\nobservations in A281181, are reproved here with the finite certificates\nbelow; Su previously proved all of them \\cite[Proposition 3.6]{su}.\nThe mod-$10$ cycle is $(1,1,3,3,9,9,7,7)$; modulo $9$, the\nprefix $a(0)=1$ is followed by the cycle $(1,4,7)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Explicit onsets and residue certificates for Bala's totient-square period problem after Su",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281183-phi2period"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Explicit onsets and residue certificates for Bala's totient-square period problem after Su",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "balaper-a281183-phi2period"
+}
