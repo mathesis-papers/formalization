@@ -1,0 +1,346 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "43ced8a8460ce89a7c5cae3deeac10e5fc08d565",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/43ced8a8460ce89a7c5cae3deeac10e5fc08d565/D5/S3/Quantum/Tomography/Hadamard/BanicaTruncationRefutation.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:banica-ozteke-pittau-2018-truncation-isolation:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "43ced8a8460ce89a7c5cae3deeac10e5fc08d565",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/43ced8a8460ce89a7c5cae3deeac10e5fc08d565/D5/S3/Quantum/Tomography/Hadamard/BanicaTruncationRefutation.lean"
+        },
+        "lineage": "collected:banica-ozteke-pittau-2018-truncation-isolation:s1",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\R": "\\mathbb R",
+          "\\Z": "\\mathbb Z",
+          "\\bop": "Banica--\\\"Ozteke--Pittau"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "banica-ozteke-pittau-2018-truncation-isolation",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $p$ is prime and $\\varnothing\\ne S\\subsetneq\\Z/p\\Z$, then a neighborhood\nof $F_{S,p}$ in a fixed dephased slice of partial Hadamard matrices is a\nreal-analytic manifold of dimension\n\\begin{equation}\nD(m,p)=(m-1)(p-m-1).\n\\end{equation}\nConsequently, $F_{S,p}$ is non-isolated if $2\\leq m\\leq p-2$, and is\nisolated if $m=1$ or $m=p-1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "banica-ozteke-pittau-2018-truncation-isolation"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:banica-ozteke-pittau-2018-truncation-isolation:2:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "43ced8a8460ce89a7c5cae3deeac10e5fc08d565",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/43ced8a8460ce89a7c5cae3deeac10e5fc08d565/D5/S3/Quantum/Tomography/Hadamard/BanicaTruncationRefutation.lean"
+        },
+        "lineage": "collected:banica-ozteke-pittau-2018-truncation-isolation:s2",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\R": "\\mathbb R",
+          "\\Z": "\\mathbb Z",
+          "\\bop": "Banica--\\\"Ozteke--Pittau"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "banica-ozteke-pittau-2018-truncation-isolation",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every prime $p\\geq5$, deleting any two rows of $F_p$ gives a\nnon-isolated partial Hadamard matrix, with local dephased dimension $p-3$.\nThere is no $\\varepsilon>0$ as in Conjecture 1.14.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "banica-ozteke-pittau-2018-truncation-isolation"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:banica-ozteke-pittau-2018-truncation-isolation:2:s3",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "43ced8a8460ce89a7c5cae3deeac10e5fc08d565",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/43ced8a8460ce89a7c5cae3deeac10e5fc08d565/D5/S3/Quantum/Tomography/Hadamard/BanicaTruncationRefutation.lean"
+        },
+        "lineage": "collected:banica-ozteke-pittau-2018-truncation-isolation:s3",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\R": "\\mathbb R",
+          "\\Z": "\\mathbb Z",
+          "\\bop": "Banica--\\\"Ozteke--Pittau"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "banica-ozteke-pittau-2018-truncation-isolation",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For a proper row set $S$, the real-linear map $J$ is surjective.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "banica-ozteke-pittau-2018-truncation-isolation"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:banica-ozteke-pittau-2018-truncation-isolation:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "43ced8a8460ce89a7c5cae3deeac10e5fc08d565",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/43ced8a8460ce89a7c5cae3deeac10e5fc08d565/D5/S3/Quantum/Tomography/Hadamard/BanicaTruncationRefutation.lean"
+        },
+        "lineage": "collected:banica-ozteke-pittau-2018-truncation-isolation:s4",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\R": "\\mathbb R",
+          "\\Z": "\\mathbb Z",
+          "\\bop": "Banica--\\\"Ozteke--Pittau"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "banica-ozteke-pittau-2018-truncation-isolation",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "A nonempty $m$-row truncation of $F_p$ is isolated exactly for\n$m\\in\\{1,p-1,p\\}$, and exactly when its undephased defect is $m+p-1$.\nFor $m<p$, its undephased defect is $m(p-m+1)$; for $m=p$, it is $2p-1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "banica-ozteke-pittau-2018-truncation-isolation"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:banica-ozteke-pittau-2018-truncation-isolation:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "43ced8a8460ce89a7c5cae3deeac10e5fc08d565",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/43ced8a8460ce89a7c5cae3deeac10e5fc08d565/D5/S3/Quantum/Tomography/Hadamard/BanicaTruncationRefutation.lean"
+        },
+        "lineage": "collected:banica-ozteke-pittau-2018-truncation-isolation:s5",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\R": "\\mathbb R",
+          "\\Z": "\\mathbb Z",
+          "\\bop": "Banica--\\\"Ozteke--Pittau"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "banica-ozteke-pittau-2018-truncation-isolation",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For a proper prime Fourier row set, every $A\\in\\ker J$ is the phase\nvelocity at zero of a real-analytic curve of partial Hadamard matrices.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "banica-ozteke-pittau-2018-truncation-isolation"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:banica-ozteke-pittau-2018-truncation-isolation:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "43ced8a8460ce89a7c5cae3deeac10e5fc08d565",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/43ced8a8460ce89a7c5cae3deeac10e5fc08d565/D5/S3/Quantum/Tomography/Hadamard/BanicaTruncationRefutation.lean"
+        },
+        "lineage": "collected:banica-ozteke-pittau-2018-truncation-isolation:s6",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\R": "\\mathbb R",
+          "\\Z": "\\mathbb Z",
+          "\\bop": "Banica--\\\"Ozteke--Pittau"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "banica-ozteke-pittau-2018-truncation-isolation",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Every such truncation satisfies\n\\begin{equation}\nd(F_{S,G})=m(N-m+1)+C(S).\n\\end{equation}\nIts orthogonality differential is surjective if and only if $C(S)=0$.\nIn that case its local dephased space is an analytic manifold of\ndimension $(m-1)(N-m-1)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "banica-ozteke-pittau-2018-truncation-isolation"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "banica-ozteke-pittau-2018-truncation-isolation"
+}

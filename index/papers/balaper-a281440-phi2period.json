@@ -1,0 +1,405 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "92de86888730265f84e24d28bdb67546c543a966",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281440-phi2period:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281440-phi2period:s1",
+        "macros": {
+          "\\End": "\\operatorname{End}",
+          "\\FF": "\\mathbb F",
+          "\\QQ": "\\mathbb Q",
+          "\\ZZ": "\\mathbb Z",
+          "\\coeff": "[#1]#2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281440-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $a=2d\\ge2$, $k\\ge0$, and $m\\ge3$. For each odd prime $p$, put\n\\[\n \\alpha_{a,p}=(-1)^h\\binom{d+h-1}{h}\\pmod p,\\qquad h=(p-1)/2.\n\\]\nFor $p^r\\Vert m$, define\n\\[\n N_a(p^r)=\n \\begin{cases}\n r,&p=2\\text{ or }(p\\text{ odd and }\\alpha_{a,p}\\ne0),\\\\\n \\left\\lceil r\\bigl(1+(p-1)p^{r-1}\\bigr)/2\\right\\rceil,\n      &p\\text{ odd and }\\alpha_{a,p}=0,\n \\end{cases}\n\\]\nPut $N_a(m)=\\max_{p^r\\Vert m}N_a(p^r)$. Then for every $n\\ge N_a(m)$,\n\\begin{equation}\n b_{a,k}\\bigl(n+\\varphi(m)^2/2\\bigr)\\equiv b_{a,k}(n)\\pmod m.\n\\end{equation}\nFor $m=1,2$ an eventual period of one is valid.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281440-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281440-phi2period:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281440-phi2period:s2",
+        "macros": {
+          "\\End": "\\operatorname{End}",
+          "\\FF": "\\mathbb F",
+          "\\QQ": "\\mathbb Q",
+          "\\ZZ": "\\mathbb Z",
+          "\\coeff": "[#1]#2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281440-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $M$ be a finite free module over $\\ZZ/p^r\\ZZ$, let $A\\in\\End(M)$, and\nsuppose $A^{T+1}\\equiv A\\pmod p$, with $T\\ge1$. Then\n\\[\n (A^{Tp^{r-1}}-I)A^r=0.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281440-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281440-phi2period:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281440-phi2period:s3",
+        "macros": {
+          "\\End": "\\operatorname{End}",
+          "\\FF": "\\mathbb F",
+          "\\QQ": "\\mathbb Q",
+          "\\ZZ": "\\mathbb Z",
+          "\\coeff": "[#1]#2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281440-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Theorem~\\ref{thm:period} holds for every integer $a\\ge2$, using\n\\[\n \\alpha_{a,p}=(-1)^h\\prod_{j=0}^{h-1}\\frac{a+2j}{2(j+1)}\\in\\FF_p,\n \\qquad h=(p-1)/2.\n\\]\nFor odd $a\\ge3$, this scalar vanishes at every prime $p\\ge a$.\nFor the odd source flows $a=5,7,9$, the only nonvanishing odd primes\nare respectively $\\{3\\}$, $\\{3,5\\}$ and $\\{5,7\\}$.\nConsequently all their columns eventually vanish modulo every positive\ninteger coprime to $6$, $30$ and $70$, respectively.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281440-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281440-phi2period:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281440-phi2period:s4",
+        "macros": {
+          "\\End": "\\operatorname{End}",
+          "\\FF": "\\mathbb F",
+          "\\QQ": "\\mathbb Q",
+          "\\ZZ": "\\mathbb Z",
+          "\\coeff": "[#1]#2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281440-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The five totient-square conjectures in the first five rows are proved by\nTheorem~\\ref{thm:period}, as in Su's Corollary 3.3.\nEvery row has eventual period $\\varphi(m)^2/2$ for $m\\ge3$, and period one\nfor $m=1,2$. For A281180, A281427, A281439 and A281443 add one to the column\nthreshold; all other rows use $N_a(m)$ directly.\nThe odd-exponent half-square statements are consequences of\nCorollary~\\ref{cor:odd}, not conjectures asserted by those entries.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281440-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281440-phi2period:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281440-phi2period:s5",
+        "macros": {
+          "\\End": "\\operatorname{End}",
+          "\\FF": "\\mathbb F",
+          "\\QQ": "\\mathbb Q",
+          "\\ZZ": "\\mathbb Z",
+          "\\coeff": "[#1]#2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281440-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For any $a\\ge2$, let $\\theta(0)=0$, $\\theta'=\\sec^{a-2}\\theta$.\nThen\n\\begin{equation}\n (2n)![x^{2n}]C_a(x)\n   =\\left.\\left(\\sec^{a-2}\\theta\\,\\frac d{d\\theta}\\right)^{2n}\n       \\sec\\theta\\right|_{\\theta=0}.\n\\end{equation}\nThe formula marked with a question mark in A281436\n(Bala, FORMULA, 23 December 2025), with $a=7$, as well as the displayed\nformulas in A281432, A281440 and A281444 are therefore valid.\nThe tentative A281183 formula is valid as well.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281440-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281440-phi2period:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281440-phi2period:s6",
+        "macros": {
+          "\\End": "\\operatorname{End}",
+          "\\FF": "\\mathbb F",
+          "\\QQ": "\\mathbb Q",
+          "\\ZZ": "\\mathbb Z",
+          "\\coeff": "[#1]#2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281440-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $a=2d+1\\ge3$ set $T=S_a/C_a$. Then\n\\begin{equation}\n x=\\sum_{j=0}^{d-1}\\frac{(-1)^j\\binom{d-1}{j}}{2j+1}T^{2j+1},\n \\qquad C_a=(1-T^2)^{-1/2},\\quad S_a=TC_a.\n\\end{equation}\nIn particular, the algebraic equations for $S_5,C_5,T$ in A281427\n(Bala, FORMULA, 14 December 2025) and $C_7$ in A281436\n(FORMULA, 23 December 2025) hold. In A281181 the displayed term\n\\texttt{13*x\\^{}5/6!} in $T=S_4/C_4$ (FORMULA, 14 December 2025)\nmust instead be $13x^5/5!$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281440-phi2period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:balaper-a281440-phi2period:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "92de86888730265f84e24d28bdb67546c543a966",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+        },
+        "lineage": "collected:balaper-a281440-phi2period:s7",
+        "macros": {
+          "\\End": "\\operatorname{End}",
+          "\\FF": "\\mathbb F",
+          "\\QQ": "\\mathbb Q",
+          "\\ZZ": "\\mathbb Z",
+          "\\coeff": "[#1]#2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "balaper-a281440-phi2period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $m\\ge2$, $r_* =\\max_{p\\mid m}v_p(m)$, and, for $p^r\\Vert m$, set\n\\[\n h_{p^r}=(p-1)p^{r-1}/2\\ (p\\text{ odd}),\\qquad\n h_2=1,\\quad h_{2^r}=2^{r-2}\\ (r\\ge2).\n\\]\nPut $H=\\operatorname{lcm}_{p^r\\Vert m}h_{p^r}$.\nChoose a unit $C_m$ whose reduction modulo each odd $p$ is\n$\\alpha_{4,p}^{H/h_{p^r}}$, and whose reduction modulo two is one.\nFor every $k\\ge0$, $n\\ge r_*$, and $j\\ge0$, the rows\n$u_j=b_{4,k}(n+jH)$ satisfy\n\\[\n \\sum_{t=0}^{r_*}(-1)^{r_*-t}\\binom{r_*}{t}C_m^{r_*-t}u_{j+t}\n \\equiv0\\pmod m.\n\\]\nFor squarefree $m$, this is the geometric row law $u_{j+1}=C_mu_j$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "balaper-a281440-phi2period"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "balaper-a281440-phi2period"
+}
