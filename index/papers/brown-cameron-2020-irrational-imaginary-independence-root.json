@@ -1,0 +1,230 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e/D5/S3/StatisticalMechanics/HardCore/IrrationalIndependenceRoot.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:brown-cameron-2020-irrational-imaginary-independence-root:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e/D5/S3/StatisticalMechanics/HardCore/IrrationalIndependenceRoot.lean"
+        },
+        "lineage": "collected:brown-cameron-2020-irrational-imaginary-independence-root:s1",
+        "macros": {
+          "\\ii": "\\mathrm{i}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "brown-cameron-2020-irrational-imaginary-independence-root",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $b\\neq0$ be real and suppose $b^2\\in\\mathbb Q$. Some finite graph\nhas independence root $\\ii b$ if and only if $b^2=1/n$ for a positive\ninteger $n$. For every such $n$, the connected graph $G_n$ has\n$108n^2$ vertices, independence number four, and\n\\begin{equation}\n I(G_n,x)=(1+nx^2)(1+108n^2x+81n^3x^2).\n\\end{equation}\nThe number $1/\\sqrt n$ is irrational exactly when $n$ is not a perfect square.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Brown and Cameron's classification of purely imaginary independence roots",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "brown-cameron-2020-irrational-imaginary-independence-root"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:brown-cameron-2020-irrational-imaginary-independence-root:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e/D5/S3/StatisticalMechanics/HardCore/IrrationalIndependenceRoot.lean"
+        },
+        "lineage": "collected:brown-cameron-2020-irrational-imaginary-independence-root:s2",
+        "macros": {
+          "\\ii": "\\mathrm{i}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "brown-cameron-2020-irrational-imaginary-independence-root",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The graph $J_n$ has $108n^2$ vertices, independence number four, and\n\\begin{equation}\n I(J_n,x)=1+(1+nx^2)(108n^2x+81n^3x^2).\n\\end{equation}\nConsequently, if $I(Q,z)=0$ and $z=\\pm\\ii/\\sqrt n$, then $Q+J_n$\nis connected and has independence root $z$ and independence number\n$\\max\\{\\alpha(Q),4\\}$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Brown and Cameron's classification of purely imaginary independence roots",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "brown-cameron-2020-irrational-imaginary-independence-root"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:brown-cameron-2020-irrational-imaginary-independence-root:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e/D5/S3/StatisticalMechanics/HardCore/IrrationalIndependenceRoot.lean"
+        },
+        "lineage": "collected:brown-cameron-2020-irrational-imaginary-independence-root:s3",
+        "macros": {
+          "\\ii": "\\mathrm{i}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "brown-cameron-2020-irrational-imaginary-independence-root",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Fix $n\\geq1$.\nFor every integer $a\\geq4$ there is a connected graph of independence\nnumber $a$ with roots $\\pm\\ii/\\sqrt n$.\nEvery finite graph $H$ is an induced subgraph of a connected graph\nwith these same roots.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Brown and Cameron's classification of purely imaginary independence roots",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "brown-cameron-2020-irrational-imaginary-independence-root"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:brown-cameron-2020-irrational-imaginary-independence-root:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e/D5/S3/StatisticalMechanics/HardCore/IrrationalIndependenceRoot.lean"
+        },
+        "lineage": "collected:brown-cameron-2020-irrational-imaginary-independence-root:s4",
+        "macros": {
+          "\\ii": "\\mathrm{i}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "brown-cameron-2020-irrational-imaginary-independence-root",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For each positive integer $n$ there are infinitely many pairwise\nnonisomorphic finite trees with independence roots $\\pm\\ii/\\sqrt n$.\nNone of these trees has a universal vertex.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Brown and Cameron's classification of purely imaginary independence roots",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "brown-cameron-2020-irrational-imaginary-independence-root"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Extending Brown and Cameron's classification of purely imaginary independence roots",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "brown-cameron-2020-irrational-imaginary-independence-root"
+}

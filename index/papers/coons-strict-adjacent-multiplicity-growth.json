@@ -1,0 +1,377 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:coons-strict-adjacent-multiplicity-growth:3:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+        },
+        "lineage": "collected:coons-strict-adjacent-multiplicity-growth:s1",
+        "macros": {
+          "\\N": "\\mathbb N"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "coons-strict-adjacent-multiplicity-growth",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $\\ell\\ge2$, $r\\ge2$, and put\n\\[\n Q=\\ell^{r-1},\\qquad H=Q^2-Q/\\ell,\n \\qquad \\delta_{r,\\ell}=\\tfrac12\\log_\\ell H<r-1.\n\\]\nFor $0\\le k\\le\\ell^r-2$ and $0\\le n<\\ell^{m+1}$,\n\\begin{equation}\n b_{k,\\ell}(n)\\le Q^{m\\bmod2}H^{\\lfloor m/2\\rfloor}.\n\\end{equation}\nConsequently $b_{k,\\ell}(n)=O(n^{\\delta_{r,\\ell}})$ as $n\\to\\infty$.\nAt $k=\\ell^r-1$ the count is $\\Theta(n^{r-1})$.\nThus $\\ell^r-1$ is the least digit bound whose upper logarithmic exponent\nis at least $r-1$.\nIn particular, $\\ell^2-1$ is the first bound with linear maximum growth,\nand below it\n\\[\n b_{k,\\ell}(n)=O\\bigl(n^{\\frac12\\log_\\ell(\\ell^2-1)}\\bigr)=o(n).\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "coons-strict-adjacent-multiplicity-growth"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:coons-strict-adjacent-multiplicity-growth:3:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+        },
+        "lineage": "collected:coons-strict-adjacent-multiplicity-growth:s2",
+        "macros": {
+          "\\N": "\\mathbb N"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "coons-strict-adjacent-multiplicity-growth",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The first linear-minimum threshold is also $\\ell^2-1$.\nThis is a direct proof of Coons's Theorem~1 (CW3): the uniform\n$o(n)$ bound excludes every smaller bound, and~\\eqref{eq:critical}\ngives a linear lower bound at the threshold.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "coons-strict-adjacent-multiplicity-growth"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:coons-strict-adjacent-multiplicity-growth:3:s3",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+        },
+        "lineage": "collected:coons-strict-adjacent-multiplicity-growth:s3",
+        "macros": {
+          "\\N": "\\mathbb N"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "coons-strict-adjacent-multiplicity-growth",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $q\\ge1$, $k\\le q\\ell-1$, and $n<\\ell^{m+1}$, then\n$b_{k,\\ell}(n)\\le q^m$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "coons-strict-adjacent-multiplicity-growth"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:coons-strict-adjacent-multiplicity-growth:3:s4",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+        },
+        "lineage": "collected:coons-strict-adjacent-multiplicity-growth:s4",
+        "macros": {
+          "\\N": "\\mathbb N"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "coons-strict-adjacent-multiplicity-growth",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $2\\le q\\le\\ell$ and $(q-1)(\\ell+1)\\le k\\le q\\ell-1$.\nFor $R_m=1+\\ell+\\cdots+\\ell^m$ and every $m\\ge0$,\n\\begin{equation}\n b_{k,\\ell}((q-1)R_m)=q^m,\n \\qquad A(k,\\ell)=\\log_\\ell q.\n\\end{equation}\nIn particular, if $2\\le q\\le\\ell-1$ and\n$(q-1)(\\ell+1)\\le k\\le q\\ell-2$, then\n$A(k,\\ell)=A(k+1,\\ell)$.\nFor $\\ell\\ge3$, taking $q=2$ answers Coons's question negatively.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "coons-strict-adjacent-multiplicity-growth"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:coons-strict-adjacent-multiplicity-growth:3:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+        },
+        "lineage": "collected:coons-strict-adjacent-multiplicity-growth:s5",
+        "macros": {
+          "\\N": "\\mathbb N"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "coons-strict-adjacent-multiplicity-growth",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For fixed $\\ell$, both $A(k,\\ell)$ and $L(k,\\ell)$ are finite\nand nondecreasing for $k\\ge\\ell-1$.\nThus non-strict adjacency always holds, although strict adjacency does not.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "coons-strict-adjacent-multiplicity-growth"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:coons-strict-adjacent-multiplicity-growth:3:s6",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+        },
+        "lineage": "collected:coons-strict-adjacent-multiplicity-growth:s6",
+        "macros": {
+          "\\N": "\\mathbb N"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "coons-strict-adjacent-multiplicity-growth",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $\\ell-1\\le k\\le2\\ell-2$, one has\n$b_{k,\\ell}(\\ell^s-1)=1$ for every $s\\ge1$, and $L(k,\\ell)=0$.\nFor every integer $a\\ge1$,\n\\begin{equation}\n b_{a\\ell-1,\\ell}(n)=\\sum_{t=0}^{\\lfloor n/\\ell\\rfloor}b_{a-1,\\ell}(t),\n \\qquad A(a\\ell-1,\\ell)=L(a\\ell-1,\\ell)=\\log_\\ell a.\n\\end{equation}\nThe ratio defining these two exponents therefore has a limit.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "coons-strict-adjacent-multiplicity-growth"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:coons-strict-adjacent-multiplicity-growth:3:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+        },
+        "lineage": "collected:coons-strict-adjacent-multiplicity-growth:s7",
+        "macros": {
+          "\\N": "\\mathbb N"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "coons-strict-adjacent-multiplicity-growth",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $\\ell\\ge3$ and $\\ell+1\\le k\\le2\\ell-2$,\n\\[\n A(k,\\ell)=A(k+1,\\ell)=\\log_\\ell2.\n\\]\nFor $\\ell-1\\le k\\le2\\ell-3$ one has\n$L(k,\\ell)=L(k+1,\\ell)=0$.\nIn particular $A(5,4)=A(6,4)=1/2$ and $L(5,4)=L(6,4)=0$.\nThe sequence $b_{a\\ell-1,\\ell}(n)$ is nondecreasing in $n$ and,\nfor $a\\ge2$, is nonconstant. Consequently, for $\\ell\\ge3$ the\nbound $2\\ell-1<\\ell^2-1$ already has nonconstant monotone growth,\ngiving a negative answer to CW4, as in Coons's Theorem~3.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "coons-strict-adjacent-multiplicity-growth"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 3,
+  "work": "coons-strict-adjacent-multiplicity-growth"
+}
