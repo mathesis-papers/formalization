@@ -1,0 +1,230 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "3ede1d0bfa6d3c063b82234699d279136b6f0c42",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/3ede1d0bfa6d3c063b82234699d279136b6f0c42/D5/S3/QuadraticForms/FinchBalancedZerofreeRefutation.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:finch-unimodular-zerofree-six:3:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "3ede1d0bfa6d3c063b82234699d279136b6f0c42",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3ede1d0bfa6d3c063b82234699d279136b6f0c42/D5/S3/QuadraticForms/FinchBalancedZerofreeRefutation.lean"
+        },
+        "lineage": "collected:finch-unimodular-zerofree-six:s1",
+        "macros": {
+          "\\diag": "\\operatorname{diag}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "finch-unimodular-zerofree-six",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $n\\geq2$ and let $c\\geq2$ be an integer. The positive integer\nmatrix $A=D+cJ$ is unimodular if and only if\n\\[\n \\delta=0\\quad\\hbox{or}\\quad(c,\\delta)=(2,-1).\n\\]\nIn either case $A$ is zerofree and\n$\\alpha(A)=\\beta(A)=c+1$. More explicitly,\n\\begin{align}\n \\det A&=\\det(D)(1+c\\delta),\\\\\n A^{-1}&=D-\\frac{c}{1+c\\delta}\\,\n               \\mathbf s\\mathbf s^{\\mathsf T}.\n\\end{align}\nFormula \\eqref{eq:inverse} also holds without unimodularity.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Towse–Campbell's rank-one constructions: a counterexample to Finch's balanced order-six conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "finch-unimodular-zerofree-six"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:finch-unimodular-zerofree-six:3:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3ede1d0bfa6d3c063b82234699d279136b6f0c42",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3ede1d0bfa6d3c063b82234699d279136b6f0c42/D5/S3/QuadraticForms/FinchBalancedZerofreeRefutation.lean"
+        },
+        "lineage": "collected:finch-unimodular-zerofree-six:s2",
+        "macros": {
+          "\\diag": "\\operatorname{diag}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "finch-unimodular-zerofree-six",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every even $n\\geq2$ and every integer $k\\geq3$, a positive\nunimodular zerofree matrix exists with $\\alpha=\\beta=k$.\nFor every odd $n\\geq3$, one exists with $\\alpha=\\beta=3$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Towse–Campbell's rank-one constructions: a counterexample to Finch's balanced order-six conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "finch-unimodular-zerofree-six"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:finch-unimodular-zerofree-six:3:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3ede1d0bfa6d3c063b82234699d279136b6f0c42",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3ede1d0bfa6d3c063b82234699d279136b6f0c42/D5/S3/QuadraticForms/FinchBalancedZerofreeRefutation.lean"
+        },
+        "lineage": "collected:finch-unimodular-zerofree-six:s3",
+        "macros": {
+          "\\diag": "\\operatorname{diag}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "finch-unimodular-zerofree-six",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "There are positive unimodular zerofree matrices of order six with\n$(\\alpha,\\beta)=(3,4)$ and $(3,5)$, respectively.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Towse–Campbell's rank-one constructions: a counterexample to Finch's balanced order-six conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "finch-unimodular-zerofree-six"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:finch-unimodular-zerofree-six:3:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3ede1d0bfa6d3c063b82234699d279136b6f0c42",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3ede1d0bfa6d3c063b82234699d279136b6f0c42/D5/S3/QuadraticForms/FinchBalancedZerofreeRefutation.lean"
+        },
+        "lineage": "collected:finch-unimodular-zerofree-six:s4",
+        "macros": {
+          "\\diag": "\\operatorname{diag}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "finch-unimodular-zerofree-six",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $m\\geq1$ and $k\\geq3$ one has $\\gamma_{2m}(k)\\geq k$;\nfor $m\\geq1$ one has $\\gamma_{2m+1}(3)\\geq3$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Towse–Campbell's rank-one constructions: a counterexample to Finch's balanced order-six conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "finch-unimodular-zerofree-six"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Extending Towse–Campbell's rank-one constructions: a counterexample to Finch's balanced order-six conjecture",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 3,
+  "work": "finch-unimodular-zerofree-six"
+}
