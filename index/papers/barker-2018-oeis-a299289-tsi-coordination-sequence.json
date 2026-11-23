@@ -1,0 +1,234 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/StatisticalMechanics/TsiCoordinationSequence.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/StatisticalMechanics/TsiCoordinationSequence.lean"
+        },
+        "lineage": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:s1",
+        "macros": {
+          "\\Z": "\\mathbb Z",
+          "\\dist": "\\operatorname{dist}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "barker-2018-oeis-a299289-tsi-coordination-sequence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $(i,j,k)\\in\\Z^3$,\n\\[\n \\dist_G((0,0,0),(i,j,k))\n =|k|+\\delta_{\\alpha_k}(i)+\\delta_{\\beta_k}(j).                 \\tag{3}\n\\]\nThe graph is vertex-transitive, $a(0)=1$, and at every center\n\\[\n a(n)=\\begin{cases}\n (13n^2+4)/2,&n>0\\text{ even},\\\\\n (13n^2+3)/2,&n\\text{ odd}.\n \\end{cases}                                                    \\tag{4}\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Prism-stack shell bounds and proofs of Barker's and Spezia's conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "barker-2018-oeis-a299289-tsi-coordination-sequence"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:2:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/StatisticalMechanics/TsiCoordinationSequence.lean"
+        },
+        "lineage": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:s2",
+        "macros": {
+          "\\Z": "\\mathbb Z",
+          "\\dist": "\\operatorname{dist}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "barker-2018-oeis-a299289-tsi-coordination-sequence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "As formal power series,\n\\begin{align}\n A(z):=\\sum_{n\\geq0}a(n)z^n\n &=\\frac{1+6z+12z^2+6z^3+z^4}{(1-z)^3(1+z)},                 \\tag{8}\\\\\n E(t):=\\sum_{n\\geq0}a(n)\\frac{t^n}{n!}\n &=\\frac{(4+13t+13t^2)\\cosh t+(3+13t+13t^2)\\sinh t-2}{2}.   \\tag{9}\n\\end{align}\nMoreover, $a(n)=2a(n-1)-2a(n-3)+a(n-4)$ for $n\\geq5$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Prism-stack shell bounds and proofs of Barker's and Spezia's conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "barker-2018-oeis-a299289-tsi-coordination-sequence"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/StatisticalMechanics/TsiCoordinationSequence.lean"
+        },
+        "lineage": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:s3",
+        "macros": {
+          "\\Z": "\\mathbb Z",
+          "\\dist": "\\operatorname{dist}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "barker-2018-oeis-a299289-tsi-coordination-sequence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $n\\geq0$,\n\\[\n b(n)=\\begin{cases}\n (26n^3+39n^2+34n+12)/12,&n\\text{ even},\\\\\n (26n^3+39n^2+34n+9)/12,&n\\text{ odd}.\n \\end{cases}                                                    \\tag{11}\n\\]\nIts ordinary generating function is\n\\[\n B(z)=\\frac{1+6z+12z^2+6z^3+z^4}{(1-z)^4(1+z)},             \\tag{12}\n\\]\nand, for $n\\geq5$,\n\\[\n b(n)=3b(n-1)-2b(n-2)-2b(n-3)+3b(n-4)-b(n-5).              \\tag{13}\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Prism-stack shell bounds and proofs of Barker's and Spezia's conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "barker-2018-oeis-a299289-tsi-coordination-sequence"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/StatisticalMechanics/TsiCoordinationSequence.lean"
+        },
+        "lineage": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:s4",
+        "macros": {
+          "\\Z": "\\mathbb Z",
+          "\\dist": "\\operatorname{dist}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "barker-2018-oeis-a299289-tsi-coordination-sequence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "In this graph the distance to $(i,j,k)$ is\n$|k|+\\delta_{c_k}(i)+\\delta_{d_k}(j)$.\nFor $n\\geq1$, its origin shell size $s(n)$ is\n\\begin{align}\n s(n)&=6n^2-2n+(|c_n|+1)(|d_n|+1)\n                     +(|c_{-n}|+1)(|d_{-n}|+1), \\tag{14}\\\\\n 6n^2+2&\\leq s(n)\\leq a(n). \\tag{15}\n\\end{align}\nBoth bounds are attained at every radius by fixed choices of the stack.\nThe same formula holds about any center after shifting the layer origin\nand the horizontal coordinates to that center.\nAn explicit scale-two embedding is\n\\[\n \\Phi(i,j,k)=(k,i,i-c_k,j,j-d_k)\\in\\Z^5,\n \\qquad \\|\\Phi(p)-\\Phi(q)\\|_1=2\\dist(p,q).\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Prism-stack shell bounds and proofs of Barker's and Spezia's conjectures",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "barker-2018-oeis-a299289-tsi-coordination-sequence"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Prism-stack shell bounds and proofs of Barker's and Spezia's conjectures",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "barker-2018-oeis-a299289-tsi-coordination-sequence"
+}
