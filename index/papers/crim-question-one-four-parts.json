@@ -1,0 +1,405 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "e0da8fcc80226febc4e7ea0836927bc71d158292",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/e0da8fcc80226febc4e7ea0836927bc71d158292/D5/S3/Combinatorics/Games/CrimFourPartClassification.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:crim-question-one-four-parts:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "e0da8fcc80226febc4e7ea0836927bc71d158292",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e0da8fcc80226febc4e7ea0836927bc71d158292/D5/S3/Combinatorics/Games/CrimFourPartClassification.lean"
+        },
+        "lineage": "collected:crim-question-one-four-parts:s1",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\NN": "\\mathcal N",
+          "\\PP": "\\mathcal P",
+          "\\even": "\\mathrm{even}",
+          "\\odd": "\\mathrm{odd}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "crim-question-one-four-parts",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $a\\ge b\\ge c\\ge d\\ge1$. Then $[a,b,c,d]\\in\\PP$ if and only if\n$a$ is even and the applicable row of the following table holds.\n\\begin{center}\n\\begin{tabular}{ll}\n\\toprule\nRange & Additional condition\\\\\n\\midrule\n$d\\ge2$ & $b,c$ are not both odd\\\\\n$d=1,\\ c=1$ & $b=1$ or $b$ is even\\\\\n$d=1,\\ c=2$ & $b\\ge3$ or $a=2$\\\\\n$d=1,\\ c\\ge3$ & $b$ is odd\\\\\n\\bottomrule\n\\end{tabular}\n\\end{center}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bašić–Gottlieb–Krnc (2026), Section 5, Question 1 (p. 17): an alternative four-part proof after Mehat (2026), with explicit strategies and small-row stacking",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "crim-question-one-four-parts"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:crim-question-one-four-parts:2:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "e0da8fcc80226febc4e7ea0836927bc71d158292",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e0da8fcc80226febc4e7ea0836927bc71d158292/D5/S3/Combinatorics/Games/CrimFourPartClassification.lean"
+        },
+        "lineage": "collected:crim-question-one-four-parts:s2",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\NN": "\\mathcal N",
+          "\\PP": "\\mathcal P",
+          "\\even": "\\mathrm{even}",
+          "\\odd": "\\mathrm{odd}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "crim-question-one-four-parts",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "A losing CRIM position with at most four rows or at most four columns\nhas even rank $|r-\\lambda_1|$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bašić–Gottlieb–Krnc (2026), Section 5, Question 1 (p. 17): an alternative four-part proof after Mehat (2026), with explicit strategies and small-row stacking",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "crim-question-one-four-parts"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:crim-question-one-four-parts:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "e0da8fcc80226febc4e7ea0836927bc71d158292",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e0da8fcc80226febc4e7ea0836927bc71d158292/D5/S3/Combinatorics/Games/CrimFourPartClassification.lean"
+        },
+        "lineage": "collected:crim-question-one-four-parts:s3",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\NN": "\\mathcal N",
+          "\\PP": "\\mathcal P",
+          "\\even": "\\mathrm{even}",
+          "\\odd": "\\mathrm{odd}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "crim-question-one-four-parts",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The conclusion of Observation~1 of~\\cite{BGK} holds unconditionally\nfor positions with at most six rows or columns: from a winning position\nof even rank, either the first row or the first column can be removed\nto reach a losing position, and at least one of the first two row-length\nor column-height gaps is odd (missing entries are zero).",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bašić–Gottlieb–Krnc (2026), Section 5, Question 1 (p. 17): an alternative four-part proof after Mehat (2026), with explicit strategies and small-row stacking",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "crim-question-one-four-parts"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:crim-question-one-four-parts:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "e0da8fcc80226febc4e7ea0836927bc71d158292",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e0da8fcc80226febc4e7ea0836927bc71d158292/D5/S3/Combinatorics/Games/CrimFourPartClassification.lean"
+        },
+        "lineage": "collected:crim-question-one-four-parts:s4",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\NN": "\\mathcal N",
+          "\\PP": "\\mathcal P",
+          "\\even": "\\mathrm{even}",
+          "\\odd": "\\mathrm{odd}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "crim-question-one-four-parts",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $a\\ge b\\ge1$ and $\\lambda=[a,b]$. For the padding operation\n$\\widehat\\lambda=[a,a,a,b]$ of Section~5.1 of~\\cite{BGK},\n\\[\n \\widehat\\lambda\\in\\PP\n \\quad\\Longleftrightarrow\\quad\n a\\text{ is even and }(b\\ge2\\text{ or }a=2).\n\\]\nMoreover,\n\\[\n [a,b,1,1]\\in\\PP\n \\quad\\Longleftrightarrow\\quad\n a\\text{ is even and }(b=1\\text{ or }b\\text{ is even}).\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bašić–Gottlieb–Krnc (2026), Section 5, Question 1 (p. 17): an alternative four-part proof after Mehat (2026), with explicit strategies and small-row stacking",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "crim-question-one-four-parts"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:crim-question-one-four-parts:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "e0da8fcc80226febc4e7ea0836927bc71d158292",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e0da8fcc80226febc4e7ea0836927bc71d158292/D5/S3/Combinatorics/Games/CrimFourPartClassification.lean"
+        },
+        "lineage": "collected:crim-question-one-four-parts:s5",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\NN": "\\mathcal N",
+          "\\PP": "\\mathcal P",
+          "\\even": "\\mathrm{even}",
+          "\\odd": "\\mathrm{odd}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "crim-question-one-four-parts",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $a\\ge1$, both $[a,a,a]$ and $[a,1,1]$ are losing exactly when\n$a>1$ is odd, whereas $[a]$ is always winning.\nConsequently, among one-part inputs, the implication in Question~6 holds\nexactly when $a=1$ or $a$ is even. The converse implication for appending\ntwo unit parts fails for every odd $a\\ge3$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bašić–Gottlieb–Krnc (2026), Section 5, Question 1 (p. 17): an alternative four-part proof after Mehat (2026), with explicit strategies and small-row stacking",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "crim-question-one-four-parts"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:crim-question-one-four-parts:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "e0da8fcc80226febc4e7ea0836927bc71d158292",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e0da8fcc80226febc4e7ea0836927bc71d158292/D5/S3/Combinatorics/Games/CrimFourPartClassification.lean"
+        },
+        "lineage": "collected:crim-question-one-four-parts:s6",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\NN": "\\mathcal N",
+          "\\PP": "\\mathcal P",
+          "\\even": "\\mathrm{even}",
+          "\\odd": "\\mathrm{odd}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "crim-question-one-four-parts",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Conjecture~8 of~\\cite[Section~5.1, p.~19]{BGK} holds whenever the resulting\nstack has at most four rows or at most four columns: stacking a losing\npartition inside a losing hook gives a losing partition.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bašić–Gottlieb–Krnc (2026), Section 5, Question 1 (p. 17): an alternative four-part proof after Mehat (2026), with explicit strategies and small-row stacking",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "crim-question-one-four-parts"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:crim-question-one-four-parts:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "e0da8fcc80226febc4e7ea0836927bc71d158292",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e0da8fcc80226febc4e7ea0836927bc71d158292/D5/S3/Combinatorics/Games/CrimFourPartClassification.lean"
+        },
+        "lineage": "collected:crim-question-one-four-parts:s7",
+        "macros": {
+          "\\G": "\\mathcal G",
+          "\\NN": "\\mathcal N",
+          "\\PP": "\\mathcal P",
+          "\\even": "\\mathrm{even}",
+          "\\odd": "\\mathrm{odd}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "crim-question-one-four-parts",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The formula in Conjecture~2 of~\\cite[Section~5, p.~18]{BGK} fails at\n$(r,k)=(1,0)$: the square rectair $R^0_{1,1}=[1]$ has Grundy value $1$,\nnot $2$. The corrected value at this boundary is $1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Bašić–Gottlieb–Krnc (2026), Section 5, Question 1 (p. 17): an alternative four-part proof after Mehat (2026), with explicit strategies and small-row stacking",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "crim-question-one-four-parts"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Bašić–Gottlieb–Krnc (2026), Section 5, Question 1 (p. 17): an alternative four-part proof after Mehat (2026), with explicit strategies and small-row stacking",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "crim-question-one-four-parts"
+}

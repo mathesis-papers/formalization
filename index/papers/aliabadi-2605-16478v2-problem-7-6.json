@@ -1,0 +1,384 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "1154841a3345ca579e0d56fc4ceebee38814557c",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/1154841a3345ca579e0d56fc4ceebee38814557c/D5/S3/FiniteGroups/AliabadiQuotientObstruction.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:aliabadi-2605-16478v2-problem-7-6:3:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "1154841a3345ca579e0d56fc4ceebee38814557c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/1154841a3345ca579e0d56fc4ceebee38814557c/D5/S3/FiniteGroups/AliabadiQuotientObstruction.lean"
+        },
+        "lineage": "collected:aliabadi-2605-16478v2-problem-7-6:s1",
+        "macros": {
+          "\\ab": "\\mathrm{ab}",
+          "\\mult": "\\mathrm{mult}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "aliabadi-2605-16478v2-problem-7-6",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $G$ be a finite nonabelian group of order $n$. For every\n$a\\in[G,G]\\setminus\\{1\\}$ the multiset\n\\[\n A_a=\\{a,\\underbrace{1,\\ldots,1}_{n-1\\text{ copies}}\\}_{\\mult}\n\\]\nsatisfies \\eqref{eq:abelian} and is not quotient-realizable.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Aliabadi's Problems 7.4 and 7.6: Two-letter and subgroup extensions of Korea Superintelligence Labs (2026) (arXiv:2605.16478v2, Section 7, page 17)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "aliabadi-2605-16478v2-problem-7-6"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:aliabadi-2605-16478v2-problem-7-6:3:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "1154841a3345ca579e0d56fc4ceebee38814557c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/1154841a3345ca579e0d56fc4ceebee38814557c/D5/S3/FiniteGroups/AliabadiQuotientObstruction.lean"
+        },
+        "lineage": "collected:aliabadi-2605-16478v2-problem-7-6:s2",
+        "macros": {
+          "\\ab": "\\mathrm{ab}",
+          "\\mult": "\\mathrm{mult}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "aliabadi-2605-16478v2-problem-7-6",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The finite groups for which \\eqref{eq:abelian} is sufficient for every\nmultiset of size $|G|$ are exactly the abelian groups\n(Aliabadi's Problem 7.5).",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Aliabadi's Problems 7.4 and 7.6: Two-letter and subgroup extensions of Korea Superintelligence Labs (2026) (arXiv:2605.16478v2, Section 7, page 17)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "aliabadi-2605-16478v2-problem-7-6"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:aliabadi-2605-16478v2-problem-7-6:3:s3",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "1154841a3345ca579e0d56fc4ceebee38814557c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/1154841a3345ca579e0d56fc4ceebee38814557c/D5/S3/FiniteGroups/AliabadiQuotientObstruction.lean"
+        },
+        "lineage": "collected:aliabadi-2605-16478v2-problem-7-6:s3",
+        "macros": {
+          "\\ab": "\\mathrm{ab}",
+          "\\mult": "\\mathrm{mult}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "aliabadi-2605-16478v2-problem-7-6",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $a\\ne1$ have order $d$ in a finite group $G$ of order $n$.\nFor $0\\leq k\\leq n$, let $A_{a,k}$ contain $k$ copies of $a$ and\n$n-k$ copies of $1$. Then\n\\[\n A_{a,k}\\text{ is quotient-realizable}\\quad\\Longleftrightarrow\\quad d\\mid k.\n\\]\nIn contrast, its abelianization condition is\n$\\operatorname{ord}(\\pi(a))\\mid k$.\nIf $d\\mid k$, exactly $\\binom{n/d}{k/d}$ permutations $\\phi$ of $G$\nhave these quotient labels; otherwise there are none.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Aliabadi's Problems 7.4 and 7.6: Two-letter and subgroup extensions of Korea Superintelligence Labs (2026) (arXiv:2605.16478v2, Section 7, page 17)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "aliabadi-2605-16478v2-problem-7-6"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:aliabadi-2605-16478v2-problem-7-6:3:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "1154841a3345ca579e0d56fc4ceebee38814557c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/1154841a3345ca579e0d56fc4ceebee38814557c/D5/S3/FiniteGroups/AliabadiQuotientObstruction.lean"
+        },
+        "lineage": "collected:aliabadi-2605-16478v2-problem-7-6:s4",
+        "macros": {
+          "\\ab": "\\mathrm{ab}",
+          "\\mult": "\\mathrm{mult}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "aliabadi-2605-16478v2-problem-7-6",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $u\\ne v$ belong to a finite group $G$ of order $n$.\nThe multiset with $n-k$ copies of $u$ and $k$ copies of $v$, where\n$0\\leq k\\leq n$, is quotient-realizable if and only if\n\\[\n \\operatorname{ord}(u^{-1}v)\\mid k.\n\\]\nIts abelianization condition is exactly\n$\\operatorname{ord}(\\pi(u^{-1}v))\\mid k$.\nWriting $d=\\operatorname{ord}(u^{-1}v)$, the number of realizing\npermutations is $\\binom{n/d}{k/d}$ when $d\\mid k$, and zero otherwise.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Aliabadi's Problems 7.4 and 7.6: Two-letter and subgroup extensions of Korea Superintelligence Labs (2026) (arXiv:2605.16478v2, Section 7, page 17)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "aliabadi-2605-16478v2-problem-7-6"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:aliabadi-2605-16478v2-problem-7-6:3:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "1154841a3345ca579e0d56fc4ceebee38814557c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/1154841a3345ca579e0d56fc4ceebee38814557c/D5/S3/FiniteGroups/AliabadiQuotientObstruction.lean"
+        },
+        "lineage": "collected:aliabadi-2605-16478v2-problem-7-6:s5",
+        "macros": {
+          "\\ab": "\\mathrm{ab}",
+          "\\mult": "\\mathrm{mult}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "aliabadi-2605-16478v2-problem-7-6",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Each of the following multisets has a product-one ordering but is not\nquotient-realizable in its indicated group:\n\\begin{enumerate}\n\\item In $D_{2m}=\\langle r,s:r^m=s^2=1,\\ srs^{-1}=r^{-1}\\rangle$,\n      $m\\geq3$, take two copies of $s$ and $2m-2$ copies of $sr$.\n\\item In $\\mathrm{Dic}_m=\\langle r,s:r^{2m}=1,\\ s^2=r^m,\n      \\ srs^{-1}=r^{-1}\\rangle$, $m\\geq2$, take two copies of $s$\n      and $4m-2$ copies of $sr$.\n\\item In $A_4$, take three copies of $u=(123)$ and nine copies of $v=(142)$.\n\\end{enumerate}\nIn particular all satisfy the abelianization condition.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Aliabadi's Problems 7.4 and 7.6: Two-letter and subgroup extensions of Korea Superintelligence Labs (2026) (arXiv:2605.16478v2, Section 7, page 17)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "aliabadi-2605-16478v2-problem-7-6"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:aliabadi-2605-16478v2-problem-7-6:3:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "1154841a3345ca579e0d56fc4ceebee38814557c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/1154841a3345ca579e0d56fc4ceebee38814557c/D5/S3/FiniteGroups/AliabadiQuotientObstruction.lean"
+        },
+        "lineage": "collected:aliabadi-2605-16478v2-problem-7-6:s6",
+        "macros": {
+          "\\ab": "\\mathrm{ab}",
+          "\\mult": "\\mathrm{mult}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "aliabadi-2605-16478v2-problem-7-6",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The product-one constructions of Corollary~\\ref{cor:strong} persist\nin every finite group containing the indicated group: keep the number\nof copies of the first letter, and fill the remaining positions with\nthe second letter. In particular, in $S_3\\times K$ for every finite $K$,\ntwo copies of $((12),1)$ and $6|K|-2$ copies of $((23),1)$ form a\nproduct-one nonrealizable multiset.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Aliabadi's Problems 7.4 and 7.6: Two-letter and subgroup extensions of Korea Superintelligence Labs (2026) (arXiv:2605.16478v2, Section 7, page 17)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "aliabadi-2605-16478v2-problem-7-6"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:aliabadi-2605-16478v2-problem-7-6:3:s7",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "1154841a3345ca579e0d56fc4ceebee38814557c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/1154841a3345ca579e0d56fc4ceebee38814557c/D5/S3/FiniteGroups/AliabadiQuotientObstruction.lean"
+        },
+        "lineage": "collected:aliabadi-2605-16478v2-problem-7-6:s7",
+        "macros": {
+          "\\ab": "\\mathrm{ab}",
+          "\\mult": "\\mathrm{mult}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "aliabadi-2605-16478v2-problem-7-6",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $G$ be finite, let $H\\leq G$ be abelian, and let $m\\geq1$.\nThere exists a multiset $A$ supported in $H$, of size $m|H|$, such that\n$\\prod_{a\\in A}\\pi(a)=1$ but $A$ cannot be partitioned into $m$\nblocks of size $|H|$, each of product $1$, if and only if\n\\[\n H\\cap[G,G]\\ne\\{1\\}.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Aliabadi's Problems 7.4 and 7.6: Two-letter and subgroup extensions of Korea Superintelligence Labs (2026) (arXiv:2605.16478v2, Section 7, page 17)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "aliabadi-2605-16478v2-problem-7-6"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Aliabadi's Problems 7.4 and 7.6: Two-letter and subgroup extensions of Korea Superintelligence Labs (2026) (arXiv:2605.16478v2, Section 7, page 17)",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 3,
+  "work": "aliabadi-2605-16478v2-problem-7-6"
+}

@@ -1,0 +1,466 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Contextuality/SteeringEllipsoidFThreeThreshold.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:3:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Contextuality/SteeringEllipsoidFThreeThreshold.lean"
+        },
+        "lineage": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:s1",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\F": "\\mathrm F_3",
+          "\\HF": "\\mathrm{HF}_{3#1}",
+          "\\R": "\\mathbb R",
+          "\\id": "I",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Every two-qubit density matrix satisfies\n\\begin{equation}\n \\F(\\rho)\\leq\\max\\{\\sqrt{3(1-c_B)},1\\}.\n\\end{equation}\nFor every real $0\\leq t<2/3$ there is a two-qubit density matrix with\n$c_B=t$ and $\\F>1$. Consequently the centre lengths supporting a\nviolation are exactly $[0,2/3)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "The F3 threshold is 2/3: the QSE conjecture of Ducuara, Susa and Skrzypczyk (arXiv:2406.03945v1, Section II, p. 3) and extensions of Milne et al. (2014), Mukherjee, Patro and Ganguly (2021), and Morelli et al. (2023)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:3:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Contextuality/SteeringEllipsoidFThreeThreshold.lean"
+        },
+        "lineage": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:s2",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\F": "\\mathrm F_3",
+          "\\HF": "\\mathrm{HF}_{3#1}",
+          "\\R": "\\mathbb R",
+          "\\id": "I",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $\\eta$ is a density matrix with $\\eta_A=\\id/2$ and Bob Bloch vector\nof length $c$, then $\\eta\\leq(1-c/2)\\id_4$ and\n$\\Delta_B(\\eta)\\leq1/2-c$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "The F3 threshold is 2/3: the QSE conjecture of Ducuara, Susa and Skrzypczyk (arXiv:2406.03945v1, Section II, p. 3) and extensions of Milne et al. (2014), Mukherjee, Patro and Ganguly (2021), and Morelli et al. (2023)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:3:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Contextuality/SteeringEllipsoidFThreeThreshold.lean"
+        },
+        "lineage": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:s3",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\F": "\\mathrm F_3",
+          "\\HF": "\\mathrm{HF}_{3#1}",
+          "\\R": "\\mathbb R",
+          "\\id": "I",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every two-qubit state,\n\\[\n B(\\rho)\\leq\\max\\{\\sqrt{2(1-c_B)},1\\},\\qquad\n f(\\rho)\\leq1-c_B/2.\n\\]\nThe CHSH bound is a sharp supremum at each $c_B\\in[0,1]$;\nthe fully entangled fraction bound is attained at each such centre.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "The F3 threshold is 2/3: the QSE conjecture of Ducuara, Susa and Skrzypczyk (arXiv:2406.03945v1, Section II, p. 3) and extensions of Milne et al. (2014), Mukherjee, Patro and Ganguly (2021), and Morelli et al. (2023)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:3:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Contextuality/SteeringEllipsoidFThreeThreshold.lean"
+        },
+        "lineage": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:s4",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\F": "\\mathrm F_3",
+          "\\HF": "\\mathrm{HF}_{3#1}",
+          "\\R": "\\mathbb R",
+          "\\id": "I",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The corrected form of Result~2 of~\\cite{DSS} is\n\\[\n c_B\\geq2/3\\ \\Longrightarrow\\ \\HF{A}(\\rho)\\leq1,\n \\qquad\nc_A\\geq2/3\\ \\Longrightarrow\\ \\HF{B}(\\rho)\\leq1.\n\\]\nThe CHSH counterpart is\n$c_B\\geq1/2\\Rightarrow\\mathrm{HB}_A\\leq1$ and\n$c_A\\geq1/2\\Rightarrow\\mathrm{HB}_B\\leq1$,\nincluding equality in Result~1 of~\\cite{DSS}.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "The F3 threshold is 2/3: the QSE conjecture of Ducuara, Susa and Skrzypczyk (arXiv:2406.03945v1, Section II, p. 3) and extensions of Milne et al. (2014), Mukherjee, Patro and Ganguly (2021), and Morelli et al. (2023)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:3:s5",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Contextuality/SteeringEllipsoidFThreeThreshold.lean"
+        },
+        "lineage": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:s5",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\F": "\\mathrm F_3",
+          "\\HF": "\\mathrm{HF}_{3#1}",
+          "\\R": "\\mathbb R",
+          "\\id": "I",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For an Alice filter, write its positive effect, up to a positive scalar,\nas $K^\\dagger K=\\id+u\\cdot\\sigma$, $|u|<1$. Then\n\\begin{equation}\n \\F(\\rho_K)^2=\n \\frac{(1-|u|^2)(E-|b|^2)+|b+T^{\\mathsf T}u|^2}\n {(1+a\\cdot u)^2}.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "The F3 threshold is 2/3: the QSE conjecture of Ducuara, Susa and Skrzypczyk (arXiv:2406.03945v1, Section II, p. 3) and extensions of Milne et al. (2014), Mukherjee, Patro and Ganguly (2021), and Morelli et al. (2023)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:3:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Contextuality/SteeringEllipsoidFThreeThreshold.lean"
+        },
+        "lineage": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:s6",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\F": "\\mathrm F_3",
+          "\\HF": "\\mathrm{HF}_{3#1}",
+          "\\R": "\\mathbb R",
+          "\\id": "I",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For the family in Eq.~(13) and Fig.~4(b) of~\\cite{DSS},\n\\[\n \\omega_p=p|\\Psi^-\\rangle\\langle\\Psi^-|+(1-p)|00\\rangle\\langle00|,\n \\qquad |\\Psi^-\\rangle=(|01\\rangle-|10\\rangle)/\\sqrt2,\n\\]\nthe full one-sided optimum is\n\\begin{equation}\n \\HF{A}(\\omega_p)=\\HF{B}(\\omega_p)=\n \\begin{cases}\n 1,&0\\leq p\\leq1/2,\\\\[2pt]\n \\displaystyle\\sqrt{1+\\frac{2(2p-1)^2}{-3p^2+6p-2}},\n       &1/2<p\\leq1.\n \\end{cases}\n\\end{equation}\nFor every $p>0$, the two-sided filtered supremum is $\\sqrt3$.\nIn particular, $0<p\\leq1/2$ gives locally AB-inaccessible maximal\nhidden $\\F$ violation, with ``maximal'' interpreted as a supremum.\nFor normalized CHSH, one-sided violation occurs exactly for $p>2/3$;\nthe two-sided supremum is $\\sqrt2$ for every $p>0$.\nThe unfiltered transitions are $p>2/3$ for $\\F$ and $p>1/\\sqrt2$\nfor CHSH.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "The F3 threshold is 2/3: the QSE conjecture of Ducuara, Susa and Skrzypczyk (arXiv:2406.03945v1, Section II, p. 3) and extensions of Milne et al. (2014), Mukherjee, Patro and Ganguly (2021), and Morelli et al. (2023)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:3:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Contextuality/SteeringEllipsoidFThreeThreshold.lean"
+        },
+        "lineage": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:s7",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\F": "\\mathrm F_3",
+          "\\HF": "\\mathrm{HF}_{3#1}",
+          "\\R": "\\mathbb R",
+          "\\id": "I",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For the asymmetric state\n$\\mu_{\\theta,p}=p|\\phi_\\theta\\rangle\\langle\\phi_\\theta|\n+(1-p)\\rho_A\\otimes\\id/2$, $0\\leq p\\leq1$,\n\\[\n c_B=0,\\quad c_A=\\frac{z(1-p^2)}{1-p^2z^2},\\quad\n \\HF{A}(\\mu_{\\theta,p})=\\sqrt3p,\\quad\n \\mathrm{HB}_A(\\mu_{\\theta,p})=\\sqrt2p.\n\\]\nConsequently $p>1/\\sqrt3$ and $c_A\\geq2/3$ certify\nAlice-accessible, Bob-inaccessible hidden $\\F$ violation.\nThis region is nonempty for each $1/\\sqrt3<p<1$ and sufficiently\nsmall positive $\\theta$.\nLikewise $p>1/\\sqrt2$ and $c_A\\geq1/2$ certify\nAlice-accessible, Bob-inaccessible hidden CHSH violation;\nthis region is nonempty for every $1/\\sqrt2<p<1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "The F3 threshold is 2/3: the QSE conjecture of Ducuara, Susa and Skrzypczyk (arXiv:2406.03945v1, Section II, p. 3) and extensions of Milne et al. (2014), Mukherjee, Patro and Ganguly (2021), and Morelli et al. (2023)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:3:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Contextuality/SteeringEllipsoidFThreeThreshold.lean"
+        },
+        "lineage": "collected:ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold:s8",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\F": "\\mathrm F_3",
+          "\\HF": "\\mathrm{HF}_{3#1}",
+          "\\R": "\\mathbb R",
+          "\\id": "I",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For the symmetric state\n$\\nu_{\\theta,p}=p|\\phi_\\theta\\rangle\\langle\\phi_\\theta|\n+(1-p)\\rho_A\\otimes\\rho_B$, both centres equal $z(1-p)$.\nPut $v=\\cos\\theta\\sin\\theta$,\n$J=(1-p)v^2$, $C=pv$ and\n$H=v\\sqrt{p+(1-p)^2v^2}$. If\n\\begin{equation}\n z(1-p)\\geq2/3,\\qquad C^2>2HJ,\n\\end{equation}\nthen $\\nu_{\\theta,p}$ has AB-inaccessible hidden $\\F$ violation.\nFor each $0<p<1/3$ these conditions hold at sufficiently small\npositive $\\theta$. In particular $p=1/4$, $z=99/100$ is an\nexplicit example.\nThe analogous sufficient region for AB-inaccessible hidden CHSH\nviolation is $z(1-p)\\geq1/2$ and $C^2>4HJ$.\nFor every $0<p<1/2$ this region is nonempty at sufficiently small\npositive $\\theta$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "The F3 threshold is 2/3: the QSE conjecture of Ducuara, Susa and Skrzypczyk (arXiv:2406.03945v1, Section II, p. 3) and extensions of Milne et al. (2014), Mukherjee, Patro and Ganguly (2021), and Morelli et al. (2023)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "The F3 threshold is 2/3: the QSE conjecture of Ducuara, Susa and Skrzypczyk (arXiv:2406.03945v1, Section II, p. 3) and extensions of Milne et al. (2014), Mukherjee, Patro and Ganguly (2021), and Morelli et al. (2023)",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 3,
+  "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
+}

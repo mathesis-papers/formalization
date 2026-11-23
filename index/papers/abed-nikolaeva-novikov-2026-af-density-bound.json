@@ -1,0 +1,458 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/AbedNikolaevaNovikovAFDensityBound.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:abed-nikolaeva-novikov-2026-af-density-bound:3:s1",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/AbedNikolaevaNovikovAFDensityBound.lean"
+        },
+        "lineage": "collected:abed-nikolaeva-novikov-2026-af-density-bound:s1",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\N": "\\mathbb N",
+          "\\Ree": "\\operatorname{Re}",
+          "\\Tr": "\\operatorname{Tr}",
+          "\\rank": "\\operatorname{rank}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "abed-nikolaeva-novikov-2026-af-density-bound",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $X\\in M_n(\\C)$ is accretive, let $m(X)$ be the number of distinct\npositive singular values, with $m(0)=0$. Then\n\\begin{equation}\n0\\leq\\Ree X\\leq m(X)|X|\\leq\\rank(X)|X|\\leq n|X|.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp accretive modulus bounds from Hayashi's (2001) pinching inequality: extending Abed–Nikolaeva–Novikov (2026), arXiv:2610.34388v1, Section 11.2(5) and Remark 5.45",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "abed-nikolaeva-novikov-2026-af-density-bound"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:abed-nikolaeva-novikov-2026-af-density-bound:3:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/AbedNikolaevaNovikovAFDensityBound.lean"
+        },
+        "lineage": "collected:abed-nikolaeva-novikov-2026-af-density-bound:s2",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\N": "\\mathbb N",
+          "\\Ree": "\\operatorname{Re}",
+          "\\Tr": "\\operatorname{Tr}",
+          "\\rank": "\\operatorname{rank}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "abed-nikolaeva-novikov-2026-af-density-bound",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $\\rho>0$ have extreme eigenvalues $L\\geq l>0$ and condition\nnumber $\\kappa=L/l$. For accretive $X\\ne0$, with $m=m(X)$,\n\\[\n\\frac{\\Tr(\\rho\\Ree X)}{\\Tr(\\rho|X|)}\n\\leq\\frac{m\\kappa}{\\kappa+m-1}.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp accretive modulus bounds from Hayashi's (2001) pinching inequality: extending Abed–Nikolaeva–Novikov (2026), arXiv:2610.34388v1, Section 11.2(5) and Remark 5.45",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "abed-nikolaeva-novikov-2026-af-density-bound"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:abed-nikolaeva-novikov-2026-af-density-bound:3:s3",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/AbedNikolaevaNovikovAFDensityBound.lean"
+        },
+        "lineage": "collected:abed-nikolaeva-novikov-2026-af-density-bound:s3",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\N": "\\mathbb N",
+          "\\Ree": "\\operatorname{Re}",
+          "\\Tr": "\\operatorname{Tr}",
+          "\\rank": "\\operatorname{rank}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "abed-nikolaeva-novikov-2026-af-density-bound",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $n\\geq1$ and $\\rho\\in M_n(\\C)$ with $\\rho>0$,\nput $\\kappa=\\lambda_{\\max}(\\rho)/\\lambda_{\\min}(\\rho)$.\nThe set in \\eqref{eq:def} is nonempty and has a real least upper bound,\nand\n\\[\n1\\leq a(\\rho)\\leq\\frac{n\\kappa}{\\kappa+n-1}\\leq n.\n\\]\nIf $n=1$, then $a(\\rho)=1$. If $n>1$, then $a(\\rho)<n$.\nThe supremum is attained for every $\\rho>0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp accretive modulus bounds from Hayashi's (2001) pinching inequality: extending Abed–Nikolaeva–Novikov (2026), arXiv:2610.34388v1, Section 11.2(5) and Remark 5.45",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "abed-nikolaeva-novikov-2026-af-density-bound"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:abed-nikolaeva-novikov-2026-af-density-bound:3:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/AbedNikolaevaNovikovAFDensityBound.lean"
+        },
+        "lineage": "collected:abed-nikolaeva-novikov-2026-af-density-bound:s4",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\N": "\\mathbb N",
+          "\\Ree": "\\operatorname{Re}",
+          "\\Tr": "\\operatorname{Tr}",
+          "\\rank": "\\operatorname{rank}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "abed-nikolaeva-novikov-2026-af-density-bound",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Restricting \\eqref{eq:def} to $B\\geq0$ gives a constant $a_+(\\rho)$\nwith $1\\leq a_+(\\rho)\\leq a(\\rho)\\leq n\\kappa/(\\kappa+n-1)$.\nFor $n>1$ the last expression is strictly less than $n$.\nThe restricted supremum is attained.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp accretive modulus bounds from Hayashi's (2001) pinching inequality: extending Abed–Nikolaeva–Novikov (2026), arXiv:2610.34388v1, Section 11.2(5) and Remark 5.45",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "abed-nikolaeva-novikov-2026-af-density-bound"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:abed-nikolaeva-novikov-2026-af-density-bound:3:s5",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/AbedNikolaevaNovikovAFDensityBound.lean"
+        },
+        "lineage": "collected:abed-nikolaeva-novikov-2026-af-density-bound:s5",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\N": "\\mathbb N",
+          "\\Ree": "\\operatorname{Re}",
+          "\\Tr": "\\operatorname{Tr}",
+          "\\rank": "\\operatorname{rank}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "abed-nikolaeva-novikov-2026-af-density-bound",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The least constant $c_n$ such that $\\Ree X\\leq c_n|X|$ for all\naccretive $X\\in M_n(\\C)$ is $n$. More generally the optimal coefficient\nfor matrices of fixed rank $1\\leq r\\leq n$ is $r$. Moreover,\n\\[\n\\sup_{\\rho\\in M_n(\\C),\\ \\rho>0}a(\\rho)=n.\n\\]\nThe same supremum holds if $\\Tr\\rho=1$ is required.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp accretive modulus bounds from Hayashi's (2001) pinching inequality: extending Abed–Nikolaeva–Novikov (2026), arXiv:2610.34388v1, Section 11.2(5) and Remark 5.45",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "abed-nikolaeva-novikov-2026-af-density-bound"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:abed-nikolaeva-novikov-2026-af-density-bound:3:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/AbedNikolaevaNovikovAFDensityBound.lean"
+        },
+        "lineage": "collected:abed-nikolaeva-novikov-2026-af-density-bound:s6",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\N": "\\mathbb N",
+          "\\Ree": "\\operatorname{Re}",
+          "\\Tr": "\\operatorname{Tr}",
+          "\\rank": "\\operatorname{rank}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "abed-nikolaeva-novikov-2026-af-density-bound",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Both sharp suprema in Theorem~\\ref{thm:sharp} remain $n$ under the\nrestriction $\\rank(\\Ree X)=1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp accretive modulus bounds from Hayashi's (2001) pinching inequality: extending Abed–Nikolaeva–Novikov (2026), arXiv:2610.34388v1, Section 11.2(5) and Remark 5.45",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "abed-nikolaeva-novikov-2026-af-density-bound"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:abed-nikolaeva-novikov-2026-af-density-bound:3:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/AbedNikolaevaNovikovAFDensityBound.lean"
+        },
+        "lineage": "collected:abed-nikolaeva-novikov-2026-af-density-bound:s7",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\N": "\\mathbb N",
+          "\\Ree": "\\operatorname{Re}",
+          "\\Tr": "\\operatorname{Tr}",
+          "\\rank": "\\operatorname{rank}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "abed-nikolaeva-novikov-2026-af-density-bound",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For each accretive matrix of rank $r>1$ there is a coefficient\n$c(X)<r$ with $\\Ree X\\leq c(X)|X|$. The optimal rank coefficient\n$r$ is therefore a supremum, not an attained operator ratio.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp accretive modulus bounds from Hayashi's (2001) pinching inequality: extending Abed–Nikolaeva–Novikov (2026), arXiv:2610.34388v1, Section 11.2(5) and Remark 5.45",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "abed-nikolaeva-novikov-2026-af-density-bound"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:abed-nikolaeva-novikov-2026-af-density-bound:3:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/AbedNikolaevaNovikovAFDensityBound.lean"
+        },
+        "lineage": "collected:abed-nikolaeva-novikov-2026-af-density-bound:s8",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\N": "\\mathbb N",
+          "\\Ree": "\\operatorname{Re}",
+          "\\Tr": "\\operatorname{Tr}",
+          "\\rank": "\\operatorname{rank}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "abed-nikolaeva-novikov-2026-af-density-bound",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For positive definite $\\rho_1,\\rho_2$,\n$a(\\rho_1\\oplus\\rho_2)\\geq\\max\\{a(\\rho_1),a(\\rho_2)\\}$.\nThe same statement holds for $a_+$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp accretive modulus bounds from Hayashi's (2001) pinching inequality: extending Abed–Nikolaeva–Novikov (2026), arXiv:2610.34388v1, Section 11.2(5) and Remark 5.45",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "abed-nikolaeva-novikov-2026-af-density-bound"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Sharp accretive modulus bounds from Hayashi's (2001) pinching inequality: extending Abed–Nikolaeva–Novikov (2026), arXiv:2610.34388v1, Section 11.2(5) and Remark 5.45",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 3,
+  "work": "abed-nikolaeva-novikov-2026-af-density-bound"
+}
