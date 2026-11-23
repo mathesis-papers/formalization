@@ -1,0 +1,222 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "736015507f370926a4b39c6a5ca4f090fc50cae3",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/736015507f370926a4b39c6a5ca4f090fc50cae3/D5/S3/FiniteGroups/FactorialProductNonunique.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:alm2024-factorial-product-uniqueness:3:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "736015507f370926a4b39c6a5ca4f090fc50cae3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/736015507f370926a4b39c6a5ca4f090fc50cae3/D5/S3/FiniteGroups/FactorialProductNonunique.lean"
+        },
+        "lineage": "collected:alm2024-factorial-product-uniqueness:s1",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "alm2024-factorial-product-uniqueness",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The disjoint sets\n\\begin{align*}\n A={}&\\{10,17,21,23,24,27,38,45,46,48,56,65,68,77,80,84,95,141\\},\\\\\n B={}&\\{11,16,20,22,25,26,39,44,47,49,57,64,69,76,81,85,94,140\\}\n\\end{align*}\nsatisfy $F(A)=F(B)$. In particular, the answer to Problem~5.6 is negative\neven when both sides have eighteen parameters and all thirty-six parameters\nare distinct. Moreover, $\\sum_{a\\in A}a=\\sum_{b\\in B}b=965$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Equal products of m!/m^m over distinct parameter sets",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "alm2024-factorial-product-uniqueness"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:alm2024-factorial-product-uniqueness:3:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "736015507f370926a4b39c6a5ca4f090fc50cae3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/736015507f370926a4b39c6a5ca4f090fc50cae3/D5/S3/FiniteGroups/FactorialProductNonunique.lean"
+        },
+        "lineage": "collected:alm2024-factorial-product-uniqueness:s2",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "alm2024-factorial-product-uniqueness",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $k\\geq18$, there are distinct $k$-element sets\n$A_k,B_k\\subseteq\\{2,3,\\ldots\\}$ with $F(A_k)=F(B_k)$ and\n$|A_k\\mathbin{\\triangle}B_k|=36$, where $\\triangle$ denotes symmetric\ndifference. Their parameter sums are equal. More generally, any finite set\n$C$ disjoint from $A\\cup B$ can be adjoined to both sides, giving equal\nproducts and equal sums $965+\\sum_{c\\in C}c$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Equal products of m!/m^m over distinct parameter sets",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "alm2024-factorial-product-uniqueness"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:alm2024-factorial-product-uniqueness:3:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "736015507f370926a4b39c6a5ca4f090fc50cae3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/736015507f370926a4b39c6a5ca4f090fc50cae3/D5/S3/FiniteGroups/FactorialProductNonunique.lean"
+        },
+        "lineage": "collected:alm2024-factorial-product-uniqueness:s3",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "alm2024-factorial-product-uniqueness",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For each integer $k\\geq19$, infinitely many positive rational numbers are\nvalues of $F$ at two different $k$-element sets with equal parameter sums.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Equal products of m!/m^m over distinct parameter sets",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "alm2024-factorial-product-uniqueness"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:alm2024-factorial-product-uniqueness:3:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "736015507f370926a4b39c6a5ca4f090fc50cae3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/736015507f370926a4b39c6a5ca4f090fc50cae3/D5/S3/FiniteGroups/FactorialProductNonunique.lean"
+        },
+        "lineage": "collected:alm2024-factorial-product-uniqueness:s4",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "alm2024-factorial-product-uniqueness",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Suppose $a_1<\\cdots<a_k$ and $b_1<\\cdots<b_k$ are integers greater than\none, with $a_i\\leq b_i$ for every $i$. Then\n$\\prod_i f(a_i)\\geq\\prod_i f(b_i)$, with equality exactly when\n$a_i=b_i$ for every $i$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Equal products of m!/m^m over distinct parameter sets",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "alm2024-factorial-product-uniqueness"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Equal products of m!/m^m over distinct parameter sets",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 3,
+  "work": "alm2024-factorial-product-uniqueness"
+}

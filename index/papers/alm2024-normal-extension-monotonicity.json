@@ -1,0 +1,434 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/FiniteGroups/TransversalProbabilityMonotone.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:alm2024-normal-extension-monotonicity:2:s1",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/FiniteGroups/TransversalProbabilityMonotone.lean"
+        },
+        "lineage": "collected:alm2024-normal-extension-monotonicity:s1",
+        "macros": {
+          "\\DD": "\\mathcal D",
+          "\\PP": "P"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "alm2024-normal-extension-monotonicity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every subgroup $H$ of a finite group $G$,\n\\begin{equation}\n \\PP_G(H)=\\prod_{d\\in\\DD_H}a(t_H(d)),\\qquad\n a(t)=\\frac{t!}{t^t}\\quad(t\\geq1).\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Normal-extension monotonicity: Problem 5.2 of Aivazidis, Loukaki and Müller (arXiv:2209.00986v2, p. 37)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "alm2024-normal-extension-monotonicity"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:alm2024-normal-extension-monotonicity:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/FiniteGroups/TransversalProbabilityMonotone.lean"
+        },
+        "lineage": "collected:alm2024-normal-extension-monotonicity:s2",
+        "macros": {
+          "\\DD": "\\mathcal D",
+          "\\PP": "P"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "alm2024-normal-extension-monotonicity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $d\\in\\DD_H$, the map $xH\\mapsto xL$ from the left cosets in $d$ onto\nthe left cosets in $\\phi(d)$ is surjective. Consequently,\n$t_H(d)\\geq t_L(\\phi(d))$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Normal-extension monotonicity: Problem 5.2 of Aivazidis, Loukaki and Müller (arXiv:2209.00986v2, p. 37)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "alm2024-normal-extension-monotonicity"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:alm2024-normal-extension-monotonicity:2:s3",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/FiniteGroups/TransversalProbabilityMonotone.lean"
+        },
+        "lineage": "collected:alm2024-normal-extension-monotonicity:s3",
+        "macros": {
+          "\\DD": "\\mathcal D",
+          "\\PP": "P"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "alm2024-normal-extension-monotonicity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $G$ be finite, $H\\leq G$ and $N\\trianglelefteq G$. Then\n\\[\n \\PP_G(H)\\leq\\PP_G(HN).\n\\]\nMore precisely, put $L=HN$ and use the map $\\phi$ above. Equality holds if\nand only if every $e\\in\\DD_L$ satisfies the following condition:\n\\begin{enumerate}\n\\item if $t_L(e)=1$, every $d\\in\\phi^{-1}(e)$ has $t_H(d)=1$;\n\\item if $t_L(e)>1$, the fiber $\\phi^{-1}(e)$ consists of exactly one\ndouble coset $d$, and $t_H(d)=t_L(e)$.\n\\end{enumerate}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Normal-extension monotonicity: Problem 5.2 of Aivazidis, Loukaki and Müller (arXiv:2209.00986v2, p. 37)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "alm2024-normal-extension-monotonicity"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:alm2024-normal-extension-monotonicity:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/FiniteGroups/TransversalProbabilityMonotone.lean"
+        },
+        "lineage": "collected:alm2024-normal-extension-monotonicity:s4",
+        "macros": {
+          "\\DD": "\\mathcal D",
+          "\\PP": "P"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "alm2024-normal-extension-monotonicity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Under the hypotheses of Theorem~\\ref{thm:main},\n\\[\n \\PP_G(H)=\\PP_G(HN)\n \\quad\\Longleftrightarrow\\quad\n N\\leq H\\ \\text{or}\\ H\\trianglelefteq G.\n\\]\nThus every proper normal extension of a nonnormal subgroup strictly\nincreases its common transversal probability.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Normal-extension monotonicity: Problem 5.2 of Aivazidis, Loukaki and Müller (arXiv:2209.00986v2, p. 37)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "alm2024-normal-extension-monotonicity"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:alm2024-normal-extension-monotonicity:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/FiniteGroups/TransversalProbabilityMonotone.lean"
+        },
+        "lineage": "collected:alm2024-normal-extension-monotonicity:s5",
+        "macros": {
+          "\\DD": "\\mathcal D",
+          "\\PP": "P"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "alm2024-normal-extension-monotonicity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For any homomorphism $f:G\\to K$ with $G$ finite, and any $H\\leq G$,\n\\[\n \\PP_G(H)\\leq\\PP_{f(G)}(f(H)).\n\\]\nEquality holds precisely when $\\ker f\\leq H$ or $H\\trianglelefteq G$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Normal-extension monotonicity: Problem 5.2 of Aivazidis, Loukaki and Müller (arXiv:2209.00986v2, p. 37)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "alm2024-normal-extension-monotonicity"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:alm2024-normal-extension-monotonicity:2:s6",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/FiniteGroups/TransversalProbabilityMonotone.lean"
+        },
+        "lineage": "collected:alm2024-normal-extension-monotonicity:s6",
+        "macros": {
+          "\\DD": "\\mathcal D",
+          "\\PP": "P"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "alm2024-normal-extension-monotonicity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For positive integers $s,t$, $a(st)\\geq a(s)^t a(t)^s$. Consequently,\nif $A\\leq G$ and $B\\leq K$, then\n\\begin{equation}\n \\PP_{G\\times K}(A\\times B)\\geq\n \\PP_G(A)^{[K:B]}\\PP_K(B)^{[G:A]}.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Normal-extension monotonicity: Problem 5.2 of Aivazidis, Loukaki and Müller (arXiv:2209.00986v2, p. 37)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "alm2024-normal-extension-monotonicity"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:alm2024-normal-extension-monotonicity:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/FiniteGroups/TransversalProbabilityMonotone.lean"
+        },
+        "lineage": "collected:alm2024-normal-extension-monotonicity:s7",
+        "macros": {
+          "\\DD": "\\mathcal D",
+          "\\PP": "P"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "alm2024-normal-extension-monotonicity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $G,K$ are finite and $\\gcd(|G|,|K|)=1$, then\n\\[\n \\operatorname{tp}(G\\times K)=\n \\min\\{\\operatorname{tp}(G)^{|K|},\\operatorname{tp}(K)^{|G|}\\}.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Normal-extension monotonicity: Problem 5.2 of Aivazidis, Loukaki and Müller (arXiv:2209.00986v2, p. 37)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "alm2024-normal-extension-monotonicity"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:alm2024-normal-extension-monotonicity:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/FiniteGroups/TransversalProbabilityMonotone.lean"
+        },
+        "lineage": "collected:alm2024-normal-extension-monotonicity:s8",
+        "macros": {
+          "\\DD": "\\mathcal D",
+          "\\PP": "P"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "alm2024-normal-extension-monotonicity",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Definition~\\eqref{eq:finiteindex} agrees with \\eqref{eq:definition} when\n$G$ is finite. It can equivalently use any finite-index normal subgroup\n$U\\trianglelefteq G$ contained in $H$, in place of $C$.\nFor every $N\\trianglelefteq G$ it satisfies\n\\[\n \\PP^{\\mathrm{fin}}_G(H)\\leq\\PP^{\\mathrm{fin}}_G(HN),\n\\]\nwith equality precisely when $N\\leq H$ or $H\\trianglelefteq G$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Normal-extension monotonicity: Problem 5.2 of Aivazidis, Loukaki and Müller (arXiv:2209.00986v2, p. 37)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "alm2024-normal-extension-monotonicity"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Normal-extension monotonicity: Problem 5.2 of Aivazidis, Loukaki and Müller (arXiv:2209.00986v2, p. 37)",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "alm2024-normal-extension-monotonicity"
+}

@@ -1,0 +1,412 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S3/Quantum/Measurements/OnbTomographyHolevoRatio.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-et-al-2025-onb-tomography-holevo-ratio:3:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S3/Quantum/Measurements/OnbTomographyHolevoRatio.lean"
+        },
+        "lineage": "collected:das-et-al-2025-onb-tomography-holevo-ratio:s1",
+        "macros": {
+          "\\CH": "C_{\\mathrm H}",
+          "\\CM": "C_{\\mathrm{MI}}",
+          "\\CN": "C_{\\mathrm{NH}}",
+          "\\Id": "I",
+          "\\normone": "\\left\\lVert#1\\right\\rVert_1",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "das-et-al-2025-onb-tomography-holevo-ratio",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $d\\geq2$, every full traceless Hermitian ONB, and every density\nmatrix $\\rho$ as above,\n\\begin{equation}\n \\CH\\geq(d-1)(1+P),\\qquad\n \\CN\\leq d^2+d-1-P,\n\\end{equation}\nand consequently\n\\begin{equation}\n \\frac{\\CN}{\\CH}\n \\leq \\frac{d^2+d-1-P}{(d-1)(1+P)}\\leq d+1.\n\\end{equation}\nThe second inequality is strict unless $\\rho=\\Id_d/d$.\nAt $\\rho=\\Id_d/d$ the ratio is $d+1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Fixed-purity Holevo minima extending Das et al. (2025): a spectral proof of the full-ONB conjecture after Theorem 3 in Section 3.2.1",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "das-et-al-2025-onb-tomography-holevo-ratio"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-et-al-2025-onb-tomography-holevo-ratio:3:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S3/Quantum/Measurements/OnbTomographyHolevoRatio.lean"
+        },
+        "lineage": "collected:das-et-al-2025-onb-tomography-holevo-ratio:s2",
+        "macros": {
+          "\\CH": "C_{\\mathrm H}",
+          "\\CM": "C_{\\mathrm{MI}}",
+          "\\CN": "C_{\\mathrm{NH}}",
+          "\\Id": "I",
+          "\\normone": "\\left\\lVert#1\\right\\rVert_1",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "das-et-al-2025-onb-tomography-holevo-ratio",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $\\lambda_1,\\ldots,\\lambda_d$ are the eigenvalues of $\\rho$, then\n\\begin{equation}\n \\CH=d-P+\\sum_{a<b}|\\lambda_a-\\lambda_b|.\n\\end{equation}\nIn particular $\\CH\\geq(d-1)(1+P)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Fixed-purity Holevo minima extending Das et al. (2025): a spectral proof of the full-ONB conjecture after Theorem 3 in Section 3.2.1",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "das-et-al-2025-onb-tomography-holevo-ratio"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-et-al-2025-onb-tomography-holevo-ratio:3:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S3/Quantum/Measurements/OnbTomographyHolevoRatio.lean"
+        },
+        "lineage": "collected:das-et-al-2025-onb-tomography-holevo-ratio:s3",
+        "macros": {
+          "\\CH": "C_{\\mathrm H}",
+          "\\CM": "C_{\\mathrm{MI}}",
+          "\\CN": "C_{\\mathrm{NH}}",
+          "\\Id": "I",
+          "\\normone": "\\left\\lVert#1\\right\\rVert_1",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "das-et-al-2025-onb-tomography-holevo-ratio",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $\\rho=p|\\psi\\rangle\\langle\\psi|+(1-p)\\Id_d/d$, $0\\leq p\\leq1$,\n\\[\n \\CH=\\frac{d^2-1}{d}+(d-1)p-\\frac{d-1}{d}p^2.\n\\]\nFor pure states, $\\CH=2(d-1)$. The maximally mixed state is the unique\nminimizer of $\\CH$ over all density matrices in this model.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Fixed-purity Holevo minima extending Das et al. (2025): a spectral proof of the full-ONB conjecture after Theorem 3 in Section 3.2.1",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "das-et-al-2025-onb-tomography-holevo-ratio"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-et-al-2025-onb-tomography-holevo-ratio:3:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S3/Quantum/Measurements/OnbTomographyHolevoRatio.lean"
+        },
+        "lineage": "collected:das-et-al-2025-onb-tomography-holevo-ratio:s4",
+        "macros": {
+          "\\CH": "C_{\\mathrm H}",
+          "\\CM": "C_{\\mathrm{MI}}",
+          "\\CN": "C_{\\mathrm{NH}}",
+          "\\Id": "I",
+          "\\normone": "\\left\\lVert#1\\right\\rVert_1",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "das-et-al-2025-onb-tomography-holevo-ratio",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "At each $P\\in[1/d,1]$, the minimum Holevo cost over states of purity $P$ is\n\\begin{equation}\n m_d(P)=d-P+\\sqrt{(d-1)(dP-1)}.\n\\end{equation}\nIt is attained by the depolarized pure states of\nCorollary~\\ref{cor:depolarized}, with $p=\\sqrt{(dP-1)/(d-1)}$.\nFor $P>1/d$, the other minimizing spectra, when distinct, have one smaller\neigenvalue and $d-1$ equal larger eigenvalues; they exist exactly when\n$P\\leq1/(d-1)$. Consequently,\n\\begin{equation}\n \\frac{\\CN}{\\CH}\\leq F_d(P):=\n \\frac{d^2+d-1-P}{m_d(P)}\n \\leq \\frac{d^2+d-1-P}{(d-1)(1+P)}\\leq d+1.\n\\end{equation}\nThe function $F_d$ is strictly decreasing on $[1/d,1]$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Fixed-purity Holevo minima extending Das et al. (2025): a spectral proof of the full-ONB conjecture after Theorem 3 in Section 3.2.1",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "das-et-al-2025-onb-tomography-holevo-ratio"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-et-al-2025-onb-tomography-holevo-ratio:3:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S3/Quantum/Measurements/OnbTomographyHolevoRatio.lean"
+        },
+        "lineage": "collected:das-et-al-2025-onb-tomography-holevo-ratio:s5",
+        "macros": {
+          "\\CH": "C_{\\mathrm H}",
+          "\\CM": "C_{\\mathrm{MI}}",
+          "\\CN": "C_{\\mathrm{NH}}",
+          "\\Id": "I",
+          "\\normone": "\\left\\lVert#1\\right\\rVert_1",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "das-et-al-2025-onb-tomography-holevo-ratio",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For full identity-weight ONB tomography of a full-rank state, let $\\CM$\ndenote the optimal individual-measurement cost, as in \\cite[Eq.~(3)]{Das}.\nThen\n\\[\n \\CN\\leq\\CM\\leq d^2+d-1-P,\\qquad\n \\frac{\\CM}{\\CH}\\leq F_d(P)\\leq d+1.\n\\]\nThe maximum ratio is $d+1$, attained exactly at $\\rho=\\Id_d/d$.\nNo existence assumption for SIC POVMs is needed.\nThe Gill--Massar ratio $C_{\\mathrm{GM}}/\\CH$ has the same upper envelope\n$F_d(P)$ and the same unique maximizer.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Fixed-purity Holevo minima extending Das et al. (2025): a spectral proof of the full-ONB conjecture after Theorem 3 in Section 3.2.1",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "das-et-al-2025-onb-tomography-holevo-ratio"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-et-al-2025-onb-tomography-holevo-ratio:3:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S3/Quantum/Measurements/OnbTomographyHolevoRatio.lean"
+        },
+        "lineage": "collected:das-et-al-2025-onb-tomography-holevo-ratio:s6",
+        "macros": {
+          "\\CH": "C_{\\mathrm H}",
+          "\\CM": "C_{\\mathrm{MI}}",
+          "\\CN": "C_{\\mathrm{NH}}",
+          "\\Id": "I",
+          "\\normone": "\\left\\lVert#1\\right\\rVert_1",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "das-et-al-2025-onb-tomography-holevo-ratio",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The Holevo cost satisfies\n\\[\n \\frac{d^2-1}{d}\\leq\\CH\\leq2(d-1).\n\\]\nThe lower endpoint occurs exactly at $\\rho=\\Id_d/d$, and the upper endpoint\nexactly at pure states. Nevertheless, greater purity need not give greater\nHolevo cost, even for full-rank states in dimension three.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Fixed-purity Holevo minima extending Das et al. (2025): a spectral proof of the full-ONB conjecture after Theorem 3 in Section 3.2.1",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "das-et-al-2025-onb-tomography-holevo-ratio"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-et-al-2025-onb-tomography-holevo-ratio:3:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S3/Quantum/Measurements/OnbTomographyHolevoRatio.lean"
+        },
+        "lineage": "collected:das-et-al-2025-onb-tomography-holevo-ratio:s7",
+        "macros": {
+          "\\CH": "C_{\\mathrm H}",
+          "\\CM": "C_{\\mathrm{MI}}",
+          "\\CN": "C_{\\mathrm{NH}}",
+          "\\Id": "I",
+          "\\normone": "\\left\\lVert#1\\right\\rVert_1",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "das-et-al-2025-onb-tomography-holevo-ratio",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $R$ be either $\\CN/\\CH$, or $\\CM/\\CH$ for full-rank states. Then\n\\[\n d+1-R\\geq\\frac{d(dP-1)}{(d-1)(1+P)}.\n\\]\nIn particular, $R\\geq d+1-\\varepsilon$ implies\n$\\|\\rho-\\Id_d/d\\|_{\\mathrm{HS}}^2\\leq2(d-1)\\varepsilon/d^2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Fixed-purity Holevo minima extending Das et al. (2025): a spectral proof of the full-ONB conjecture after Theorem 3 in Section 3.2.1",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "das-et-al-2025-onb-tomography-holevo-ratio"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Fixed-purity Holevo minima extending Das et al. (2025): a spectral proof of the full-ONB conjecture after Theorem 3 in Section 3.2.1",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 3,
+  "work": "das-et-al-2025-onb-tomography-holevo-ratio"
+}

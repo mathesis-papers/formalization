@@ -1,0 +1,334 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S3/Factorization/TwoDenseDivisorBlockMinimum.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a401248-first-two-dense-divisor-block-minimum:3:s1",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S3/Factorization/TwoDenseDivisorBlockMinimum.lean"
+        },
+        "lineage": "collected:oeis-a401248-first-two-dense-divisor-block-minimum:s1",
+        "macros": {
+          "\\Div": "\\mathcal D",
+          "\\vp": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a401248-first-two-dense-divisor-block-minimum",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $t\\geq1$, $u$ is $t$-dense if and only if, for every real\n$x$ with $1\\leq x<u$, there exists $d\\mid u$ such that\n$x<d\\leq t x$. If $u$ is $t$-dense and $p\\geq2$ is an integer with\n$p\\leq t u$, then $up$ is $t$-dense.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Complete-fibre extension of Xausa's endpoint minima (2026): OEIS A401248, Formulas, Conjectures 1 and 2 (October 28, 2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "oeis-a401248-first-two-dense-divisor-block-minimum"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a401248-first-two-dense-divisor-block-minimum:3:s2",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S3/Factorization/TwoDenseDivisorBlockMinimum.lean"
+        },
+        "lineage": "collected:oeis-a401248-first-two-dense-divisor-block-minimum:s2",
+        "macros": {
+          "\\Div": "\\mathcal D",
+          "\\vp": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a401248-first-two-dense-divisor-block-minimum",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $n\\geq1$ and $t\\geq1$. Let $u$ be the largest $t$-dense divisor\nof $n$, and put $v=n/u$. Then $\\gcd(u,v)=1$, and every prime divisor\nof $v$ exceeds $t u$. Each maximal $t$-dense block of $\\Div(n)$ is a\ndisjoint union of sets\n\\begin{equation}\n b\\Div(u)=\\{ba:a\\mid u\\},\\qquad b\\mid v.\n\\end{equation}\nConsequently,\n\\begin{equation}\n \\tau(u)\\mid T_t(n,k),\\qquad\n T_t(n,1)=T_t(n,r)=\\min_k T_t(n,k)=\\tau(u).\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Complete-fibre extension of Xausa's endpoint minima (2026): OEIS A401248, Formulas, Conjectures 1 and 2 (October 28, 2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "oeis-a401248-first-two-dense-divisor-block-minimum"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a401248-first-two-dense-divisor-block-minimum:3:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S3/Factorization/TwoDenseDivisorBlockMinimum.lean"
+        },
+        "lineage": "collected:oeis-a401248-first-two-dense-divisor-block-minimum:s3",
+        "macros": {
+          "\\Div": "\\mathcal D",
+          "\\vp": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a401248-first-two-dense-divisor-block-minimum",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Under Theorem~\\ref{thm:main}, let\n$C_k=\\{b\\mid v:b\\Div(u)\\subseteq B_k\\}$. These sets partition $\\Div(v)$.\nFor each integer $s\\geq0$,\n\\[\n \\sum_{d\\in B_k}d^s=\\sigma_s(u)\\sum_{b\\in C_k}b^s,\n \\qquad \\sigma_s(u)=\\sum_{a\\mid u}a^s.\n\\]\nIn particular, $\\gcd_k T_t(n,k)=\\tau(u)$, $r\\leq\\tau(v)$,\nand the first block minimizes each weighted sum, with value $\\sigma_s(u)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Complete-fibre extension of Xausa's endpoint minima (2026): OEIS A401248, Formulas, Conjectures 1 and 2 (October 28, 2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "oeis-a401248-first-two-dense-divisor-block-minimum"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a401248-first-two-dense-divisor-block-minimum:3:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S3/Factorization/TwoDenseDivisorBlockMinimum.lean"
+        },
+        "lineage": "collected:oeis-a401248-first-two-dense-divisor-block-minimum:s4",
+        "macros": {
+          "\\Div": "\\mathcal D",
+          "\\vp": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a401248-first-two-dense-divisor-block-minimum",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "At threshold two, write $n=2^e m$ with $m$ odd. Then\n\\[\n \\min_k O(n,k)=O(n,1)=O(n,r)=\\frac{\\tau(u)}{e+1}.\n\\]\nFor odd $n$ both endpoint minima are one. The ordered block starts\nare exactly row $n$ of A379288~\\cite{starts}; hence its Conjecture 2\n(Comments, June 26, 2025) holds. The number of blocks is at most\n$\\tau(m)$, as in Sloane's bound in A237271 (Formulas, January 19, 2021).",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Complete-fibre extension of Xausa's endpoint minima (2026): OEIS A401248, Formulas, Conjectures 1 and 2 (October 28, 2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "oeis-a401248-first-two-dense-divisor-block-minimum"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a401248-first-two-dense-divisor-block-minimum:3:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S3/Factorization/TwoDenseDivisorBlockMinimum.lean"
+        },
+        "lineage": "collected:oeis-a401248-first-two-dense-divisor-block-minimum:s5",
+        "macros": {
+          "\\Div": "\\mathcal D",
+          "\\vp": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a401248-first-two-dense-divisor-block-minimum",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "A379288, Comments, Conjecture 4 (February 22, 2026), holds:\n$n$ belongs to A005279 if and only if $\\tau(m)>r$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Complete-fibre extension of Xausa's endpoint minima (2026): OEIS A401248, Formulas, Conjectures 1 and 2 (October 28, 2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "oeis-a401248-first-two-dense-divisor-block-minimum"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:oeis-a401248-first-two-dense-divisor-block-minimum:3:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S3/Factorization/TwoDenseDivisorBlockMinimum.lean"
+        },
+        "lineage": "collected:oeis-a401248-first-two-dense-divisor-block-minimum:s6",
+        "macros": {
+          "\\Div": "\\mathcal D",
+          "\\vp": "\\nu_2"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "oeis-a401248-first-two-dense-divisor-block-minimum",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $t\\geq1$, the number of blocks is odd if and only if there is\na divisor $a\\mid n$ with $a\\leq n/a\\leq t a$.\nConsequently A237271, Comments, Conjectures 4 and 5\n(October 21, 2025), hold: its values at $h^2$ and $h(2h-1)$ are odd\nfor every integer $h\\geq1$. Kitamura's 2026 proofs establish these\ntwo special cases~\\cite{kitamura}.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Complete-fibre extension of Xausa's endpoint minima (2026): OEIS A401248, Formulas, Conjectures 1 and 2 (October 28, 2026)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "oeis-a401248-first-two-dense-divisor-block-minimum"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Complete-fibre extension of Xausa's endpoint minima (2026): OEIS A401248, Formulas, Conjectures 1 and 2 (October 28, 2026)",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 3,
+  "work": "oeis-a401248-first-two-dense-divisor-block-minimum"
+}

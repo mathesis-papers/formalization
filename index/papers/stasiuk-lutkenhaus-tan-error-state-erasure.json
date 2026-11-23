@@ -1,0 +1,405 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S3/Quantum/Foundation/StasiukLutkenhausTanErrorStateErasureRefutation.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stasiuk-lutkenhaus-tan-error-state-erasure:3:s1",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S3/Quantum/Foundation/StasiukLutkenhausTanErrorStateErasureRefutation.lean"
+        },
+        "lineage": "collected:stasiuk-lutkenhaus-tan-error-state-erasure:s1",
+        "macros": {
+          "\\Tr": "\\operatorname{Tr}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\proj": "\\ket{#1}\\!\\bra{#1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stasiuk-lutkenhaus-tan-error-state-erasure",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For any four density operators $\\tau_0,\\tau_1,\\eta_0,\\eta_1$ and any\nCPTP map $\\Lambda$ on their common space,\n\\begin{align}\n &D(\\tau_0,\\Lambda\\tau_0)+D(\\tau_1,\\Lambda\\tau_1)\n       +D(\\Lambda\\eta_0,\\Lambda\\eta_1)\\notag\\\\\n &\\hspace{1cm}\\geq\n D(\\tau_0,\\tau_1)-D(\\tau_0,\\eta_0)-D(\\tau_1,\\eta_1).\n\\end{align}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp public-flag bounds for the Stasiuk–Lütkenhaus–Tan erasure conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "stasiuk-lutkenhaus-tan-error-state-erasure"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stasiuk-lutkenhaus-tan-error-state-erasure:3:s2",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S3/Quantum/Foundation/StasiukLutkenhausTanErrorStateErasureRefutation.lean"
+        },
+        "lineage": "collected:stasiuk-lutkenhaus-tan-error-state-erasure:s2",
+        "macros": {
+          "\\Tr": "\\operatorname{Tr}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\proj": "\\ket{#1}\\!\\bra{#1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stasiuk-lutkenhaus-tan-error-state-erasure",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For the four states in \\eqref{eq:four}, every CPTP map on $ET$ satisfies\n\\begin{equation}\n D(\\tau_0,\\Lambda\\tau_0)+D(\\tau_1,\\Lambda\\tau_1)\n +D(\\Lambda\\eta_0,\\Lambda\\eta_1)\\geq\\frac{38004}{50005}.\n\\end{equation}\nConsequently \\eqref{eq:assertion} is impossible for these states.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp public-flag bounds for the Stasiuk–Lütkenhaus–Tan erasure conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "stasiuk-lutkenhaus-tan-error-state-erasure"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stasiuk-lutkenhaus-tan-error-state-erasure:3:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S3/Quantum/Foundation/StasiukLutkenhausTanErrorStateErasureRefutation.lean"
+        },
+        "lineage": "collected:stasiuk-lutkenhaus-tan-error-state-erasure:s3",
+        "macros": {
+          "\\Tr": "\\operatorname{Tr}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\proj": "\\ket{#1}\\!\\bra{#1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stasiuk-lutkenhaus-tan-error-state-erasure",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $\\Lambda\\eta_0=\\Lambda\\eta_1$, then at least one correct state\nhas disturbance at least $19002/50005$.\nIf both correct-state disturbances are at most $\\alpha\\geq0$, the\nresidual error-state distance is at least $38004/50005-2\\alpha$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp public-flag bounds for the Stasiuk–Lütkenhaus–Tan erasure conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "stasiuk-lutkenhaus-tan-error-state-erasure"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stasiuk-lutkenhaus-tan-error-state-erasure:3:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S3/Quantum/Foundation/StasiukLutkenhausTanErrorStateErasureRefutation.lean"
+        },
+        "lineage": "collected:stasiuk-lutkenhaus-tan-error-state-erasure:s4",
+        "macros": {
+          "\\Tr": "\\operatorname{Tr}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\proj": "\\ket{#1}\\!\\bra{#1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stasiuk-lutkenhaus-tan-error-state-erasure",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For the correct states of this family, the two-outcome measurement\n$\\{\\Pi_0,I-\\Pi_0\\}$, with $\\Pi_0=2\\tau_0$, preserves the Chernoff\ncoefficient: its two distributions have classical Chernoff coefficient $s^2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp public-flag bounds for the Stasiuk–Lütkenhaus–Tan erasure conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "stasiuk-lutkenhaus-tan-error-state-erasure"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stasiuk-lutkenhaus-tan-error-state-erasure:3:s5",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S3/Quantum/Foundation/StasiukLutkenhausTanErrorStateErasureRefutation.lean"
+        },
+        "lineage": "collected:stasiuk-lutkenhaus-tan-error-state-erasure:s5",
+        "macros": {
+          "\\Tr": "\\operatorname{Tr}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\proj": "\\ket{#1}\\!\\bra{#1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stasiuk-lutkenhaus-tan-error-state-erasure",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $0<s<1$, $t=\\sqrt{1-s^2}$ and any real $\\theta$, form the four\nflagged states as above. Among all CPTP maps on $ET$ satisfying\n$\\Lambda\\tau_j=\\tau_j$ for $j=0,1$, the minimum of\n$D(\\Lambda\\eta_0,\\Lambda\\eta_1)$ is\n\\begin{equation}\n t|\\cos 2\\theta|.\n\\end{equation}\nThus exact erasure with exact preservation in this family is possible\nif and only if $\\cos 2\\theta=0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp public-flag bounds for the Stasiuk–Lütkenhaus–Tan erasure conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "stasiuk-lutkenhaus-tan-error-state-erasure"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stasiuk-lutkenhaus-tan-error-state-erasure:3:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S3/Quantum/Foundation/StasiukLutkenhausTanErrorStateErasureRefutation.lean"
+        },
+        "lineage": "collected:stasiuk-lutkenhaus-tan-error-state-erasure:s6",
+        "macros": {
+          "\\Tr": "\\operatorname{Tr}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\proj": "\\ket{#1}\\!\\bra{#1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stasiuk-lutkenhaus-tan-error-state-erasure",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Every qubit CPTP map fixing $P_{e_0}$ and $P_{e_1}$ is the identity.\nIt leaves the unflagged error-pair distance exactly $t$, for every\n$\\theta$. In particular the rational instance has residual distance $4/5$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp public-flag bounds for the Stasiuk–Lütkenhaus–Tan erasure conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "stasiuk-lutkenhaus-tan-error-state-erasure"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:stasiuk-lutkenhaus-tan-error-state-erasure:3:s7",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S3/Quantum/Foundation/StasiukLutkenhausTanErrorStateErasureRefutation.lean"
+        },
+        "lineage": "collected:stasiuk-lutkenhaus-tan-error-state-erasure:s7",
+        "macros": {
+          "\\Tr": "\\operatorname{Tr}",
+          "\\bra": "\\langle #1\\rvert",
+          "\\ket": "\\lvert #1\\rangle",
+          "\\norm": "\\lVert #1\\rVert",
+          "\\proj": "\\ket{#1}\\!\\bra{#1}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "stasiuk-lutkenhaus-tan-error-state-erasure",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Suppose a projection $P$ satisfies\n$P\\tau_jP=\\tau_j$ and $(I-P)\\eta_j(I-P)=\\eta_j$ for $j=0,1$.\nThen a CPTP map fixes both $\\tau_j$ and sends both $\\eta_j$ to any\nchosen common density operator $\\omega$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp public-flag bounds for the Stasiuk–Lütkenhaus–Tan erasure conjecture",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "stasiuk-lutkenhaus-tan-error-state-erasure"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Sharp public-flag bounds for the Stasiuk–Lütkenhaus–Tan erasure conjecture",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 3,
+  "work": "stasiuk-lutkenhaus-tan-error-state-erasure"
+}

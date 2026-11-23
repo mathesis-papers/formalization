@@ -1,0 +1,346 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "e7f7c25c7de35e89418be730f50ec8fb94949133",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/e7f7c25c7de35e89418be730f50ec8fb94949133/D5/S3/StatisticalMechanics/TeaCoordinationSequence.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:barker-tea-coordination-sequence:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "e7f7c25c7de35e89418be730f50ec8fb94949133",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e7f7c25c7de35e89418be730f50ec8fb94949133/D5/S3/StatisticalMechanics/TeaCoordinationSequence.lean"
+        },
+        "lineage": "collected:barker-tea-coordination-sequence:s1",
+        "macros": {
+          "\\Hh": "\\mathcal H",
+          "\\N": "\\mathbb N",
+          "\\T": "\\mathcal T",
+          "\\Z": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "barker-tea-coordination-sequence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $(c_0,c_1,c_2,c_3)=(16,17,12,17)$ and\n$(d_0,d_1,d_2,d_3)=(32,38,24,30)$. Then $a(0)=1$ and, for $n\\ge1$,\n\\begin{equation}\na(n)=\\frac{63n^2+c_{n\\bmod4}}8.\n\\end{equation}\nFor every $n\\ge0$,\n\\begin{equation}\nb(n)=\\frac{84n^3+126n^2+104n+d_{n\\bmod4}}{32}.\n\\end{equation}\nWith $P(x)=1+8x+14x^2+17x^3+14x^4+8x^5+x^6$,\n\\begin{equation}\n\\sum_{n\\ge0}a(n)x^n=\\frac{P(x)}{(1-x)^3(1+x)(1+x^2)},\\qquad\n\\sum_{n\\ge0}b(n)x^n=\\frac{P(x)}{(1-x)^4(1+x)(1+x^2)}.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Barker's tea-tiling conjectures: OEIS A299285–A299286, FORMULA (February 11, 2018)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "barker-tea-coordination-sequence"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:barker-tea-coordination-sequence:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "e7f7c25c7de35e89418be730f50ec8fb94949133",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e7f7c25c7de35e89418be730f50ec8fb94949133/D5/S3/StatisticalMechanics/TeaCoordinationSequence.lean"
+        },
+        "lineage": "collected:barker-tea-coordination-sequence:s2",
+        "macros": {
+          "\\Hh": "\\mathcal H",
+          "\\N": "\\mathbb N",
+          "\\T": "\\mathcal T",
+          "\\Z": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "barker-tea-coordination-sequence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $(i,j,k)\\in\\Z^3$ the distance from the origin is\n\\[\nD(i,j,k)=|k|+R_{p_k,q_k}(i,j).\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Barker's tea-tiling conjectures: OEIS A299285–A299286, FORMULA (February 11, 2018)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "barker-tea-coordination-sequence"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:barker-tea-coordination-sequence:2:s3",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "e7f7c25c7de35e89418be730f50ec8fb94949133",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e7f7c25c7de35e89418be730f50ec8fb94949133/D5/S3/StatisticalMechanics/TeaCoordinationSequence.lean"
+        },
+        "lineage": "collected:barker-tea-coordination-sequence:s3",
+        "macros": {
+          "\\Hh": "\\mathcal H",
+          "\\N": "\\mathbb N",
+          "\\T": "\\mathcal T",
+          "\\Z": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "barker-tea-coordination-sequence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $p,q\\ge0$,\n\\begin{equation}\n|\\Hh(p,q)|=C(p,q):=\\frac{p^2+4pq+q^2+3p+3q+2}{2}.\n\\end{equation}\nThe number of planar points with residual exactly $r$ is $C(p,q)$ for\n$r=0$, and $3(p+q)+6r$ for $r\\ge1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Barker's tea-tiling conjectures: OEIS A299285–A299286, FORMULA (February 11, 2018)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "barker-tea-coordination-sequence"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:barker-tea-coordination-sequence:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "e7f7c25c7de35e89418be730f50ec8fb94949133",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e7f7c25c7de35e89418be730f50ec8fb94949133/D5/S3/StatisticalMechanics/TeaCoordinationSequence.lean"
+        },
+        "lineage": "collected:barker-tea-coordination-sequence:s4",
+        "macros": {
+          "\\Hh": "\\mathcal H",
+          "\\N": "\\mathbb N",
+          "\\T": "\\mathcal T",
+          "\\Z": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "barker-tea-coordination-sequence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The following recurrences hold for $n\\ge7$:\n\\begin{align*}\na(n)&=2a(n-1)-a(n-2)+a(n-4)-2a(n-5)+a(n-6),\\\\\nb(n)&=3b(n-1)-3b(n-2)+b(n-3)+b(n-4)\\\\\n&\\hspace{12mm}-3b(n-5)+3b(n-6)-b(n-7).\n\\end{align*}\nTheir least eventual orders over $\\mathbb Q$ are six and seven,\nrespectively. The least quasipolynomial period is four for each sequence\n(for $a(n)$ on $n\\ge1$).",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Barker's tea-tiling conjectures: OEIS A299285–A299286, FORMULA (February 11, 2018)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "barker-tea-coordination-sequence"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:barker-tea-coordination-sequence:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "e7f7c25c7de35e89418be730f50ec8fb94949133",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e7f7c25c7de35e89418be730f50ec8fb94949133/D5/S3/StatisticalMechanics/TeaCoordinationSequence.lean"
+        },
+        "lineage": "collected:barker-tea-coordination-sequence:s5",
+        "macros": {
+          "\\Hh": "\\mathcal H",
+          "\\N": "\\mathbb N",
+          "\\T": "\\mathcal T",
+          "\\Z": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "barker-tea-coordination-sequence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The formulas in the FORMULA fields of A299287 and A299288\ndated February 11, 2018, and Spezia's June 8, 2024 exponential\ngenerating function in A299287, hold for the tcd graph. Its sphere and\nball recurrences have least eventual orders four and five; both least\nquasipolynomial periods are two.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Barker's tea-tiling conjectures: OEIS A299285–A299286, FORMULA (February 11, 2018)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "barker-tea-coordination-sequence"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:barker-tea-coordination-sequence:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "e7f7c25c7de35e89418be730f50ec8fb94949133",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e7f7c25c7de35e89418be730f50ec8fb94949133/D5/S3/StatisticalMechanics/TeaCoordinationSequence.lean"
+        },
+        "lineage": "collected:barker-tea-coordination-sequence:s6",
+        "macros": {
+          "\\Hh": "\\mathcal H",
+          "\\N": "\\mathbb N",
+          "\\T": "\\mathcal T",
+          "\\Z": "\\mathbb Z"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "barker-tea-coordination-sequence",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $n\\ge1$, put $r=\\lceil n/2\\rceil$ and $s=\\lfloor n/2\\rfloor$.\nThen\n\\[\na_\\sigma(n)=\\alpha(n)+p_nq_n+p_{-n}q_{-n},\\qquad\n\\alpha(n)\\le a_\\sigma(n)\\le a(n).\n\\]\nBoth bounds hold for every $n\\ge0$, simultaneously, with the lower\nbound attained by tcd and the upper bound by tea. The balls satisfy\n$\\beta(n)\\le b_\\sigma(n)\\le b(n)$. In particular,\n\\[\na(n)-\\alpha(n)=\\left\\lfloor\\frac{n^2}{8}\\right\\rfloor,\n\\qquad\nb(n)-\\beta(n)=\\sum_{m=1}^n\\left\\lfloor\\frac{m^2}{8}\\right\\rfloor.\n\\]\nFor $n\\ge1$, equality in the lower sphere bound holds exactly when\n$p_nq_n=p_{-n}q_{-n}=0$. Equality in the upper bound holds exactly when\n$|p_n-q_n|\\le1$ and $|p_{-n}-q_{-n}|\\le1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Barker's tea-tiling conjectures: OEIS A299285–A299286, FORMULA (February 11, 2018)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "barker-tea-coordination-sequence"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Proof of Barker's tea-tiling conjectures: OEIS A299285–A299286, FORMULA (February 11, 2018)",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "barker-tea-coordination-sequence"
+}
