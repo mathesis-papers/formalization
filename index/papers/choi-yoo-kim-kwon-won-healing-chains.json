@@ -1,0 +1,284 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "0ad94071772b2f32b432905d088bfce029d8d29e",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/0ad94071772b2f32b432905d088bfce029d8d29e/D5/S3/Combinatorics/Graph/Potts/HealingUnbounded.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:choi-yoo-kim-kwon-won-healing-chains:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "0ad94071772b2f32b432905d088bfce029d8d29e",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0ad94071772b2f32b432905d088bfce029d8d29e/D5/S3/Combinatorics/Graph/Potts/HealingUnbounded.lean"
+        },
+        "lineage": "collected:choi-yoo-kim-kwon-won-healing-chains:s1",
+        "macros": {
+          "\\fr": "\\operatorname{fr}",
+          "\\ioct": "\\operatorname{ioct}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "choi-yoo-kim-kwon-won-healing-chains",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The graph $G_{\\mathcal T}$ is connected, simple, outerplanar, subcubic,\nof treewidth two, and has $3B$ vertices. It is not $K_4$, and\n\\[\n \\fr(G_{\\mathcal T})=B,\\qquad |S_{\\mathcal T}|=B-1,\\qquad\n \\fr(G_{\\mathcal T}-S_{\\mathcal T})=1.\n\\]\nThe set $S_{\\mathcal T}$ is stuck and tight, and\n\\begin{equation}\n d_{G_{\\mathcal T}}(S_{\\mathcal T})=\\delta.\n\\end{equation}\nThe minimum number of tight exchanges from $S_{\\mathcal T}$ to an\naugmentable set is also $\\delta$. There is an attaining sequence whose\nearlier sets are all stuck. Moreover, $B\\geq3\\cdot2^\\delta-2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "choi-yoo-kim-kwon-won-healing-chains"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:choi-yoo-kim-kwon-won-healing-chains:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "0ad94071772b2f32b432905d088bfce029d8d29e",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0ad94071772b2f32b432905d088bfce029d8d29e/D5/S3/Combinatorics/Graph/Potts/HealingUnbounded.lean"
+        },
+        "lineage": "collected:choi-yoo-kim-kwon-won-healing-chains:s2",
+        "macros": {
+          "\\fr": "\\operatorname{fr}",
+          "\\ioct": "\\operatorname{ioct}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "choi-yoo-kim-kwon-won-healing-chains",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Every independent set $X$ in $G_{\\mathcal T}$ satisfies\n\\[\n \\fr(G_{\\mathcal T}-X)=B-|X|.\n\\]\nConsequently every independent set is tight.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "choi-yoo-kim-kwon-won-healing-chains"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:choi-yoo-kim-kwon-won-healing-chains:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0ad94071772b2f32b432905d088bfce029d8d29e",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0ad94071772b2f32b432905d088bfce029d8d29e/D5/S3/Combinatorics/Graph/Potts/HealingUnbounded.lean"
+        },
+        "lineage": "collected:choi-yoo-kim-kwon-won-healing-chains:s3",
+        "macros": {
+          "\\fr": "\\operatorname{fr}",
+          "\\ioct": "\\operatorname{ioct}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "choi-yoo-kim-kwon-won-healing-chains",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $h\\geq1$, take all leaves at depth $h$. The resulting graph\n$G_h$ has $B=3\\cdot2^h-2$ triangles and $n=9\\cdot2^h-6$ vertices,\nand its stuck apex set has exact displacement $h$. Thus no constant\nbound holds even for outerplanar graphs of treewidth two.\nAmong full rooted triangle trees with shortest leaf depth $h$, this\norder is the smallest possible. More generally,\n\\[\n d_{G_{\\mathcal T}}(S_{\\mathcal T})\n \\leq\\left\\lfloor\\log_2\\frac{|V(G_{\\mathcal T})|+6}{9}\\right\\rfloor,\n\\]\nwith equality on $G_h$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "choi-yoo-kim-kwon-won-healing-chains"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:choi-yoo-kim-kwon-won-healing-chains:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0ad94071772b2f32b432905d088bfce029d8d29e",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0ad94071772b2f32b432905d088bfce029d8d29e/D5/S3/Combinatorics/Graph/Potts/HealingUnbounded.lean"
+        },
+        "lineage": "collected:choi-yoo-kim-kwon-won-healing-chains:s4",
+        "macros": {
+          "\\fr": "\\operatorname{fr}",
+          "\\ioct": "\\operatorname{ioct}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "choi-yoo-kim-kwon-won-healing-chains",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $G_{\\mathcal T}$ and $S_{\\mathcal T}$, the smallest possible\nzero-based stage index of a successful test in Proposition~15 of\n\\cite{CYKKW} is $\\delta-1$. In particular, $G_h$ requires at least\n$h$ tested stages, counting the successful stage.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "choi-yoo-kim-kwon-won-healing-chains"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:choi-yoo-kim-kwon-won-healing-chains:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0ad94071772b2f32b432905d088bfce029d8d29e",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0ad94071772b2f32b432905d088bfce029d8d29e/D5/S3/Combinatorics/Graph/Potts/HealingUnbounded.lean"
+        },
+        "lineage": "collected:choi-yoo-kim-kwon-won-healing-chains:s5",
+        "macros": {
+          "\\fr": "\\operatorname{fr}",
+          "\\ioct": "\\operatorname{ioct}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "choi-yoo-kim-kwon-won-healing-chains",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $G$ be obtained from vertex-disjoint triangles by adding bridges\nwhose contraction gives a tree. Every optimal two-colouring of $G$ is\nhealable. No degree restriction is needed for this assertion.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "choi-yoo-kim-kwon-won-healing-chains"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "choi-yoo-kim-kwon-won-healing-chains"
+}

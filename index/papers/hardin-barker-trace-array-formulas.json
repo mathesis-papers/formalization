@@ -1,0 +1,269 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "e072713035e715a2a3a08b13040b1d6e5e552731",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/e072713035e715a2a3a08b13040b1d6e5e552731/D5/S3/Combinatorics/TraceArrays/HardinA185858.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin-barker-trace-array-formulas:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "e072713035e715a2a3a08b13040b1d6e5e552731",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e072713035e715a2a3a08b13040b1d6e5e552731/D5/S3/Combinatorics/TraceArrays/HardinA185858.lean"
+        },
+        "lineage": "collected:hardin-barker-trace-array-formulas:s1",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin-barker-trace-array-formulas",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $n\\geq1$, the number $C_n$ is divisible by $128$.\nThe normalized counts satisfy\n\\begin{equation}\n a_1=4,\\qquad a_2=22,\\qquad\n a_{n+2}=4a_{n+1}+9a_n\\quad(n\\geq1).\n\\end{equation}\nConsequently, as an identity of formal power series over $\\mathbb Q$,\n\\begin{equation}\n \\sum_{n\\geq1}a_nx^n=\\frac{2x(2+3x)}{1-4x-9x^2},\n\\end{equation}\nand, with $\\sqrt{13}$ the positive real square root,\n\\begin{equation}\n a_n=\\frac{(2-\\sqrt{13})^n(-4+\\sqrt{13})\n             +(2+\\sqrt{13})^n(4+\\sqrt{13})}{3\\sqrt{13}}.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin-barker-trace-array-formulas"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin-barker-trace-array-formulas:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "e072713035e715a2a3a08b13040b1d6e5e552731",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e072713035e715a2a3a08b13040b1d6e5e552731/D5/S3/Combinatorics/TraceArrays/HardinA185858.lean"
+        },
+        "lineage": "collected:hardin-barker-trace-array-formulas:s2",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin-barker-trace-array-formulas",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $W_n$ be the number of words $(d_0,\\ldots,d_{n-1})$ of binary triples\n$d_i\\in\\{0,1\\}^3$ whose successive coordinate sums differ. Then\n$C_n=64W_n$. Equivalently,\n\\begin{equation}\n W_n=\\sum_{\\substack{s_0,\\ldots,s_{n-1}\\in\\{0,1,2,3\\}\\\\\n                         s_i\\ne s_{i+1}\\ (0\\leq i<n-1)}}\n                  \\prod_{i=0}^{n-1}\\binom3{s_i}.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin-barker-trace-array-formulas"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin-barker-trace-array-formulas:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "e072713035e715a2a3a08b13040b1d6e5e552731",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e072713035e715a2a3a08b13040b1d6e5e552731/D5/S3/Combinatorics/TraceArrays/HardinA185858.lean"
+        },
+        "lineage": "collected:hardin-barker-trace-array-formulas:s3",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin-barker-trace-array-formulas",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For all positive integers $n,k$, $T(n,k)$ is an integer and\n$T(n,k)=T(k,n)$. In particular,\n$T(n,1)=T(1,n)=a_n$, with $a_n$ given by Theorem~\\ref{thm:main}.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin-barker-trace-array-formulas"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin-barker-trace-array-formulas:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "e072713035e715a2a3a08b13040b1d6e5e552731",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e072713035e715a2a3a08b13040b1d6e5e552731/D5/S3/Combinatorics/TraceArrays/HardinA185858.lean"
+        },
+        "lineage": "collected:hardin-barker-trace-array-formulas:s4",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin-barker-trace-array-formulas",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $n\\geq1$, $T(2,n)=T(n,2)=b_n$, where\n\\[\n (b_1,b_2,b_3,b_4,b_5)=(22,164,1254,9604,73542),\n\\]\n\\begin{equation}\n b_{n+5}=6b_{n+4}+17b_{n+3}-36b_{n+2}+24b_{n+1}-6b_n.\n \n\\end{equation}\nIts generating function is\n\\begin{equation}\n \\sum_{n\\geq1}b_nx^n=\n \\frac{2x(11+16x-52x^2+42x^3-12x^4)}\n {1-6x-17x^2+36x^3-24x^4+6x^5}.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin-barker-trace-array-formulas"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:hardin-barker-trace-array-formulas:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "e072713035e715a2a3a08b13040b1d6e5e552731",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/e072713035e715a2a3a08b13040b1d6e5e552731/D5/S3/Combinatorics/TraceArrays/HardinA185858.lean"
+        },
+        "lineage": "collected:hardin-barker-trace-array-formulas:s5",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "hardin-barker-trace-array-formulas",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every fixed positive integer $k$, the series\n$\\sum_{n\\geq1}T(n,k)x^n$ is rational over $\\mathbb Q$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "hardin-barker-trace-array-formulas"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "hardin-barker-trace-array-formulas"
+}
