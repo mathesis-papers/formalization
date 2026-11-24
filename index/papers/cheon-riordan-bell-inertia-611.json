@@ -1,0 +1,346 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:cheon-riordan-bell-inertia-611:3:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
+        },
+        "lineage": "collected:cheon-riordan-bell-inertia-611:s1",
+        "macros": {
+          "\\R": "\\mathbb R",
+          "\\Z": "\\mathbb Z",
+          "\\nm": "n^-",
+          "\\np": "n^+"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "cheon-riordan-bell-inertia-611",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $n\\geq3$, put $g_n(z)=1+z^{n-2}$ and $f_n(z)=zg_n(z)$.\nThen $G_n(g_n,f_n)=C_n$ with the stated labels. Conversely, a generator\ngives this labelled cycle only if its binary coefficients through degree\n$n-2$ agree with $1+z^{n-2}$. Write $n=4q+r$,\nwhere $q=\\lfloor n/4\\rfloor$ and $0\\leq r\\leq3$. Then\nits inertia is as follows, for every row with $n\\geq3$:\n\\[\n\\begin{array}{c|ccc}\n r&\\np&\\nm&n^0\\\\\\hline\n 0&2q-1&2q-1&2\\\\\n 1&2q+1&2q&0\\\\\n 2&2q+1&2q+1&0\\\\\n 3&2q+1&2q+2&0\n\\end{array}\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "cheon-riordan-bell-inertia-611"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:cheon-riordan-bell-inertia-611:3:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
+        },
+        "lineage": "collected:cheon-riordan-bell-inertia-611:s2",
+        "macros": {
+          "\\R": "\\mathbb R",
+          "\\Z": "\\mathbb Z",
+          "\\nm": "n^-",
+          "\\np": "n^+"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "cheon-riordan-bell-inertia-611",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Problem 6.11 has a negative answer. At every order $n=4q+1$,\n$q\\geq1$, a proper Bell-type graph has $\\np=2q+1>2q=\\nm$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "cheon-riordan-bell-inertia-611"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:cheon-riordan-bell-inertia-611:3:s3",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
+        },
+        "lineage": "collected:cheon-riordan-bell-inertia-611:s3",
+        "macros": {
+          "\\R": "\\mathbb R",
+          "\\Z": "\\mathbb Z",
+          "\\nm": "n^-",
+          "\\np": "n^+"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "cheon-riordan-bell-inertia-611",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Every simple graph on at most four vertices satisfies $\\np\\leq\\nm$.\nThus five is the smallest possible counterexample order.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "cheon-riordan-bell-inertia-611"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:cheon-riordan-bell-inertia-611:3:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
+        },
+        "lineage": "collected:cheon-riordan-bell-inertia-611:s4",
+        "macros": {
+          "\\R": "\\mathbb R",
+          "\\Z": "\\mathbb Z",
+          "\\nm": "n^-",
+          "\\np": "n^+"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "cheon-riordan-bell-inertia-611",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Every Bell-type graph satisfies\n$\\max\\{\\np,\\nm\\}\\leq\\lceil n/2\\rceil$, as proved in\n\\cite[Corollary 6.6, p.~24]{CJKM}. For every $n\\geq2$ the bound is\nattained by a proper Bell-type graph. If $n$ is even and the graph is\nnonsingular, then $\\np=\\nm=n/2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "cheon-riordan-bell-inertia-611"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:cheon-riordan-bell-inertia-611:3:s5",
+        "kind": "paper",
+        "label": "Proposition",
+        "lean_source": {
+          "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
+        },
+        "lineage": "collected:cheon-riordan-bell-inertia-611:s5",
+        "macros": {
+          "\\R": "\\mathbb R",
+          "\\Z": "\\mathbb Z",
+          "\\nm": "n^-",
+          "\\np": "n^+"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "cheon-riordan-bell-inertia-611",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $n\\geq1$ and odd $g(0)$, $G_n(g,zg)$ is bipartite if and only if\nevery odd-degree coefficient $[z^d]g$, $1\\leq d\\leq n-2$, is even.\nThen $\\np=\\nm$. For arbitrary $g(0)$ the coefficient condition is\nstill sufficient for bipartiteness and equality of the strict indices.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "cheon-riordan-bell-inertia-611"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:cheon-riordan-bell-inertia-611:3:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
+        },
+        "lineage": "collected:cheon-riordan-bell-inertia-611:s6",
+        "macros": {
+          "\\R": "\\mathbb R",
+          "\\Z": "\\mathbb Z",
+          "\\nm": "n^-",
+          "\\np": "n^+"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "cheon-riordan-bell-inertia-611",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Equal strict inertia indices do not characterize bipartiteness,\neven among proper Bell-type graphs.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "cheon-riordan-bell-inertia-611"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 3,
+  "work": "cheon-riordan-bell-inertia-611"
+}

@@ -1,0 +1,316 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:dfl514-selfconj:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
+        },
+        "lineage": "collected:dfl514-selfconj:s1",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "dfl514-selfconj",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $m,q\\geq2$. Every nonempty conjugate $(m,q)$-ary partition of $N$,\nwith width $W$ and height $H$, satisfies\n\\begin{equation}\n N\\equiv H+W-1\\pmod{(m-1)(q-1)}.\n\\end{equation}\nFor a self-conjugate CMP this gives\n\\begin{equation}\n N\\equiv 2W-1\\pmod{(m-1)^2}.\n\\end{equation}\nIf $m$ is odd, it also gives $N\\equiv1\\pmod{2(m-1)}$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "dfl514-selfconj"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:dfl514-selfconj:2:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
+        },
+        "lineage": "collected:dfl514-selfconj:s2",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "dfl514-selfconj",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let a nonrectangular CMP of $m^r$, $m\\geq2$, have width $m^a$\nand height $m^b$. Then\n\\[\n 1\\leq a+b-r\\leq r-2,\\qquad m-1\\mid a+b-r.\n\\]\nIn particular $r\\geq m+1$. If it is self-conjugate, $a=b$ and\n\\begin{equation}\n 1\\leq 2a-r\\leq r-2,\\qquad m-1\\mid 2a-r.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "dfl514-selfconj"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:dfl514-selfconj:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
+        },
+        "lineage": "collected:dfl514-selfconj:s3",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "dfl514-selfconj",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "A nonrectangular CMP of $m^r$, for $m\\geq2$ and $r\\geq0$, exists\nexactly when $r\\geq m+1$. If $C_m(N)$ counts the CMPs of $N$, then\n\\[\n C_m(m^r)=r+1\\quad(0\\leq r\\leq m),\\qquad\n C_m(m^r)>r+1\\quad(r\\geq m+1).\n\\]\nThe smallest non-square self-conjugate CMP of a power of $m$ has size\n$m^{m+1}$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "dfl514-selfconj"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:dfl514-selfconj:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
+        },
+        "lineage": "collected:dfl514-selfconj:s4",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "dfl514-selfconj",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every odd $m\\geq3$ and every $s\\geq0$, no self-conjugate CMP of\n$m^{2s+1}$ exists. A self-conjugate CMP of $m^r$, $r\\geq0$, exists\nif and only if $r$ is even.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "dfl514-selfconj"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:dfl514-selfconj:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
+        },
+        "lineage": "collected:dfl514-selfconj:s5",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "dfl514-selfconj",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "A non-square self-conjugate CMP of $m^r$, $m\\geq2$, $r\\geq0$, exists\nexactly in these cases:\n\\[\n\\begin{array}{c|c}\n\\text{base and exponent parity}&\\text{necessary and sufficient range}\\\\\\hline\nm\\text{ odd},\\ r\\text{ even}&r\\geq m+1\\\\\nm\\text{ even},\\ r\\text{ odd}&r\\geq m+1\\\\\nm\\text{ even},\\ r\\text{ even}&r\\geq2m.\n\\end{array}\n\\]\nFor odd $m$ and odd $r$ none exists. Allowing squares, a self-conjugate\nCMP exists precisely when $r$ is even or when $m$ is even and $r\\geq m+1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "dfl514-selfconj"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:dfl514-selfconj:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
+        },
+        "lineage": "collected:dfl514-selfconj:s6",
+        "macros": {},
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "dfl514-selfconj",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $A_{m,q}(X)$ count the positive integers at most $X$ having a\nconjugate $(m,q)$-ary partition. If\n$m^{-1/2}+q^{-1/2}<1$, then $A_{m,q}(X)/X\\to0$ as $X\\to\\infty$.\nThe same conclusion holds for $(m,q)=(4,4)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "dfl514-selfconj"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "dfl514-selfconj"
+}
