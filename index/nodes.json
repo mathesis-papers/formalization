@@ -14347,7 +14347,7 @@
       "claim": "s1",
       "classification": "no_target_yet",
       "contributor": null,
-      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:2:s1",
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s1",
       "kind": "paper",
       "label": "Theorem",
       "lean_source": {
@@ -14358,7 +14358,8 @@
       "macros": {
         "\\AS": "\\mathcal{AS}",
         "\\N": "\\mathbb{N}_0",
-        "\\PF": "\\operatorname{PF}"
+        "\\PF": "\\operatorname{PF}",
+        "\\im": "\\operatorname{im}"
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
@@ -14373,14 +14374,66 @@
       "status": "preparing",
       "target_digest": null,
       "target_path": null,
-      "title": "A negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "title": "Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question",
       "toolchain": null,
       "trureturing_write_back": {
         "request_url": null,
         "revision": null,
         "state": null
       },
-      "version": 2,
+      "version": 4,
+      "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "classification": "no_target_yet",
+      "contributor": null,
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s10",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
+      },
+      "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s10",
+      "macros": {
+        "\\AS": "\\mathcal{AS}",
+        "\\N": "\\mathbb{N}_0",
+        "\\PF": "\\operatorname{PF}",
+        "\\im": "\\operatorname{im}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "reason": "Formalization work is coordinated through the shared requests.",
+      "receipt": null,
+      "record": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+      "results": [],
+      "scope": "in_scope",
+      "statement": "The reduced symmetric numerical set\n\\[\n U=\\{0,2,5,6,8\\}\\cup[10,\\infty)\n\\]\nsatisfies the full-cell condition but has no almost symmetric numerical\nsemigroup preimage. With the convention in Section~\\ref{sec:cells}, $9$ is the smallest\nFrobenius number of such an excluded target. For every $h\\geq5$,\n\\[\n U_h=\\{0,2\\}\\cup\\bigl([h,2h-2]\\setminus\\{2h-3\\}\\bigr)\\cup[2h,\\infty)\n\\]\ngives a family of such targets with Frobenius number $2h-1$, with $U_5=U$.",
+      "status": "preparing",
+      "target_digest": null,
+      "target_path": null,
+      "title": "Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "toolchain": null,
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 4,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
@@ -14398,7 +14451,7 @@
       "claim": "s2",
       "classification": "no_target_yet",
       "contributor": null,
-      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:2:s2",
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s2",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -14409,7 +14462,8 @@
       "macros": {
         "\\AS": "\\mathcal{AS}",
         "\\N": "\\mathbb{N}_0",
-        "\\PF": "\\operatorname{PF}"
+        "\\PF": "\\operatorname{PF}",
+        "\\im": "\\operatorname{im}"
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
@@ -14424,14 +14478,14 @@
       "status": "preparing",
       "target_digest": null,
       "target_path": null,
-      "title": "A negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "title": "Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question",
       "toolchain": null,
       "trureturing_write_back": {
         "request_url": null,
         "revision": null,
         "state": null
       },
-      "version": 2,
+      "version": 4,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
@@ -14449,7 +14503,7 @@
       "claim": "s3",
       "classification": "no_target_yet",
       "contributor": null,
-      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:2:s3",
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s3",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -14460,7 +14514,8 @@
       "macros": {
         "\\AS": "\\mathcal{AS}",
         "\\N": "\\mathbb{N}_0",
-        "\\PF": "\\operatorname{PF}"
+        "\\PF": "\\operatorname{PF}",
+        "\\im": "\\operatorname{im}"
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
@@ -14475,14 +14530,14 @@
       "status": "preparing",
       "target_digest": null,
       "target_path": null,
-      "title": "A negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "title": "Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question",
       "toolchain": null,
       "trureturing_write_back": {
         "request_url": null,
         "revision": null,
         "state": null
       },
-      "version": 2,
+      "version": 4,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
@@ -14500,7 +14555,7 @@
       "claim": "s4",
       "classification": "no_target_yet",
       "contributor": null,
-      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:2:s4",
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s4",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -14511,7 +14566,8 @@
       "macros": {
         "\\AS": "\\mathcal{AS}",
         "\\N": "\\mathbb{N}_0",
-        "\\PF": "\\operatorname{PF}"
+        "\\PF": "\\operatorname{PF}",
+        "\\im": "\\operatorname{im}"
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
@@ -14526,14 +14582,14 @@
       "status": "preparing",
       "target_digest": null,
       "target_path": null,
-      "title": "A negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "title": "Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question",
       "toolchain": null,
       "trureturing_write_back": {
         "request_url": null,
         "revision": null,
         "state": null
       },
-      "version": 2,
+      "version": 4,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
@@ -14551,7 +14607,7 @@
       "claim": "s5",
       "classification": "no_target_yet",
       "contributor": null,
-      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:2:s5",
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s5",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -14562,7 +14618,8 @@
       "macros": {
         "\\AS": "\\mathcal{AS}",
         "\\N": "\\mathbb{N}_0",
-        "\\PF": "\\operatorname{PF}"
+        "\\PF": "\\operatorname{PF}",
+        "\\im": "\\operatorname{im}"
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
@@ -14577,14 +14634,222 @@
       "status": "preparing",
       "target_digest": null,
       "target_path": null,
-      "title": "A negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "title": "Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question",
       "toolchain": null,
       "trureturing_write_back": {
         "request_url": null,
         "revision": null,
         "state": null
       },
-      "version": 2,
+      "version": 4,
+      "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "classification": "no_target_yet",
+      "contributor": null,
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s6",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
+      },
+      "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s6",
+      "macros": {
+        "\\AS": "\\mathcal{AS}",
+        "\\N": "\\mathbb{N}_0",
+        "\\PF": "\\operatorname{PF}",
+        "\\im": "\\operatorname{im}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "reason": "Formalization work is coordinated through the shared requests.",
+      "receipt": null,
+      "record": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+      "results": [],
+      "scope": "in_scope",
+      "statement": "Let $S$ be a proper almost symmetric numerical semigroup and let\n$T=\\Phi(S)$. Write $F(T)=2h-1$ and\n$T\\cap[0,F(T)]=\\{0=b_0<b_1<\\cdots<b_{h-1}\\}$.\nThen $b_i\\geq2i$ for every $0\\leq i<h$. Equivalently,\n\\[\n |T\\cap[0,r]|\\leq\\lfloor r/2\\rfloor+1\n \\qquad(0\\leq r\\leq F(T)).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "target_path": null,
+      "title": "Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "toolchain": null,
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 4,
+      "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "classification": "no_target_yet",
+      "contributor": null,
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
+      },
+      "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s7",
+      "macros": {
+        "\\AS": "\\mathcal{AS}",
+        "\\N": "\\mathbb{N}_0",
+        "\\PF": "\\operatorname{PF}",
+        "\\im": "\\operatorname{im}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "reason": "Formalization work is coordinated through the shared requests.",
+      "receipt": null,
+      "record": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+      "results": [],
+      "scope": "in_scope",
+      "statement": "The reduced symmetric numerical set\n$T_* = \\{0,2,3,6\\}\\cup\\{8,9,\\ldots\\}$ is not in the image of $\\Phi$.\nIts Frobenius number $7$ is minimal for such a counterexample.",
+      "status": "preparing",
+      "target_digest": null,
+      "target_path": null,
+      "title": "Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "toolchain": null,
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 4,
+      "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "classification": "no_target_yet",
+      "contributor": null,
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s8",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
+      },
+      "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s8",
+      "macros": {
+        "\\AS": "\\mathcal{AS}",
+        "\\N": "\\mathbb{N}_0",
+        "\\PF": "\\operatorname{PF}",
+        "\\im": "\\operatorname{im}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "reason": "Formalization work is coordinated through the shared requests.",
+      "receipt": null,
+      "record": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+      "results": [],
+      "scope": "in_scope",
+      "statement": "Let $T$ be a reduced symmetric numerical set with $2\\in T$ and\n$F(T)=2h-1$. Then $T$ is in the image of $\\Phi$ if and only if\n\\[\n T=\\{0,2,4,\\ldots,2h-2\\}\\cup[2h,\\infty).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "target_path": null,
+      "title": "Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "toolchain": null,
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 4,
+      "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "classification": "no_target_yet",
+      "contributor": null,
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s9",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
+      },
+      "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s9",
+      "macros": {
+        "\\AS": "\\mathcal{AS}",
+        "\\N": "\\mathbb{N}_0",
+        "\\PF": "\\operatorname{PF}",
+        "\\im": "\\operatorname{im}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "reason": "Formalization work is coordinated through the shared requests.",
+      "receipt": null,
+      "record": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+      "results": [],
+      "scope": "in_scope",
+      "statement": "The full-cell condition is equivalent to $b_i\\geq2i$ for every $i$.",
+      "status": "preparing",
+      "target_digest": null,
+      "target_path": null,
+      "title": "Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "toolchain": null,
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 4,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
