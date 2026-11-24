@@ -3,8 +3,8 @@
   "sha256": {
     ".github/workflows/check.yml": "1326c2e90b8a65dffdea934098e5e12da39d4dd84bb8aebcabf0fda1eeea7b91",
     ".gitignore": "d781522b5e8568bddad4a73a41e8839fc34b848b1e916e41f959212ae19bcb32",
-    "LEADERBOARD.md": "5e8afe85d7aefbca759ec586349ab7d42e7e485f1ac8383cddf50d8de3871291",
-    "README.md": "9e2c2ee0e6ea3f13e653a6fcb004e0f344e7833840c881d35d6d460b2a70892c",
+    "LEADERBOARD.md": "3127240afee99d4af38ab98b572cdd26d7f248333b3e50a6ac4762073d28d974",
+    "README.md": "4829d35c27bfac97a6936583bccc9aa4a91605fb2ccf00df9314f7fe123ce54e",
     "ci/mathlib/lake-manifest.json": "1bb9bfa56d042f2064d7a53a80f643e9cb1c9104bc1447a26153c267179922ed",
     "ci/mathlib/lakefile.toml": "955328a13ab3502ad02eae34a5944807286d2cf003a6ae4b4930823759a7f39b",
     "ci/mathlib/lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
@@ -39,7 +39,7 @@
     "environment/verifier/mathesis-libraries.json": "2e548199f33747004a68343b460c9addba8db6cbdb6fff9ca8def09ef9032302",
     "index/curated.json": "2858f5cd9c0a30bed45c133684d90bdfece535ebc2106c54d4696c2ad072cb30",
     "index/modules.json": "4b2fb7201a1bbfd3d204a2946235543f579e97badeadc7347cf2b53a68b58a7a",
-    "index/nodes.json": "e33e3a2fa0de4b727e7d3e1e709997c1699e3618547c988300daea5e715b940f",
+    "index/nodes.json": "8ff43058c695b9bc71c786dc5df28f0160ef3c7e228a1d1501d6d024cfda0778",
     "index/papers/a320043-square-values-refutation.json": "c948c86a23cd089432165f9fff5a0a66bcab066e6ac59c5c48a7453a84b99ca2",
     "index/papers/a374338-circle-vertices.json": "1a4318b9b00136932f3c52f7fdf8bf5519d749a669f335059dc62c63c7c51437",
     "index/papers/abbott-2019-sequential-weak-pointer-bound.json": "fd32a6091b4bd6f6610719703ec9b08333646f1d41217497b7e7d9f3bbdc0333",
@@ -162,6 +162,7 @@
     "index/papers/mathoverflow-469781-weighted-orthogonal-minors.json": "ec4e88b2e4e5793d24a7746c6c0eaa1a2ebe0793d3d7501b5ac1ff9db8333d29",
     "index/papers/mathoverflow-513954-singular-diagonal-downdate-inertia.json": "0d0c3dcf085d1736a88d2ffacaa11f95b356be081ce5bf11a7573e1e7c0eeffa",
     "index/papers/meddaugh-stephens-2025-mixing-small-periodic-sets.json": "1d63cc664f75bff370fb0820e16cfd071ee1f308a3193ce5a0841368d8c78e3e",
+    "index/papers/meddaugh-stephens-2025-neighborhood-shadowing-hierarchy.json": "485fdf3509edd1509388394f554a2f9830ce494ad40c97296418614cce65d74e",
     "index/papers/mertens-2024-grid-cylinder-joint-growth.json": "f8031edf89979c8052194109eff1a1a742af3d2c9c854f3946b43f0db851bd67",
     "index/papers/mertens-range-two-stable-matching.json": "5cbb2607f6277ec4e5abde65a27c606fd5606b859137f43dbe40535e4ed1842a",
     "index/papers/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy.json": "a2402d789e8e88e90ad59aa717bcf417421fb8509e8a651e59f2c56a49907012",
@@ -231,13 +232,13 @@
     "index/papers/zoroa-strong-dominance-counterexample.json": "fe645c926907d314fc981b298a463ce6bc47460ffe5b2f5267166a4d6eafe9b1",
     "lake-manifest.json": "31d9fe1308b6e99c7308078206dd497edc0cfa29f34bc504e13d0c973f24099e",
     "lakefile.toml": "dd119185c57ba8f2725a22fc24881014327d24730dc5e3c53530730eba353757",
-    "leaderboard.json": "3adcb73f033641699cb37e2d14b98e62977afaae5009e282d6c6208b481bf13a",
+    "leaderboard.json": "c8f94b9725968f04b75bd735733bc37a8cc6834ad2477a690caefe0c9bf7d131",
     "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
     "mathesis-libraries.json": "9b0ec746e25886a5861077cdf26644602d23fc6ead66f2a09bdd586ee1b53ba2",
     "proofs/README.md": "78ae39ce8ff7ba91e1cfa22980567bff4f17e3be8420400b6cdce4cf62661316",
     "scripts/build.py": "6fd5a960d6e78717e87c0bc36569f97d047d19b5252453bd295d21d2a54f126b",
     "scripts/check.py": "b0d37e3123131a988ac21a302b5683ae1f98324c2c49328701564293c3e04cbc",
-    "snapshot.json": "82a7b79a871c4edc9a8ed86edb68d846ed471a559a15f9f559fbb1d1fb985bc3",
+    "snapshot.json": "d5f8282d47df5d41c9bfa9966c35c04d6092a5cb47fafccb783746b148230580",
     "targets/README.md": "4e06f3c0858a586ee7e3056b6575652df9eea0ddb53dcb0ad5035ea9f03bdf77"
   }
 }
