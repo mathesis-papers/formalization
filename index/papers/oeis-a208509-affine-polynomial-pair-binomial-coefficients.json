@@ -46,10 +46,10 @@
         "macros": {
           "\\coeff": "[x^{#1}]\\,#2"
         },
-        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "next_step": "Formalization work is coordinated through the shared requests.",
         "proof_basis": null,
         "proof_state": "needs_attention",
-        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "reason": "Formalization work is coordinated through the shared requests.",
         "receipt": null,
         "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
         "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
@@ -95,10 +95,10 @@
         "macros": {
           "\\coeff": "[x^{#1}]\\,#2"
         },
-        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "next_step": "Formalization work is coordinated through the shared requests.",
         "proof_basis": null,
         "proof_state": "needs_attention",
-        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "reason": "Formalization work is coordinated through the shared requests.",
         "receipt": null,
         "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
         "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
@@ -144,10 +144,10 @@
         "macros": {
           "\\coeff": "[x^{#1}]\\,#2"
         },
-        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "next_step": "Formalization work is coordinated through the shared requests.",
         "proof_basis": null,
         "proof_state": "needs_attention",
-        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "reason": "Formalization work is coordinated through the shared requests.",
         "receipt": null,
         "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
         "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
@@ -193,10 +193,10 @@
         "macros": {
           "\\coeff": "[x^{#1}]\\,#2"
         },
-        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "next_step": "Formalization work is coordinated through the shared requests.",
         "proof_basis": null,
         "proof_state": "needs_attention",
-        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "reason": "Formalization work is coordinated through the shared requests.",
         "receipt": null,
         "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
         "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
@@ -242,10 +242,10 @@
         "macros": {
           "\\coeff": "[x^{#1}]\\,#2"
         },
-        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "next_step": "Formalization work is coordinated through the shared requests.",
         "proof_basis": null,
         "proof_state": "needs_attention",
-        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "reason": "Formalization work is coordinated through the shared requests.",
         "receipt": null,
         "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
         "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
@@ -291,10 +291,10 @@
         "macros": {
           "\\coeff": "[x^{#1}]\\,#2"
         },
-        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "next_step": "Formalization work is coordinated through the shared requests.",
         "proof_basis": null,
         "proof_state": "needs_attention",
-        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "reason": "Formalization work is coordinated through the shared requests.",
         "receipt": null,
         "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
         "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
@@ -340,10 +340,10 @@
         "macros": {
           "\\coeff": "[x^{#1}]\\,#2"
         },
-        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "next_step": "Formalization work is coordinated through the shared requests.",
         "proof_basis": null,
         "proof_state": "needs_attention",
-        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "reason": "Formalization work is coordinated through the shared requests.",
         "receipt": null,
         "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
         "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
@@ -389,10 +389,10 @@
         "macros": {
           "\\coeff": "[x^{#1}]\\,#2"
         },
-        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "next_step": "Formalization work is coordinated through the shared requests.",
         "proof_basis": null,
         "proof_state": "needs_attention",
-        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "reason": "Formalization work is coordinated through the shared requests.",
         "receipt": null,
         "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
         "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
@@ -438,10 +438,10 @@
         "macros": {
           "\\coeff": "[x^{#1}]\\,#2"
         },
-        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "next_step": "Formalization work is coordinated through the shared requests.",
         "proof_basis": null,
         "proof_state": "needs_attention",
-        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "reason": "Formalization work is coordinated through the shared requests.",
         "receipt": null,
         "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
         "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
@@ -487,10 +487,10 @@
         "macros": {
           "\\coeff": "[x^{#1}]\\,#2"
         },
-        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "next_step": "Formalization work is coordinated through the shared requests.",
         "proof_basis": null,
         "proof_state": "needs_attention",
-        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "reason": "Formalization work is coordinated through the shared requests.",
         "receipt": null,
         "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
         "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
@@ -536,10 +536,10 @@
         "macros": {
           "\\coeff": "[x^{#1}]\\,#2"
         },
-        "next_step": "Automatic translation needs attention before a proof can be checked.",
+        "next_step": "Formalization work is coordinated through the shared requests.",
         "proof_basis": null,
         "proof_state": "needs_attention",
-        "reason": "Automatic translation needs attention before a proof can be checked.",
+        "reason": "Formalization work is coordinated through the shared requests.",
         "receipt": null,
         "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
         "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
