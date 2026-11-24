@@ -1,0 +1,564 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+        },
+        "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s1",
+        "macros": {
+          "\\DS": "D(#1)",
+          "\\N": "\\mathbb N",
+          "\\cl": "\\operatorname{cl}",
+          "\\hatset": "\\widehat{#1}",
+          "\\op": "\\mathrm{op}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "In ZFC the Hausdorff space $X=\\DS{\\beta\\N}$ has countably compact\ncountable power and the bounded-clique property. The relation\n\\[\n R_\\tau=\\{(x,\\tau(x)):x\\in X\\}\\subseteq X^2\n\\]\nis a closed orthogonality with clique number exactly $2$ and\n$\\aleph_1\\le\\chi_\\op(R_\\tau)\\le 2^{\\aleph_0}$. Consequently $X$ does not have the\nfinite open chromatic property.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s10",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s10",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+        },
+        "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s10",
+        "macros": {
+          "\\DS": "D(#1)",
+          "\\N": "\\mathbb N",
+          "\\cl": "\\operatorname{cl}",
+          "\\hatset": "\\widehat{#1}",
+          "\\op": "\\mathrm{op}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The unit sphere $S^2\\subseteq\\mathbb R^3$, with literal orthogonality,\nhas $\\chi_\\op(S^2,\\perp)\\ge5$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+        },
+        "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s2",
+        "macros": {
+          "\\DS": "D(#1)",
+          "\\N": "\\mathbb N",
+          "\\cl": "\\operatorname{cl}",
+          "\\hatset": "\\widehat{#1}",
+          "\\op": "\\mathrm{op}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $K$ be compact Hausdorff and extremally disconnected. For any\nsequence $(p_n,q_n)$ with $p_n\\ne q_n$, there is a clopen\n$C\\subseteq K$ such that $p_n\\in C$ and $q_n\\notin C$ for infinitely\nmany indices $n$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s3",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+        },
+        "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s3",
+        "macros": {
+          "\\DS": "D(#1)",
+          "\\N": "\\mathbb N",
+          "\\cl": "\\operatorname{cl}",
+          "\\hatset": "\\widehat{#1}",
+          "\\op": "\\mathrm{op}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $K$ is compact Hausdorff and extremally disconnected, then\n$\\DS K^{\\,\\N}$, meaning $(\\DS K)^\\N$, is countably compact.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s4",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+        },
+        "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s4",
+        "macros": {
+          "\\DS": "D(#1)",
+          "\\N": "\\mathbb N",
+          "\\cl": "\\operatorname{cl}",
+          "\\hatset": "\\widehat{#1}",
+          "\\op": "\\mathrm{op}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $Y^\\N$ is countably compact, then $Y$ has the bounded-clique\nproperty.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s5",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+        },
+        "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s5",
+        "macros": {
+          "\\DS": "D(#1)",
+          "\\N": "\\mathbb N",
+          "\\cl": "\\operatorname{cl}",
+          "\\hatset": "\\widehat{#1}",
+          "\\op": "\\mathrm{op}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "No finite family of open $R_\\tau$-independent subsets covers $X$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+        },
+        "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s6",
+        "macros": {
+          "\\DS": "D(#1)",
+          "\\N": "\\mathbb N",
+          "\\cl": "\\operatorname{cl}",
+          "\\hatset": "\\widehat{#1}",
+          "\\op": "\\mathrm{op}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every nonempty finite or countably infinite set $I$, the\nHausdorff space $X^I$ has the bounded-clique property and fails\nthe finite open chromatic property.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+        },
+        "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s7",
+        "macros": {
+          "\\DS": "D(#1)",
+          "\\N": "\\mathbb N",
+          "\\cl": "\\operatorname{cl}",
+          "\\hatset": "\\widehat{#1}",
+          "\\op": "\\mathrm{op}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The witness $X$ is locally compact, zero-dimensional, separable,\ncountably compact and noncompact. Its square $X^2$ is not normal.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+        },
+        "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s8",
+        "macros": {
+          "\\DS": "D(#1)",
+          "\\N": "\\mathbb N",
+          "\\cl": "\\operatorname{cl}",
+          "\\hatset": "\\widehat{#1}",
+          "\\op": "\\mathrm{op}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every infinite compact Hausdorff extremally disconnected space $K$,\n$D(K)$ has the bounded-clique property and its swap relation has no\ncountable open independent cover.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s9",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s9",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+        },
+        "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s9",
+        "macros": {
+          "\\DS": "D(#1)",
+          "\\N": "\\mathbb N",
+          "\\cl": "\\operatorname{cl}",
+          "\\hatset": "\\widehat{#1}",
+          "\\op": "\\mathrm{op}"
+        },
+        "next_step": "Existing Lean evidence is being checked before new proof work.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Existing Lean evidence is being checked before new proof work.",
+        "receipt": null,
+        "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $I=\\beta\\N\\setminus\\N$. Then $X^\\N$ is countably compact but\n$X^I$ is not. In particular, $X$ is not $u$-compact for any free\nultrafilter $u$ on $\\N$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 3,
+        "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 3,
+  "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+}
