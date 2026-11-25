@@ -3,8 +3,8 @@
   "sha256": {
     ".github/workflows/check.yml": "1326c2e90b8a65dffdea934098e5e12da39d4dd84bb8aebcabf0fda1eeea7b91",
     ".gitignore": "d781522b5e8568bddad4a73a41e8839fc34b848b1e916e41f959212ae19bcb32",
-    "LEADERBOARD.md": "b5c63346bc0c427c941e0e073a25cf949f9a22e24e98d2619d9e1daa847f6a41",
-    "README.md": "ce7f7a072bac0d7870bf3d3a9de166412dd550889c6a2a289ae3e3a37764aab5",
+    "LEADERBOARD.md": "e7091813946cd1bafca21fbef6361606f249415887d16fe25957f9f8cd296d96",
+    "README.md": "cd573167062c17c0445b2302698f920b8a8bf8ac7a2e6bd58975a1dea9b051d7",
     "ci/mathlib/lake-manifest.json": "1bb9bfa56d042f2064d7a53a80f643e9cb1c9104bc1447a26153c267179922ed",
     "ci/mathlib/lakefile.toml": "955328a13ab3502ad02eae34a5944807286d2cf003a6ae4b4930823759a7f39b",
     "ci/mathlib/lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
@@ -232,13 +232,13 @@
     "index/papers/zoroa-strong-dominance-counterexample.json": "fe645c926907d314fc981b298a463ce6bc47460ffe5b2f5267166a4d6eafe9b1",
     "lake-manifest.json": "31d9fe1308b6e99c7308078206dd497edc0cfa29f34bc504e13d0c973f24099e",
     "lakefile.toml": "dd119185c57ba8f2725a22fc24881014327d24730dc5e3c53530730eba353757",
-    "leaderboard.json": "40c3601b3778410b9d1a2a99b02e16573404be8a883673d2d5382185cd7e1a18",
+    "leaderboard.json": "3cf62ea3e6a83269edc6eb1e27b18555d559872e2f8c7bc6f41d70f74a68a601",
     "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
     "mathesis-libraries.json": "9b0ec746e25886a5861077cdf26644602d23fc6ead66f2a09bdd586ee1b53ba2",
     "proofs/README.md": "78ae39ce8ff7ba91e1cfa22980567bff4f17e3be8420400b6cdce4cf62661316",
     "scripts/build.py": "6fd5a960d6e78717e87c0bc36569f97d047d19b5252453bd295d21d2a54f126b",
     "scripts/check.py": "b0d37e3123131a988ac21a302b5683ae1f98324c2c49328701564293c3e04cbc",
-    "snapshot.json": "fa2eb9d20b150180f9685e0ad1e612c4a1d233bc5690f631c4b63c3035242a0a",
+    "snapshot.json": "f72aaa15e6ffea9921b7c1cec21597ed3d027c5798225b4a405be890f3b82d97",
     "targets/README.md": "4e06f3c0858a586ee7e3056b6575652df9eea0ddb53dcb0ad5035ea9f03bdf77"
   }
 }
