@@ -1,0 +1,450 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+        },
+        "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s1",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\Span": "\\operatorname{span}_{\\C}",
+          "\\T": "\\mathbb T",
+          "\\diag": "\\operatorname{diag}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Every nonempty hyperdisk contained in $C$ has dimension one. The set $C$\nhas a continuum of rays and $\\Span(C)=L$, of complex dimension three.\nConsequently the least cardinality of a hyperdisk cover of $C$ is\n$\\mathfrak c=|\\mathbb R|$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+        },
+        "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s2",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\Span": "\\operatorname{span}_{\\C}",
+          "\\T": "\\mathbb T",
+          "\\diag": "\\operatorname{diag}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $|\\sum_pa_pu_p|$ is constant for all independent $u_p\\in\\T$, then\nat most one $a_p$ is nonzero.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+        },
+        "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s3",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\Span": "\\operatorname{span}_{\\C}",
+          "\\T": "\\mathbb T",
+          "\\diag": "\\operatorname{diag}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The proposed span-dimension upper bound in Ding--Hu,\narXiv:1909.11256v1, Section V, p.~6 (25 September 2019), is false:\na regular subset of span dimension three can require $\\mathfrak c$\ncontained hyperdisks.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+        },
+        "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s4",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\Span": "\\operatorname{span}_{\\C}",
+          "\\T": "\\mathbb T",
+          "\\diag": "\\operatorname{diag}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Four is the smallest ambient hyperdisk dimension admitting a regular\nsubset without a finite cover by contained hyperdisks.\nFor nondegenerate masking machines, the smallest input dimension and\nmarginal rank allowing such a cover obstruction are $n=3$ and $d=4$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+        },
+        "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s5",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\Span": "\\operatorname{span}_{\\C}",
+          "\\T": "\\mathbb T",
+          "\\diag": "\\operatorname{diag}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "There is a masking machine with input dimension $n=3$ and Schmidt\nnumber $d=4$, whose complete maskable set has no finite or countable\nhyperdisk cover, although its fixed marginal states are nondegenerate.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+        },
+        "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s6",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\Span": "\\operatorname{span}_{\\C}",
+          "\\T": "\\mathbb T",
+          "\\diag": "\\operatorname{diag}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $d\\ge4$ and $r_j>0$ with $\\sum_{j=0}^{d-1}r_j^2=1$. Set\n\\[\n S_d=\\{x\\in\\C^d:|x_j|=r_j\\},\\qquad\n L_d=\\left\\{x:\\frac{x_0}{r_0}+\\frac{x_1}{r_1}\n                 +\\frac{x_2}{r_2}+\\frac{2x_3}{r_3}=0\\right\\}.\n\\]\nThen $C_d=L_d\\cap S_d$ is regular, spans $L_d$, and its least\nhyperdisk-cover cardinality is $\\mathfrak c$.\nThe isometry $x\\mapsto\\sum_jx_j|jj\\rangle$ on $L_d$ has complete maskable\nset $C_d$ for marginals $\\diag(r_0^2,\\ldots,r_{d-1}^2)$ and input dimension\n$d-1$. In particular, every nondegenerate rank-$d$ spectrum occurs.\nMore generally, for every $3\\le n<d$, the subspace\n\\[\n L_{d,n}=\\left\\{x\\in L_d:\n       \\frac{x_j}{r_j}=\\frac{x_3}{r_3}\\quad(n+1\\le j\\le d-1)\\right\\}\n\\]\nhas dimension $n$, and $L_{d,n}\\cap S_d$ has the same cover cardinality\nand complete masking realization. Hence the pairs $(n,d)$ admitting a\nnondegenerate masking machine without a finite hyperdisk cover are\nexactly $3\\le n<d$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+        },
+        "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s7",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\Span": "\\operatorname{span}_{\\C}",
+          "\\T": "\\mathbb T",
+          "\\diag": "\\operatorname{diag}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Each complete target set in Ding--Hu Eqs.~(36) and (51) has least\nhyperdisk-cover cardinality $\\mathfrak c$. The latter has no contained\nhyperdisk of dimension greater than one, as stated in that paper.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+        },
+        "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s8",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\Span": "\\operatorname{span}_{\\C}",
+          "\\T": "\\mathbb T",
+          "\\diag": "\\operatorname{diag}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The set $\\mathcal D_r$ is maximal maskable among density matrices on\n$\\C^d$. The convex hull of $\\mathcal P_r$ equals $\\mathcal D_r$ for\n$d\\le3$ and is a proper subset for every $d\\ge4$.\nConsequently Zhu's Conjecture~1 holds for $d=2,3$ and is false for $d\\ge4$;\nthe corrected maximal set is $\\mathcal D_r$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+}

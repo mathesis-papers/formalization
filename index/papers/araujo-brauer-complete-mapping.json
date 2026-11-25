@@ -1,0 +1,639 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:araujo-brauer-complete-mapping:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+        },
+        "lineage": "collected:araujo-brauer-complete-mapping:s1",
+        "macros": {
+          "\\B": "\\mathcal B",
+          "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+          "\\PB": "\\mathcal{PB}",
+          "\\Sym": "\\mathfrak S",
+          "\\Z": "\\mathbb Z",
+          "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+          "\\sgn": "\\operatorname{sgn}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "araujo-brauer-complete-mapping",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $n\\ge1$ the following statements hold.\n\\begin{enumerate}\n\\item Each of $\\B_n$ and $\\PB_n$ has a complete mapping if and only if $n=1$ or $n\\ge4$.\n\\item Every proper principal factor of $\\B_n$ has a complete mapping. The same is true for $\\PB_n$ except for its rank-two factor when $n=3$.\n\\item Let $0\\le q\\le n$ and let $I_q(D)=\\{x\\in D:\\operatorname{rank}(x)\\le q\\}$ be nonempty. Then $I_q(\\B_n)$ has a complete mapping exactly when $n\\notin\\{2,3\\}$ or $q<n$. The ideal $I_q(\\PB_n)$ has one exactly when $n\\notin\\{2,3\\}$ or $q\\le1$.\n\\end{enumerate}\nThe first two assertions are Dong's theorem~\\cite[Theorem~1.1]{Dong}; the third is its rankwise consequence. In every affirmative case there is a transversal in each included rank class whose products retain that rank.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "araujo-brauer-complete-mapping"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s10",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:araujo-brauer-complete-mapping:2:s10",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+        },
+        "lineage": "collected:araujo-brauer-complete-mapping:s10",
+        "macros": {
+          "\\B": "\\mathcal B",
+          "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+          "\\PB": "\\mathcal{PB}",
+          "\\Sym": "\\mathfrak S",
+          "\\Z": "\\mathbb Z",
+          "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+          "\\sgn": "\\operatorname{sgn}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "araujo-brauer-complete-mapping",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $r=2,3$ and $m\\ge1$, the Brandt semigroup $B(\\Sym_r,m)$, with $m$-by-$m$ identity sandwich matrix, has a complete mapping if and only if $m$ is even.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "araujo-brauer-complete-mapping"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s11",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:araujo-brauer-complete-mapping:2:s11",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+        },
+        "lineage": "collected:araujo-brauer-complete-mapping:s11",
+        "macros": {
+          "\\B": "\\mathcal B",
+          "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+          "\\PB": "\\mathcal{PB}",
+          "\\Sym": "\\mathfrak S",
+          "\\Z": "\\mathbb Z",
+          "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+          "\\sgn": "\\operatorname{sgn}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "araujo-brauer-complete-mapping",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $J$ be the minimal rank class of $\\B_n$, or the rank-zero class of $\\PB_n$. If there are $m$ half diagrams, then $J$ and its factor with an additional zero each have exactly $(m!)^{2m}$ complete mappings.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "araujo-brauer-complete-mapping"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:araujo-brauer-complete-mapping:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+        },
+        "lineage": "collected:araujo-brauer-complete-mapping:s2",
+        "macros": {
+          "\\B": "\\mathcal B",
+          "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+          "\\PB": "\\mathcal{PB}",
+          "\\Sym": "\\mathfrak S",
+          "\\Z": "\\mathbb Z",
+          "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+          "\\sgn": "\\operatorname{sgn}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "araujo-brauer-complete-mapping",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $S$ be a finite semigroup and let $\\ell:S\\to\\mathbb Z$ satisfy $\\ell(xy)\\le\\min(\\ell(x),\\ell(y))$. If $\\alpha$ is complete and $\\theta(x)=x\\alpha(x)$, both $\\alpha$ and $\\theta$ preserve every level of $\\ell$. This is the sublevel-set form of~\\cite[Proposition~3.1]{ABCHK}.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "araujo-brauer-complete-mapping"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:araujo-brauer-complete-mapping:2:s3",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+        },
+        "lineage": "collected:araujo-brauer-complete-mapping:s3",
+        "macros": {
+          "\\B": "\\mathcal B",
+          "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+          "\\PB": "\\mathcal{PB}",
+          "\\Sym": "\\mathfrak S",
+          "\\Z": "\\mathbb Z",
+          "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+          "\\sgn": "\\operatorname{sgn}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "araujo-brauer-complete-mapping",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $G$ has a complete mapping, then $P$ over $G\\cup\\{0\\}$ has a transversal. If $|I|$ is even, the same holds for $G=C_2$ and $G=\\Sym_3$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "araujo-brauer-complete-mapping"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:araujo-brauer-complete-mapping:2:s4",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+        },
+        "lineage": "collected:araujo-brauer-complete-mapping:s4",
+        "macros": {
+          "\\B": "\\mathcal B",
+          "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+          "\\PB": "\\mathcal{PB}",
+          "\\Sym": "\\mathfrak S",
+          "\\Z": "\\mathbb Z",
+          "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+          "\\sgn": "\\operatorname{sgn}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "araujo-brauer-complete-mapping",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Suppose $P$ has entries in $\\{0,+1,-1\\}$, with diagonal~$1$. Let $\\rho$ permute $I$ with $p_{d,\\rho d}=w_d\\ne0$. If on every cycle $C$ of $\\rho$,\n\\begin{equation}\n \\prod_{d\\in C}w_d=(-1)^{|C|},\n\\end{equation}\nthen $P$ has a transversal over $\\{+1,-1\\}$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "araujo-brauer-complete-mapping"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:araujo-brauer-complete-mapping:2:s5",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+        },
+        "lineage": "collected:araujo-brauer-complete-mapping:s5",
+        "macros": {
+          "\\B": "\\mathcal B",
+          "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+          "\\PB": "\\mathcal{PB}",
+          "\\Sym": "\\mathfrak S",
+          "\\Z": "\\mathbb Z",
+          "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+          "\\sgn": "\\operatorname{sgn}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "araujo-brauer-complete-mapping",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "A transversal for the sign quotient of a sandwich matrix over $\\Sym_3\\cup\\{0\\}$ lifts to a transversal for the original matrix.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "araujo-brauer-complete-mapping"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:araujo-brauer-complete-mapping:2:s6",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+        },
+        "lineage": "collected:araujo-brauer-complete-mapping:s6",
+        "macros": {
+          "\\B": "\\mathcal B",
+          "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+          "\\PB": "\\mathcal{PB}",
+          "\\Sym": "\\mathfrak S",
+          "\\Z": "\\mathbb Z",
+          "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+          "\\sgn": "\\operatorname{sgn}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "araujo-brauer-complete-mapping",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Two Brauer half diagrams whose through sets are equal, or differ by one vertex, have nonzero transport. Equal through sets give identity transport; reversing a transport gives its inverse. If three through sets are\n\\[\n S\\cup\\{a,b\\},\\quad S\\cup\\{a,c\\},\\quad S\\cup\\{b,c\\},\n\\]\nwhere $a,b,c$ are distinct and outside $S$, the product of the signs of their three cyclic transports is $-1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "araujo-brauer-complete-mapping"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:araujo-brauer-complete-mapping:2:s7",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+        },
+        "lineage": "collected:araujo-brauer-complete-mapping:s7",
+        "macros": {
+          "\\B": "\\mathcal B",
+          "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+          "\\PB": "\\mathcal{PB}",
+          "\\Sym": "\\mathfrak S",
+          "\\Z": "\\mathbb Z",
+          "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+          "\\sgn": "\\operatorname{sgn}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "araujo-brauer-complete-mapping",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $(n,r)=(6+4k,2)$ or $(7+4k,3)$, $k\\ge0$, the $r$-subsets of $\\{0,\\ldots,n-1\\}$ can be paired with adjacent subsets, leaving exactly three unpaired sets of the form in Lemma~\\ref{lem:overlay}. Here adjacent means intersection size $r-1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "araujo-brauer-complete-mapping"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:araujo-brauer-complete-mapping:2:s8",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+        },
+        "lineage": "collected:araujo-brauer-complete-mapping:s8",
+        "macros": {
+          "\\B": "\\mathcal B",
+          "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+          "\\PB": "\\mathcal{PB}",
+          "\\Sym": "\\mathfrak S",
+          "\\Z": "\\mathbb Z",
+          "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+          "\\sgn": "\\operatorname{sgn}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "araujo-brauer-complete-mapping",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For the two families in Lemma~\\ref{lem:subset}, the set of Brauer half diagrams has a permutation with one three-cycle and all other cycles of length two, such that all cyclic transports exist, the sign product on each two-cycle is $+1$, and that on the three-cycle is $-1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "araujo-brauer-complete-mapping"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s9",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:araujo-brauer-complete-mapping:2:s9",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+        },
+        "lineage": "collected:araujo-brauer-complete-mapping:s9",
+        "macros": {
+          "\\B": "\\mathcal B",
+          "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+          "\\PB": "\\mathcal{PB}",
+          "\\Sym": "\\mathfrak S",
+          "\\Z": "\\mathbb Z",
+          "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+          "\\sgn": "\\operatorname{sgn}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "araujo-brauer-complete-mapping",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every complete mapping $\\alpha$ of a Brauer or partial Brauer monoid, or of a nonempty rank ideal, $\\alpha$, $\\theta:x\\mapsto x\\alpha(x)$ and $\\alpha^{-1}\\theta$ preserve rank. Each cycle is contained in one rank class. Conversely any choice of rank-preserving transversals in the included rank classes unites to a complete mapping.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "araujo-brauer-complete-mapping"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "araujo-brauer-complete-mapping"
+}
