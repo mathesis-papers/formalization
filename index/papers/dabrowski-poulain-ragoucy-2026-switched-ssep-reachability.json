@@ -1,0 +1,502 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+        },
+        "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s1",
+        "macros": {
+          "\\Sym": "\\operatorname{Sym}",
+          "\\charge": "\\chi",
+          "\\supp": "\\operatorname{supp}",
+          "\\twist": "\\mathcal{B}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Full switching reachability is equivalent to connectivity of $\\Gamma$.\nFor $L\\geq3$, it is equivalent to transitivity of $D$ on $X$.\nFor $L=2$, it is equivalent to transitivity of $K$ on $X^2$, or equivalently to\n\\begin{equation}\n |K|=N^2\\,|K\\cap(H_a\\times H_a)|\n\\end{equation}\nfor some, equivalently every, $a\\in X$.\nFor any $L\\geq2$, full switching reachability implies that $D$ is transitive.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+        },
+        "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s2",
+        "macros": {
+          "\\Sym": "\\operatorname{Sym}",
+          "\\charge": "\\chi",
+          "\\supp": "\\operatorname{supp}",
+          "\\twist": "\\mathcal{B}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $L\\geq3$, then $D^L\\leq R$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s3",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+        },
+        "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s3",
+        "macros": {
+          "\\Sym": "\\operatorname{Sym}",
+          "\\charge": "\\chi",
+          "\\supp": "\\operatorname{supp}",
+          "\\twist": "\\mathcal{B}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Suppose $H$ is transitive and $L\\geq3$. Two configurations lie in the same\ncomponent of $\\Gamma$ if and only if their total charges $Q$ agree.\nConsequently $\\Gamma$ has exactly $q=|H/(D H_a)|$ components, each of size\n$N^L/q$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s4",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+        },
+        "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s4",
+        "macros": {
+          "\\Sym": "\\operatorname{Sym}",
+          "\\charge": "\\chi",
+          "\\supp": "\\operatorname{supp}",
+          "\\twist": "\\mathcal{B}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $L\\geq3$, and let $O_1,\\ldots,O_r$ be the $H$-orbits on $X$.\nChoose $a_j\\in O_j$ and fix a profile $n=(n_1,\\ldots,n_r)$ with\n$n_j\\geq0$ and $\\sum_j n_j=L$. Put $B=H/D$, let $B_j$ be the image\nof $H_{a_j}$ in $B$, and define the finite abelian group\n\\[\n C_n=B\\Big/\\sum_{j:n_j>0}B_j.\n\\]\nFor $b=h(a_j)\\in O_j$ with $n_j>0$, set $\\chi_n(b)$ equal to the image of $h$ in $C_n$.\nWithin the configurations having $n_j$ entries in $O_j$, the connected\ncomponents are precisely the fibers of $Q_n(x)=\\sum_i\\chi_n(x_i)$.\nThere are $q_n=|C_n|$ such components, each of cardinality\n\\begin{equation}\n \\frac{1}{q_n}\\frac{L!}{\\prod_j n_j!}\\prod_j |O_j|^{n_j}.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+        },
+        "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s5",
+        "macros": {
+          "\\Sym": "\\operatorname{Sym}",
+          "\\charge": "\\chi",
+          "\\supp": "\\operatorname{supp}",
+          "\\twist": "\\mathcal{B}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $f,g$ are powers of a permutation $h$, write $H=\\langle f,g\\rangle$\nand let its orbits have lengths $c_1,\\ldots,c_r$.\nFor each profile $n$, put $d_n=\\gcd(c_j:n_j>0)$.\nFor $L\\geq3$ there are exactly $d_n$ components with that profile,\neach of size $\\frac{L!}{\\prod_j n_j!}\\prod_j c_j^{n_j}/d_n$.\nIn particular, when $H$ is transitive, there are $N$ components of size\n$N^{L-1}$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+        },
+        "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s6",
+        "macros": {
+          "\\Sym": "\\operatorname{Sym}",
+          "\\charge": "\\chi",
+          "\\supp": "\\operatorname{supp}",
+          "\\twist": "\\mathcal{B}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $N>1$ and $f,g$ commute, full switching reachability fails for every $L\\geq2$.\nIn particular, this holds if one twist is the identity or both are powers of\nthe same permutation.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+        },
+        "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s7",
+        "macros": {
+          "\\Sym": "\\operatorname{Sym}",
+          "\\charge": "\\chi",
+          "\\supp": "\\operatorname{supp}",
+          "\\twist": "\\mathcal{B}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Replace equilibration by evolution for any strictly positive time at each\nalternating stage. The switching support, the criteria of\nTheorem~\\ref{thm:main}, and the bound $2(m-1)$ on the number of switches needed\nto fill an initially occupied component of size $m$ remain valid.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+        },
+        "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s8",
+        "macros": {
+          "\\Sym": "\\operatorname{Sym}",
+          "\\charge": "\\chi",
+          "\\supp": "\\operatorname{supp}",
+          "\\twist": "\\mathcal{B}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $S$ be a nonempty finite family of twists and let $H=\\langle S\\rangle$.\nFor $L\\geq3$, full switching reachability is equivalent to transitivity of\n$[H,H]$, and Theorem~\\ref{thm:profile} classifies all components.\nThese conclusions hold with either equilibration or strictly positive dwell\ntimes whenever every twist occurs infinitely often. If every consecutive\nblock of $b$ stages contains every twist, an initial nonempty support fills\nits component of size $m$ within at most $b(m-1)$ stages.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s9",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s9",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+        },
+        "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s9",
+        "macros": {
+          "\\Sym": "\\operatorname{Sym}",
+          "\\charge": "\\chi",
+          "\\supp": "\\operatorname{supp}",
+          "\\twist": "\\mathcal{B}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Repeat a fixed nonempty finite list of twists, using either equilibration at each stage\nor a fixed strictly positive dwell time for each stage of the period.\nFor any $L\\geq2$, the distribution converges to the mixture of uniform laws\non the union-graph components, with weights equal to their initial masses.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+}

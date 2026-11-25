@@ -1,0 +1,353 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": null,
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bergman-question15:5:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": null,
+        "lineage": "collected:bergman-question15:s1",
+        "macros": {
+          "\\C": "\\mathbb C"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bergman-question15",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $S$ presented by~\\eqref{eq:generators}--\\eqref{eq:seven}, let\n$X=\\{x,y,z\\}$. The sixth-power map is injective on $X$ and takes no element\nof $X$ to zero. If $\\omega\\in\\C$ is a primitive cube root of unity, then\n\\[\nu=x+\\omega y+\\omega^2z\\in\\C X\n\\]\nis nonzero and satisfies $u^6=0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 5,
+        "work": "bergman-question15"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bergman-question15:5:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": null,
+        "lineage": "collected:bergman-question15:s2",
+        "macros": {
+          "\\C": "\\mathbb C"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bergman-question15",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $F$ be a field of characteristic zero, and let $T$ be either $S$ or\n$\\bar S$. A nonzero element of $F\\{x,y,z\\}\\subseteq F_0T$ has sixth power\nzero if and only if $F$ contains a primitive cube root of unity.\nEvery nonzero element in the span of any two of $x,y,z$ has nonzero sixth power.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 5,
+        "work": "bergman-question15"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bergman-question15:5:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": null,
+        "lineage": "collected:bergman-question15:s3",
+        "macros": {
+          "\\C": "\\mathbb C"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bergman-question15",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every positive integer $n$ divisible by six and every characteristic-zero\nfield $F$ containing a primitive cube root of unity, there are commutative\nnilpotent semigroups with zero of sizes\n\\[\n\\binom{n+2}{3}+3\\quad\\hbox{and}\\quad \\frac{3n(n-1)}2+4\n\\]\nwhose three generators have distinct nonzero $n$th powers, although a\nnonzero element of their $F$-span has $n$th power zero.\nTheir nilpotency indices are $n+1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 5,
+        "work": "bergman-question15"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bergman-question15:5:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": null,
+        "lineage": "collected:bergman-question15:s4",
+        "macros": {
+          "\\C": "\\mathbb C"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bergman-question15",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The branch of Bergman's Question 19 that drops commutativity from\nQuestion 15 also has answer no. There is even a strictly noncommutative\nnilpotent example with $196$ elements at $n=6$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 5,
+        "work": "bergman-question15"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bergman-question15:5:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": null,
+        "lineage": "collected:bergman-question15:s5",
+        "macros": {
+          "\\C": "\\mathbb C"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bergman-question15",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "There is a $632$-element commutative nilpotent semigroup with zero\nand two generators having distinct nonzero $35$th powers, while their\nspan in its contracted algebra over every characteristic-zero field\ncontains a nonzero element with $35$th power zero.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 5,
+        "work": "bergman-question15"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bergman-question15:5:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": null,
+        "lineage": "collected:bergman-question15:s6",
+        "macros": {
+          "\\C": "\\mathbb C"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bergman-question15",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $n\\ge2$, the Question-15 branch of Bergman's Question 19\nhas a strictly noncommutative nilpotent example of $2n+1$ elements\nover every characteristic-zero field. In particular, $13$ elements\nsuffice at $n=6$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 5,
+        "work": "bergman-question15"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bergman-question15:5:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": null,
+        "lineage": "collected:bergman-question15:s7",
+        "macros": {
+          "\\C": "\\mathbb C"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bergman-question15",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For these generating sets, the cardinalities $|X^d\\setminus\\{0\\}|$ for $1\\le d\\le6$\nare $(3,6,10,15,21,3)$ in $S$ and $(3,6,9,12,15,3)$ in $\\bar S$.\nThe element $0$ belongs to $X^6$ in both examples and is excluded from these counts.\nIn particular both examples satisfy the inequality asked for in\nQuestion 11 for this $X$ and $n=6$.\nMore generally, for the family in Corollary~\\ref{cor:multiples} the counts\nare $\\binom{d+2}{2}$ and $3d$, respectively, for $1\\le d<n$,\nand both are $3$ for $d=n$, so the same compatibility holds.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 5,
+        "work": "bergman-question15"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 5,
+  "work": "bergman-question15"
+}

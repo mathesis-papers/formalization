@@ -1,0 +1,442 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala281428-factorial-valuations:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+        },
+        "lineage": "collected:bala281428-factorial-valuations:s1",
+        "macros": {
+          "\\Q": "\\mathbb{Q}",
+          "\\Z": "\\mathbb{Z}",
+          "\\coeff": "[#1]#2"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala281428-factorial-valuations",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Equation \\eqref{eq:source} has a unique solution, which is even.\nIts coefficients satisfy $a(n)\\in\\Z$ and\n\\begin{equation}\nv_p(a(n))\\ \\geq\\ v_p((2n)!)\\qquad(n\\geq0,\\ p\\geq5\\text{ prime}).\n\\end{equation}\nConsequently, if $(N,6)=1$ and $N\\mid(2n)!$, then $N\\mid a(n)$.\nIn particular $n\\geq\\lceil N/2\\rceil$ is sufficient.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala281428-factorial-valuations"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala281428-factorial-valuations:2:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+        },
+        "lineage": "collected:bala281428-factorial-valuations:s2",
+        "macros": {
+          "\\Q": "\\mathbb{Q}",
+          "\\Z": "\\mathbb{Z}",
+          "\\coeff": "[#1]#2"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala281428-factorial-valuations",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $F\\in\\Z[s,c]$ and $j\\geq0$, the number\n$b_F(j)=j!\\coeff{x^j}{F(S(x),C(x))}$ is an integer, and\n$v_p(b_F(j))\\geq v_p(j!)$ for every prime $p\\geq5$.\nIn particular this holds for all columns\n$A(n,k)=(2n)!\\coeff{x^{2n}}{C^k}$ with $k\\geq0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala281428-factorial-valuations"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala281428-factorial-valuations:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+        },
+        "lineage": "collected:bala281428-factorial-valuations:s3",
+        "macros": {
+          "\\Q": "\\mathbb{Q}",
+          "\\Z": "\\mathbb{Z}",
+          "\\coeff": "[#1]#2"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala281428-factorial-valuations",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $N\\geq1$ coprime to $6$, let\n\\[\n\\mu(N)=\\min\\{m\\geq0:N\\mid m!\\}.\n\\]\nThen $N\\mid a(n)$ for all $n\\geq\\lceil\\mu(N)/2\\rceil$.\nFor $N=385$ the least eventual-zero onset is $6$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala281428-factorial-valuations"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala281428-factorial-valuations:2:s4",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+        },
+        "lineage": "collected:bala281428-factorial-valuations:s4",
+        "macros": {
+          "\\Q": "\\mathbb{Q}",
+          "\\Z": "\\mathbb{Z}",
+          "\\coeff": "[#1]#2"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala281428-factorial-valuations",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $k\\geq0$, $A(0,k)=1$, and for $n\\geq1$,\n\\begin{equation}\nA(n,k)=k(k+4)A(n-1,k+8)-k(k+3)A(n-1,k+6).\n\\end{equation}\nEvery $a(n)$ is odd, and $a(n)\\equiv(-1)^{n-1}\\pmod3$ for $n\\geq1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala281428-factorial-valuations"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala281428-factorial-valuations:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+        },
+        "lineage": "collected:bala281428-factorial-valuations:s5",
+        "macros": {
+          "\\Q": "\\mathbb{Q}",
+          "\\Z": "\\mathbb{Z}",
+          "\\coeff": "[#1]#2"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala281428-factorial-valuations",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $N\\geq1$, $N$ divides all sufficiently late $a(n)$ if and only if\n$(N,6)=1$. In fact no $a(n)$ is divisible by $2$ or $3$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala281428-factorial-valuations"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala281428-factorial-valuations:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+        },
+        "lineage": "collected:bala281428-factorial-valuations:s6",
+        "macros": {
+          "\\Q": "\\mathbb{Q}",
+          "\\Z": "\\mathbb{Z}",
+          "\\coeff": "[#1]#2"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala281428-factorial-valuations",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "With the original offsets, put\n$h(n)=(2n-1)!\\coeff{x^{2n-1}}S$ for $n\\geq1$ (A281427), and\n$r(n)=(2n)!\\coeff{x^{2n}}{C^2}$ for $n\\geq0$ (A052502).\nFor $p\\geq5$, $v_p(h(n))\\geq v_p((2n-1)!)$.\nA positive $N$ eventually divides $h(n)$ exactly when $(N,6)=1$;\na sufficient onset is $\\lceil(\\mu(N)+1)/2\\rceil$.\nMoreover\n\\[\nr(n)=\\frac{(3n)!}{3^n n!},\\qquad\nv_p(r(n))\\geq v_p((2n)!)\\quad(p\\ne3).\n\\]\nA positive $N$ eventually divides $r(n)$ exactly when $3\\nmid N$,\nwith sufficient onset $\\lceil\\mu(N)/2\\rceil$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala281428-factorial-valuations"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala281428-factorial-valuations:2:s7",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+        },
+        "lineage": "collected:bala281428-factorial-valuations:s7",
+        "macros": {
+          "\\Q": "\\mathbb{Q}",
+          "\\Z": "\\mathbb{Z}",
+          "\\coeff": "[#1]#2"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala281428-factorial-valuations",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Modulo $27$, $a(n)$ has least eventual period $18$, and the earliest\nonset for this period is $n=2$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala281428-factorial-valuations"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala281428-factorial-valuations:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+        },
+        "lineage": "collected:bala281428-factorial-valuations:s8",
+        "macros": {
+          "\\Q": "\\mathbb{Q}",
+          "\\Z": "\\mathbb{Z}",
+          "\\coeff": "[#1]#2"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala281428-factorial-valuations",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "In A281183, \\textsc{Formula}, December 22, 2025, define polynomials\n$g_0(z)=1$ and $g_{j+1}(z)=(1+z^2)\\frac{d}{dz}((1+z^2)g_j(z))$.\nThen $g_{2n}(0)$ is the $n$th term of A281183, as suggested there.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala281428-factorial-valuations"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "bala281428-factorial-valuations"
+}
