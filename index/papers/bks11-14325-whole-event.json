@@ -1,0 +1,391 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bks11-14325-whole-event:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+        },
+        "lineage": "collected:bks11-14325-whole-event:s1",
+        "macros": {
+          "\\N": "\\mathbb N",
+          "\\Z": "\\mathbb Z",
+          "\\coef": "[z^{#1}]#2"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bks11-14325-whole-event",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "We have $A_1=1$. For every $j\\geq1$, $A_j\\equiv1\\pmod5$; for $j\\geq2$,\n\\begin{equation}\n A_j\\equiv3C_j\\pmod4.\n\\end{equation}\nConsequently, for every $j\\geq1$,\n\\begin{align}\n A_j&\\equiv\n \\begin{cases}1&j+1=2^k\\text{ for some }k\\geq1,\\\\\n 6&\\text{otherwise}\\end{cases}\\pmod {10},\\\\\n 4\\nmid A_j&\\quad\\Longleftrightarrow\\quad\n j+1=2^i+2^p\\text{ for some }0\\leq p\\leq i.\n\\end{align}\nEqual exponents and exponent zero are included in~\\eqref{eq:four}.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bks11-14325-whole-event"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bks11-14325-whole-event:2:s2",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+        },
+        "lineage": "collected:bks11-14325-whole-event:s2",
+        "macros": {
+          "\\N": "\\mathbb N",
+          "\\Z": "\\mathbb Z",
+          "\\coef": "[z^{#1}]#2"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bks11-14325-whole-event",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $m\\geq2$ with $\\gcd(m,6)=1$, and let\n\\[\n r=\\min\\{s\\geq1:m\\mid 36s^2-1\\}.\n\\]\nThis integer exists, with $r\\leq(m-1)/6$ when $m\\equiv1\\pmod6$ and\n$r\\leq(m+1)/6$ when $m\\equiv5\\pmod6$.\nLet $J_r$ be the $r$ by $r$ matrix, indexed from zero, with\n\\[\n (J_r)_{h,h}=12h+6,\\quad (J_r)_{h,h+1}=1,\\quad\n (J_r)_{h,h-1}=36h^2-1,\n\\]\nwhere entries outside the matrix are omitted and all other entries\nare zero. Over $\\Z/m\\Z$,\n\\begin{equation}\n \\sum_{n\\geq0}a_nz^n\n =e_0^{\\mathsf T}(I-zJ_r)^{-1}e_0\n =\\frac{\\det\\bigl((I-zJ_r)_{\\widehat0,\\widehat0}\\bigr)}{\\det(I-zJ_r)}.\n\\end{equation}\nThe numerator deletes row and column zero; the empty determinant is one. If\n$D(z)=\\det(I-zJ_r)=1+d_1z+\\cdots+d_rz^r$, then\n\\begin{equation}\n a_n+d_1a_{n-1}+\\cdots+d_ra_{n-r}=0\\pmod m\n \\qquad(n\\geq r).\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bks11-14325-whole-event"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bks11-14325-whole-event:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+        },
+        "lineage": "collected:bks11-14325-whole-event:s3",
+        "macros": {
+          "\\N": "\\mathbb N",
+          "\\Z": "\\mathbb Z",
+          "\\coef": "[z^{#1}]#2"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bks11-14325-whole-event",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For all $j\\geq1$,\n\\[\n A_j\\equiv6^{j-1}\\equiv\n \\begin{cases}1&j\\text{ odd},\\\\6&j\\text{ even}\\end{cases}\\pmod{35}.\n\\]\nFor $j\\geq2$, this strengthens the modulo-twenty consequence to\n\\begin{equation}\n A_j\\equiv36\\cdot6^{j-1}+35C_j\\pmod{140}.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bks11-14325-whole-event"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bks11-14325-whole-event:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+        },
+        "lineage": "collected:bks11-14325-whole-event:s4",
+        "macros": {
+          "\\N": "\\mathbb N",
+          "\\Z": "\\mathbb Z",
+          "\\coef": "[z^{#1}]#2"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bks11-14325-whole-event",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For a nonempty sequence of prescribed $14325$ windows with successive\noverlaps one or two, let $j_1,\\ldots,j_a$ be the numbers of windows\nin its maximal blocks joined by overlaps two. Its count $B$ satisfies\n\\[\n B=\\prod_{\\ell=1}^a A_{j_\\ell},\\qquad\n B\\equiv6^{\\sum_\\ell(j_\\ell-1)}\\pmod{35}.\n\\]\nMoreover $B\\equiv1\\pmod5$, and\n\\[\n B\\equiv\\begin{cases}\n 1&\\text{every }j_\\ell+1\\text{ is a power of two},\\\\\n 6&\\text{otherwise}\n \\end{cases}\\pmod {10},\\qquad\n 4\\nmid B\\ \\Longleftrightarrow\\\n \\sum_{\\ell=1}^a\\bigl(s_2(j_\\ell+1)-1\\bigr)\\leq1.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bks11-14325-whole-event"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bks11-14325-whole-event:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+        },
+        "lineage": "collected:bks11-14325-whole-event:s5",
+        "macros": {
+          "\\N": "\\mathbb N",
+          "\\Z": "\\mathbb Z",
+          "\\coef": "[z^{#1}]#2"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bks11-14325-whole-event",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "A prescribed $14325$ packing poset with overlaps one or two has a\nseparator if and only if at least two of its maximal overlap-two\nblocks contain at least two windows. In particular, a pure\noverlap-two packing has no separator, for every $j\\geq1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bks11-14325-whole-event"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bks11-14325-whole-event:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+        },
+        "lineage": "collected:bks11-14325-whole-event:s6",
+        "macros": {
+          "\\N": "\\mathbb N",
+          "\\Z": "\\mathbb Z",
+          "\\coef": "[z^{#1}]#2"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bks11-14325-whole-event",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For each pattern--overlap pair\n\\[\n (1324,2),\\ (14253,3),\\ (136245,3),\\ (142536,4),\n\\]\n\\[\n (1376245,3),\\ (369247815,5),\\ (162738495,7),\n\\]\nthe packing count has two-adic valuation $s_2(j+1)-1$ for $j\\geq1$.\nThus it is odd exactly when $j+1$ is a power of two, and fails to be\ndivisible by four exactly when $j+1$ is a sum of two powers of two,\nallowing equal exponents.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bks11-14325-whole-event"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bks11-14325-whole-event:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+        },
+        "lineage": "collected:bks11-14325-whole-event:s7",
+        "macros": {
+          "\\N": "\\mathbb N",
+          "\\Z": "\\mathbb Z",
+          "\\coef": "[z^{#1}]#2"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bks11-14325-whole-event",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $j\\geq1$, the overlap-two counts for the four patterns\n$14325$, $52341$, $25314$ and $41352$ are equal. Each therefore\nsatisfies all the single-block congruences and finite modular\nrecurrences above.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bks11-14325-whole-event"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "bks11-14325-whole-event"
+}

@@ -1,0 +1,450 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+        },
+        "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s1",
+        "macros": {
+          "\\HS": "\\mathrm{HS}",
+          "\\Id": "I",
+          "\\cE": "\\mathcal E",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every MIC in positive finite dimension,\n\\begin{equation}\n B_d-\\int S(\\cE(P))\\,d\\mu(P)\n =\\int D(\\cE(P)\\Vert\\sigma_P)\\,d\\mu(P)\n   +\\frac{(T-d)\\log2}{d(d+1)}.\n\\end{equation}\nBoth terms on the right are nonnegative. Equality in the entropy bound\nholds if and only if the original MIC is a SIC. At equality,\n\\begin{equation}\n \\cE(X)=\\frac{X+(\\tr X)\\Id}{d+1}\\qquad(X\\in M_d(\\mathbb C)).\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+        },
+        "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s2",
+        "macros": {
+          "\\HS": "\\mathrm{HS}",
+          "\\Id": "I",
+          "\\cE": "\\mathcal E",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $P_1,\\ldots,P_N$ be pure projectors and $w_j>0$ with\n$\\sum_jw_j=1$ and\n\\[\n \\sum_jw_jP_j\\otimes P_j=\\frac{\\Id+F}{d(d+1)}.\n\\]\nFor every MIC, $\\sum_jw_jS(\\cE(P_j))\\leq B_d$, with equality if and\nonly if that MIC is a SIC.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+        },
+        "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s3",
+        "macros": {
+          "\\HS": "\\mathrm{HS}",
+          "\\Id": "I",
+          "\\cE": "\\mathcal E",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $\\Delta=B_d-\\int S(\\cE(P))\\,d\\mu(P)$, then\n\\[\n 0\\leq T-d\\leq\\frac{d(d+1)}{\\log2}\\Delta,\n \\qquad\n \\int\\|\\cE(P)-\\sigma_P\\|_\\HS^2\\,d\\mu(P)\\leq2\\Delta.\n\\]\nBoth estimates also hold for the weighted average in\nCorollary~\\ref{cor:design}.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+        },
+        "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s4",
+        "macros": {
+          "\\HS": "\\mathrm{HS}",
+          "\\Id": "I",
+          "\\cE": "\\mathcal E",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $E_1,\\ldots,E_m$ be nonzero positive effects summing to $\\Id$;\nlinear independence and $m=d^2$ are not assumed. The entropy bound and\n\\eqref{eq:gap} still hold, for Haar inputs or a positive input two-design.\nEquality holds exactly when\n$E_i=c_i\\Pi_i$, $c_i>0$, and\n\\begin{equation}\n \\sum_i\\frac{c_i}{d}\\Pi_i\\otimes\\Pi_i\n   =\\frac{\\Id+F}{d(d+1)}.\n\\end{equation}\nThus the normalized effects form a weighted projective two-design.\nEquality requires $m\\geq d^2$; at $m=d^2$ the measurement is a SIC.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+        },
+        "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s5",
+        "macros": {
+          "\\HS": "\\mathrm{HS}",
+          "\\Id": "I",
+          "\\cE": "\\mathcal E",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $d>1$, if a MIC has channel\n$\\cE(X)=\\alpha X+(1-\\alpha)(\\tr X)\\Id/d$, then\n\\[\n T=1+(d^2-1)\\alpha,\\qquad \\frac1{d+1}\\leq\\alpha<1.\n\\]\nThe lower endpoint occurs exactly for SICs.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+        },
+        "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s6",
+        "macros": {
+          "\\HS": "\\mathrm{HS}",
+          "\\Id": "I",
+          "\\cE": "\\mathcal E",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Put $\\Phi=|\\Omega\\rangle\\langle\\Omega|$ with\n$|\\Omega\\rangle=d^{-1/2}\\sum_k|kk\\rangle$, and\n$J=(\\mathrm{id}\\otimes\\cE)(\\Phi)$,\n$\\tau=(\\Id+d\\Phi)/[d(d+1)]$. For any finite POVM as above,\n\\[\n \\log d+\\frac{d-1}{d}\\log(d+1)-S(J)\n =D(J\\Vert\\tau)+\\frac{T-d}{d^2}\\log(d+1).\n\\]\nEquality holds exactly for the weighted designs of\nCorollary~\\ref{cor:povm}; for a MIC it holds exactly for a SIC.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+        },
+        "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s7",
+        "macros": {
+          "\\HS": "\\mathrm{HS}",
+          "\\Id": "I",
+          "\\cE": "\\mathcal E",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Every unbiased rank-one qubit MIC is unitarily equivalent to a\nPauli-covariant MIC.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+        },
+        "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s8",
+        "macros": {
+          "\\HS": "\\mathrm{HS}",
+          "\\Id": "I",
+          "\\cE": "\\mathcal E",
+          "\\tr": "\\operatorname{tr}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "A two-design does not in general reproduce the Haar average of the\nlargest output eigenvalue, even for an unbiased rank-one qubit MIC.\nThe entropy-saturation conclusion of the postscript nevertheless holds,\nby Theorem~\\ref{thm:main} or Corollary~\\ref{cor:design}.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+}

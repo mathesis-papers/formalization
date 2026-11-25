@@ -1,0 +1,622 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-a258899-totient-period:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+        },
+        "lineage": "collected:bala-a258899-totient-period:s1",
+        "macros": {
+          "\\A": "A_{u,v}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala-a258899-totient-period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $u,v\\in\\mathbb Z$, $m\\geq1$, and $n\\geq2m+4$,\n\\begin{equation}\n \\A(n)\\equiv uv^n+vu^n\\pmod m,\n\\end{equation}\nand consequently\n\\begin{equation}\n \\A(n+\\varphi(m))\\equiv\\A(n)\\pmod m.\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala-a258899-totient-period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s10",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-a258899-totient-period:2:s10",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+        },
+        "lineage": "collected:bala-a258899-totient-period:s10",
+        "macros": {
+          "\\A": "A_{u,v}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala-a258899-totient-period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For A057625 \\cite{a057625}, let $L(n)=\\sum_{d\\mid n}n!/d!$, $n\\geq1$.\nThen $L(n)\\equiv1\\pmod m$ for every $m\\geq1$, $n\\geq2m$, and\n$\\sum_{n\\geq1}L(n)x^n/n!=\\sum_{d\\geq1}x^d/(d!(1-x^d))$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala-a258899-totient-period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s11",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-a258899-totient-period:2:s11",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+        },
+        "lineage": "collected:bala-a258899-totient-period:s11",
+        "macros": {
+          "\\A": "A_{u,v}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala-a258899-totient-period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $P(n),B(n),F(n)$ denote A038041, A061095 and A236696,\nrespectively \\cite{other}; their offset is one. Then\n\\begin{align*}\n \\sum_{n\\geq1}P(n)\\frac{x^n}{n!}\n   &=\\sum_{k\\geq1}\\left(\\exp(x^k/k!)-1\\right),\\\\\n \\sum_{n\\geq1}B(n)\\frac{x^n}{n!}\n   &=\\sum_{k\\geq1}\\frac{x^k}{k!-x^k},\\\\\n \\sum_{n\\geq1}F(n)\\frac{x^n}{n!}\n   &=\\sum_{k\\geq1}\\left(\\exp(k^{k-1}x^k/k!)-1\\right).\n\\end{align*}\nAlso $P(n)=2$ exactly at prime $n$, and\n$0\\leq B(n)/n!-1\\leq n2^{-n/2}$.\nIf $H(n)$ is A320444 \\cite{a320444}, its prime specialization is\n$H(p+1)=1+(p+1)^{p-1}$ for every prime $p$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala-a258899-totient-period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s12",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-a258899-totient-period:2:s12",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+        },
+        "lineage": "collected:bala-a258899-totient-period:s12",
+        "macros": {
+          "\\A": "A_{u,v}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala-a258899-totient-period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Three consecutive residues $2$ in A121860 need not begin a constant tail.\nModulo $89$, $(c(41),c(42),c(43),c(44))\\equiv(2,2,2,76)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala-a258899-totient-period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-a258899-totient-period:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+        },
+        "lineage": "collected:bala-a258899-totient-period:s2",
+        "macros": {
+          "\\A": "A_{u,v}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala-a258899-totient-period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $m\\geq1$, $d,e\\geq2$, $n=de$, and $n\\geq2m+4$, then\n$m!\\mid n!/(d!e!)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala-a258899-totient-period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-a258899-totient-period:2:s3",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+        },
+        "lineage": "collected:bala-a258899-totient-period:s3",
+        "macros": {
+          "\\A": "A_{u,v}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala-a258899-totient-period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every integer $z$, $m\\geq1$, and $n\\geq m$,\n$z^{n+\\varphi(m)}\\equiv z^n\\pmod m$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala-a258899-totient-period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-a258899-totient-period:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+        },
+        "lineage": "collected:bala-a258899-totient-period:s4",
+        "macros": {
+          "\\A": "A_{u,v}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala-a258899-totient-period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The conjectures in A258899 and A258903 hold. Also,\n$c(n)\\equiv2\\pmod m$ for every $m\\geq1$ and $n\\geq2m+4$,\nproving the conjecture in A121860 (which was posed for $m\\geq3$).",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala-a258899-totient-period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-a258899-totient-period:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+        },
+        "lineage": "collected:bala-a258899-totient-period:s5",
+        "macros": {
+          "\\A": "A_{u,v}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala-a258899-totient-period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "We have $A_{u,v}(n)=A_{v,u}(n)$ and the formal identity\n\\begin{equation}\n \\sum_{n\\geq0}\\A(n)\\frac{x^n}{n!}\n =1+\\sum_{d\\geq1}\\frac{u^d}{d!}\\bigl(\\exp(vx^d)-1\\bigr).\n\\end{equation}",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala-a258899-totient-period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-a258899-totient-period:2:s6",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+        },
+        "lineage": "collected:bala-a258899-totient-period:s6",
+        "macros": {
+          "\\A": "A_{u,v}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala-a258899-totient-period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $d,e\\geq2$ and $n=de$, every prime $p\\leq n$ divides $Q(n,d)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala-a258899-totient-period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-a258899-totient-period:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+        },
+        "lineage": "collected:bala-a258899-totient-period:s7",
+        "macros": {
+          "\\A": "A_{u,v}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala-a258899-totient-period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every prime $p$, integer $u,v$, and $n\\geq p$,\n\\[\n \\A(n)\\equiv uv^n+vu^n\\pmod p,\\qquad\n \\A(n+p-1)\\equiv\\A(n)\\pmod p.\n\\]\nThus A258899 has period $10$ from $n=11$ modulo $11$,\nand A258903 has period $6$ from $n=7$ modulo $7$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala-a258899-totient-period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-a258899-totient-period:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+        },
+        "lineage": "collected:bala-a258899-totient-period:s8",
+        "macros": {
+          "\\A": "A_{u,v}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala-a258899-totient-period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For any integer-valued function $W(d,e)$,\n$\\sum_{d\\mid n}W(d,n/d)Q(n,d)$ is congruent to\n$W(1,n)+W(n,1)$ modulo $m$ if $n\\geq2m+4$, or modulo a prime\n$p$ if $n\\geq p$. In A386877 \\cite{a386877},\nall entries strictly between the endpoint $1$'s vanish modulo\nthe respective modulus in these ranges; the row sum is $c(n)$ for $n\\geq1$.\nThe sign of $T(n,k)$ is the divisibility indicator A113704 for $1\\leq k\\leq n$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala-a258899-totient-period"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s9",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:bala-a258899-totient-period:2:s9",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+        },
+        "lineage": "collected:bala-a258899-totient-period:s9",
+        "macros": {
+          "\\A": "A_{u,v}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "bala-a258899-totient-period",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "The number of matrices with entries $1,\\ldots,n$, each used once,\nup to independent row and column permutations is $c(n)$.\nThe same count enumerates the labeled rectangular-band operations\n$(i,j)(k,l)=(i,l)$. Also $c(n)=2$ exactly when $n$ is prime.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "bala-a258899-totient-period"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "bala-a258899-totient-period"
+}
