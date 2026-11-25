@@ -1,0 +1,670 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+        },
+        "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s1",
+        "macros": {
+          "\\In": "\\operatorname{In}",
+          "\\R": "\\mathbb{R}",
+          "\\cof": "\\operatorname{cof}",
+          "\\diag": "\\operatorname{diag}",
+          "\\one": "\\mathbf{1}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "das-mohanty-singular-squared-distance-laplacian",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $\\det\\Delta=0$, then $\\cof\\Delta\\ne0$ and $L$ is defined.\nIts positive spectrum, with multiplicities, is\n\\[\n \\{(1/4)^{[N-t]},\\;1^{[h-1]}\\},\n \\qquad\\text{and}\\qquad \\In(L)=(N-s-1,1,s).\n\\]\nIn particular, both clauses hold on the source's inherited\nnonzero-cofactor domain.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "das-mohanty-singular-squared-distance-laplacian"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s10",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s10",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+        },
+        "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s10",
+        "macros": {
+          "\\In": "\\operatorname{In}",
+          "\\R": "\\mathbb{R}",
+          "\\cof": "\\operatorname{cof}",
+          "\\diag": "\\operatorname{diag}",
+          "\\one": "\\mathbf{1}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "das-mohanty-singular-squared-distance-laplacian",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $R\\ne0$, as a polynomial identity after clearing the displayed poles,\n\\begin{equation}\n \\det(xI-L)=(x-1/4)^{N-t}\\prod_i(x+1/d_i)\n \\left(1-\\frac1R\\sum_i\\frac{n_i}{d_i^2(x+1/d_i)}\\right).\n\\end{equation}\nIn the singular case, let $m_1<\\cdots<m_g$ be the distinct\nnonsingleton sizes, $k_j$ their numbers of parts, and\n$a_j=-1/(3m_j-4)$. The negative spectrum consists of\n$a_j$ with multiplicity $k_j-1$, one simple eigenvalue in\n$(-\\infty,a_1)$, and one simple eigenvalue in each\n$(a_j,a_{j+1})$, $1\\le j<g$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "das-mohanty-singular-squared-distance-laplacian"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s11",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s11",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+        },
+        "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s11",
+        "macros": {
+          "\\In": "\\operatorname{In}",
+          "\\R": "\\mathbb{R}",
+          "\\cof": "\\operatorname{cof}",
+          "\\diag": "\\operatorname{diag}",
+          "\\one": "\\mathbf{1}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "das-mohanty-singular-squared-distance-laplacian",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $H$ be any real symmetric matrix, $u$ a vector, and\n$p=u^THu\\ne0$. Put $K=H-(Hu)(Hu)^T/p$. If\n$\\In(H)=(b_+,b_0,b_-)$, then\n\\[\n \\In(K)=\\begin{cases}\n (b_+-1,b_0+1,b_-),&p>0,\\\\\n (b_+,b_0+1,b_--1),&p<0,\n \\end{cases}\n \\qquad \\ker K=\\ker H\\oplus\\R u.\n\\]",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "das-mohanty-singular-squared-distance-laplacian"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s12",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s12",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+        },
+        "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s12",
+        "macros": {
+          "\\In": "\\operatorname{In}",
+          "\\R": "\\mathbb{R}",
+          "\\cof": "\\operatorname{cof}",
+          "\\diag": "\\operatorname{diag}",
+          "\\one": "\\mathbf{1}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "das-mohanty-singular-squared-distance-laplacian",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $Y$ be a nonempty connected topological space. Suppose\n$D(y)=\\diag(e_1(y),\\ldots,e_n(y))$ and $u(y)$ are continuous,\n$p(y)=u(y)^TD(y)u(y)\\ne0$, and\n$K(y)=D(y)-(D(y)u(y))(D(y)u(y))^T/p(y)$ is positive semidefinite.\nThen $p$ has constant sign. If it is negative, there is a unique fixed\nindex $j$ with $e_j(y)<0$ for all $y$, and $e_i(y)\\ge0$ for every\n$i\\ne j$ and $y$. If it is positive, $D(y)$ is positive semidefinite.\nThis applies to an open $(n-1)$-simplex with finitely many points removed\nwhen $n\\ge3$, and to every space homeomorphic to that domain.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "das-mohanty-singular-squared-distance-laplacian"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s2",
+        "kind": "paper",
+        "label": "Lemma",
+        "lean_source": {
+          "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+        },
+        "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s2",
+        "macros": {
+          "\\In": "\\operatorname{In}",
+          "\\R": "\\mathbb{R}",
+          "\\cof": "\\operatorname{cof}",
+          "\\diag": "\\operatorname{diag}",
+          "\\one": "\\mathbf{1}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "das-mohanty-singular-squared-distance-laplacian",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "On the domain $\\cof\\Delta\\ne0$, equivalently $R\\ne0$, the literal matrix\n\\eqref{eq:source} satisfies\n\\begin{equation}\n L=A+\\frac{zz^T}{R}.\n\\end{equation}\nIf $\\det\\Delta=0$, then $R=-1$, $\\Psi=-\\Phi\\ne0$, and $L=A-zz^T$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "das-mohanty-singular-squared-distance-laplacian"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s3",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+        },
+        "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s3",
+        "macros": {
+          "\\In": "\\operatorname{In}",
+          "\\R": "\\mathbb{R}",
+          "\\cof": "\\operatorname{cof}",
+          "\\diag": "\\operatorname{diag}",
+          "\\one": "\\mathbf{1}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "das-mohanty-singular-squared-distance-laplacian",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For all positive integer part sizes and $R\\ne0$,\n\\begin{equation}\n \\In(L)=\\begin{cases}\n (N-s-1,1,s),&R<0,\\\\\n (N-s,1,s-1),&R>0.\n \\end{cases}\n\\end{equation}\nIn particular, $\\ker L=\\R\\one$ and $\\operatorname{rank}L=N-1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "das-mohanty-singular-squared-distance-laplacian"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+        },
+        "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s4",
+        "macros": {
+          "\\In": "\\operatorname{In}",
+          "\\R": "\\mathbb{R}",
+          "\\cof": "\\operatorname{cof}",
+          "\\diag": "\\operatorname{diag}",
+          "\\one": "\\mathbf{1}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "das-mohanty-singular-squared-distance-laplacian",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $R\\ne0$, every cofactor of $L$ equals\n$(-1)^{N-1}/\\cof\\Delta$, including when $\\Delta$ is singular.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "das-mohanty-singular-squared-distance-laplacian"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+        },
+        "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s5",
+        "macros": {
+          "\\In": "\\operatorname{In}",
+          "\\R": "\\mathbb{R}",
+          "\\cof": "\\operatorname{cof}",
+          "\\diag": "\\operatorname{diag}",
+          "\\one": "\\mathbf{1}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "das-mohanty-singular-squared-distance-laplacian",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $R\\ne0$, the multiplicity of $1/4$ is $N-t$.\nThe multiplicity of $1$ is $h-1$ if $h\\ge1$, and zero if $h=0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "das-mohanty-singular-squared-distance-laplacian"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s6",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s6",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+        },
+        "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s6",
+        "macros": {
+          "\\In": "\\operatorname{In}",
+          "\\R": "\\mathbb{R}",
+          "\\cof": "\\operatorname{cof}",
+          "\\diag": "\\operatorname{diag}",
+          "\\one": "\\mathbf{1}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "das-mohanty-singular-squared-distance-laplacian",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $R<0$, one has $h\\ge1$ and the complete positive spectrum of $L$\nis $\\{(1/4)^{[N-t]},1^{[h-1]}\\}$, with zero multiplicities omitted.\nThus the spectral conclusion of Theorem~\\ref{thm:main} holds on the\nentire negative-ratio domain, not just at $R=-1$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "das-mohanty-singular-squared-distance-laplacian"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s7",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s7",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+        },
+        "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s7",
+        "macros": {
+          "\\In": "\\operatorname{In}",
+          "\\R": "\\mathbb{R}",
+          "\\cof": "\\operatorname{cof}",
+          "\\diag": "\\operatorname{diag}",
+          "\\one": "\\mathbf{1}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "das-mohanty-singular-squared-distance-laplacian",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $R\\ne-1$,\n\\[\n \\Delta^{-1}=B^{-1}-\\frac{zz^T}{1+R}.\n\\]\nThis includes the zero-cofactor case $R=0$, in which $L$ is undefined.\nFor $R=-1$,\n\\[\n \\ker\\Delta=\\R z,\\qquad\n \\operatorname{adj}\\Delta=-\\det B\\,zz^T.\n\\]\nIf $R\\ne0$, set $\\nu=z/R$ and $\\lambda=(1+R)/R$. Then\n$\\one^T\\nu=1$, $\\Delta\\nu=\\lambda\\one$ and\n$L\\Delta+I=\\nu\\one^T$. If also $R\\ne-1$, then\n$\\Delta^{-1}=-L+\\nu\\nu^T/\\lambda$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "das-mohanty-singular-squared-distance-laplacian"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s8",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s8",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+        },
+        "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s8",
+        "macros": {
+          "\\In": "\\operatorname{In}",
+          "\\R": "\\mathbb{R}",
+          "\\cof": "\\operatorname{cof}",
+          "\\diag": "\\operatorname{diag}",
+          "\\one": "\\mathbf{1}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "das-mohanty-singular-squared-distance-laplacian",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "If $\\Delta$ is singular, then\n\\[\n \\frac{t+3}{4}<h\\le\\frac{t+1}{2}.\n\\]\nIf $\\cof\\Delta=0$, then $t/4<h\\le t/2$.\nIn either upper equality case every nonsingleton part has size two.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "das-mohanty-singular-squared-distance-laplacian"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s9",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s9",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+        },
+        "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s9",
+        "macros": {
+          "\\In": "\\operatorname{In}",
+          "\\R": "\\mathbb{R}",
+          "\\cof": "\\operatorname{cof}",
+          "\\diag": "\\operatorname{diag}",
+          "\\one": "\\mathbf{1}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "das-mohanty-singular-squared-distance-laplacian",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For all positive integer part sizes,\n\\[\n \\In(\\Delta)=\\begin{cases}\n (s+1,0,N-s-1),&R<-1,\\\\\n (s,1,N-s-1),&R=-1,\\\\\n (s,0,N-s),&R>-1.\n \\end{cases}\n\\]\nIf $h=0$, the squared-distance energy\n$E_\\Delta=\\sum_{\\mu\\in\\operatorname{spec}\\Delta}|\\mu|$ equals $8(N-t)$.\nIf $h\\ge1$, write $\\mu_*$ for the unique eigenvalue of the\npartwise-constant restriction lying between $-1$ and\n$\\min_{n_i\\ge2}d_i$ when $s>0$; when $s=0$, put $\\mu_*=t-1$.\nThen\n\\[\n E_\\Delta=8(N-t)+2(h-1)-2\\min(\\mu_*,0).\n\\]\nHere $\\mu_*$ is positive, zero or negative according as $R<-1$,\n$R=-1$ or $R>-1$. In particular the singular case has\n$E_\\Delta=8(N-t)+2(h-1)$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "das-mohanty-singular-squared-distance-laplacian"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "das-mohanty-singular-squared-distance-laplacian"
+}

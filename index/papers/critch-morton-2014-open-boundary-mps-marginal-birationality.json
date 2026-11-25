@@ -1,0 +1,294 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Quantum/TensorNetworks/OpenBoundaryMPSMarginalBirationality.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Quantum/TensorNetworks/OpenBoundaryMPSMarginalBirationality.lean"
+        },
+        "lineage": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:s1",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\GL": "\\operatorname{GL}",
+          "\\OB": "\\operatorname{OB}",
+          "\\adj": "\\operatorname{adj}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "critch-morton-2014-open-boundary-mps-marginal-birationality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $N\\geq4$ and $0\\leq a\\leq N-3$, the map $\\mu_a:X_N\\to X_3$\nis birational. More precisely, there is a polynomial $g$ in the eight\nthree-site coordinates such that $U=X_3\\cap\\{g\\ne0\\}$ is nonempty, and a\nrational map $F_{N,a}:U\\to X_N$ is inverse to $\\mu_a$ on\n$X_N\\cap\\{g\\circ\\mu_a\\ne0\\}$.\nThe vanishing ideals of $X_N$ and $X_3$ are prime.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Critch–Morton Conjecture 8 (SIGMA 10 (2014), 095, Section 2, p. 6): reconstruction from any consecutive three-site improper marginal",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "critch-morton-2014-open-boundary-mps-marginal-birationality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:2:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Quantum/TensorNetworks/OpenBoundaryMPSMarginalBirationality.lean"
+        },
+        "lineage": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:s2",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\GL": "\\operatorname{GL}",
+          "\\OB": "\\operatorname{OB}",
+          "\\adj": "\\operatorname{adj}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "critch-morton-2014-open-boundary-mps-marginal-birationality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every $N\\geq3$, $X_N$ is a rational variety of dimension seven.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Critch–Morton Conjecture 8 (SIGMA 10 (2014), 095, Section 2, p. 6): reconstruction from any consecutive three-site improper marginal",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "critch-morton-2014-open-boundary-mps-marginal-birationality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s3",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:2:s3",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Quantum/TensorNetworks/OpenBoundaryMPSMarginalBirationality.lean"
+        },
+        "lineage": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:s3",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\GL": "\\operatorname{GL}",
+          "\\OB": "\\operatorname{OB}",
+          "\\adj": "\\operatorname{adj}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "critch-morton-2014-open-boundary-mps-marginal-birationality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Let $3\\leq m\\leq N$, and retain any consecutive block of $m$ sites.\nAt each omitted site choose a fixed nonzero complex covector, allowing a\ndifferent choice at every site. Contracting the omitted sites with these\ncovectors defines a birational map $X_N\\to X_m$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Critch–Morton Conjecture 8 (SIGMA 10 (2014), 095, Section 2, p. 6): reconstruction from any consecutive three-site improper marginal",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "critch-morton-2014-open-boundary-mps-marginal-birationality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s4",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:2:s4",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Quantum/TensorNetworks/OpenBoundaryMPSMarginalBirationality.lean"
+        },
+        "lineage": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:s4",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\GL": "\\operatorname{GL}",
+          "\\OB": "\\operatorname{OB}",
+          "\\adj": "\\operatorname{adj}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "critch-morton-2014-open-boundary-mps-marginal-birationality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $N\\geq3$, no coherent contraction retaining at most two binary sites\nis generically finite on $X_N$. Thus three is the least possible retained\nblock size for generic amplitude recovery of these models.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Critch–Morton Conjecture 8 (SIGMA 10 (2014), 095, Section 2, p. 6): reconstruction from any consecutive three-site improper marginal",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "critch-morton-2014-open-boundary-mps-marginal-birationality"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s5",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:2:s5",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": {
+          "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Quantum/TensorNetworks/OpenBoundaryMPSMarginalBirationality.lean"
+        },
+        "lineage": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:s5",
+        "macros": {
+          "\\C": "\\mathbb C",
+          "\\GL": "\\operatorname{GL}",
+          "\\OB": "\\operatorname{OB}",
+          "\\adj": "\\operatorname{adj}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "critch-morton-2014-open-boundary-mps-marginal-birationality",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $N\\geq4$ the $N-2$ quartics $\\det K(\\mu_a\\psi)$ vanish on $X_N$,\nbut their common zero set is strictly larger than $X_N$.\nFix $a$, set $t=\\mu_a\\psi$, let $q=(\\det W)^3(\\det J)^{N-3}$,\nand let $p_w$ be the numerator in~\\eqref{eq:polynomial}.\nOn the ambient open subset $g(t)\\ne0$, membership has the exact criterion\n\\begin{equation}\n \\psi\\in X_N\\quad\\Longleftrightarrow\\quad\n \\det K(t)=0\\ \\text{ and }\\ q(t)\\psi_w=p_w(t)\\quad\\text{for all }w.\n\\end{equation}\nEvery member of $X_N$ on this chart is an actual tensor of the form\n\\eqref{eq:state}, not just a limit of such tensors.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Proof of Critch–Morton Conjecture 8 (SIGMA 10 (2014), 095, Section 2, p. 6): reconstruction from any consecutive three-site improper marginal",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "critch-morton-2014-open-boundary-mps-marginal-birationality"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Proof of Critch–Morton Conjecture 8 (SIGMA 10 (2014), 095, Section 2, p. 6): reconstruction from any consecutive three-site improper marginal",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "critch-morton-2014-open-boundary-mps-marginal-birationality"
+}
