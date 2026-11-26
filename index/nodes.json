@@ -19261,7 +19261,7 @@
       "claim": "s1",
       "classification": "no_target_yet",
       "contributor": null,
-      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s1",
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:5:s1",
       "kind": "paper",
       "label": "Theorem",
       "lean_source": {
@@ -19271,6 +19271,7 @@
       "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s1",
       "macros": {
         "\\AS": "\\mathcal{AS}",
+        "\\Ap": "\\operatorname{Ap}",
         "\\N": "\\mathbb{N}_0",
         "\\PF": "\\operatorname{PF}",
         "\\im": "\\operatorname{im}"
@@ -19295,7 +19296,7 @@
         "revision": null,
         "state": null
       },
-      "version": 4,
+      "version": 5,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
@@ -19313,7 +19314,7 @@
       "claim": "s10",
       "classification": "no_target_yet",
       "contributor": null,
-      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s10",
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:5:s10",
       "kind": "paper",
       "label": "Theorem",
       "lean_source": {
@@ -19323,6 +19324,7 @@
       "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s10",
       "macros": {
         "\\AS": "\\mathcal{AS}",
+        "\\Ap": "\\operatorname{Ap}",
         "\\N": "\\mathbb{N}_0",
         "\\PF": "\\operatorname{PF}",
         "\\im": "\\operatorname{im}"
@@ -19347,7 +19349,166 @@
         "revision": null,
         "state": null
       },
-      "version": 4,
+      "version": 5,
+      "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s11",
+      "classification": "no_target_yet",
+      "contributor": null,
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:5:s11",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
+      },
+      "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s11",
+      "macros": {
+        "\\AS": "\\mathcal{AS}",
+        "\\Ap": "\\operatorname{Ap}",
+        "\\N": "\\mathbb{N}_0",
+        "\\PF": "\\operatorname{PF}",
+        "\\im": "\\operatorname{im}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "reason": "Formalization work is coordinated through the shared requests.",
+      "receipt": null,
+      "record": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+      "results": [],
+      "scope": "in_scope",
+      "statement": "Let $T$ be a symmetric numerical set of multiplicity three, with\n$F(T)=2h-1$. Then $h\\geq3$, and $T=\\Phi(S)$ for a proper almost symmetric\nnumerical semigroup $S$ if and only if $B=E_h$ or $B=P_h$.\nThe families coincide for $h=3,4,5$ and are distinct for every $h\\geq6$.",
+      "status": "preparing",
+      "target_digest": null,
+      "target_path": null,
+      "title": "Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "toolchain": null,
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 5,
+      "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s12",
+      "classification": "no_target_yet",
+      "contributor": null,
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:5:s12",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
+      },
+      "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s12",
+      "macros": {
+        "\\AS": "\\mathcal{AS}",
+        "\\Ap": "\\operatorname{Ap}",
+        "\\N": "\\mathbb{N}_0",
+        "\\PF": "\\operatorname{PF}",
+        "\\im": "\\operatorname{im}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "reason": "Formalization work is coordinated through the shared requests.",
+      "receipt": null,
+      "record": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+      "results": [],
+      "scope": "in_scope",
+      "statement": "Let $S$ be a proper almost symmetric numerical semigroup, using the\nnotation $A,F,h,b_i$ of Theorem~\\ref{thm:bound}. If $h\\geq2$, write\n$\\mu=a_1$ for the source multiplicity and $r=b_1$ for the output multiplicity.\nThen $A$ consists of exactly $r-1$ nonempty residue chains modulo $\\mu$,\neach with step $\\mu$ and no internal missing element.",
+      "status": "preparing",
+      "target_digest": null,
+      "target_path": null,
+      "title": "Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "toolchain": null,
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 5,
+      "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s13",
+      "classification": "no_target_yet",
+      "contributor": null,
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:5:s13",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
+      },
+      "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s13",
+      "macros": {
+        "\\AS": "\\mathcal{AS}",
+        "\\Ap": "\\operatorname{Ap}",
+        "\\N": "\\mathbb{N}_0",
+        "\\PF": "\\operatorname{PF}",
+        "\\im": "\\operatorname{im}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "reason": "Formalization work is coordinated through the shared requests.",
+      "receipt": null,
+      "record": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+      "results": [],
+      "scope": "in_scope",
+      "statement": "Let $S$ be a proper almost symmetric numerical semigroup. Suppose $\\Phi(S)$ has multiplicity $r$ and Frobenius number $2h-1$,\nwith $h>r$. Then\n\\begin{equation}\n \\mu(S)\\leq2r-2,\\qquad\n 2h-1\\leq F(S)\\leq2h+2r-5.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "target_path": null,
+      "title": "Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "toolchain": null,
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 5,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
@@ -19365,7 +19526,7 @@
       "claim": "s2",
       "classification": "no_target_yet",
       "contributor": null,
-      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s2",
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:5:s2",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -19375,6 +19536,7 @@
       "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s2",
       "macros": {
         "\\AS": "\\mathcal{AS}",
+        "\\Ap": "\\operatorname{Ap}",
         "\\N": "\\mathbb{N}_0",
         "\\PF": "\\operatorname{PF}",
         "\\im": "\\operatorname{im}"
@@ -19399,7 +19561,7 @@
         "revision": null,
         "state": null
       },
-      "version": 4,
+      "version": 5,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
@@ -19417,7 +19579,7 @@
       "claim": "s3",
       "classification": "no_target_yet",
       "contributor": null,
-      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s3",
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:5:s3",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -19427,6 +19589,7 @@
       "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s3",
       "macros": {
         "\\AS": "\\mathcal{AS}",
+        "\\Ap": "\\operatorname{Ap}",
         "\\N": "\\mathbb{N}_0",
         "\\PF": "\\operatorname{PF}",
         "\\im": "\\operatorname{im}"
@@ -19451,7 +19614,7 @@
         "revision": null,
         "state": null
       },
-      "version": 4,
+      "version": 5,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
@@ -19469,7 +19632,7 @@
       "claim": "s4",
       "classification": "no_target_yet",
       "contributor": null,
-      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s4",
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:5:s4",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -19479,6 +19642,7 @@
       "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s4",
       "macros": {
         "\\AS": "\\mathcal{AS}",
+        "\\Ap": "\\operatorname{Ap}",
         "\\N": "\\mathbb{N}_0",
         "\\PF": "\\operatorname{PF}",
         "\\im": "\\operatorname{im}"
@@ -19503,7 +19667,7 @@
         "revision": null,
         "state": null
       },
-      "version": 4,
+      "version": 5,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
@@ -19521,7 +19685,7 @@
       "claim": "s5",
       "classification": "no_target_yet",
       "contributor": null,
-      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s5",
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:5:s5",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -19531,6 +19695,7 @@
       "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s5",
       "macros": {
         "\\AS": "\\mathcal{AS}",
+        "\\Ap": "\\operatorname{Ap}",
         "\\N": "\\mathbb{N}_0",
         "\\PF": "\\operatorname{PF}",
         "\\im": "\\operatorname{im}"
@@ -19555,7 +19720,7 @@
         "revision": null,
         "state": null
       },
-      "version": 4,
+      "version": 5,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
@@ -19573,7 +19738,7 @@
       "claim": "s6",
       "classification": "no_target_yet",
       "contributor": null,
-      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s6",
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:5:s6",
       "kind": "paper",
       "label": "Theorem",
       "lean_source": {
@@ -19583,6 +19748,7 @@
       "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s6",
       "macros": {
         "\\AS": "\\mathcal{AS}",
+        "\\Ap": "\\operatorname{Ap}",
         "\\N": "\\mathbb{N}_0",
         "\\PF": "\\operatorname{PF}",
         "\\im": "\\operatorname{im}"
@@ -19607,7 +19773,7 @@
         "revision": null,
         "state": null
       },
-      "version": 4,
+      "version": 5,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
@@ -19625,7 +19791,7 @@
       "claim": "s7",
       "classification": "no_target_yet",
       "contributor": null,
-      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s7",
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:5:s7",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -19635,6 +19801,7 @@
       "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s7",
       "macros": {
         "\\AS": "\\mathcal{AS}",
+        "\\Ap": "\\operatorname{Ap}",
         "\\N": "\\mathbb{N}_0",
         "\\PF": "\\operatorname{PF}",
         "\\im": "\\operatorname{im}"
@@ -19659,7 +19826,7 @@
         "revision": null,
         "state": null
       },
-      "version": 4,
+      "version": 5,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
@@ -19677,7 +19844,7 @@
       "claim": "s8",
       "classification": "no_target_yet",
       "contributor": null,
-      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s8",
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:5:s8",
       "kind": "paper",
       "label": "Theorem",
       "lean_source": {
@@ -19687,6 +19854,7 @@
       "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s8",
       "macros": {
         "\\AS": "\\mathcal{AS}",
+        "\\Ap": "\\operatorname{Ap}",
         "\\N": "\\mathbb{N}_0",
         "\\PF": "\\operatorname{PF}",
         "\\im": "\\operatorname{im}"
@@ -19711,7 +19879,7 @@
         "revision": null,
         "state": null
       },
-      "version": 4,
+      "version": 5,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
@@ -19729,7 +19897,7 @@
       "claim": "s9",
       "classification": "no_target_yet",
       "contributor": null,
-      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s9",
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:5:s9",
       "kind": "paper",
       "label": "Lemma",
       "lean_source": {
@@ -19739,6 +19907,7 @@
       "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s9",
       "macros": {
         "\\AS": "\\mathcal{AS}",
+        "\\Ap": "\\operatorname{Ap}",
         "\\N": "\\mathbb{N}_0",
         "\\PF": "\\operatorname{PF}",
         "\\im": "\\operatorname{im}"
@@ -19763,7 +19932,7 @@
         "revision": null,
         "state": null
       },
-      "version": 4,
+      "version": 5,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
