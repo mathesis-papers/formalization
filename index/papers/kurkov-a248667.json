@@ -1,0 +1,119 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": null,
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kurkov-a248667:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": null,
+        "lineage": "collected:kurkov-a248667:s1",
+        "macros": {},
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "kurkov-a248667",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For every positive integer $n$, $P_n$ is primitive if and only if no prime in $\\mathcal B$ divides $n$. The increasing sequence $a$ exists, begins with $a(1)=1$, and for any term $a(k)=uv$ with $u,v>1$, both $u$ and $v$ are terms of index greater than one. In particular, the factorization of any term into prime terms is unique up to order.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Kurkov’s composite-term conjecture via Halbeisen and Hungerbühler’s reduction lemma",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "kurkov-a248667"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:kurkov-a248667:2:s2",
+        "kind": "paper",
+        "label": "Corollary",
+        "lean_source": null,
+        "lineage": "collected:kurkov-a248667:s2",
+        "macros": {},
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "kurkov-a248667",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For $n\\geq1$ and $r\\in\\mathbb Z$, $Q_{n-1}(nx+r)$ is primitive if and only if $F_{(r-1)\\bmod p}\\not\\equiv0\\pmod p$ for every prime $p\\mid n$, where $(r-1)\\bmod p$ denotes the least nonnegative residue. For each fixed $r$, its primitive indices are closed under products and positive divisors.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Kurkov’s composite-term conjecture via Halbeisen and Hungerbühler’s reduction lemma",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "kurkov-a248667"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Kurkov’s composite-term conjecture via Halbeisen and Hungerbühler’s reduction lemma",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "kurkov-a248667"
+}
