@@ -1,0 +1,132 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": {
+    "revision": "dc44a77dcd06fef386d395ef43e4d94a8f7b7788",
+    "url": "https://github.com/the-omega-institute/trureturing/blob/dc44a77dcd06fef386d395ef43e4d94a8f7b7788/D5/S3/Arith/Abundancy/ZelinskyOmegaRatioDensity.lean"
+  },
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s1",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:zelinsky-2021-conjecture-1-or-density:2:s1",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "dc44a77dcd06fef386d395ef43e4d94a8f7b7788",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/dc44a77dcd06fef386d395ef43e4d94a8f7b7788/D5/S3/Arith/Abundancy/ZelinskyOmegaRatioDensity.lean"
+        },
+        "lineage": "collected:zelinsky-2021-conjecture-1-or-density:s1",
+        "macros": {
+          "\\ord": "\\operatorname{v}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "zelinsky-2021-conjecture-1-or-density",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "For all fixed real $\\alpha,\\beta$, as $x\\to\\infty$,\n\\begin{equation}\n   E(x)\\sim \\frac{\\zeta(2)}2\\frac{x}{\\log x},\n   \\qquad E_{\\alpha,\\beta}(x)\\sim\\frac{W_{\\alpha,\\beta}}2\\frac{x}{\\log x},\n   \\qquad W_{\\alpha,\\beta}>0.\n\\end{equation}\nConsequently $E_{\\alpha,\\beta}(x)/E(x)$ tends to $W_{\\alpha,\\beta}/\\zeta(2)$,\nand the ratio for any two fixed pairs tends to $W_{\\alpha_1,\\beta_1}/W_{\\alpha_2,\\beta_2}>0$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Prime-factor densities in Euler forms: a refutation of Zelinsky's Conjecture 1",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "zelinsky-2021-conjecture-1-or-density"
+      },
+      {
+        "attribution": null,
+        "authors": [
+          {
+            "affiliation": "ChronoAI Pte Ltd, Singapore",
+            "name": "Haobo Ma"
+          },
+          {
+            "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+            "name": "Wenlin Zhang"
+          }
+        ],
+        "claim": "s2",
+        "classification": "no_target_yet",
+        "contributor": null,
+        "identity": "collected:zelinsky-2021-conjecture-1-or-density:2:s2",
+        "kind": "paper",
+        "label": "Theorem",
+        "lean_source": {
+          "revision": "dc44a77dcd06fef386d395ef43e4d94a8f7b7788",
+          "url": "https://github.com/the-omega-institute/trureturing/blob/dc44a77dcd06fef386d395ef43e4d94a8f7b7788/D5/S3/Arith/Abundancy/ZelinskyOmegaRatioDensity.lean"
+        },
+        "lineage": "collected:zelinsky-2021-conjecture-1-or-density:s2",
+        "macros": {
+          "\\ord": "\\operatorname{v}"
+        },
+        "next_step": "Formalization work is coordinated through the shared requests.",
+        "proof_basis": null,
+        "proof_state": "preparing",
+        "reason": "Formalization work is coordinated through the shared requests.",
+        "receipt": null,
+        "record": "zelinsky-2021-conjecture-1-or-density",
+        "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+        "results": [],
+        "scope": "in_scope",
+        "statement": "Fix $\\alpha\\in\\mathbb R$ and $r<u<r_+$. As $\\beta\\to+\\infty$ through real values,\n\\begin{equation}\n  W^{(r)}_{\\alpha,\\beta}=r^{-\\beta}H_{\\alpha,r}(\\beta)+O_{\\alpha,r,u}(u^{-\\beta}),\n\\end{equation}\nwhere the following function has period $2$ and is bounded above and away from zero:\n\\[\n H_{\\alpha,r}(\\beta)=\\frac{1}{1-r^{-2}}\n   \\sum_{t\\in\\mathcal T_r}\\frac{r^{\\beta-2\\lceil(\\beta+2\\alpha-1-D_\\alpha(t))/2\\rceil}}{t^2}.\n\\]\nIn particular $W^{(r)}_{\\alpha,\\beta+2}/W^{(r)}_{\\alpha,\\beta}\\to r^{-2}$.",
+        "status": "preparing",
+        "target_digest": null,
+        "target_path": null,
+        "title": "Prime-factor densities in Euler forms: a refutation of Zelinsky's Conjecture 1",
+        "toolchain": null,
+        "trureturing_write_back": {
+          "request_url": null,
+          "revision": null,
+          "state": null
+        },
+        "version": 2,
+        "work": "zelinsky-2021-conjecture-1-or-density"
+      }
+    ],
+    "open_target": []
+  },
+  "title": "Prime-factor densities in Euler forms: a refutation of Zelinsky's Conjecture 1",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 2,
+  "work": "zelinsky-2021-conjecture-1-or-density"
+}
