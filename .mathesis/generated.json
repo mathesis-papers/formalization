@@ -3,8 +3,8 @@
   "sha256": {
     ".github/workflows/check.yml": "1326c2e90b8a65dffdea934098e5e12da39d4dd84bb8aebcabf0fda1eeea7b91",
     ".gitignore": "d781522b5e8568bddad4a73a41e8839fc34b848b1e916e41f959212ae19bcb32",
-    "LEADERBOARD.md": "0ab4304c8674ef39f4e6127c433845f1976d47d2ebbf971253765cb073d4249e",
-    "README.md": "3db944aab5352948a6192b123d58f9583757a5588ba9f563f5e79daae013bcf1",
+    "LEADERBOARD.md": "8aaab74d58058735343ae057f7b81bb4bde0b6ec4a722245b3a8ac2c35aec347",
+    "README.md": "c262a2ed2002abf53ff74895f6ed2ec73cf228144a5e13d0c4ec39dfc0061028",
     "ci/mathlib/lake-manifest.json": "1bb9bfa56d042f2064d7a53a80f643e9cb1c9104bc1447a26153c267179922ed",
     "ci/mathlib/lakefile.toml": "955328a13ab3502ad02eae34a5944807286d2cf003a6ae4b4930823759a7f39b",
     "ci/mathlib/lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
@@ -144,6 +144,7 @@
     "index/papers/hsw17.json": "3b1a7a4afbbc503f7439c5e8f77b121b5be85d3416ca270adeba2503977dd05c",
     "index/papers/huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound.json": "af6e66588bf902a7fd51b2bd197e3bd502ce8de573c572375e01427137621f00",
     "index/papers/huang-stoica-xia-zhong-2020-tree-equations-nonconstant.json": "cdd23b0c7e0b2f5ea591dddd3b10763164eaf126f2ec86ca1317360ec5aea322",
+    "index/papers/human-in-the-loop-automated-research.json": "53b0c89a891bedea8711a5eb8eba72fa616f53358fc2f421789c54a9ac4d82ad",
     "index/papers/jen2610-permuted-rotor-loops.json": "ea9ec22cb47d417cf3dbfe2e0925de15d7642f2cb76f1a05eec2a75c93219189",
     "index/papers/jp2025-hadamard-closure.json": "8150be6872d226608b46b981fe565d9a30ec740a2c1d7ea99fa9d7c1940c109f",
     "index/papers/kagey343881-powerproducts.json": "142099d793580d4289971bc91aa9f6a0d82434dd330a7451e140e269ab6d51b1",
@@ -269,13 +270,13 @@
     "index/papers/zoroa-strong-dominance-counterexample.json": "fe645c926907d314fc981b298a463ce6bc47460ffe5b2f5267166a4d6eafe9b1",
     "lake-manifest.json": "31d9fe1308b6e99c7308078206dd497edc0cfa29f34bc504e13d0c973f24099e",
     "lakefile.toml": "dd119185c57ba8f2725a22fc24881014327d24730dc5e3c53530730eba353757",
-    "leaderboard.json": "ec4013f163866ad09a0a0fe19aba779890a1dc5f7eed3356f2c560ea96fcf8f5",
+    "leaderboard.json": "1cb5ea0f4e166909639b3f8ad15266678e21ae7552472befa602ea0ef3bb43fc",
     "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
     "mathesis-libraries.json": "9b0ec746e25886a5861077cdf26644602d23fc6ead66f2a09bdd586ee1b53ba2",
     "proofs/README.md": "78ae39ce8ff7ba91e1cfa22980567bff4f17e3be8420400b6cdce4cf62661316",
     "scripts/build.py": "6fd5a960d6e78717e87c0bc36569f97d047d19b5252453bd295d21d2a54f126b",
     "scripts/check.py": "b0d37e3123131a988ac21a302b5683ae1f98324c2c49328701564293c3e04cbc",
-    "snapshot.json": "63a56bfd0906a896e8b3a74a2ce3d556ef1052e843e5c7b7d7d5a93043e42e1c",
+    "snapshot.json": "ed0b7cc303309a84530980a4ade36c408b579ec12e1b99b60ce65e3a1da584f5",
     "targets/README.md": "4e06f3c0858a586ee7e3056b6575652df9eea0ddb53dcb0ad5035ea9f03bdf77"
   }
 }

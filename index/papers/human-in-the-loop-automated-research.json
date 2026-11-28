@@ -1,0 +1,86 @@
+{
+  "authors": [
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Chloe Chew"
+    },
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Abigail Deng"
+    },
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Zongzhe Huang"
+    },
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Louis Li"
+    },
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Rona Liang"
+    },
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Kai Huei Lim"
+    },
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Kai Wei Lim"
+    },
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Yitian Liu"
+    },
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haobo Ma"
+    },
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Wen Niu"
+    },
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Jianwei Su"
+    },
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Calvin Tan"
+    },
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Haylee Wang"
+    },
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Jason Wang"
+    },
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore",
+      "name": "Shining Wang"
+    },
+    {
+      "affiliation": "ChronoAI Pte Ltd, Singapore; National University of Singapore, Singapore",
+      "name": "Wenlin Zhang"
+    }
+  ],
+  "lean_source": null,
+  "request_queue_url": "https://github.com/the-omega-institute/trureturing-requests",
+  "schema": "mathesis.formalization-paper.v1",
+  "split": {
+    "covered_by_existing_base": [],
+    "disproved": [],
+    "newly_formalized": [],
+    "no_target_yet": [],
+    "open_target": []
+  },
+  "title": "Human-in-the-Loop Automated Research: Verification-Centered Scientific Discovery",
+  "trureturing_write_back": {
+    "request_url": null,
+    "revision": null,
+    "state": null
+  },
+  "version": 1,
+  "work": "human-in-the-loop-automated-research"
+}
